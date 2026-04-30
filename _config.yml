@@ -1,0 +1,56 @@
+# The Agent Report — Magazine on AI Agents
+# Built with Jekyll for GitHub Pages
+
+title: The Agent Report
+tagline: "Your daily digest on AI Agents, tools, and autonomous systems"
+description: >
+  The Agent Report is a curated magazine covering the latest developments
+  in AI agents, agentic frameworks, tool use, autonomous systems, and
+  the future of human-AI collaboration.
+url: "https://docdavkitty.github.io"
+baseurl: "/the-agent-report"
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:title/
+
+# Collections for magazine sections
+collections:
+  categories:
+    output: true
+    permalink: /:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: "The Agent Report"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+
+# Magazine sections — used for navigation and category pages
+category_order:
+  - research
+  - tools-frameworks
+  - industry
+  - opinion
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .gitignore

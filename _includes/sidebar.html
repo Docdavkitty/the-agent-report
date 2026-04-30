@@ -1,0 +1,31 @@
+<aside class="sidebar">
+  <div class="sidebar-section">
+    <h3 class="sidebar-title">Categories</h3>
+    <ul class="sidebar-categories">
+      <li><a href="{{ '/categories/research/' | relative_url }}">🔬 Research</a></li>
+      <li><a href="{{ '/categories/tools-frameworks/' | relative_url }}">🛠️ Tools & Frameworks</a></li>
+      <li><a href="{{ '/categories/industry/' | relative_url }}">🏢 Industry</a></li>
+      <li><a href="{{ '/categories/opinion/' | relative_url }}">💭 Opinion</a></li>
+    </ul>
+  </div>
+  <div class="sidebar-section">
+    <h3 class="sidebar-title">Recent Posts</h3>
+    <ul class="sidebar-recent">
+      {% for post in site.posts limit:5 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="sidebar-date">{{ post.date | date: "%b %d" }}</span>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="sidebar-section">
+    <h3 class="sidebar-title">Tags</h3>
+    <div class="sidebar-tags">
+      {% assign all_tags = site.posts | map: 'tags' | flatten | uniq | sort %}
+      {% for tag in all_tags limit:20 %}
+        <span class="tag">{{ tag }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</aside>

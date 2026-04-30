@@ -1,0 +1,26 @@
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <span class="logo-icon">◆</span>
+      <span class="logo-text">{{ site.title }}</span>
+      <p class="footer-tagline">{{ site.tagline }}</p>
+    </div>
+    <div class="footer-links">
+      <div class="footer-col">
+        <h4>Sections</h4>
+        <a href="{{ '/categories/research/' | relative_url }}">Research</a>
+        <a href="{{ '/categories/tools-frameworks/' | relative_url }}">Tools & Frameworks</a>
+        <a href="{{ '/categories/industry/' | relative_url }}">Industry</a>
+        <a href="{{ '/categories/opinion/' | relative_url }}">Opinion</a>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <a href="{{ '/about/' | relative_url }}">About The Agent Report</a>
+        <a href="{{ '/latest/' | relative_url }}">All Articles</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; {{ site.time | date: '%Y' }} The Agent Report. Published with Jekyll on GitHub Pages.</p>
+  </div>
+</footer>

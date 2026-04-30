@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<section class="category-page">
+  <header class="category-header">
+    <h1 class="category-title">{{ page.title | default: page.name | capitalize | replace: '-', ' ' }}</h1>
+    {% if page.description %}<p class="category-description">{{ page.description }}</p>{% endif %}
+  </header>
+
+  <div class="post-grid">
+    {% for post in site.posts %}
+      {% if post.categories contains page.category_name or post.categories contains page.name %}
+        <article class="post-card">
+          {% if post.hero_image %}
+            <div class="post-card-image">
+              <img src="{{ post.hero_image | relative_url }}" alt="{{ post.title }}">
+            </div>
+          {% endif %}
+          <div class="post-card-body">
+            <div class="post-card-meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
+              {% if post.reading_time %} · {{ post.reading_time }} min{% endif %}
+            </div>
+            <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+            <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+          </div>
+        </article>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>

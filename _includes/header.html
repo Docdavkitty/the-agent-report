@@ -1,0 +1,22 @@
+<header class="site-header">
+  <div class="header-inner">
+    <a href="{{ '/' | relative_url }}" class="site-logo">
+      <span class="logo-icon">◆</span>
+      <span class="logo-text">{{ site.title }}</span>
+    </a>
+    <nav class="site-nav">
+      <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+      <a href="{{ '/latest/' | relative_url }}" class="nav-link">Latest</a>
+      <a href="{{ '/categories/research/' | relative_url }}" class="nav-link">Research</a>
+      <a href="{{ '/categories/tools-frameworks/' | relative_url }}" class="nav-link">Tools</a>
+      <a href="{{ '/categories/industry/' | relative_url }}" class="nav-link">Industry</a>
+      <a href="{{ '/about/' | relative_url }}" class="nav-link">About</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+<script>
+  document.querySelector('.menu-toggle')?.addEventListener('click', function() {
+    document.querySelector('.site-nav').classList.toggle('open');
+  });
+</script>

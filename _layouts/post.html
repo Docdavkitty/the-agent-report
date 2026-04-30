@@ -1,0 +1,51 @@
+---
+layout: default
+---
+<article class="post-article">
+  <header class="post-header">
+    <div class="post-meta-top">
+      {% if page.categories %}
+        {% for cat in page.categories %}
+          <a href="{{ '/categories/' | append: cat | slugify | relative_url }}" class="category-badge {{ cat | slugify }}">{{ cat | replace: '-', ' ' | capitalize }}</a>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% if page.author %} · <span class="post-author">{{ page.author }}</span>{% endif %}
+      {% if page.reading_time %} · <span class="reading-time">{{ page.reading_time }} min read</span>{% endif %}
+    </div>
+    {% if page.hero_image %}
+      <figure class="post-hero">
+        <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title }}">
+      </figure>
+    {% endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <div class="post-tags">
+      {% if page.tags %}
+        {% for tag in page.tags %}
+          <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      {% endif %}
+    </div>
+    <nav class="post-nav">
+      <div class="post-nav-prev">
+        {% if page.previous.url %}
+          <a href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>
+        {% endif %}
+      </div>
+      <div class="post-nav-next">
+        {% if page.next.url %}
+          <a href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>
+        {% endif %}
+      </div>
+    </nav>
+  </footer>
+</article>
