@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 64" width="320" height="64">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="50%" stop-color="#a29bfe"/>
+      <stop offset="100%" stop-color="#00cec9"/>
+    </linearGradient>
+    <linearGradient id="logoGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a4bd1"/>
+      <stop offset="100%" stop-color="#00b8b3"/>
+    </linearGradient>
+    <linearGradient id="nodeGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#e0dfff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Diamond/Hexagon background -->
+  <g transform="translate(4, 4)">
+    <!-- Outer glow -->
+    <polygon points="28,0 56,28 28,56 0,28" fill="none" stroke="url(#logoGrad)" stroke-width="1.5" opacity="0.3"/>
+    <!-- Main diamond -->
+    <polygon points="28,2 54,28 28,54 2,28" fill="url(#logoGradDark)" stroke="url(#logoGrad)" stroke-width="2"/>
+    <!-- Inner diamond shape (cutout effect) -->
+    <polygon points="28,8 48,28 28,48 8,28" fill="none" stroke="url(#logoGrad)" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- Agent node - central circle -->
+    <circle cx="28" cy="28" r="10" fill="url(#logoGrad)" opacity="0.2"/>
+    <circle cx="28" cy="28" r="6" fill="url(#logoGrad)" opacity="0.5"/>
+    <circle cx="28" cy="28" r="3" fill="url(#nodeGlow)"/>
+
+    <!-- Connection lines (agent connecting to environment) -->
+    <line x1="28" y1="3" x2="28" y2="10" stroke="#a29bfe" stroke-width="1" opacity="0.6"/>
+    <line x1="28" y1="46" x2="28" y2="53" stroke="#a29bfe" stroke-width="1" opacity="0.6"/>
+    <line x1="3" y1="28" x2="10" y2="28" stroke="#a29bfe" stroke-width="1" opacity="0.6"/>
+    <line x1="46" y1="28" x2="53" y2="28" stroke="#a29bfe" stroke-width="1" opacity="0.6"/>
+    <line x1="10" y1="10" x2="15" y2="15" stroke="#a29bfe" stroke-width="0.8" opacity="0.4"/>
+    <line x1="46" y1="10" x2="41" y2="15" stroke="#a29bfe" stroke-width="0.8" opacity="0.4"/>
+    <line x1="10" y1="46" x2="15" y2="41" stroke="#a29bfe" stroke-width="0.8" opacity="0.4"/>
+    <line x1="46" y1="46" x2="41" y2="41" stroke="#a29bfe" stroke-width="0.8" opacity="0.4"/>
+
+    <!-- Small nodes at connection ends -->
+    <circle cx="28" cy="3" r="1.5" fill="#a29bfe" opacity="0.6"/>
+    <circle cx="28" cy="53" r="1.5" fill="#a29bfe" opacity="0.6"/>
+    <circle cx="3" cy="28" r="1.5" fill="#a29bfe" opacity="0.6"/>
+    <circle cx="53" cy="28" r="1.5" fill="#a29bfe" opacity="0.6"/>
+  </g>
+
+  <!-- Text -->
+  <text x="72" y="28" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="15" font-weight="800" letter-spacing="3" fill="#e8e8ed">
+    THE AGENT
+  </text>
+  <text x="72" y="50" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11" font-weight="500" letter-spacing="6" fill="#888899">
+    REPORT
+  </text>
+</svg>

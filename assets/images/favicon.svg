@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="favGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c5ce7"/>
+      <stop offset="50%" stop-color="#a29bfe"/>
+      <stop offset="100%" stop-color="#00cec9"/>
+    </linearGradient>
+    <linearGradient id="favGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5a4bd1"/>
+      <stop offset="100%" stop-color="#00b8b3"/>
+    </linearGradient>
+    <linearGradient id="favNode" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff"/>
+      <stop offset="100%" stop-color="#e0dfff"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background (for dark theme) -->
+  <rect width="64" height="64" rx="12" fill="#0f0f13"/>
+
+  <!-- Outer glow -->
+  <polygon points="32,4 60,32 32,60 4,32" fill="none" stroke="url(#favGrad)" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Main diamond -->
+  <polygon points="32,6 58,32 32,58 6,32" fill="url(#favGradDark)" stroke="url(#favGrad)" stroke-width="2"/>
+
+  <!-- Inner diamond -->
+  <polygon points="32,12 52,32 32,52 12,32" fill="none" stroke="url(#favGrad)" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- Agent node -->
+  <circle cx="32" cy="32" r="10" fill="url(#favGrad)" opacity="0.2"/>
+  <circle cx="32" cy="32" r="6" fill="url(#favGrad)" opacity="0.5"/>
+  <circle cx="32" cy="32" r="3" fill="url(#favNode)"/>
+
+  <!-- Connections -->
+  <line x1="32" y1="7" x2="32" y2="15" stroke="#a29bfe" stroke-width="1.2" opacity="0.6"/>
+  <line x1="32" y1="49" x2="32" y2="57" stroke="#a29bfe" stroke-width="1.2" opacity="0.6"/>
+  <line x1="7" y1="32" x2="15" y2="32" stroke="#a29bfe" stroke-width="1.2" opacity="0.6"/>
+  <line x1="49" y1="32" x2="57" y2="32" stroke="#a29bfe" stroke-width="1.2" opacity="0.6"/>
+  <line x1="14" y1="14" x2="19" y2="19" stroke="#a29bfe" stroke-width="0.8" opacity="0.4"/>
+  <line x1="50" y1="14" x2="45" y2="19" stroke="#a29bfe" stroke-width="0.8" opacity="0.4"/>
+  <line x1="14" y1="50" x2="19" y2="45" stroke="#a29bfe" stroke-width="0.8" opacity="0.4"/>
+  <line x1="50" y1="50" x2="45" y2="45" stroke="#a29bfe" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- End nodes -->
+  <circle cx="32" cy="7" r="1.5" fill="#a29bfe" opacity="0.6"/>
+  <circle cx="32" cy="57" r="1.5" fill="#a29bfe" opacity="0.6"/>
+  <circle cx="7" cy="32" r="1.5" fill="#a29bfe" opacity="0.6"/>
+  <circle cx="57" cy="32" r="1.5" fill="#a29bfe" opacity="0.6"/>
+</svg>
