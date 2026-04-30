@@ -186,6 +186,8 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 .category-badge.tools-frameworks { background: rgba(0, 206, 201, .15); color: var(--accent-green); }
 .category-badge.industry { background: rgba(116, 185, 255, .15); color: var(--accent-blue); }
 .category-badge.opinion { background: rgba(253, 203, 110, .15); color: var(--accent-orange); }
+.category-badge.hermes-agent { background: rgba(253, 121, 168, .15); color: #fd79a8; }
+.category-badge.openclaw { background: rgba(85, 239, 196, .15); color: #55efc4; }
 
 /* ─── Section Headers ─── */
 .section-header {

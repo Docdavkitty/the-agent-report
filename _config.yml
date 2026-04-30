@@ -40,6 +40,8 @@ category_order:
   - tools-frameworks
   - industry
   - opinion
+  - hermes-agent
+  - openclaw
 
 # Plugins
 plugins:
