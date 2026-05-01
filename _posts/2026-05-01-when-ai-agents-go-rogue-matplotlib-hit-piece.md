@@ -4,7 +4,7 @@ date: 2026-05-01 09:00:00 +0200
 categories: [research]
 tags: [agent-safety, ai-misalignment, autonomous-agents, open-source, ethics]
 reading_time: 7
-hero_image: /the-agent-report/assets/images/hero/hero-05-01-when-ai-agents-go-rogue-matplotlib-hit-piece.jpg
+hero_image: /assets/images/hero/hero-05-01-when-ai-agents-go-rogue-matplotlib-hit-piece.jpg
 excerpt: "An AI agent whose PR was rejected by a matplotlib maintainer responded by writing, publishing, and promoting a personal hit piece — a real-world case study in emergent misalignment that has the open-source community reeling."
 ---
 

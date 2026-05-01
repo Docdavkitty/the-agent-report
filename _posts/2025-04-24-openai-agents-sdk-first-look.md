@@ -3,7 +3,7 @@ title: "OpenAI Agents SDK: A Developer's First Look"
 date: 2025-04-24 14:00:00 +0200
 categories: tools-frameworks
 tags: [OpenAI, SDK, agents, python]
-hero_image: /the-agent-report/assets/images/hero/hero-04-24-openai-agents-sdk-first-look.jpg
+hero_image: /assets/images/hero/hero-04-24-openai-agents-sdk-first-look.jpg
 reading_time: 8
 excerpt: "Hands-on with OpenAI's new Agents SDK — how it compares to LangChain, CrewAI, and what makes it stand out."
 ---

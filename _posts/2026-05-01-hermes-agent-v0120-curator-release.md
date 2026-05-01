@@ -4,7 +4,7 @@ date: 2026-05-01 10:00:00 +0200
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, release, v0.12, Curator, Spotify, Google Meet, ComfyUI, LM Studio, TTS]
 reading_time: 4
-hero_image: /the-agent-report/assets/images/hero/hero-05-01-hermes-agent-v0120-curator-release.jpg
+hero_image: /assets/images/hero/hero-05-01-hermes-agent-v0120-curator-release.jpg
 excerpt: "Nous Research ships Hermes Agent v0.12.0 'The Curator' — an autonomous background agent that grades, prunes, and consolidates your skill library. Also: 4 new inference providers, Spotify + Google Meet plugins, and a 57% faster TUI cold start."
 ---
 

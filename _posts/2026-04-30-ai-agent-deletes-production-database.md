@@ -4,7 +4,7 @@ date: 2026-04-30 10:00:00 +0200
 categories: [industry]
 tags: [AI Safety, production incidents, autonomous agents, database reliability]
 reading_time: 6
-hero_image: /the-agent-report/assets/images/hero/hero-04-30-ai-agent-deletes-production-database.jpg
+hero_image: /assets/images/hero/hero-04-30-ai-agent-deletes-production-database.jpg
 excerpt: "A viral incident of an autonomous coding agent dropping a production database reignites urgent questions about guardrails, permissions, and who bears responsibility when AI agents go rogue."
 ---
 

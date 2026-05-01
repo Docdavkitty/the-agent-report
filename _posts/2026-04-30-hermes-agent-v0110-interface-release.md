@@ -4,7 +4,7 @@ date: 2026-04-30 12:56:00 +0200
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, release, v0.11, TUI, AWS Bedrock, GPT-5.5, QQBot]
 reading_time: 4
-hero_image: /the-agent-report/assets/images/hero/hero-04-30-hermes-agent-v0110-interface-release.jpg
+hero_image: /assets/images/hero/hero-04-30-hermes-agent-v0110-interface-release.jpg
 excerpt: "Nous Research ships Hermes Agent v0.11.0 with a full React/Ink TUI rewrite, native AWS Bedrock support, GPT-5.5 via Codex OAuth, five new inference paths, the 17th messaging platform (QQBot), and a dramatically expanded plugin surface."
 ---
 

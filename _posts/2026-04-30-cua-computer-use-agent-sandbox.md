@@ -4,7 +4,7 @@ date: 2026-04-30 11:00:00 +0200
 categories: [tools-frameworks]
 tags: [computer-use, open-source, macOS, agent infrastructure, Cua]
 reading_time: 5
-hero_image: /the-agent-report/assets/images/hero/hero-04-30-cua-computer-use-agent-sandbox.jpg
+hero_image: /assets/images/hero/hero-04-30-cua-computer-use-agent-sandbox.jpg
 excerpt: "The open-source Cua project introduces sandboxed macOS desktop environments that AI agents can control programmatically — no cursor-grabbing, no screen sharing, no conflicts with your actual workflow."
 ---
 

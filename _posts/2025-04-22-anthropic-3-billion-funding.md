@@ -3,7 +3,7 @@ title: "Anthropic Raises $3.5B: What It Means for the Agent Race"
 date: 2025-04-22 08:00:00 +0200
 categories: industry
 tags: [funding, Anthropic, investment, market]
-hero_image: /the-agent-report/assets/images/hero/hero-04-22-anthropic-3-billion-funding.jpg
+hero_image: /assets/images/hero/hero-04-22-anthropic-3-billion-funding.jpg
 reading_time: 5
 excerpt: "Anthropic's latest mega-round signals that the agent AI arms race is just beginning. Here's our analysis of what the funding means for the ecosystem."
 ---

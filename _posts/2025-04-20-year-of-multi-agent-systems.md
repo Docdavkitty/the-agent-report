@@ -3,7 +3,7 @@ title: "Why 2025 Is the Year of Multi-Agent Systems"
 date: 2025-04-20 11:00:00 +0200
 categories: opinion
 tags: [multi-agent, orchestration, future, trends]
-hero_image: /the-agent-report/assets/images/hero/hero-04-20-year-of-multi-agent-systems.jpg
+hero_image: /assets/images/hero/hero-04-20-year-of-multi-agent-systems.jpg
 reading_time: 6
 excerpt: "Single-agent systems hit hard limits. Here's why the industry is pivoting to multi-agent orchestration — and what it means for builders."
 ---
