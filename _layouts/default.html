@@ -12,12 +12,15 @@
   {% feed_meta %}
   {% seo %}
   <!-- Per-article OG image override -->
-  <meta property="og:image" content="{% if page.slug %}{{ '/assets/images/og/' | append: page.slug | append: '.png' | absolute_url }}{% else %}{{ '/assets/images/og-image.png' | absolute_url }}{% endif %}">
+  {% assign og_img = page.hero_image | default: '/assets/images/og-image.png' %}
+  <meta property="og:image" content="{{ og_img | absolute_url }}">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  {% if page.layout == 'post' %}
-  <meta property="og:type" content="article">
-  {% endif %}
+  <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="{{ og_img | absolute_url }}">
+  <!-- Plausible Analytics — replace data-domain with your domain -->
+  <script defer data-domain="docdavkitty.github.io/the-agent-report" src="https://plausible.io/js/script.js"></script>
 </head>
 <body>
   {% include header.html %}
@@ -25,5 +28,27 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  <script>
+    // Theme toggle
+    (function() {
+      const stored = localStorage.getItem('theme');
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const theme = stored || (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', theme);
+
+      document.addEventListener('DOMContentLoaded', function() {
+        const btn = document.getElementById('theme-toggle');
+        if (!btn) return;
+        btn.textContent = theme === 'dark' ? '☀️' : '🌙';
+        btn.addEventListener('click', function() {
+          const current = document.documentElement.getAttribute('data-theme');
+          const next = current === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('theme', next);
+          btn.textContent = next === 'dark' ? '☀️' : '🌙';
+        });
+      });
+    })();
+  </script>
 </body>
 </html>
