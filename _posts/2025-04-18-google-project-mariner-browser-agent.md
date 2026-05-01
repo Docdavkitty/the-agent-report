@@ -3,7 +3,7 @@ title: "Google's Project Mariner: Agents in the Browser"
 date: 2025-04-18 16:00:00 +0200
 categories: research industry
 tags: [Google, browser-agents, Gemini, Project-Mariner]
-hero_image: https://placehold.co/1200x600/1a1a2e/00cec9?text=Project+Mariner
+hero_image: /the-agent-report/assets/images/hero/hero-04-18-google-project-mariner-browser-agent.jpg
 reading_time: 5
 excerpt: "Google's experimental browser agent, Project Mariner, demonstrates how Gemini can navigate the web and complete tasks autonomously."
 ---

@@ -3,7 +3,7 @@ title: "MCP: The Protocol That's Unlocking Agentic Tool Use"
 date: 2025-04-28 09:00:00 +0200
 categories: research tools-frameworks
 tags: [MCP, protocol, tool-use, interoperability]
-hero_image: https://placehold.co/1200x600/1a1a2e/a29bfe?text=MCP+Protocol
+hero_image: /the-agent-report/assets/images/hero/hero-04-28-mcp-protocol-agentic-tool-use.jpg
 reading_time: 7
 excerpt: "How the Model Context Protocol is creating a universal standard for connecting LLMs to tools, data sources, and APIs."
 ---

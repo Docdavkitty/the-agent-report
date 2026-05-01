@@ -4,6 +4,7 @@ date: 2025-04-28 10:00:00 +0200
 categories: hermes-agent
 tags: [Hermes Agent, Nous Research, release, open-source]
 reading_time: 5
+hero_image: /the-agent-report/assets/images/hero/hero-04-28-hermes-agent-v011-release.jpg
 excerpt: "Hermes Agent 0.11 brings enhanced MCP support, new toolsets, and improved multi-model routing. Here's what's changed."
 ---
 

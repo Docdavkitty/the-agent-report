@@ -4,6 +4,7 @@ date: 2025-04-25 14:00:00 +0200
 categories: openclaw
 tags: [Openclaw, controller, open-source, automation]
 reading_time: 4
+hero_image: /the-agent-report/assets/images/hero/hero-04-25-openclaw-controller-introduction.jpg
 excerpt: "Openclaw brings fine-grained control and safety guardrails to autonomous AI agents — an open alternative to proprietary agent controllers."
 ---
 

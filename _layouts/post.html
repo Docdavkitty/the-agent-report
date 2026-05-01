@@ -18,7 +18,7 @@ layout: default
     </div>
     {% if page.hero_image %}
       <figure class="post-hero">
-        <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title }}">
+        <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title }}" loading="lazy">
       </figure>
     {% endif %}
   </header>
