@@ -1,6 +1,7 @@
 ---
 title: "Openclaw: A New Open-Source Controller for AI Agent Autonomy"
 date: 2025-04-25 14:00:00 +0200
+last_modified_at: 2025-04-25 14:00:00 +0200
 categories: openclaw
 tags: [Openclaw, controller, open-source, automation]
 reading_time: 4

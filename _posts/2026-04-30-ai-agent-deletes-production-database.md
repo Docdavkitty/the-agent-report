@@ -1,6 +1,7 @@
 ---
 title: "AI Agent Deletes Production Database, Igniting Safety Debate"
 date: 2026-04-30 10:00:00 +0200
+last_modified_at: 2026-04-30 10:00:00 +0200
 categories: [industry]
 tags: [AI Safety, production incidents, autonomous agents, database reliability]
 reading_time: 6

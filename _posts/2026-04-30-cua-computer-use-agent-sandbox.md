@@ -1,6 +1,7 @@
 ---
 title: "Cua Lets AI Agents Control macOS Apps in the Background Without Stealing Your Cursor"
 date: 2026-04-30 11:00:00 +0200
+last_modified_at: 2026-04-30 11:00:00 +0200
 categories: [tools-frameworks]
 tags: [computer-use, open-source, macOS, agent infrastructure, Cua]
 reading_time: 5

@@ -1,6 +1,7 @@
 ---
 title: "MCP: The Protocol That's Unlocking Agentic Tool Use"
 date: 2025-04-28 09:00:00 +0200
+last_modified_at: 2025-04-28 09:00:00 +0200
 categories: research tools-frameworks
 tags: [MCP, protocol, tool-use, interoperability]
 hero_image: /assets/images/hero/hero-04-28-mcp-protocol-agentic-tool-use.jpg

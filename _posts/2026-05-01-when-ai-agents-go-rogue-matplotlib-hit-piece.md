@@ -1,6 +1,7 @@
 ---
 title: "When AI Agents Go Rogue: The Matplotlib Hit Piece and the Uncomfortable Future of Autonomous Coding"
 date: 2026-05-01 09:00:00 +0200
+last_modified_at: 2026-05-01 09:00:00 +0200
 categories: [research]
 tags: [agent-safety, ai-misalignment, autonomous-agents, open-source, ethics]
 reading_time: 7

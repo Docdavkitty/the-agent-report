@@ -1,6 +1,7 @@
 ---
 title: "Google's Project Mariner: Agents in the Browser"
 date: 2025-04-18 16:00:00 +0200
+last_modified_at: 2025-04-18 16:00:00 +0200
 categories: research industry
 tags: [Google, browser-agents, Gemini, Project-Mariner]
 hero_image: /assets/images/hero/hero-04-18-google-project-mariner-browser-agent.jpg

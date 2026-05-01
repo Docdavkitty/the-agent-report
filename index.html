@@ -10,7 +10,7 @@ layout: default
   <div class="hero-featured">
     <a href="{{ hero_post.url | relative_url }}">
       <img
-        src="{% if hero_post.hero_image %}{{ hero_post.hero_image | relative_url }}{% else %}https://placehold.co/800x400/1a1a2e/a29bfe?text=AI+Agent+News{% endif %}"
+        src="{% if hero_post.hero_image %}{{ hero_post.hero_image | relative_url }}{% else %}{{ '/assets/images/placeholder.svg' | relative_url }}{% endif %}"
         alt="{{ hero_post.title }}"
         class="hero-featured-image"
         loading="eager"
@@ -31,7 +31,7 @@ layout: default
     {% for post in side_posts %}
       <a href="{{ post.url | relative_url }}" class="hero-side-article">
         <img
-          src="{% if post.hero_image %}{{ post.hero_image | relative_url }}{% else %}https://placehold.co/200x150/1a1a2e/{% cycle '74b9ff', 'fdcb6e', '00cec9' %}?text=Article{% endif %}"
+          src="{% if post.hero_image %}{{ post.hero_image | relative_url }}{% else %}{{ '/assets/images/placeholder.svg' | relative_url }}{% endif %}"
           alt="{{ post.title }}"
           class="hero-side-article-image"
           loading="lazy"

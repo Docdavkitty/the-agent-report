@@ -500,3 +500,38 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
     grid-template-columns: 1fr;
   }
 }
+
+/* ─── Breadcrumbs ─── */
+.breadcrumbs {
+  margin-bottom: 20px;
+  font-size: 0.85rem;
+}
+.breadcrumbs ol {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+}
+.breadcrumbs li {
+  color: var(--text-dim);
+}
+.breadcrumbs li + li::before {
+  content: "›";
+  margin-right: 8px;
+  color: var(--text-dim);
+}
+.breadcrumbs a {
+  color: var(--accent-light);
+}
+.breadcrumbs a:hover {
+  color: #fff;
+}
+.breadcrumbs li[aria-current="page"] {
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}

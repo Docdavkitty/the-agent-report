@@ -1,6 +1,7 @@
 ---
 title: "Why 2025 Is the Year of Multi-Agent Systems"
 date: 2025-04-20 11:00:00 +0200
+last_modified_at: 2025-04-20 11:00:00 +0200
 categories: opinion
 tags: [multi-agent, orchestration, future, trends]
 hero_image: /assets/images/hero/hero-04-20-year-of-multi-agent-systems.jpg

@@ -1,6 +1,7 @@
 ---
 title: "OpenCode: The Open Source AI Coding Agent That Just Hit 150K GitHub Stars"
 date: 2026-05-01 08:15:00 +0200
+last_modified_at: 2026-05-01 08:15:00 +0200
 categories: [tools-frameworks]
 tags: [opencode, coding-agent, open-source, ai-coding]
 reading_time: 5

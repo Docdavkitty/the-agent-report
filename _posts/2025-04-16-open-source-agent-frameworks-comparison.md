@@ -1,6 +1,7 @@
 ---
 title: "Open-Source Agent Frameworks: A Comparative Guide"
 date: 2025-04-16 10:00:00 +0200
+last_modified_at: 2025-04-16 10:00:00 +0200
 categories: tools-frameworks
 tags: [open-source, frameworks, comparison, langchain, crewai, autogen]
 hero_image: /assets/images/hero/hero-04-16-open-source-agent-frameworks-comparison.jpg

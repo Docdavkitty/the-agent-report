@@ -1,6 +1,7 @@
 ---
 title: "OpenAI Agents SDK: A Developer's First Look"
 date: 2025-04-24 14:00:00 +0200
+last_modified_at: 2025-04-24 14:00:00 +0200
 categories: tools-frameworks
 tags: [OpenAI, SDK, agents, python]
 hero_image: /assets/images/hero/hero-04-24-openai-agents-sdk-first-look.jpg
