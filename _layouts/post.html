@@ -26,6 +26,30 @@ layout: default
     ]
   }
   </script>
+  <!-- JSON-LD Article Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{ page.title | escape }}",
+    "description": "{{ page.excerpt | strip_html | strip_newlines | escape | truncate: 200 }}",
+    {% if page.date %}"datePublished": "{{ page.date | date_to_xmlschema }}",{% endif %}
+    {% if page.last_modified_at %}"dateModified": "{{ page.last_modified_at | date_to_xmlschema }}",{% elsif page.date %}"dateModified": "{{ page.date | date_to_xmlschema }}",{% endif %}
+    "author": {
+      "@type": "Person",
+      "name": "{% if page.author %}{{ page.author }}{% else %}The Agent Report{% endif %}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "The Agent Report"
+    },
+    {% if page.hero_image %}"image": "{{ page.hero_image | absolute_url }}",{% endif %}
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ page.url | absolute_url }}"
+    }
+  }
+  </script>
   <header class="post-header">
     <div class="post-meta-top">
       {% if page.categories %}
@@ -47,7 +71,17 @@ layout: default
     {% endif %}
   </header>
 
-  <div class="post-content">
+  <!-- Table of Contents (auto-generated) -->
+  {% if content contains '<h2' %}
+  <div class="post-toc" id="post-toc">
+    <details>
+      <summary class="toc-toggle">📑 Table of Contents</summary>
+      <nav class="toc-body" id="toc-body"></nav>
+    </details>
+  </div>
+  {% endif %}
+
+  <div class="post-content" id="post-content">
     {{ content }}
   </div>
 
@@ -59,6 +93,48 @@ layout: default
         {% endfor %}
       {% endif %}
     </div>
+
+    <!-- Related Articles -->
+    {% assign max_related = 3 %}
+    {% assign related_posts = "" | split: "" %}
+    {% if page.tags %}
+      {% for tag in page.tags %}
+        {% for post in site.posts %}
+          {% if post.url != page.url and post.tags contains tag %}
+            {% assign related_posts = related_posts | push: post %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+    {% endif %}
+    {% if related_posts.size == 0 %}
+      {% assign related_posts = site.related_posts | slice: 0, max_related %}
+    {% endif %}
+    {% assign related_posts = related_posts | uniq | slice: 0, max_related %}
+    {% if related_posts.size > 0 %}
+      <div class="related-posts">
+        <h3>📖 Related Articles</h3>
+        <div class="related-grid">
+          {% for post in related_posts %}
+            <a href="{{ post.url | relative_url }}" class="related-card">
+              {% if post.hero_image %}
+                <img src="{{ post.hero_image | relative_url }}" alt="{{ post.title }}" loading="lazy">
+              {% endif %}
+              <div class="related-card-body">
+                <div class="related-card-meta">
+                  {% for cat in post.categories limit:1 %}
+                    <span class="category-badge" style="font-size:.65rem;padding:2px 8px;display:inline-block;">{{ cat | replace: '-', ' ' | capitalize }}</span>
+                  {% endfor %}
+                  <span class="related-card-date">{{ post.date | date: "%b %d, %Y" }}</span>
+                </div>
+                <h4>{{ post.title }}</h4>
+                {% if post.reading_time %}<span class="reading-time">{{ post.reading_time }} min</span>{% endif %}
+              </div>
+            </a>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+
     <nav class="post-nav">
       <div class="post-nav-prev">
         {% if page.previous.url %}
@@ -95,3 +171,32 @@ layout: default
   </div>
   -->
 </article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Auto-generate Table of Contents
+  var toc = document.getElementById('post-toc');
+  var content = document.getElementById('post-content');
+  if (toc && content) {
+    var headings = content.querySelectorAll('h2, h3');
+    var tocBody = document.getElementById('toc-body');
+    if (headings.length > 0 && tocBody) {
+      var ul = document.createElement('ul');
+      headings.forEach(function(h, i) {
+        if (!h.id) {
+          h.id = 'toc-' + i;
+        }
+        var li = document.createElement('li');
+        var level = h.tagName === 'H3' ? 'toc-h3' : 'toc-h2';
+        li.className = level;
+        var a = document.createElement('a');
+        a.href = '#' + h.id;
+        a.textContent = h.textContent;
+        li.appendChild(a);
+        ul.appendChild(li);
+      });
+      tocBody.appendChild(ul);
+    }
+  }
+});
+</script>

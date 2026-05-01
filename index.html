@@ -69,7 +69,10 @@ layout: default
           </div>
           <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+          <div class="read-more-row">
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
+          </div>
         </div>
       </article>
     {% endfor %}
@@ -93,7 +96,10 @@ layout: default
           </div>
           <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+          <div class="read-more-row">
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
+          </div>
         </div>
       </article>
     {% endfor %}
@@ -118,7 +124,10 @@ layout: default
           </div>
           <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+          <div class="read-more-row">
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
+          </div>
         </div>
       </article>
     {% endfor %}
@@ -143,7 +152,10 @@ layout: default
           </div>
           <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+          <div class="read-more-row">
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
+          </div>
         </div>
       </article>
     {% endfor %}
@@ -168,7 +180,10 @@ layout: default
           </div>
           <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+          <div class="read-more-row">
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
+          </div>
         </div>
       </article>
     {% endfor %}
@@ -193,7 +208,10 @@ layout: default
           </div>
           <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+          <div class="read-more-row">
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
+          </div>
         </div>
       </article>
     {% endfor %}
@@ -218,7 +236,10 @@ layout: default
           </div>
           <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
           <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+          <div class="read-more-row">
+            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
+            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
+          </div>
         </div>
       </article>
     {% endfor %}

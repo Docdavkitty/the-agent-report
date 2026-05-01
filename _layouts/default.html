@@ -26,6 +26,10 @@
     {{ content }}
   </main>
   {% include footer.html %}
+
+  <!-- Back to Top -->
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
+
   <script>
     // Theme toggle
     (function() {
@@ -45,6 +49,26 @@
           localStorage.setItem('theme', next);
           btn.textContent = next === 'dark' ? '☀️' : '🌙';
         });
+      });
+    })();
+  </script>
+
+  <!-- Back to Top JS -->
+  <script>
+    (function() {
+      var btn = document.getElementById('back-to-top');
+      if (!btn) return;
+      function toggle() {
+        if (window.scrollY > 400) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+      }
+      window.addEventListener('scroll', toggle, { passive: true });
+      toggle();
+      btn.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
       });
     })();
   </script>
