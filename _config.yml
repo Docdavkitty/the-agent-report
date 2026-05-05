@@ -49,6 +49,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# SEO
+twitter:
+  card: summary_large_image
+
 # Exclude from processing
 exclude:
   - Gemfile
