@@ -2,6 +2,7 @@
 layout: post
 title: "NVIDIA Vera Is Here — The First CPU Built From the Ground Up for Agentic AI"
 date: 2026-05-22 10:00:00 +0200
+last_modified_at: 2026-05-22 10:00:00 +0200
 categories: research
 tags: [nvidia, vera-cpu, agentic-ai, hardware, infrastructure, ai-labs]
 reading_time: 8
