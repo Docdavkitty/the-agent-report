@@ -7,8 +7,8 @@ description: >
   The Agent Report is a curated magazine covering the latest developments
   in AI agents, agentic frameworks, tool use, autonomous systems, and
   the future of human-AI collaboration.
-url: "https://docdavkitty.github.io"
-baseurl: "/the-agent-report"
+url: "https://the-agent-report.com"
+baseurl: ""
 
 # Build settings
 markdown: kramdown
