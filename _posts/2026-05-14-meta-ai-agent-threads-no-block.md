@@ -1,11 +1,14 @@
 ---
+layout: post
 title: "Meta Won't Let You Block Its AI Agent on Threads — And Users Are Furious"
 date: 2026-05-14 10:00:00 +0200
+last_modified_at: 2026-05-14 10:00:00 +0200
 categories: [industry]
 tags: [meta, threads, ai-agents, platform-policy, user-autonomy, social-media-ai]
 hero_image: /assets/images/hero/hero-meta-ai-agent-threads-no-block.jpg
 reading_time: 7
 excerpt: "Meta is testing a Threads feature that lets users tag @MetaAI for answers — but users discovered they can't block the AI account. With over a million posts on the trending topic 'Users cannot block Meta AI', the controversy raises hard questions about consent and agent autonomy on social platforms."
+author: The Agent Report
 ---
 
 **Meta is testing a new AI agent integration on Threads**, and users are discovering something unsettling: you can't block it. The new feature, which lets users tag **@MetaAI** in conversations to get answers and context, has sparked a firestorm after Threads users realized the standard "block" option is absent from the AI account's profile menu.

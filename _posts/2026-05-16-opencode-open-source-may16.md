@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "OpenCode Is Open Source: The Free Coding Agent Shaking Up AI-Assisted Development"
 date: 2026-05-16 10:00:00 +0200
 last_modified_at: 2026-05-16 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [OpenCode, open-source, coding-agents, AI-IDE, developer-tools, SST]
 reading_time: 7
 hero_image: /assets/images/hero/hero-opencode-open-source-may16.jpg
 excerpt: "OpenCode, a fully open-source AI coding agent, has rocketed to the top of Hacker News with over 1,200 points. It promises to democratize agentic coding with a local-first, extensible architecture — and it's part of a larger wave of open-source agent tooling hitting GitHub this week."
+author: The Agent Report
 ---
 
 **The open-source AI coding agent ecosystem just got a major new contender.** [OpenCode](https://opencode.ai/), a fully open-source coding agent built by the team behind [SST](https://sst.dev/), hit the front page of Hacker News this week with over **1,200 upvotes**, signaling a massive appetite for transparent, locally-run agents that developers can inspect, modify, and trust.

@@ -2,11 +2,13 @@
 layout: post
 title: "Google Unleashes Gemini 3.5 Flash — A New Era of Agentic Intelligence at Scale"
 date: 2026-05-21 09:00:00 +0200
+last_modified_at: 2026-05-21 09:00:00 +0200
 categories: industry
 tags: [google, gemini, antigravity, agentic-ai, personal-agents, enterprise-agents]
 reading_time: 10
 excerpt: "Google's Gemini 3.5 Flash delivers frontier-level agentic intelligence with exceptional speed, powering the new Gemini Spark personal agent and enterprise deployments at Shopify, Salesforce, and Databricks. The agent era just got its infrastructure."
 hero_image: /assets/images/hero/hero-gemini-35-flash-agent-frontier-may21.jpg
+author: The Agent Report
 ---
 
 # Google Unleashes Gemini 3.5 Flash — A New Era of Agentic Intelligence at Scale

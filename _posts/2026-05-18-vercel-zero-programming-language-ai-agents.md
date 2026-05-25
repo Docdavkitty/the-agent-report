@@ -2,11 +2,13 @@
 layout: post
 title: "Vercel's Zero: A Compiler That Speaks JSON — The First Programming Language Built for AI Agents"
 date: 2026-05-18 10:00:00 +0200
+last_modified_at: 2026-05-18 10:00:00 +0200
 categories: tools-frameworks
 tags: [vercel, zero, programming-language, ai-coding-agents, compiler-design]
 reading_time: 8
 excerpt: "Vercel Labs just released Zero, an experimental systems language whose compiler emits structured JSON instead of prose error messages. With stable error codes, machine-readable fix plans, and a unified toolchain, Zero is the first language designed from the ground up for agent-driven development loops."
 hero_image: /assets/images/hero/hero-vercel-zero-programming-language-ai-agents.jpg
+author: The Agent Report
 ---
 
 Every serious coding agent — Claude Code, Cursor, Copilot, Codex — shares the same foundational problem. The agent writes code, the compiler throws an error, and the agent has to parse text written for a human engineer to figure out what went wrong. Error message formats change between compiler versions. The same underlying issue gets described differently depending on context. There is no built-in concept of a repair action — just prose that an agent must interpret and hope it understood correctly.

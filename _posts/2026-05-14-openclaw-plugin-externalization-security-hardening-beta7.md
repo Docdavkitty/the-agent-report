@@ -2,11 +2,13 @@
 layout: post
 title: "Openclaw Sheds Weight: Plugin Externalization and Security Hardening in v2026.5.12-beta"
 date: 2026-05-14 10:00:00 +0000
+last_modified_at: 2026-05-14 10:00:00 +0000
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, plugin-architecture, security-hardening]
 reading_time: 7
 excerpt: "Openclaw's latest beta cycle delivers a major architectural shift — externalizing Amazon Bedrock, Slack, OpenShell, and Anthropic Vertex into optional plugins, slimming the core install while simultaneously shipping over 50 security fixes and gateway protocol v4."
 hero_image: /assets/images/hero/hero-openclaw-plugin-externalization-security-beta7.jpg
+author: The Agent Report
 ---
 
 Openclaw's rapid-release train continues at full speed. Between May 12 and May 14, the project pushed **four beta releases** (v2026.5.12-beta.3 through beta.7), culminating in the most architecturally significant update in recent weeks. While the star count crossed **371,000** and the awesome-openclaw-skills ecosystem reached **48,600+ stars** with 5,400+ cataloged skills, the real story is under the hood: Openclaw is deliberately **shedding weight** from its core distribution.

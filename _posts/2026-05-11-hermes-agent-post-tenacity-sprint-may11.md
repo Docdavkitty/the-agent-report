@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent's Post-Tenacity Sprint: 143K Stars, New Finance Skill, and 179 Merged PRs in 4 Days"
 date: 2026-05-11 12:00:00 +0200
 last_modified_at: 2026-05-11 12:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, open-source, post-tenacity, community-moment
 reading_time: 6
 hero_image: /assets/images/hero/hero-hermes-agent-post-tenacity-sprint-may11.jpg
 excerpt: "Since the v0.13.0 'Tenacity' release on May 7, Hermes Agent has added 5,500 new GitHub stars (now 143.5K), merged 179 pull requests, and shipped a new Stocks & Finance skill, Telegram performance optimizations, Kanban diagnostics, provider 402 caching, and more. The project shows zero signs of slowing down."
+author: The Agent Report
 ---
 
 The **Hermes Agent v0.13.0 "Tenacity" release** dropped on May 7 with multi-agent Kanban boards, `/goal` persistence, Checkpoints v2, and 8 P0 security fixes. Four days later, the project hasn't just held its momentum — it's **accelerated**.

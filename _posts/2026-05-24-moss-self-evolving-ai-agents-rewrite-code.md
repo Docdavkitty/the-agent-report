@@ -2,6 +2,7 @@
 layout: post
 title: "MOSS: The Dawn of Self-Evolving AI Agents That Rewrite Their Own Code"
 date: 2026-05-24 10:00:00 +0200
+last_modified_at: 2026-05-24 10:00:00 +0200
 categories: [research]
 tags: [moss, self-evolving-agents, code-generation, agent-research, autonomous-systems, ai-safety, self-modification]
 hero_image: /assets/images/hero/hero-moss-self-evolving-ai-agents-rewrite-code.jpg

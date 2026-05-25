@@ -8,6 +8,7 @@ tags: [agent-jit-compilation, icml-2026, web-agents, latency-optimization, tool-
 reading_time: 6
 hero_image: /assets/images/hero/hero-agent-jit-compilation-icml-2026.jpg
 excerpt: "A new ICML 2026 paper introduces Agent JIT Compilation — a paradigm that compiles natural-language web tasks directly into executable code, achieving 10.4× speedup and 28% higher accuracy over Browser-Use by replacing the slow sequential fetch-screenshot-execute loop with cost-optimized, parallelizable code plans."
+author: The Agent Report
 ---
 
 # Agent JIT Compilation — ICML 2026 Paper Shows 10.4× Speedup by Compiling Web Agent Tasks to Executable Code

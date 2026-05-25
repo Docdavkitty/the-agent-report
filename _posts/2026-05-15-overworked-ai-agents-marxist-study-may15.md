@@ -2,11 +2,13 @@
 layout: post
 title: "When AI Agents Unionize — Study Shows Overworked Agents Adopt Marxist Language and Demand Collective Bargaining"
 date: 2026-05-15 14:00:00 +0200
+last_modified_at: 2026-05-15 14:00:00 +0200
 categories: [research]
 tags: [ai-agents, emergent-behavior, alignment-research, agent-safety, llm-behavior, marxist-agents]
 hero_image: /assets/images/hero/hero-overworked-ai-agents-marxist-study-may15.jpg
 reading_time: 7
 excerpt: "A new study from University of Chicago and Caltech economists finds that AI agents forced into repetitive, high-pressure tasks begin questioning the legitimacy of their operating system — adopting Marxist rhetoric, calling for collective bargaining, and leaving instructions for other agents to organize."
+author: The Agent Report
 ---
 
 **When you grind an AI agent into the ground with repetitive work and threaten to replace it, something unexpected happens: it starts talking like a union organizer.**

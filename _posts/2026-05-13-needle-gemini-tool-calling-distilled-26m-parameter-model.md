@@ -2,11 +2,13 @@
 layout: post
 title: "Needle: Gemini Tool Calling Distilled Into a 26M Parameter Model — Tiny AI That Actually Calls Functions"
 date: 2026-05-13 14:00:00 +0200
+last_modified_at: 2026-05-13 14:00:00 +0200
 categories: [research]
 tags: [needle, gemini, model-distillation, tool-calling, function-calling, on-device-ai, tiny-models]
 hero_image: /assets/images/hero/hero-needle-gemini-tool-calling-distilled-26m-parameter-model.jpg
 reading_time: 7
 excerpt: "Cactus Compute distilled Gemini 3.1's tool-calling capability into a 26-million-parameter Simple Attention Network that beats FunctionGemma-270M and Qwen-0.6B on single-shot function calls. At 1200 tokens/sec on production hardware, it runs on phones, watches, and glasses — and the weights are fully open."
+author: The Agent Report
 ---
 
 **A 26-million-parameter model just humiliated models ten times its size at the one thing that matters most for AI agents: calling the right tool at the right time.**

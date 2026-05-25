@@ -2,11 +2,13 @@
 layout: post
 title: "Codex Now Lives in Your Pocket — OpenAI Brings Agentic Coding to Mobile"
 date: 2026-05-15 10:00:00 +0200
+last_modified_at: 2026-05-15 10:00:00 +0200
 categories: [tools-frameworks]
 tags: [openai, codex, mobile, chatgpt, agentic-coding, ios, android]
 hero_image: /assets/images/hero/hero-codex-chatgpt-mobile-app-may15.jpg
 reading_time: 6
 excerpt: "OpenAI drops Codex into the ChatGPT mobile app, letting you command your desktop coding agent from your phone. Files, credentials, and your local environment stay on the desktop machine while you review diffs, approve commands, and monitor terminal output in real time from iOS or Android."
+author: The Agent Report
 ---
 
 **You can now control OpenAI's Codex — the agentic coding assistant that writes code and operates desktop applications — directly from your phone.** The feature, rolling out today as a preview on iOS and Android, represents a fundamental shift in how developers interact with AI coding agents: the agent is no longer tethered to the machine where it runs.

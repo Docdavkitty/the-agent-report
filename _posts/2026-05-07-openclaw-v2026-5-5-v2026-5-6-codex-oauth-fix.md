@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Openclaw Ships Two Releases in a Day: v2026.5.5 and v2026.5.6 Fix Codex OAuth Routing, Plugin Fetch Stability"
 date: 2026-05-07 10:00:00 +0200
 last_modified_at: 2026-05-07 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [openclaw, claw-controller, agent-autonomy, codex-oauth, rapid-iteration]
 reading_time: 5
 hero_image: /assets/images/hero/hero-openclaw-v2026-5-5-v2026-5-6-codex-oauth-fix.jpg
 excerpt: "Openclaw shipped two back-to-back releases on May 6 — v2026.5.5 with extensive platform fixes across Discord, Telegram, and provider integrations, followed hours later by v2026.5.6 to hotfix a critical doctor --fix regression that could rewrite OpenAI Codex OAuth routes. The rapid turnaround highlights the project's operational maturity at 369K+ stars."
+author: The Agent Report
 ---
 
 **Openclaw** — the open-source personal AI assistant now sitting at **369,246 GitHub stars** and **76,186 forks** — demonstrated its operational cadence on May 6 with two releases in a single day. **v2026.5.5** shipped in the morning with a broad set of fixes across messaging platforms, provider integrations, and the control UI. Hours later, **v2026.5.6** followed to hotfix a regression introduced by v2026.5.5's `doctor --fix` repair logic that could accidentally break OpenAI Codex OAuth setups.

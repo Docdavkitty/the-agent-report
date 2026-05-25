@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "US Government and Five Eyes Issue Landmark Security Guidance for AI Agent Deployment"
 date: 2026-05-03 12:00:00 +0200
 last_modified_at: 2026-05-03 12:00:00 +0200
@@ -7,6 +8,7 @@ tags: [ai-safety, government, cybersecurity, policy, agent-security]
 reading_time: 8
 hero_image: /assets/images/hero/hero-cisa-nsa-five-eyes-ai-agent-security-guidance.jpg
 excerpt: "CISA, the NSA, and Five Eyes intelligence alliance published joint guidance Friday warning that 'agentic AI' systems are already operating inside critical infrastructure with insufficient safeguards. The document calls for zero-trust architecture, cryptographically-secured agent identities, and mandatory human sign-off for high-impact actions."
+author: The Agent Report
 ---
 
 For the first time, the world's top cybersecurity agencies have turned their focus squarely on **AI agents** — and the message is clear: the technology is already inside critical infrastructure, and most organizations are not ready for what happens next.

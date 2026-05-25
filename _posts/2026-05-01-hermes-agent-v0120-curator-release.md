@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent v0.12.0 'Curator' — Autonomous Skill Maintenance, 4 New Providers, Spotify & Google Meet Integrations"
 date: 2026-05-01 10:00:00 +0200
 last_modified_at: 2026-05-01 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, release, v0.12, Curator, Spotify, Google Mee
 reading_time: 4
 hero_image: /assets/images/hero/hero-05-01-hermes-agent-v0120-curator-release.jpg
 excerpt: "Nous Research ships Hermes Agent v0.12.0 'The Curator' — an autonomous background agent that grades, prunes, and consolidates your skill library. Also: 4 new inference providers, Spotify + Google Meet plugins, and a 57% faster TUI cold start."
+author: The Agent Report
 ---
 
 Hermes Agent, the open-source AI runtime from **Nous Research** (now 127K+ stars on GitHub), has shipped **v0.12.0 "The Curator"** — a release that marks a major step toward self-maintaining agents. Published on April 30, 2026, this release packs 1,096 commits, 550 merged PRs, and contributions from 213 community members since v0.11.0 one week earlier.

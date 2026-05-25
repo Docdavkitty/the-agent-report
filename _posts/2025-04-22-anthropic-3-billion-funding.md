@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Anthropic Raises $3.5B: What It Means for the Agent Race"
 date: 2025-04-22 08:00:00 +0200
 last_modified_at: 2025-04-22 08:00:00 +0200
@@ -7,6 +8,7 @@ tags: [funding, Anthropic, investment, market]
 hero_image: /assets/images/hero/hero-04-22-anthropic-3-billion-funding.jpg
 reading_time: 5
 excerpt: "Anthropic's latest mega-round signals that the agent AI arms race is just beginning. Here's our analysis of what the funding means for the ecosystem."
+author: The Agent Report
 ---
 
 Anthropic has closed a **$3.5 billion** funding round, bringing their total valuation to over $60 billion. The round, led by Lightspeed Venture Partners, underscores the intense investor appetite for companies building at the frontier of agentic AI.

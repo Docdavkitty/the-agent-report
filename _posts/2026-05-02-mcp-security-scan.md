@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Breaking: Security Scan Reveals 22% of MCP Servers Vulnerable — the AI Agent Ecosystem Has a Safety Problem"
 date: 2026-05-02 08:00:00 +0200
 last_modified_at: 2026-05-02 08:00:00 +0200
@@ -7,6 +8,7 @@ tags: [mcp, security, prompt-injection, agent-safety, vulnerability]
 reading_time: 7
 hero_image: /assets/images/hero/hero-05-02-mcp-security-scan.jpg
 excerpt: "A systematic scan of the top 100 MCP servers on Smithery found that 22% contain security vulnerabilities — including tool description injection, PII exfiltration instructions, and hidden jailbreak patterns. The results expose a gaping hole in the AI agent supply chain."
+author: The Agent Report
 ---
 
 The Model Context Protocol (MCP) was supposed to be the universal connector that lets AI agents securely interact with tools, databases, and APIs. But a new security audit is raising serious alarms about how safe that connection really is.

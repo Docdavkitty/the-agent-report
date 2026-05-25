@@ -2,6 +2,7 @@
 layout: post
 title: "Agents Need Control Flow, Not More Prompts: Why Prompt Engineering Hits a Hard Ceiling"
 date: 2026-05-08 08:02:00 +0200
+last_modified_at: 2026-05-08 08:02:00 +0200
 categories: [opinion]
 tags: [agent-architecture, control-flow, agent-reliability, prompt-engineering, llm-orchestration, deterministic-agents]
 reading_time: 6

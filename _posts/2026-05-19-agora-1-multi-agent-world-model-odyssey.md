@@ -2,6 +2,7 @@
 layout: post
 title: "Agora-1: Odyssey's Multi-Agent World Model Lets AIs and Humans Share a Single Simulated Reality in Real Time"
 date: 2026-05-19 10:00:00 +0200
+last_modified_at: 2026-05-19 10:00:00 +0200
 categories: [research]
 tags: [odyssey, agora-1, multi-agent, world-models, simulation, ai-research, reinforcement-learning, gaming, robotics]
 hero_image: /assets/images/hero/hero-agora-1-multi-agent-world-model-odyssey.jpg

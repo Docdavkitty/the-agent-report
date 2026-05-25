@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "Zendesk Opens the Floodgates: AI Agents Now Available to Every Customer"
-date: 2026-05-25 09:00:00 +0200
-categories: [industry]
+date: 2026-05-25 10:00:00 +0200
+last_modified_at: 2026-05-25 10:00:00 +0200
+categories: [business, industry]
 tags: [zendesk, customer-service, enterprise, automation, ai-agents, democratization]
 hero_image: /assets/images/hero/hero-zendesk-ai-agents-all-customers-may25.jpg
 reading_time: 6

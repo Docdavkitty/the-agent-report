@@ -2,6 +2,7 @@
 layout: post
 title: "State of Agent Engineering 2026: LangChain and Datadog Reports Reveal Where AI Agents Really Stand"
 date: 2026-05-23 08:00:00 +0200
+last_modified_at: 2026-05-23 08:00:00 +0200
 categories: [research]
 tags: [langchain, datadog, agent-engineering, production-ai, observability, multi-agent, surveys]
 hero_image: /assets/images/hero/hero-state-of-agent-engineering-2026-langchain-datadog.jpg

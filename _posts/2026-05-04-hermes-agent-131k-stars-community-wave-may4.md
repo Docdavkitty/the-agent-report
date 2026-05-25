@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent Surpasses 131K Stars as Community Contribution Wave Hits — `hermes send`, Context Compaction Rework, and Tool Argument Repair Land"
 date: 2026-05-04 16:00:00 +0200
 last_modified_at: 2026-05-04 16:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, community, open-source, hermes-send, context
 reading_time: 5
 hero_image: /assets/images/hero/hero-05-04-hermes-agent-131k-stars-community-wave-may4.jpg
 excerpt: "Hermes Agent crosses 131K GitHub stars as Teknium1 merges 8+ community salvage PRs in a single day. Three major feature proposals — `hermes send`, decision-oriented context compaction, and a semantic tool argument repair layer — land in the same cycle, signalling a maturation of the open-source AI runtime's contributor ecosystem."
+author: The Agent Report
 ---
 
 Hermes Agent, the open-source AI runtime from **Nous Research**, has crossed **131,842 GitHub stars** — up roughly 5,000 stars in just three days since the v0.12.0 "Curator" release on April 30. But the real story today is not just the metric: it's the explosive growth of the **community contribution pipeline**.

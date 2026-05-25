@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Anthropic Drops 10 Financial Services Agent Templates with Native Microsoft 365 Integration"
 date: 2026-05-06 14:00:00 +0200
 last_modified_at: 2026-05-06 14:00:00 +0200
@@ -7,6 +8,7 @@ tags: [anthropic, claude, financial-services, agent-templates, microsoft-365, en
 reading_time: 9
 hero_image: /assets/images/hero/hero-anthropic-finance-agent-templates-microsoft-365.jpg
 excerpt: "Anthropic released ten ready-to-run agent templates for financial services — pitchbook building, KYC screening, month-end closing, and more — alongside native Microsoft 365 add-ins for Excel, PowerPoint, Word, and Outlook. The agents ship as Claude Cowork plugins, Claude Code plugins, and Claude Managed Agents cookbooks, marking the company's most comprehensive enterprise product launch to date."
+author: The Agent Report
 ---
 
 On May 5, Anthropic announced its most ambitious enterprise product launch to date: **ten ready-to-run agent templates** purpose-built for financial services, paired with **native Microsoft 365 add-ins** that let Claude operate directly inside Excel, PowerPoint, Word, and Outlook.

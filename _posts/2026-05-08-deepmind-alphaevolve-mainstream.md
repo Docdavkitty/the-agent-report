@@ -2,6 +2,7 @@
 layout: post
 title: "DeepMind's AlphaEvolve Goes Mainstream: The Gemini-Powered Agent Now Runs Google's Data Centers, TPUs, and Training Pipelines"
 date: 2026-05-08 08:01:00 +0200
+last_modified_at: 2026-05-08 08:01:00 +0200
 categories: [research]
 tags: [deepmind, alphaevolve, gemini, coding-agent, algorithm-discovery, google, ai-infrastructure, tpu]
 reading_time: 8

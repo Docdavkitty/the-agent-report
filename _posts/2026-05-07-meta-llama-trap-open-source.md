@@ -1,11 +1,14 @@
 ---
+layout: post
 title: "The Llama Trap: How Meta Killed Open-Source AI"
 date: 2026-05-07 14:00:00 +0200
+last_modified_at: 2026-05-07 14:00:00 +0200
 categories: [research]
 tags: [meta, llama, open-source, copyright-lawsuit, meta-ai, ecosystem]
 hero_image: /assets/images/hero/hero-meta-llama-trap-open-source.jpg
 reading_time: 8
 excerpt: "Meta built an entire open-source ecosystem around Llama, then pulled the ladder up. With Llama deprecated in favor of proprietary Muse Spark, a massive copyright lawsuit, and confirmed benchmark manipulation — the open-source AI community is facing a reckoning."
+author: The Agent Report
 ---
 
 **Meta built the world's most popular open-source AI ecosystem, let thousands of startups build their businesses on it, and then pulled the ladder up.** The past week has been devastating for the Llama community — and the revelations keep getting worse.

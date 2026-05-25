@@ -2,6 +2,7 @@
 layout: post
 title: "Claude Mythos Shatters METR's Time Horizon Graph — First Model to Crack Multi-Hour Autonomous Tasks"
 date: 2026-05-11 14:00:00 +0200
+last_modified_at: 2026-05-11 14:00:00 +0200
 categories: [research]
 tags: [anthropic, claude, claude-mythos, metr, ai-agents, time-horizon, model-benchmarks]
 reading_time: 7

@@ -2,11 +2,13 @@
 layout: post
 title: "Openclaw v2026.5.20-beta.1 Introduces Policy Plugin — Compliance-as-Code for AI Agent Orchestration"
 date: 2026-05-21 10:00:00 +0000
+last_modified_at: 2026-05-21 10:00:00 +0000
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, policy-plugin, enterprise-governance]
 reading_time: 8
 excerpt: "Openclaw ships v2026.5.20-beta.1 with a groundbreaking Policy Plugin that brings compliance-as-code to agent orchestration — enabling policy-backed channel conformance checks, lint-driven workspace repair, and enterprise-grade governance. The release also introduces xAI device-code OAuth for headless setups, Discord voice session identity contexts, and the Codex 0.132.0 harness."
 hero_image: /assets/images/hero/hero-openclaw-v2026-5-20-beta1-policy-plugin-compliance.jpg
+author: The Agent Report
 ---
 
 Openclaw's breakneck release cadence continues with **v2026.5.20-beta.1**, shipped on May 21, 2026 — just two days after the v2026.5.19 stable release. While the project has crossed **373,600 stars** on GitHub with **77,600 forks**, this beta is less about flashy consumer features and more about the architectural plumbing that enterprise deployments have been waiting for.

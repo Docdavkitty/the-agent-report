@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent v0.11: What's New in the Open-Source AI Runtime"
 date: 2025-04-28 10:00:00 +0200
 last_modified_at: 2025-04-28 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, release, open-source]
 reading_time: 5
 hero_image: /assets/images/hero/hero-04-28-hermes-agent-v011-release.jpg
 excerpt: "Hermes Agent 0.11 brings enhanced MCP support, new toolsets, and improved multi-model routing. Here's what's changed."
+author: The Agent Report
 ---
 
 Hermes Agent, the open-source AI agent runtime from Nous Research, has been steadily evolving. Version 0.11 introduces several significant improvements for developers building agentic applications.

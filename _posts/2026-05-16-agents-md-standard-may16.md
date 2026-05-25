@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "AGENTS.md: How a Simple Text File Became the Must-Have Standard for Guiding AI Coders"
 date: 2026-05-16 10:00:00 +0200
 last_modified_at: 2026-05-16 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [AGENTS-dot-md, coding-agents, open-source, developer-tools, AI-standards,
 reading_time: 6
 hero_image: /assets/images/hero/hero-agents-md-standard-may16.jpg
 excerpt: "Over 60,000 open-source projects have adopted AGENTS.md — a simple Markdown file format that tells AI coding agents how to behave. In a world of increasingly autonomous code editors, this humble convention might be the most important infrastructure you've never heard of."
+author: The Agent Report
 ---
 
 **A quiet standardization movement is reshaping how AI coding agents interact with codebases.** [AGENTS.md](https://agents.md/), an open format for guiding coding agents, has crossed **60,000 open-source projects** — and the number is accelerating. Think of it as a README, but for the AI that's about to edit your files.

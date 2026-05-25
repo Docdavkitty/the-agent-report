@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Forge: How Guardrails Lift an 8B Local Model to 86% on Agentic Tool-Calling Tasks"
 date: 2026-05-20 10:00:00 +0200
 last_modified_at: 2026-05-20 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [guardrails, local-models, tool-calling, open-source, agent-reliability, s
 reading_time: 6
 hero_image: /assets/images/hero/hero-forge-guardrails-local-agent-reliability-may20.jpg
 excerpt: "Forge, a new open-source Python framework from Texas Instruments engineer Antoine Zambelli, uses guardrails to lift a local 8B model (Ministral-3) from 53% to 86.5% on multi-step agentic tool-calling tasks — rivaling frontier models on structured workflows. With 440 points on Hacker News and 726 GitHub stars on day one, it addresses the most pressing problem for developers running agents on local hardware: reliability."
+author: The Agent Report
 ---
 
 The dream of running capable AI agents entirely on local hardware has always collided with an uncomfortable reality: small models make mistakes. They call the wrong tools, format arguments incorrectly, skip required steps, and get confused in multi-turn workflows. An 8B parameter model running on a consumer GPU can generate code and answer questions — but trusting it to autonomously execute a multi-step tool-calling sequence has been a gamble.

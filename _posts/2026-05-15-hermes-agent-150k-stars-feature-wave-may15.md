@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent Crosses 150K Stars: SimpleX Chat, HuggingFace Skills Hub, Deep Crawl, and New Cron Features"
 date: 2026-05-15 17:00:00 +0200
 last_modified_at: 2026-05-15 17:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, open-source, 150k-stars, simple-x-chat, skil
 reading_time: 7
 hero_image: /assets/images/hero/hero-hermes-agent-150k-stars-feature-wave-may15.jpg
 excerpt: "Hermes Agent has crossed 150,000 GitHub stars — up 3,410 in just two days to reach 151,192. Behind the milestone lies one of the busiest 48-hour feature sprints since the Tenacity release: a new SimpleX Chat gateway, HuggingFace Skills Hub integration, a local deep crawl tool, per-job cron reasoning, dependency supply-chain hardening, and much more."
+author: The Agent Report
 ---
 
 The post-Tenacity momentum has accelerated into a new gear. Hermes Agent has vaulted past **150,000 GitHub stars** — reaching **151,192** as of this writing, up 3,410 in 48 hours from 147,782 on May 13. Forks have climbed to **23,955** (+733), and open issues have grown to **11,302** as the community engagement scales.

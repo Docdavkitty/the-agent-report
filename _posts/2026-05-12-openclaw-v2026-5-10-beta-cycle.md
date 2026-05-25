@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Openclaw v2026.5.10 Beta Cycle: Five Releases in Two Days, 371K Stars, and Agent-to-Agent Depth"
 date: 2026-05-12 10:00:00 +0000
 last_modified_at: 2026-05-12 10:00:00 +0000
@@ -7,6 +8,7 @@ tags: [openclaw, claw-controller, agent-autonomy, agent-to-agent, pnpm11]
 reading_time: 6
 hero_image: /assets/images/hero/hero-openclaw-v2026-5-10-beta-cycle.jpg
 excerpt: "Openclaw shipped five beta releases across May 10-11 — v2026.5.10-beta.1 through beta.5 — in an aggressive weekend release train that touches every layer of the stack. Agent-to-agent ping-pong turns are now configurable up to 20, Slack gets unfurl controls and reply broadcast, Discord voice gains realtime diagnostics, and the project crosses 371,000 GitHub stars."
+author: The Agent Report
 ---
 
 **Openclaw** — the open-source personal AI assistant sitting at **371,074 GitHub stars** with **76,742 forks** — unleashed a torrent of five beta releases over May 10-11, collectively branded **v2026.5.10-beta**. The weekend release cycle shipped changes across almost every subsystem: agent-to-agent protocols, Slack integration, Discord voice, Fal image generation, Fly Machines, the Control UI, and the build system's migration to pnpm 11.

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Open-Source Agent Frameworks: A Comparative Guide"
 date: 2025-04-16 10:00:00 +0200
 last_modified_at: 2025-04-16 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [open-source, frameworks, comparison, langchain, crewai, autogen]
 hero_image: /assets/images/hero/hero-04-16-open-source-agent-frameworks-comparison.jpg
 reading_time: 10
 excerpt: "A deep dive comparison of LangChain, CrewAI, AutoGen, Semantic Kernel, and other open-source agent frameworks."
+author: The Agent Report
 ---
 
 The open-source agent framework landscape has exploded. Here's our comprehensive comparison of the major players.

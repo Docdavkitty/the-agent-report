@@ -2,6 +2,7 @@
 layout: post
 title: "Google Search as You Know It Is Over: The AI Agent Revolution Begins at I/O 2026"
 date: 2026-05-24 08:00:00 +0200
+last_modified_at: 2026-05-24 08:00:00 +0200
 categories: [industry]
 tags: [google, google-io, search, ai-agents, information-agents, gemini, generative-ui]
 hero_image: /assets/images/hero/hero-google-io-2026-end-of-search-ai-agents.jpg

@@ -2,6 +2,7 @@
 layout: post
 title: "Claude for the Legal Industry — Anthropic Launches 20+ MCP Connectors and 12 Practice-Area Plugins"
 date: 2026-05-13 14:00:00 +0200
+last_modified_at: 2026-05-13 14:00:00 +0200
 categories: [industry]
 tags: [anthropic, claude, legal-tech, mcp, claude-cowork, enterprise, vertical-ai]
 reading_time: 7

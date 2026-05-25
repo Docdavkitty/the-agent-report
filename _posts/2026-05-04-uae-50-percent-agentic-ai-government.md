@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "UAE Sets Sights on 50% Agentic AI Government: A Blueprint for the Nation-State of the Future?"
 date: 2026-05-04 14:00:00 +0200
 last_modified_at: 2026-05-04 14:00:00 +0200
@@ -7,6 +8,7 @@ tags: [uae, government-ai, agentic-ai, digital-transformation, ai-governance]
 reading_time: 10
 hero_image: /assets/images/hero/hero-uae-50-percent-agentic-ai-government.jpg
 excerpt: "The United Arab Emirates has announced a bold two-year plan to run 50% of federal government operations through 'agentic AI' — autonomous systems that analyze, decide, and execute across ministries. Is this the first large-scale test of AI-augmented governance, or a blueprint others will follow?"
+author: The Agent Report
 ---
 
 The United Arab Emirates is no stranger to audacious technology ambitions. But a directive announced last week by Prime Minister Sheikh Mohammed bin Rashid Al Maktoum may be its most consequential yet: **50% of federal government operations must be powered by agentic AI within two years**.

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "The Enterprise Agent Stack: A Reference Architecture"
 date: 2025-04-14 09:00:00 +0200
 last_modified_at: 2025-04-14 09:00:00 +0200
@@ -7,6 +8,7 @@ tags: [enterprise, architecture, infrastructure, deployment]
 hero_image: /assets/images/hero/hero-04-14-enterprise-agent-stack-architecture.jpg
 reading_time: 7
 excerpt: "What does a production-grade agent infrastructure look like? We break down the reference architecture that enterprises are adopting."
+author: The Agent Report
 ---
 
 As enterprises move from agent experiments to production deployments, a standard **agent stack** is emerging. Here's what it looks like.

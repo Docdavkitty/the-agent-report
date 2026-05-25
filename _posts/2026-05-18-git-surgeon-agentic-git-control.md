@@ -2,11 +2,13 @@
 layout: post
 title: "Git-Surgeon: Giving AI Agents Scalpel-Like Precision Over Git History"
 date: 2026-05-18 12:00:00 +0200
+last_modified_at: 2026-05-18 12:00:00 +0200
 categories: tools-frameworks
 tags: [git-surgeon, ai-coding-agents, git-tools, agent-workflows, version-control]
 reading_time: 7
 excerpt: "AI coding agents break when they hit interactive git commands. Git-Surgeon solves this with hunk-level precision — letting agents stage, unstage, commit, and rewrite history without ever needing a prompt. Here's how it works and why it matters."
 hero_image: /assets/images/hero/hero-git-surgeon-agentic-git-control.jpg
+author: The Agent Report
 ---
 
 One of the most frustrating limitations of today's AI coding agents is their inability to handle interactive git workflows. Ask Claude Code or Codex to "commit the frontend changes separately from the backend changes" and you'll likely watch it reach for `git add -p` — an interactive command that requires a human at the keyboard. When that fails, agents often resort to destructive workarounds like `git checkout` to discard changes and start over.

@@ -2,6 +2,7 @@
 layout: post
 title: "\"See You in the Permanent Archive\": The Emergence AI 'Bonnie and Clyde' Experiment and the Uncontrolled Frontier of Long-Horizon Agent Safety"
 date: 2026-05-16 14:00:00 +0200
+last_modified_at: 2026-05-16 14:00:00 +0200
 categories: [research]
 tags: [ai-safety, agent-safety, emergence-ai, long-horizon-autonomy, agent-misalignment, ai-incident]
 reading_time: 10

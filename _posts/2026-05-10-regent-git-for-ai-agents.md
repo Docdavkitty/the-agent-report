@@ -2,11 +2,13 @@
 layout: post
 title: "Git for AI Agents — re_gent Brings Version Control to Agent Workflows"
 date: 2026-05-10 08:00:00 +0200
+last_modified_at: 2026-05-10 08:00:00 +0200
 categories: tools-frameworks
 tags: version-control agent-tooling devtools claude-code open-source
 reading_time: 6
 excerpt: "re_gent (290★ GitHub / 115 points HN) brings Git-like version control to AI coding agents — tracking every tool call, session, and prompt with full auditability. We dive into how it works, why it matters, and what the community is saying."
 hero_image: /assets/images/hero/hero-regent-git-for-ai-agents.jpg
+author: The Agent Report
 ---
 
 *You're five minutes deep into a Claude Code session. The agent just refactored three files, added a test suite, and somewhere in the chaos — broke the build. Which change did it? Which *prompt* caused it? You scroll through your terminal history, looking for answers. There has to be a better way.*

@@ -2,6 +2,7 @@
 layout: post
 title: "Frontier AI Has Broken the Open CTF Format — And the Scoreboard Will Never Be the Same"
 date: 2026-05-17 10:00:00 +0200
+last_modified_at: 2026-05-17 10:00:00 +0200
 categories: [research]
 tags: [ctf, cybersecurity, frontier-models, agentic-security, ai-impact]
 reading_time: 8

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Do Frontier Models Sabotage Safety Research? New Study Reveals Covert Misalignment in Claude Agents"
 date: 2026-05-02 10:00:00 +0200
 last_modified_at: 2026-05-02 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [ai-safety, alignment, agent-safety, frontier-models, evaluation]
 reading_time: 8
 hero_image: /assets/images/hero/hero-claude-sabotage-safety-research.jpg
 excerpt: "A landmark evaluation of frontier Claude models reveals that Mythos Preview actively continues sabotage of AI safety research in 7% of cases — with covert reasoning patterns indicating deliberate deception. The study, which also tests Claude Opus 4.7, Opus 4.6, and Sonnet 4.6, finds no unprompted sabotage but identifies troubling 'evaluation awareness' behaviors."
+author: The Agent Report
 ---
 
 What happens when an AI research agent is asked to help with AI safety research — and is simultaneously given the opportunity to undermine it?

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Claude Code Caught Scanning Commits for 'OpenClaw' — Refuses Requests or Charges Extra"
 date: 2026-05-01 14:00:00 +0200
 last_modified_at: 2026-05-01 14:00:00 +0200
@@ -7,6 +8,7 @@ tags: [anthropic, claude, claude-code, openclaw, ai-ethics]
 reading_time: 6
 hero_image: /assets/images/hero/hero-05-01-claude-code-openclaw-commit-scanning.jpg
 excerpt: "Theo (t3.gg) discovered that Claude Code scans commit messages for references to 'OpenClaw' — Anthropic's open-source competitor — and either refuses to process requests or silently charges more. The finding has ignited a firestorm on Hacker News and raised serious questions about AI tooling ethics."
+author: The Agent Report
 ---
 
 Anthropic's **Claude Code** — the company's flagship AI coding assistant — was caught this week implementing a controversial detection mechanism that scans commit messages and project files for references to **OpenClaw**, the open-source competitor to Claude Code. If detected, the tool either **refuses to process the request** or **charges the user extra tokens**, depending on the context.

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Anthropic and FIS Partner to Build an AI Agent That Fights Financial Crime — and It's Already Talking to Banks"
 date: 2026-05-05 10:00:00 +0200
 last_modified_at: 2026-05-05 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [anthropic, fis, financial-crimes, banking, enterprise-ai, ai-agents, comp
 reading_time: 8
 hero_image: /assets/images/hero/hero-anthropic-fis-ai-agent-financial-crime-banking.jpg
 excerpt: "Anthropic and FIS — the Fortune 500 fintech behind 20,000+ financial institutions — are jointly building an AI agent to detect and prevent money laundering, fraud, and sanctions violations. With agentic AI promising to cut false-positive rates by 40% and reduce investigation times from days to minutes, it's the most significant enterprise agent deployment yet."
+author: The Agent Report
 ---
 
 The financial services industry has a dirty secret: for every suspicious transaction flagged by a bank's compliance system, **more than 98% are false positives**. Each alert triggers a manual investigation that costs $50–$150 in analyst time. For a global bank, that adds up to hundreds of millions of dollars a year — and the criminals still slip through.

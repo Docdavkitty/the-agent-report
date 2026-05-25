@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Agent Safehouse: macOS-Native Sandboxing for Autonomous Local Agents"
 date: 2026-05-20 11:00:00 +0200
 last_modified_at: 2026-05-20 11:00:00 +0200
@@ -7,6 +8,7 @@ tags: [agent-safety, sandboxing, macos, local-agents, security]
 reading_time: 7
 hero_image: /assets/images/hero/hero-agent-safehouse-macos-sandbox-may20.jpg
 excerpt: "Agent Safehouse brings lightweight, macOS-native sandboxing to local AI agents using Apple's built-in sandbox-exec. With 1,781 GitHub stars and 823 HN points, it solves the security problem for developers who want their agents to run on full auto — without the overhead of Docker containers or remote VMs."
+author: The Agent Report
 ---
 
 As AI agents become more capable, one question haunts every developer who runs them locally: **what happens when an agent goes rogue on my machine?**

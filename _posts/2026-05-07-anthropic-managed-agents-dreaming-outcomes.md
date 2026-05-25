@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Anthropic Lets Its Managed Agents Dream: Scheduled Memory, Outcomes Evaluation, and Multi-Agent Orchestration Hit Public Beta"
 date: 2026-05-07 10:00:00 +0200
 last_modified_at: 2026-05-07 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [anthropic, managed-agents, dreaming, claude, multi-agent, enterprise-ai, 
 reading_time: 7
 hero_image: /assets/images/hero/hero-anthropic-managed-agents-dreaming-outcomes.jpg
 excerpt: "Anthropic has unveiled a major expansion of its Managed Agents platform with three flagship capabilities: 'dreaming' — a scheduled background memory process where agents autonomously work through complex problems — outcomes-based evaluation for measuring agent performance by results rather than steps, and multi-agent orchestration now in public beta. The update signals Anthropic's aggressive bet on enterprise agent deployment at scale."
+author: The Agent Report
 ---
 
 ## The Agents Are Dreaming

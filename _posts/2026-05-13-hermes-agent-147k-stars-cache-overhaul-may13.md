@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent Crosses 147K Stars: Cache Architecture Overhaul, Platform Maturation Accelerates Post-Tenacity"
 date: 2026-05-13 12:00:00 +0200
 last_modified_at: 2026-05-13 12:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, open-source, cache-architecture, platform-ma
 reading_time: 6
 hero_image: /assets/images/hero/hero-hermes-agent-147k-stars-cache-overhaul-may13.jpg
 excerpt: "Hermes Agent has crossed 147,782 GitHub stars — up 4,272 in just two days since our last report. Behind the star count lies a major cache architecture overhaul that boosts prompt cache hit rates from 66.6% to 83.3%, a provider rebrand (Alibaba Cloud → Qwen Cloud), unified Portal client tagging, and a wave of new feature PRs signaling v0.14.0 is taking shape."
+author: The Agent Report
 ---
 
 The post-Tenacity momentum hasn't slowed. Hermes Agent has vaulted from **143,510 to 147,782 GitHub stars** (+4,272 in 48 hours) and from **22,406 to 23,222 forks** — but the real story isn't in the numbers. In the two days since our last roundup, **40+ commits have landed** across cache infrastructure, provider tooling, security, and cross-platform support, while **10+ new feature PRs** have been filed for what's shaping up to be the v0.14.0 cycle.

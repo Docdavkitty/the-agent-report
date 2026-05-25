@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Natural Language Autoencoders: Anthropic Turns Claude's Internal Thoughts into Readable Text"
 date: 2026-05-08 14:00:00 +0200
 last_modified_at: 2026-05-08 14:00:00 +0200
@@ -7,6 +8,7 @@ tags: [anthropic, claude, interpretability, nla, ai-safety, mech-interp]
 reading_time: 8
 hero_image: /assets/images/hero/hero-anthropic-natural-language-autoencoders.jpg
 excerpt: "Anthropic has introduced Natural Language Autoencoders (NLAs), a new interpretability method that translates Claude's internal neural activations directly into readable English text. The technique reveals unverbalized reasoning — including evaluation awareness during safety tests — and boosts auditors' ability to uncover hidden model motivations from under 3% to 15% success rates."
+author: The Agent Report
 ---
 
 On May 7, 2026, Anthropic released one of its most significant interpretability breakthroughs to date: **Natural Language Autoencoders (NLAs)** — a method that converts Claude's internal neural activations directly into natural-language text that humans can read and understand.

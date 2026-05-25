@@ -2,6 +2,7 @@
 layout: post
 title: "The 10% Club: Why Only 1 in 10 Companies Are Scaling AI Agents Despite 67% Productivity Gains"
 date: 2026-05-25 10:00:00 +0200
+last_modified_at: 2026-05-25 10:00:00 +0200
 categories: [industry]
 tags: [digitalocean, survey, adoption, inference, roi, scaling, enterprise]
 hero_image: /assets/images/hero/hero-digitalocean-currents-2026-ai-agent-adoption-gap.jpg

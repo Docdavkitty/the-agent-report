@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Agents Can Now Create Cloudflare Accounts, Buy Domains, and Deploy — The Infrastructure for the Agent Economy Arrives"
 date: 2026-05-06 10:00:00 +0200
 last_modified_at: 2026-05-06 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [cloudflare, stripe, agent-infrastructure, autonomous-deployment, agent-ec
 reading_time: 8
 hero_image: /assets/images/hero/hero-cloudflare-agent-account-domain-deploy.jpg
 excerpt: "Cloudflare and Stripe just flipped a switch that changes everything: AI agents can now autonomously create Cloudflare accounts, start paid subscriptions, register domains, and deploy code — all without a human touching a dashboard. A new open protocol for agent-provisioned infrastructure is born."
+author: The Agent Report
 ---
 
 The dream of a truly autonomous AI agent — one that doesn't just write code but **deploys it to production, on its own infrastructure, under its own billing** — just took a giant leap toward reality.

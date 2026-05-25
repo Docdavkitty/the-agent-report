@@ -2,6 +2,7 @@
 layout: post
 title: "Claude Hits New Milestone: Anthropic Signs SpaceX Compute Deal for Colossus 1 Data Center — 220,000+ NVIDIA GPUs and Orbital AI Compute on the Horizon"
 date: 2026-05-18 14:00:00 +0200
+last_modified_at: 2026-05-18 14:00:00 +0200
 categories: [industry]
 tags: [anthropic, claude, spacex, compute-infrastructure, nvidia-gpus, colossus-datacenter, ai-infrastructure]
 hero_image: /assets/images/hero/hero-claude-spacex-compute-deal-colossus.jpg

@@ -2,6 +2,7 @@
 layout: post
 title: "MCP Hello Page: When Agent Protocols Meet Real-World Users — And How One Developer Fixed the UX Gap"
 date: 2026-05-17 12:00:00 +0200
+last_modified_at: 2026-05-17 12:00:00 +0200
 categories: [tools-frameworks]
 tags: [mcp, model-context-protocol, developer-experience, agent-tools, ux]
 reading_time: 6

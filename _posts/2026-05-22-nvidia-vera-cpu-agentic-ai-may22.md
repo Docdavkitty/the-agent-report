@@ -8,6 +8,7 @@ tags: [nvidia, vera-cpu, agentic-ai, hardware, infrastructure, ai-labs]
 reading_time: 8
 excerpt: "NVIDIA hand-delivered its first custom Vera CPUs to Anthropic, OpenAI, SpaceXAI, and Oracle Cloud Infrastructure — a watershed moment for agentic AI infrastructure. With 88 Olympus cores, 1.2 TB/s memory bandwidth, and 2x energy efficiency, Vera is the first silicon designed specifically for the orchestration, tool-calling, and reinforcement learning workloads that define modern AI agents."
 hero_image: /assets/images/hero/hero-nvidia-vera-cpu-agentic-ai-may22.jpg
+author: The Agent Report
 ---
 
 # NVIDIA Vera Is Here — The First CPU Built From the Ground Up for Agentic AI

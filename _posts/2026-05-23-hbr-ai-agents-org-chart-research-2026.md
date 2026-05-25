@@ -2,6 +2,7 @@
 layout: post
 title: "Why You Shouldn't Put AI Agents on the Org Chart — HBR Study Reveals Five Hidden Risks of Anthropomorphizing Agents"
 date: 2026-05-23 10:00:00 +0200
+last_modified_at: 2026-05-23 10:00:00 +0200
 categories: [research]
 tags: [hbr, ai-agents, organizational-behavior, enterprise-adoption, ai-governance, human-ai-collaboration]
 hero_image: /assets/images/hero/hero-hbr-ai-agents-org-chart-research-2026.jpg

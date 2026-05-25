@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Cua Lets AI Agents Control macOS Apps in the Background Without Stealing Your Cursor"
 date: 2026-04-30 11:00:00 +0200
 last_modified_at: 2026-04-30 11:00:00 +0200
@@ -7,6 +8,7 @@ tags: [computer-use, open-source, macOS, agent infrastructure, Cua]
 reading_time: 5
 hero_image: /assets/images/hero/hero-04-30-cua-computer-use-agent-sandbox.jpg
 excerpt: "The open-source Cua project introduces sandboxed macOS desktop environments that AI agents can control programmatically — no cursor-grabbing, no screen sharing, no conflicts with your actual workflow."
+author: The Agent Report
 ---
 
 A new open-source project called **Cua** (from [trycua/cua](https://github.com/trycua/cua)) is tackling one of the most awkward problems in the AI agent space: how to let agents interact with desktop applications without physically hijacking your mouse and keyboard.

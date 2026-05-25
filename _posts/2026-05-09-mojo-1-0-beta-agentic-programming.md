@@ -2,6 +2,7 @@
 layout: post
 title: "Mojo 1.0 Beta Arrives: Modular's Language for Agentic Programming Reaches a Milestone"
 date: 2026-05-09 08:05:00 +0200
+last_modified_at: 2026-05-09 08:05:00 +0200
 categories: [tools-frameworks]
 tags: [mojo, modular, agentic-programming, gpu-programming, ai-infrastructure, llm-inference]
 reading_time: 6

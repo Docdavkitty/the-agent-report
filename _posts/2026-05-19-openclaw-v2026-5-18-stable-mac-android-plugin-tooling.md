@@ -2,11 +2,13 @@
 layout: post
 title: "Openclaw v2026.5.18 Goes Stable — Mac App Redesign, Android Talk Mode, and Plugin Developer Tooling Land in Record Release"
 date: 2026-05-19 10:00:00 +0000
+last_modified_at: 2026-05-19 10:00:00 +0000
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, mac-app, android-voice]
 reading_time: 8
 excerpt: "Openclaw ships v2026.5.18 — its first full stable release in weeks — with a redesigned Mac app, real-time Android Talk Mode via Gateway relay, new plugin developer tooling, QA-Lab expansion, and over 200 fixes. The beta train keeps rolling with v2026.5.19-beta.1 hot on its heels."
 hero_image: /assets/images/hero/hero-openclaw-v2026-5-18-stable-mac-android-plugin-tooling.jpg
+author: The Agent Report
 ---
 
 Openclaw's rapid-release cadence reached a major inflection point this week. On May 18, the project shipped **v2026.5.18** — its first full **stable** release after weeks of intensive beta cycles — followed almost immediately by **v2026.5.19-beta.1** on the same evening. The releases pack what may be the most diverse feature set the project has ever shipped in a single window: a radically redesigned Mac desktop app, real-time Android voice sessions, developer-friendly plugin tooling, a Python debugging skill, a meme generator, and a massive QA-Lab expansion that signals Openclaw's maturation toward enterprise-grade reliability engineering.

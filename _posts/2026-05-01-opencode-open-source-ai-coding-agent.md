@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "OpenCode: The Open Source AI Coding Agent That Just Hit 150K GitHub Stars"
 date: 2026-05-01 08:15:00 +0200
 last_modified_at: 2026-05-01 08:15:00 +0200
@@ -7,6 +8,7 @@ tags: [opencode, coding-agent, open-source, ai-coding]
 reading_time: 5
 hero_image: /assets/images/hero/hero-05-01-opencode-open-source-ai-coding-agent.jpg
 excerpt: "OpenCode — an MIT-licensed, terminal-native AI coding agent from the team behind SST — has exploded past 150,000 GitHub stars in days, signaling a paradigm shift in how developers want to code with AI."
+author: The Agent Report
 ---
 
 The open-source AI coding agent landscape just got a new heavyweight contender. **OpenCode**, a terminal-native coding agent built by the team behind [SST](https://sst.dev), has rocketed past **152,000 GitHub stars** and **17,000 forks** since its public release. With an MIT license, a polished terminal UI, and a desktop app in beta, it's the fastest-growing AI developer tool in recent memory.

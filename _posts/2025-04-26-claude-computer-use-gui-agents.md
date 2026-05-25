@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Claude's Computer Use: A New Paradigm for GUI Agents"
 date: 2025-04-26 10:30:00 +0200
 last_modified_at: 2025-04-26 10:30:00 +0200
@@ -7,6 +8,7 @@ tags: [Claude, computer-use, GUI-agents, Anthropic]
 hero_image: /assets/images/hero/hero-04-26-claude-computer-use-gui-agents.jpg
 reading_time: 6
 excerpt: "Anthropic's computer-use capability lets Claude see and interact with desktop interfaces, opening a new frontier for agent-based automation."
+author: The Agent Report
 ---
 
 Anthropic's Claude now includes a **computer-use** capability that lets the model see screenshots of a desktop interface and take actions — clicking buttons, typing text, navigating menus, and scrolling through applications. This represents a fundamental shift from API-only agents to agents that can interact with any software.

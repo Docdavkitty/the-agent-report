@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Obscura: The Rust-Powered Headless Browser That's Quietly Becoming the AI Agent Standard for Web Automation"
 date: 2026-05-04 10:00:00 +0200
 last_modified_at: 2026-05-04 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [headless-browser, rust, web-automation, ai-agents, open-source]
 reading_time: 8
 hero_image: /assets/images/hero/hero-obscura-rust-headless-browser-ai-agents.jpg
 excerpt: "Obscura, an open-source headless browser built in Rust, has exploded past 9,900 GitHub stars in just three weeks. With a 30 MB memory footprint — 7× lighter than headless Chrome — and built-in anti-detection, it's rapidly becoming the go-to browser engine for AI agents that need to navigate the web at scale."
+author: The Agent Report
 ---
 
 If you've been watching the AI agent tooling space lately, you've probably noticed a quiet upheaval in one of the most unglamorous corners of the stack: the browser engine.

@@ -2,6 +2,7 @@
 layout: post
 title: "SIRA — The SuperIntelligent Retrieval Agent That Thinks Before It Searches"
 date: 2026-05-11 10:00:00 +0200
+last_modified_at: 2026-05-11 10:00:00 +0200
 categories: research
 tags: retrieval-augmented-generation information-retrieval llm-agents research-paper beir
 reading_time: 7

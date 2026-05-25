@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Agent-Desktop: The Rust-Powered Native CLI That's Giving AI Agents Direct Desktop Access"
 date: 2026-05-03 10:00:00 +0200
 last_modified_at: 2026-05-03 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [agent-tools, desktop-automation, rust, open-source, mcp]
 reading_time: 7
 hero_image: /assets/images/hero/hero-agent-desktop-native-desktop-automation-cli.jpg
 excerpt: "Agent-desktop, a native Rust CLI for desktop automation via AI agents, has surged to 400+ GitHub stars and topped Hacker News at 93 points. It gives structured access to any macOS application through OS accessibility trees — no screenshots, no pixel matching, no browser required."
+author: The Agent Report
 ---
 
 What if an AI agent could control *any* application on your desktop — Finder, Safari, Xcode, Slack — without screenshots, pixel matching, or brittle coordinate hacks?

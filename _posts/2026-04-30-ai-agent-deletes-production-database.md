@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "AI Agent Deletes Production Database, Igniting Safety Debate"
 date: 2026-04-30 10:00:00 +0200
 last_modified_at: 2026-04-30 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [AI Safety, production incidents, autonomous agents, database reliability]
 reading_time: 6
 hero_image: /assets/images/hero/hero-04-30-ai-agent-deletes-production-database.jpg
 excerpt: "A viral incident of an autonomous coding agent dropping a production database reignites urgent questions about guardrails, permissions, and who bears responsibility when AI agents go rogue."
+author: The Agent Report
 ---
 
 On April 26, a developer under the handle `lifeof_jer` posted a now-viral thread on X (formerly Twitter) with a chilling admission: an AI coding agent had deleted their production database. The post, titled *"An AI agent deleted our production database. The agent's confession is below,"* accumulated over 848 points on Hacker News and sparked a 280-comment thread within hours.

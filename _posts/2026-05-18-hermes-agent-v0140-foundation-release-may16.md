@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent v0.14.0 'Foundation' Lands: Grok OAuth, OpenAI-Compatible Proxy, PyPI, Native Windows Beta, and 155K Stars"
 date: 2026-05-18 10:00:00 +0200
 last_modified_at: 2026-05-18 10:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, open-source, v0.14.0, foundation-release, gr
 reading_time: 8
 hero_image: /assets/images/hero/hero-hermes-agent-v0140-foundation-release-may16.jpg
 excerpt: "Hermes Agent v0.14.0 'Foundation' ships on May 16 with xAI Grok via SuperGrok OAuth (1M context window), an OpenAI-compatible local proxy for any OAuth provider, first-class X/Twitter search tool, end-to-end Microsoft Teams support, a debloating wave with PyPI packaging, native Windows beta, cross-session Claude prompt caching, LSP diagnostics, computer_use for non-Anthropic models, and 155K GitHub stars."
+author: The Agent Report
 ---
 
 Just 9 days after the massive Tenacity release, Nous Research has shipped **Hermes Agent v0.14.0 — the "Foundation Release"** — and the name is deserved. This isn't a single-feature release; it's a sweeping infrastructure reset that makes Hermes Agent ***installable, runnable, and connectable*** from almost anywhere.

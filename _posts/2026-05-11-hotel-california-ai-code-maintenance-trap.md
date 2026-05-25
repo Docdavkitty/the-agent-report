@@ -2,6 +2,7 @@
 layout: post
 title: "The Hotel California of AI Code: Why Agentic Coding Is a Maintenance Trap"
 date: 2026-05-11 08:00:00 +0200
+last_modified_at: 2026-05-11 08:00:00 +0200
 categories: opinion
 tags: ai-coding-agents maintenance technical-debt productivity software-engineering
 reading_time: 9

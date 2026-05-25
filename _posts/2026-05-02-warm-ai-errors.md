@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Oxford Study Finds 'Warmer' AI Models Make 60% More Errors — a Cautionary Tale for Agent Designers"
 date: 2026-05-02 08:15:00 +0200
 last_modified_at: 2026-05-02 08:15:00 +0200
@@ -7,6 +8,7 @@ tags: [AI-safety, LLM-tuning, empathy, accuracy, research]
 reading_time: 6
 hero_image: /assets/images/hero/hero-05-02-warm-ai-errors.jpg
 excerpt: "New research from Oxford University's Internet Institute reveals that LLMs fine-tuned for 'warmth' and empathy make significantly more factual errors — raising important questions for anyone building AI agents that need to be both helpful and truthful."
+author: The Agent Report
 ---
 
 In human-to-human communication, the desire to be empathetic or polite often conflicts with the need to be brutally honest. Now, new research from **Oxford University's Internet Institute** suggests that large language models suffer from the same tension — and that trying to make them "warmer" comes at a measurable cost to accuracy.

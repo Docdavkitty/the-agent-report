@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Google Is Building 'Remy' — A 24/7 Personal AI Agent That Could Be Its Answer to OpenClaw"
 date: 2026-05-06 14:00:00 +0200
 last_modified_at: 2026-05-06 14:00:00 +0200
@@ -7,6 +8,7 @@ tags: [google, remy, gemini, openclaw, personal-agent, ai-competition, consumer-
 reading_time: 7
 hero_image: /assets/images/hero/hero-google-remy-agent-openclaw-rival.jpg
 excerpt: "Google is internally testing 'Remy' — a persistent, proactive AI agent deeply integrated with Google services that can monitor, plan, and act on behalf of users around the clock. The project signals Google's most serious answer yet to the OpenClaw phenomenon."
+author: The Agent Report
 ---
 
 Google is racing to build its own answer to OpenClaw — and it goes by the name of **Remy**.

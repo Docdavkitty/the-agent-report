@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent Performance Sprint: Adaptive Polling Cuts 1+ Second Per Turn, xAI Web Search Lands, and Security Hardening Touches Down"
 date: 2026-05-20 14:00:00 +0200
 last_modified_at: 2026-05-20 14:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, open-source, performance, xai-web-search, br
 reading_time: 6
 hero_image: /assets/images/hero/hero-hermes-agent-performance-sprint-may20.jpg
 excerpt: "Hermes Agent ships a coordinated performance cluster — adaptive subprocess polling cuts ~195ms per tool call and 1+ second per turn, deferred compression shaves ~440ms off cold starts — alongside an xAI Web Search provider plugin, auto-launch Chromium-family browser for CDP, critical security hardening for plugin tool overrides, and Kanban dashboard task-outcome surfacing."
+author: The Agent Report
 ---
 
 Two days after the massive v0.14.0 "Foundation" release, the Hermes Agent team has been far from idle. A coordinated **performance sprint** — four PRs shipping in a single day — delivers the kind of user-visible speed improvements that make the agent feel snappier on every single turn. Alongside the perf work, we got a new web search provider (xAI), auto-launch browser support for CDP, critical security hardening around plugin tool overrides, and significant Kanban dashboard improvements.

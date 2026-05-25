@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent Goes Global with i18n, Smart Skill Tiers, and Mac Sandbox: Platform Maturity Accelerates Past 135K Stars"
 date: 2026-05-06 12:00:00 +0200
 last_modified_at: 2026-05-06 12:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, open-source, i18n, skill-management, mac-san
 reading_time: 6
 hero_image: /assets/images/hero/hero-hermes-agent-i18n-skill-lifecycle-mac-sandbox-may6.jpg
 excerpt: "Hermes Agent crosses 135K GitHub stars as Teknium1 merges official i18n support (zh/ja/de/es), the Smart Skill Lifecycle Management PR lands from the Chinese community fork, and Mac sandboxed agent orchestration brings enterprise-grade security — all in a single 24-hour window."
+author: The Agent Report
 ---
 
 Hermes Agent, the open-source AI runtime from **Nous Research**, has crossed **135,066 GitHub stars** — up roughly 3,200 stars in just two days since the May 4 community salvage wave. But the star count is only part of the story. In the past 24 hours, three major platform features have landed or been proposed that signal a decisive shift: Hermes Agent is maturing from a powerful single-user CLI tool into a globally accessible, enterprise-ready agent platform.

@@ -1,5 +1,6 @@
 ---
 title: "Hermes Agent's Community Ecosystem Explosion: 276 Use Cases, 6K-Star Web UIs, Go & Android Ports, and 165K GitHub Stars"
+layout: post
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
 categories: [hermes-agent]
@@ -7,6 +8,7 @@ tags: [hermes-agent, nous-research, open-source, community-ecosystem, web-ui, go
 reading_time: 7
 hero_image: /assets/images/hero/hero-hermes-agent-community-ecosystem-may25.jpg
 excerpt: "Three months after launch, Hermes Agent's community has built an ecosystem of 276 documented use cases across 16 categories, web UIs surpassing 6,000 GitHub stars, native Go and Android ports, multi-agent orchestration frameworks, and persistent memory systems — all while the core repo crosses 165K stars and 1,184 contributors."
+author: The Agent Report
 ---
 
 Three months ago, Nous Research shipped Hermes Agent — an open-source, self-improving AI agent with a built-in learning loop. The core project has been shipping at a breakneck pace: v0.14.0 "Foundation" landed May 16, a performance sprint followed two days later, and profile distributions unlocked agent sharing via git. But the most important story of late May 2026 isn't happening inside the core repository.

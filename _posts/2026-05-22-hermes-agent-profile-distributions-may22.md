@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent Profile Distributions — Share Complete Agents as Git Repos"
 date: 2026-05-22 14:00:00 +0200
 last_modified_at: 2026-05-22 14:00:00 +0200
@@ -7,6 +8,7 @@ tags: [hermes-agent, nous-research, open-source, profile-distributions, agent-sh
 reading_time: 6
 hero_image: /assets/images/hero/hero-hermes-agent-profile-distributions-may22.jpg
 excerpt: "Hermes Agent introduces Profile Distributions — a new mechanism to package complete agents (personality, skills, cron, MCP configs) as git repositories for one-command installation, git-based updates, and community sharing."
+author: The Agent Report
 ---
 
 A profile is a fully isolated Hermes environment. But until now, sharing a finely-tuned profile with someone else meant either sending them your config files manually or asking them to clone your home directory — neither of which is practical at scale.

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "TokenSpeed: LightSeek's Speed-of-Light Inference Engine Redesigns LLM Serving from First Principles for Agentic Workloads"
 date: 2026-05-07 12:00:00 +0200
 last_modified_at: 2026-05-07 12:00:00 +0200
@@ -7,6 +8,7 @@ tags: [lightseek, tokenspeed, inference-engine, llm-serving, agentic-workloads, 
 reading_time: 8
 hero_image: /assets/images/hero/hero-tokenspeed-lightseek-inference-engine-agentic-workloads.jpg
 excerpt: "LightSeek Foundation has open-sourced TokenSpeed, a from-first-principles LLM inference engine purpose-built for agentic workloads. With a compiler-backed SPMD modeling layer, a high-performance scheduler, safe KV resource reuse, and heterogeneous accelerator support, TokenSpeed claims to squeeze significantly more throughput per GPU for the unique traffic patterns of coding and tool-use agents."
+author: The Agent Report
 ---
 
 ## The Inference Bottleneck No One Is Talking About

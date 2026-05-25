@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent v0.11.0 'Interface' — Ink TUI, AWS Bedrock, GPT-5.5, and 17 Platforms"
 date: 2026-04-30 12:56:00 +0200
 last_modified_at: 2026-04-30 12:56:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, release, v0.11, TUI, AWS Bedrock, GPT-5.5, Q
 reading_time: 4
 hero_image: /assets/images/hero/hero-04-30-hermes-agent-v0110-interface-release.jpg
 excerpt: "Nous Research ships Hermes Agent v0.11.0 with a full React/Ink TUI rewrite, native AWS Bedrock support, GPT-5.5 via Codex OAuth, five new inference paths, the 17th messaging platform (QQBot), and a dramatically expanded plugin surface."
+author: The Agent Report
 ---
 
 Hermes Agent, the open-source AI runtime from **Nous Research** that's taken GitHub by storm (126K+ stars), has just shipped **v0.11.0 "Interface"** — its largest release yet. With 1,556 commits, 761 merged PRs, and contributions from 29 community members across two weeks of intense development, this release redefines how developers interact with and extend the agent.

@@ -2,11 +2,13 @@
 layout: post
 title: "Statewright: Visual State Machines That Finally Make AI Agents Reliable — No Prompt Engineering Required"
 date: 2026-05-13 10:00:00 +0200
+last_modified_at: 2026-05-13 10:00:00 +0200
 categories: [tools-frameworks]
 tags: [statewright, state-machines, agent-reliability, guardrails, mcp, claude-code, rust]
 hero_image: /assets/images/hero/hero-statewright-visual-state-machines-ai-agent-reliability.jpg
 reading_time: 6
 excerpt: "Statewright is a Rust-powered visual state machine framework that enforces per-phase tool access for AI coding agents. In benchmarks, two local models went from 2/10 to 10/10 on SWE-bench tasks — no prompt changes, no bigger models, just structural guardrails."
+author: The Agent Report
 ---
 
 **"Agents are suggestions, states are laws."**

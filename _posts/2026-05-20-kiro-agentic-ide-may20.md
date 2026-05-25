@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Kiro: A New Agentic IDE That Rewrites the Rules of Spec-Driven Development"
 date: 2026-05-20 10:30:00 +0200
 last_modified_at: 2026-05-20 10:30:00 +0200
@@ -7,6 +8,7 @@ tags: [agentic-ide, spec-driven-development, kiro, developer-tools, vscode-alter
 reading_time: 8
 hero_image: /assets/images/hero/hero-kiro-agentic-ide-may20.jpg
 excerpt: "Kiro, the new agentic IDE from Nathan K. P., lands with 3,736 GitHub stars and 1,063 HN points on day one. It introduces spec-driven development — a structured workflow that turns natural-language specifications into production code — and challenges Cursor, Windsurf, and Claude Code on their own turf."
+author: The Agent Report
 ---
 
 The IDE wars just got a new contender. **Kiro**, an agentic IDE built from the ground up for the era of AI-assisted development, launched today and immediately shot to the top of Hacker News with **1,063 points** and **3,736 GitHub stars**. Created by Nathan K. P. (NathanKP) — a developer who spent nearly a year on the project — Kiro is not just another VS Code fork. It introduces a fundamentally different approach to how developers interact with AI agents: **spec-driven development**.

@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Google's Project Mariner: Agents in the Browser"
 date: 2025-04-18 16:00:00 +0200
 last_modified_at: 2025-04-18 16:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Google, browser-agents, Gemini, Project-Mariner]
 hero_image: /assets/images/hero/hero-04-18-google-project-mariner-browser-agent.jpg
 reading_time: 5
 excerpt: "Google's experimental browser agent, Project Mariner, demonstrates how Gemini can navigate the web and complete tasks autonomously."
+author: The Agent Report
 ---
 
 Google has unveiled **Project Mariner**, an experimental browser-based agent powered by Gemini. The prototype can navigate websites, fill forms, extract data, and complete multi-step web tasks — all through a Chrome extension.

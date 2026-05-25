@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "MCP: The Protocol That's Unlocking Agentic Tool Use"
 date: 2025-04-28 09:00:00 +0200
 last_modified_at: 2025-04-28 09:00:00 +0200
@@ -7,6 +8,7 @@ tags: [MCP, protocol, tool-use, interoperability]
 hero_image: /assets/images/hero/hero-04-28-mcp-protocol-agentic-tool-use.jpg
 reading_time: 7
 excerpt: "How the Model Context Protocol is creating a universal standard for connecting LLMs to tools, data sources, and APIs."
+author: The Agent Report
 ---
 
 The Model Context Protocol (MCP), introduced by Anthropic, is rapidly becoming the standard for connecting large language models to external tools and data sources. Unlike previous approaches that required custom integrations for every tool and every model, MCP provides a uniform, open protocol inspired by language server protocol (LSP) patterns.

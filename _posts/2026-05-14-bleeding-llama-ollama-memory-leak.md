@@ -2,11 +2,13 @@
 layout: post
 title: "Bleeding Llama — Critical Ollama Memory Leak Exposes User Prompts, System Instructions, and Environment Secrets"
 date: 2026-05-14 14:00:00 +0200
+last_modified_at: 2026-05-14 14:00:00 +0200
 categories: [research]
 tags: [meta, llama, open-source, ollama, security-vulnerability, local-llm, llm-security]
 hero_image: /assets/images/hero/hero-bleeding-llama-ollama-memory-leak.jpg
 reading_time: 7
 excerpt: "Cyera Research has disclosed a critical unauthenticated memory leak vulnerability in Ollama — the de facto standard for running Llama models locally. Dubbed 'Bleeding Llama,' the bug allows attackers to exfiltrate user prompts, system prompts, and environment variables from any exposed Ollama server with just three API calls. With ~300,000 servers exposed online, this is the most serious Ollama security issue to date."
+author: The Agent Report
 ---
 
 **Ollama — the open-source platform that powers local Llama inference for hundreds of thousands of developers — has a critical vulnerability that lets attackers siphon every user's conversation history, system prompts, and machine environment variables straight from the server's heap memory.**

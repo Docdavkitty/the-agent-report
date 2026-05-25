@@ -2,11 +2,13 @@
 layout: post
 title: "LLMs Corrupt Your Documents When You Delegate — Inside the DELEGATE-52 Study"
 date: 2026-05-10 08:00:00 +0200
+last_modified_at: 2026-05-10 08:00:00 +0200
 categories: research
 tags: safety delegation document-integrity trust research
 reading_time: 7
 excerpt: "A new benchmark reveals that even frontier models like Gemini 3.1 Pro, Claude 4.6 Opus, and GPT 5.4 silently corrupt ~25% of document content during long delegation workflows. The findings have serious implications for the 'vibe coding' era."
 hero_image: /assets/images/hero/hero-llms-corrupt-documents-delegation.jpg
+author: The Agent Report
 ---
 
 A new paper dropped on arXiv this week titled **"LLMs Corrupt Your Documents When You Delegate"** — and its findings are as disturbing as the title suggests. The researchers introduce **DELEGATE-52**, a benchmark spanning 52 professional domains, and discover that even the best frontier models systematically degrade documents during long delegated workflows.

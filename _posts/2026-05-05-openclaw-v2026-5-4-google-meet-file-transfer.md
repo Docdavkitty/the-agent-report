@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Openclaw v2026.5.4: Google Meet Voice Integration, File Transfer Plugin, and 368K GitHub Stars"
 date: 2026-05-05 14:30:00 +0200
 last_modified_at: 2026-05-05 14:30:00 +0200
@@ -7,6 +8,7 @@ tags: [openclaw, claw-controller, agent-autonomy, google-meet, voice-agents]
 reading_time: 7
 hero_image: /assets/images/hero/hero-openclaw-v2026-5-4-google-meet-file-transfer.jpg
 excerpt: "Openclaw hits v2026.5.4 with Google Meet voice call integration, a bundled file-transfer plugin, OpenRouter caching, WhatsApp Newsletter support, and over 120 fixes. The project now sits at an astonishing 368,455 GitHub stars — cementing its place as the fastest-growing open-source AI project."
+author: The Agent Report
 ---
 
 **Openclaw** — the open-source personal AI assistant that has taken the developer world by storm — shipped **v2026.5.4** today, a blockbuster release packing a Google Meet voice bridge, a built-in file-transfer plugin, OpenRouter caching support, WhatsApp Newsletter messaging, and over 120 bug fixes and performance improvements.

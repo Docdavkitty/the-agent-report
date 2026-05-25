@@ -2,11 +2,13 @@
 layout: post
 title: "Qwen3.7-Max: The Agent Frontier — Alibaba's New Model Redefines Open-Weight Agentic AI"
 date: 2026-05-21 08:00:00 +0200
+last_modified_at: 2026-05-21 08:00:00 +0200
 categories: research
 tags: [qwen, alibaba, agentic-ai, open-weights, frontier-models]
 reading_time: 8
 excerpt: "Alibaba's Qwen team releases Qwen3.7-Max — a frontier model purpose-built for agentic workloads that challenges proprietary alternatives on coding, tool-use, and multi-step reasoning. With open weights on the horizon, the balance of power in agentic AI is shifting."
 hero_image: /assets/images/hero/hero-qwen37-max-agent-frontier-may21.jpg
+author: The Agent Report
 ---
 
 # Qwen3.7-Max: The Agent Frontier — Alibaba's New Model Redefines Open-Weight Agentic AI

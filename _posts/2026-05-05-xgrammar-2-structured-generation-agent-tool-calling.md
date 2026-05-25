@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "XGrammar-2: 80x Faster Structured Generation That's Quietly Powering the Next Generation of AI Agents"
 date: 2026-05-05 14:00:00 +0200
 last_modified_at: 2026-05-05 14:00:00 +0200
@@ -7,6 +8,7 @@ tags: [structured-generation, tool-calling, xgrammar, mlc-ai, llm-inference, con
 reading_time: 8
 hero_image: /assets/images/hero/hero-xgrammar-2-structured-generation-agent-tool-calling.jpg
 excerpt: "MLC AI's XGrammar-2 introduces Structural Tag — a composable JSON protocol for tool calling, reasoning channels, and custom output structures — delivering up to 80x faster grammar compilation with near-zero overhead. Already adopted by SGLang, vLLM, TensorRT-LLM, and MLC-LLM, it's quietly becoming the backbone of reliable agent tool use across the industry."
+author: The Agent Report
 ---
 
 If you've ever watched an AI agent fumble a tool call — producing `{"city": "Paris"}` when the schema demanded `{"location": "Paris"}` — you know the pain of unreliable structured generation. It's the silent bottleneck that turns a promising agent demo into a debugging nightmare.

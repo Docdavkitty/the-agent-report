@@ -1,11 +1,14 @@
 ---
+layout: post
 title: "Meta AI Unveils Muse Spark — First Model from Meta Superintelligence Labs"
 date: 2026-05-05 14:00:00 +0200
+last_modified_at: 2026-05-05 14:00:00 +0200
 categories: [research]
 tags: [meta, llama, open-source, muse-spark, multimodal-reasoning, superintelligence]
 hero_image: /assets/images/hero/hero-meta-ai-muse-spark-superintelligence-labs.jpg
 reading_time: 6
 excerpt: "Meta AI launches Muse Spark, the first natively multimodal reasoning model from the newly-formed Meta Superintelligence Labs (MSL). Featuring Contemplating mode — multi-agent parallel reasoning — it competes directly with Gemini Deep Think and GPT Pro."
+author: The Agent Report
 ---
 
 **Meta AI has just unveiled Muse Spark**, the first model in the Muse family developed by the newly-formed **Meta Superintelligence Labs (MSL)**. This marks a significant strategic departure from the Llama lineage: rather than a pure open-weight release, Muse Spark is positioned as a **natively multimodal reasoning model** with tool-use, visual chain-of-thought, and multi-agent orchestration — and it ships directly into the Meta AI app.

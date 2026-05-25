@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "DeepClaude: Run DeepSeek V4 Pro Inside Claude Code at 17x Lower Cost"
 date: 2026-05-04 14:00:00 +0200
 last_modified_at: 2026-05-04 14:00:00 +0200
@@ -7,6 +8,7 @@ tags: [anthropic, claude, claude-code, deepseek, ai-agents]
 reading_time: 7
 hero_image: /assets/images/hero/hero-deepclaude-deepseek-claude-code-agent-loop.jpg
 excerpt: "DeepClaude swaps Claude Code's Anthropic backend for DeepSeek V4 Pro — slashing token costs 17x while keeping the full autonomous agent loop. With 544 HN points and 726 stars in under 24 hours, it's the fastest-growing agent tooling project this week."
+author: The Agent Report
 ---
 
 What if you could keep **everything** that makes Claude Code great — the tool loop, the file editing, the bash execution, the subagent spawning — but run it on a model that costs 17x less?

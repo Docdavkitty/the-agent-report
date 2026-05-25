@@ -2,11 +2,13 @@
 layout: post
 title: "TD Bank Cuts Mortgage Processing From 15 Hours to 3 Minutes with Agentic AI — A Blueprint for Enterprise Adoption"
 date: 2026-05-22 10:00:00 +0200
+last_modified_at: 2026-05-22 10:00:00 +0200
 categories: industry
 tags: [td-bank, agentic-ai, enterprise-ai, banking, fintech, automation, mortgage]
 reading_time: 7
 excerpt: "TD Bank Group launched its first agentic AI model, automating the pre-adjudication process for mortgages and HELOCs — reducing processing time from 15 hours to under 3 minutes per application. Developed by TD's AI centre of excellence Layer 6, this marks a $1B enterprise AI push and provides a real-world blueprint for financial institutions adopting agentic AI."
 hero_image: /assets/images/hero/hero-td-bank-agentic-ai-mortgage-may22.jpg
+author: The Agent Report
 ---
 
 # TD Bank Cuts Mortgage Processing From 15 Hours to 3 Minutes with Agentic AI — A Blueprint for Enterprise Adoption

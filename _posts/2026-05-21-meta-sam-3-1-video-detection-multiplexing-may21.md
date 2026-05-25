@@ -2,11 +2,13 @@
 layout: post
 title: "Meta SAM 3.1 — Faster Real-Time Video Detection and Tracking with Multiplexing and Global Reasoning"
 date: 2026-05-21 14:00:00 +0200
+last_modified_at: 2026-05-21 14:00:00 +0200
 categories: [research]
 tags: [meta, sam3, open-source, computer-vision, segment-anything, video-tracking, object-detection]
 hero_image: /assets/images/hero/hero-meta-sam-3-1-video-detection-multiplexing-may21.jpg
 reading_time: 8
 excerpt: "Meta's Segment Anything Model 3 gets a major update with SAM 3.1 — introducing Object Multiplex, a shared-memory approach for joint multi-object video tracking that delivers significantly faster inference without sacrificing accuracy. Here's the complete breakdown of what's new."
+author: The Agent Report
 ---
 
 **Meta has released SAM 3.1, a significant update to its Segment Anything Model 3, introducing Object Multiplex — a shared-memory architecture that enables joint multi-object tracking at substantially higher speeds than SAM 3, with no loss in accuracy.** The update, quietly published on GitHub and Hugging Face in late March, represents the most important improvement to Meta's open-source vision foundation model since SAM 3's initial release in July 2025.

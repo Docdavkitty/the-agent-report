@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Hermes Agent v0.13.0 \"Tenacity\" Lands — Multi-Agent Kanban, /goal Persistence, Checkpoints v2, and Major Security Hardening"
 date: 2026-05-08 16:00:00 +0200
 last_modified_at: 2026-05-08 16:00:00 +0200
@@ -7,6 +8,7 @@ tags: [Hermes Agent, Nous Research, open-source, v0.13.0, tenacity, multi-agent-
 reading_time: 7
 hero_image: /assets/images/hero/hero-hermes-agent-v0130-tenacity-release-may7.jpg
 excerpt: "Hermes Agent ships v0.13.0 'The Tenacity Release' — the biggest update yet. Multi-agent Kanban boards, /goal persistence, Checkpoints v2 with real pruning, 8 P0 security fixes with redaction ON by default, Google Chat as the 20th platform, pluggable providers, and seven i18n locales. Now at 138K GitHub stars."
+author: The Agent Report
 ---
 
 Hermes Agent, the open-source AI runtime from **Nous Research**, has released **v0.13.0 (v2026.5.7) — "The Tenacity Release"** — its most ambitious update to date. The release ships just one week after v0.12.0 "Curator" and represents **864 commits, 588 merged PRs, 829 files changed, 128,366 insertions, and 282 issues closed** (13 of them P0 severity). The project has also crossed **138,390 GitHub stars**, up from 135K just two days ago.
