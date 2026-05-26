@@ -12,9 +12,13 @@ layout: default
   <div class="newsletter-hero-content">
     <h2>🏆 Join 1,000+ AI builders</h2>
     <p>Get the <strong>top 3 AI Agent stories</strong> delivered every week — free, no spam, unsubscribe anytime.</p>
-    <form class="newsletter-form newsletter-hero-form" action="https://buttondown.com/api/emails/embed-subscribe/theagentreport" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/theagentreport','popupwindow');return true;">
-      <input type="email" name="email" placeholder="your@email.com" required class="newsletter-input hero-input">
-      <button type="submit" class="newsletter-btn hero-btn">Subscribe Free →</button>
+    <form
+      action="https://buttondown.com/api/emails/embed-subscribe/theagentreport"
+      method="post"
+      class="embeddable-buttondown-form newsletter-hero-form"
+    >
+      <input type="email" name="email" id="bd-email" placeholder="your@email.com" required class="newsletter-input hero-input">
+      <input type="submit" value="Subscribe Free →" class="hero-btn">
     </form>
     <p class="newsletter-hero-footnote">📬 Weekly digest · No spam · Built with Buttondown</p>
   </div>

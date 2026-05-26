@@ -29,9 +29,13 @@
         <p style="color:var(--text-muted);font-size:.82rem;margin-bottom:12px;line-height:1.5;">
           Get the latest AI Agent news delivered to your inbox.
         </p>
-        <form class="newsletter-form" action="https://buttondown.com/api/emails/embed-subscribe/theagentreport" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/theagentreport','popupwindow');return true;">
-          <input type="email" name="email" placeholder="your@email.com" required class="newsletter-input" aria-label="Email for newsletter">
-          <button type="submit" class="newsletter-btn">Subscribe</button>
+        <form
+          action="https://buttondown.com/api/emails/embed-subscribe/theagentreport"
+          method="post"
+          class="embeddable-buttondown-form"
+        >
+          <input type="email" name="email" id="bd-email" placeholder="your@email.com" required class="newsletter-input" aria-label="Email for newsletter">
+          <input type="submit" value="Subscribe" class="newsletter-btn">
         </form>
       </div>
     </div>

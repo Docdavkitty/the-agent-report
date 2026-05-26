@@ -99,9 +99,13 @@ layout: default
       <div class="cta-content">
         <h3>📬 Never miss an update</h3>
         <p>Get the latest AI Agent news delivered to your inbox.</p>
-        <form class="newsletter-form cta-form" action="https://buttondown.com/api/emails/embed-subscribe/theagentreport" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/theagentreport','popupwindow');return true;">
-          <input type="email" name="email" placeholder="your@email.com" required class="newsletter-input">
-          <button type="submit" class="newsletter-btn cta-btn">Subscribe</button>
+        <form
+          action="https://buttondown.com/api/emails/embed-subscribe/theagentreport"
+          method="post"
+          class="embeddable-buttondown-form cta-form"
+        >
+          <input type="email" name="email" id="bd-email" placeholder="your@email.com" required class="newsletter-input">
+          <input type="submit" value="Subscribe" class="cta-btn">
         </form>
       </div>
     </div>
