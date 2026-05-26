@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Meta's Muse Spark and the End of the All-Open Era — What the Hybrid Strategy Means for Open-Source AI"
+title: "Meta's Muse Spark: End of the Open-Source AI Era"
 date: 2026-05-26 14:00:00 +0200
 last_modified_at: 2026-05-26 14:00:00 +0200
 categories: [research]
