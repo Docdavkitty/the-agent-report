@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "State of AI Agents: May 2026 — 98 Stories, 7 Themes, and What Comes Next"
+title: "State of AI Agents: May 2026 — 98 Stories, 7 Key Themes"
 date: 2026-05-29 10:00:00 +0000
 last_modified_at: 2026-05-29 10:00:00 +0000
 categories: [research]
