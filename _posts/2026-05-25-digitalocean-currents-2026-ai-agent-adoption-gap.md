@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "The 10% Club: Why Only 1 in 10 Companies Are Scaling AI Agents Despite 67% Productivity Gains"
+title: "The 10% Club: Why Only 1 in 10 Scale AI Agents"
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
-5|last_modified_at: 2026-05-25 10:00:00 +0200
 meta_description: "67 % des organisations mesurent des gains de productivité avec les agents IA, mais seules 10 % passent à l'échelle — plombées par les coûts d'inférence qui se cumulent à chaque étape."
 categories: [industry]
 tags: [digitalocean, survey, adoption, inference, roi, scaling, enterprise]

@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Claude Design by Anthropic Labs: Building Visual Products by Talking to AI"
+title: "Claude Design: Building Visual Products by Talking to AI"
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
-5|last_modified_at: 2026-05-25 10:00:00 +0200
 meta_description: "Anthropic lance Claude Design, son premier produit Labs : créer prototypes, slides et visuels marketing par simple conversation, propulsé par Opus 4.7 et intégré à Canva."
 categories: [industry]
 tags: [anthropic, claude, claude-design, ai-design-tools, anthropic-labs, visual-ai]

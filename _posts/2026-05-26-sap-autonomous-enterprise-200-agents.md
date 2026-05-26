@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "SAP Autonomous Enterprise: 200+ AI Agents Take Over the World's ERP — A Deep Dive"
+title: "SAP Autonomous Enterprise: 200+ AI Agents Go Live"
 date: 2026-05-26 10:00:00 +0200
 last_modified_at: 2026-05-26 10:00:00 +0200
-5|last_modified_at: 2026-05-26 10:00:00 +0200
 meta_description: "SAP lance l'Autonomous Enterprise avec 200+ agents IA et 50 assistants Joule couvrant finance, supply chain, RH et CX — le déploiement agentique le plus ambitieux du secteur."
 categories: industry
 tags: [sap, enterprise-ai, autonomous-enterprise, joule, erp-ai, multi-agent]

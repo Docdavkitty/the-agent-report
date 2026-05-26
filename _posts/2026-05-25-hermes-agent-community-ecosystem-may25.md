@@ -1,9 +1,8 @@
 ---
-title: "Hermes Agent's Community Ecosystem Explosion: 276 Use Cases, 6K-Star Web UIs, Go & Android Ports, and 165K GitHub Stars"
+title: "Hermes Agent: 276 Use Cases, 165K Stars & Growing"
 layout: post
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
-5|last_modified_at: 2026-05-25 10:00:00 +0200
 meta_description: "Trois mois après son lancement, Hermes Agent explose : 276 cas d'usage, des Web UIs à 6000+ étoiles GitHub, des ports Go et Android, 165K stars et 1184 contributeurs."
 categories: [hermes-agent]
 tags: [hermes-agent, nous-research, open-source, community-ecosystem, web-ui, go-port, android, memory-systems, multi-agent-orchestration]

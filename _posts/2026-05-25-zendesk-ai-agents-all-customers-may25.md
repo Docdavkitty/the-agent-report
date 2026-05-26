@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Zendesk Opens the Floodgates: AI Agents Now Available to Every Customer"
+title: "Zendesk: AI Agents Now Available to Every Customer"
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
-5|last_modified_at: 2026-05-25 10:00:00 +0200
 meta_description: "Zendesk déploie ses agents IA avancés à tous ses clients, tous plans confondus. Un pivot qui fait de l'IA agentique non plus un luxe mais la norme du service client."
 categories: [business, industry]
 tags: [zendesk, customer-service, enterprise, automation, ai-agents, democratization]

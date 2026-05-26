@@ -3,7 +3,6 @@ layout: post
 title: "Complete Guide to AI Agents 2026: Frameworks, Architecture & Best Practices"
 date: 2026-05-26 08:00:00 +0200
 last_modified_at: 2026-05-26 08:00:00 +0200
-5|last_modified_at: 2026-05-26 08:00:00 +0200
 meta_description: "Guide complet 2026 : architecture des agents IA, frameworks, design patterns, systèmes multi-agents et déploiement en production — l'état de l'art du développement agentique."
 categories: research tools-frameworks
 tags: [ai-agents, guide, frameworks, architecture, best-practices, llm, tool-use, multi-agent, autonomous-systems, production]

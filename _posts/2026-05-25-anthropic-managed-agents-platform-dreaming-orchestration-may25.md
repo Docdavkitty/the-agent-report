@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "Anthropic's Agent Platform Comes of Age — Dreaming, Multiagent Orchestration, and Outcomes Hit General Availability"
+title: "Anthropic's Agent Platform: Dreaming & Multiagent Go GA"
 date: 2026-05-25 15:00:00 +0200
 last_modified_at: 2026-05-25 15:00:00 +0200
-5|last_modified_at: 2026-05-25 15:00:00 +0200
 meta_description: "Dreaming, orchestration multi-agent et Outcomes : la plateforme Claude Managed Agents passe en GA avec auto-amélioration entre sessions, collaboration multi-agent et validation autonome."
 categories: [industry]
 tags: [anthropic, claude, managed-agents, multiagent, dreaming, orchestration, outcomes, sandbox, advisor-model]
@@ -26,6 +25,8 @@ In practice, this means an agent deployed on a nightly schedule doesn't start fr
 The second pillar is **multiagent orchestration**. A lead agent can now delegate to specialist sub-agents working in parallel on a shared filesystem — each with its own model, prompt, and tool set. Full traceability is preserved in the Claude Console, addressing one of the hardest problems in multi-agent systems: observability.
 
 This isn't just a convenience feature. The architectural pattern mirrors what GitHub, Vercel, and Cognition described on stage at Code with Claude: splitting exploration from editing, using smaller models for routine tasks and larger ones for hard decisions. Anthropic's own **advisor tool** — now in public beta on the API — formalizes this: a Haiku-level executor handles the bulk of work, calling a more expensive Opus-level advisor only when strategic guidance is needed. GitHub's Mario Rodriguez called the approach "high-frequency trading for tokens," targeting cache-hit rates above 94%.
+
+This native multi-agent architecture differs from frameworks like CrewAI or LangGraph, which require explicit coordination logic in code. Anthropic embeds the pattern at the platform level — agents discover, delegate, and report back automatically, with full traceability through the Claude Console. For teams already in the Anthropic ecosystem, this dramatically reduces the operational overhead of multi-agent setups.
 
 ## Outcomes: The Agent That Grades Itself
 

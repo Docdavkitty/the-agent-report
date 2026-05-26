@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why You Shouldn't Put AI Agents on the Org Chart — HBR Study Reveals Five Hidden Risks of Anthropomorphizing Agents"
+title: "Why You Shouldn't Put AI Agents on the Org Chart"
 date: 2026-05-23 10:00:00 +0200
 last_modified_at: 2026-05-23 10:00:00 +0200
 categories: [research]
