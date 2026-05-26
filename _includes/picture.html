@@ -1,0 +1,6 @@
+<picture>
+  {% assign webp_src = include.src | replace: '.jpg', '.webp' | replace: '.png', '.webp' | replace: '.jpeg', '.webp' %}
+  <source srcset="{{ webp_src | relative_url }}" type="image/webp">
+  <source srcset="{{ include.src | relative_url }}" type="image/jpeg">
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}" {% if include.class %}class="{{ include.class }}"{% endif %} {% if include.loading %}loading="{{ include.loading }}"{% endif %} width="1200" height="630">
+</picture>

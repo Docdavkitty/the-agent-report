@@ -11,12 +11,11 @@ layout: default
 <section class="hero-section">
   <div class="hero-featured">
     <a href="{{ hero_post.url | relative_url }}">
-      <img
-        src="{% if hero_post.hero_image %}{{ hero_post.hero_image | relative_url }}{% else %}{{ '/assets/images/placeholder.svg' | relative_url }}{% endif %}"
-        alt="{{ hero_post.title }}"
-        class="hero-featured-image"
-        loading="eager"
-      >
+      {% if hero_post.hero_image %}
+        {% include picture.html src=hero_post.hero_image alt=hero_post.title class="hero-featured-image" loading="eager" %}
+      {% else %}
+        <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="{{ hero_post.title }}" class="hero-featured-image" loading="eager">
+      {% endif %}
     </a>
     <div class="hero-featured-body">
       {% for cat in hero_post.categories limit:1 %}
@@ -32,12 +31,11 @@ layout: default
   <div class="hero-sidebar">
     {% for post in side_posts %}
       <a href="{{ post.url | relative_url }}" class="hero-side-article">
-        <img
-          src="{% if post.hero_image %}{{ post.hero_image | relative_url }}{% else %}{{ '/assets/images/placeholder.svg' | relative_url }}{% endif %}"
-          alt="{{ post.title }}"
-          class="hero-side-article-image"
-          loading="lazy"
-        >
+        {% if post.hero_image %}
+          {% include picture.html src=post.hero_image alt=post.title class="hero-side-article-image" loading="lazy" %}
+        {% else %}
+          <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="{{ post.title }}" class="hero-side-article-image" loading="lazy">
+        {% endif %}
         <div class="hero-side-article-body">
           <span class="category-badge" style="font-size:.65rem;padding:2px 8px;margin-bottom:6px;display:inline-block;">
             {% for cat in post.categories limit:1 %}{{ cat | replace: '-', ' ' | capitalize }}{% endfor %}
@@ -60,7 +58,7 @@ layout: default
     {% for post in site.posts offset:4 limit:6 %}
       <article class="post-card">
         {% if post.hero_image %}
-          <img src="{{ post.hero_image | relative_url }}" alt="{{ post.title }}" class="post-card-image" loading="lazy">
+          {% include picture.html src=post.hero_image alt=post.title class="post-card-image" loading="lazy" %}
         {% endif %}
         <div class="post-card-body">
           <div class="post-card-meta">

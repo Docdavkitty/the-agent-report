@@ -49,6 +49,14 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# SEO — Organization + Social
+logo: /assets/images/logo.svg
+social:
+  name: The Agent Report
+  links:
+    - https://github.com/Docdavkitty/the-agent-report
+    - https://x.com/TheAgentReport
+
 # Exclude from processing
 exclude:
   - Gemfile
