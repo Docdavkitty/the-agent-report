@@ -5,6 +5,7 @@ date: 2026-06-02 10:00:00 +0000
 last_modified_at: 2026-06-02 10:00:00 +0000
 categories: [research]
 tags: [frameworks, comparison, open-source, guide, langchain, autogen, crewai, haystack, semantic-kernel, mastra, vercel-ai-sdk, openai-agents-sdk]
+hero_image: /assets/images/hero/hero-ultimate-guide-open-source-ai-agent-frameworks.jpg
 reading_time: 18
 excerpt: "A comprehensive, data-driven comparison of the 8 most important open-source AI agent frameworks in 2026 — LangChain/LangGraph, AutoGen, CrewAI, OpenAI Agents SDK, Haystack, Semantic Kernel, Mastra, and Vercel AI SDK — with a detailed comparison table, deep dives, and a practical decision guide."
 author: The Agent Report

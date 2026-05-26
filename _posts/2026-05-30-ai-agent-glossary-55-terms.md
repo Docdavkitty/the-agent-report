@@ -5,6 +5,7 @@ date: 2026-05-30 10:00:00 +0000
 last_modified_at: 2026-05-30 10:00:00 +0000
 categories: [research]
 tags: [glossary, ai-agents, reference, terminology, beginners-guide]
+hero_image: /assets/images/hero/hero-ai-agent-glossary-55-terms.jpg
 reading_time: 12
 excerpt: "Your go-to glossary of 55+ essential AI agent terms — from Agent Loop to Vector Database, MCP to RLHF. Clear definitions for developers and tech professionals navigating the agentic AI landscape in 2026."
 author: The Agent Report
