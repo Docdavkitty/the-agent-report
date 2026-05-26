@@ -89,9 +89,32 @@ layout: default
     <div class="post-tags">
       {% if page.tags %}
         {% for tag in page.tags %}
-          <span class="tag">{{ tag }}</span>
+          <a href="{{ '/tags/' | relative_url }}#{{ tag | slugify }}" class="tag">{{ tag }}</a>
         {% endfor %}
       {% endif %}
+    </div>
+
+    <!-- Newsletter CTA -->
+    <div class="post-newsletter-cta">
+      <div class="cta-content">
+        <h3>📬 Never miss an update</h3>
+        <p>Get the latest AI Agent news delivered to your inbox.</p>
+        <form class="newsletter-form cta-form" action="https://buttondown.email/api/emails/embed-subscribe/DrMBL" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.email/DrMBL','popupwindow');return true;">
+          <input type="email" name="email" placeholder="your@email.com" required class="newsletter-input">
+          <button type="submit" class="newsletter-btn cta-btn">Subscribe</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Social Share Buttons -->
+    <div class="post-share">
+      <span class="share-label">Share this article:</span>
+      <div class="share-buttons">
+        <a href="https://twitter.com/intent/tweet?text={{ page.title | uri_escape }}&url={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener" class="share-btn twitter" aria-label="Share on Twitter">𝕏</a>
+        <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener" class="share-btn linkedin" aria-label="Share on LinkedIn">in</a>
+        <a href="https://www.reddit.com/submit?url={{ page.url | absolute_url | uri_escape }}&title={{ page.title | uri_escape }}" target="_blank" rel="noopener" class="share-btn reddit" aria-label="Share on Reddit">Reddit</a>
+        <a href="mailto:?subject={{ page.title | uri_escape }}&body={{ page.url | absolute_url | uri_escape }}" target="_blank" rel="noopener" class="share-btn email" aria-label="Share via Email">✉️</a>
+      </div>
     </div>
 
     <!-- Related Articles -->

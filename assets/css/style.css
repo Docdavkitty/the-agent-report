@@ -406,6 +406,101 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 }
 .post-nav a { font-size: .9rem; font-weight: 500; }
 
+/* ─── Newsletter CTA in Article ─── */
+.post-newsletter-cta {
+  margin: 40px 0;
+  padding: 32px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius, 12px);
+  text-align: center;
+}
+.post-newsletter-cta h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.post-newsletter-cta p {
+  font-size: .88rem;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+.cta-form {
+  display: flex;
+  gap: 8px;
+  max-width: 420px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.cta-form .newsletter-input {
+  flex: 1;
+  min-width: 180px;
+  padding: 10px 14px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  font-size: .88rem;
+  background: var(--bg);
+  color: var(--text);
+}
+.cta-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: var(--accent, #6c5ce7);
+  color: #fff;
+  font-weight: 600;
+  font-size: .88rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity .2s;
+}
+.cta-btn:hover { opacity: .85; }
+
+/* ─── Social Share Buttons ─── */
+.post-share {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 24px 0 32px;
+  padding: 16px 0;
+  flex-wrap: wrap;
+}
+.share-label {
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+.share-buttons {
+  display: flex;
+  gap: 8px;
+}
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg-card);
+  color: var(--text-muted);
+  font-size: .85rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: all .2s;
+}
+.share-btn:hover {
+  border-color: var(--accent, #6c5ce7);
+  color: var(--accent, #6c5ce7);
+  transform: translateY(-2px);
+}
+.share-btn.twitter:hover { border-color: #1da1f2; color: #1da1f2; }
+.share-btn.linkedin:hover { border-color: #0a66c2; color: #0a66c2; }
+.share-btn.reddit:hover { border-color: #ff4500; color: #ff4500; }
+.share-btn.email:hover { border-color: var(--accent, #6c5ce7); color: var(--accent, #6c5ce7); }
+
 /* ─── Category Page ─── */
 .category-page { padding: 40px 0; }
 .category-header {
