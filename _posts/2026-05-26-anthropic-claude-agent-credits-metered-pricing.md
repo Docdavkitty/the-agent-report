@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Anthropic Splits Billing: Metered Credits for Claude Agents"
-date: 2026-05-26 14:00:00 +0200
-last_modified_at: 2026-05-26 14:00:00 +0200
+date: 2026-05-26 08:00:00 +0200
+last_modified_at: 2026-05-26 08:00:00 +0200
 meta_description: "Anthropic lance des crédits mensuels séparés pour l'usage programmatique de Claude (Agent SDK, CLI, GitHub Actions) — la fin de l'automatisation agentique à tarif fixe."
 categories: [industry]
 tags: [anthropic, claude, agent-pricing, billing, openclaw, agent-sdk, developer-ecosystem, ai-economics]
