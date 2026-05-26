@@ -3,6 +3,8 @@ layout: post
 title: "Microsoft RAMPART and Clarity: Open-Source Tools That Bring Safety Engineering to the Agent Age"
 date: 2026-05-26 10:00:00 +0200
 last_modified_at: 2026-05-26 10:00:00 +0200
+5|last_modified_at: 2026-05-26 10:00:00 +0200
+meta_description: "Microsoft publie RAMPART et Clarity en open source : tests de sécurité agentique intégrés à pytest et outil de revue de conception pour intégrer la sûreté dès le cycle de développement."
 categories: tools-frameworks
 tags: [microsoft, agent-safety, open-source, rampart, clarity, prompt-injection, ci-cd]
 reading_time: 8
@@ -146,11 +148,12 @@ Microsoft's vision is that agent safety becomes a **continuous engineering disci
 
 ## Industry Context: The Agent Safety Tooling Gap
 
-RAMPART and Clarity arrive at a moment of acute need. A recent [VentureBeat analysis](https://venturebeat.com/security/cisco-crowdstrike-rsac-2026-agent-identity-iam-gap-maturity-model) from RSAC 2026 highlighted that most enterprises lack even basic governance for agent identity, let alone systematic safety testing.
+RAMPART and Clarity arrive at a moment of [acute need]({% post_url 2026-05-23-agent-safety-trust-gap-may23 %}). A recent [VentureBeat analysis](https://venturebeat.com/security/cisco-crowdstrike-rsac-2026-agent-identity-iam-gap-maturity-model) from RSAC 2026 highlighted that most enterprises lack even basic governance for agent identity, let alone systematic safety testing.
 
 - **Cisco's Duo team** is building agent identity platforms that register agents as first-class objects with their own policies and authentication
 - **Palo Alto Networks** declared 2026 the "Year of the Defender" for AI security
 - **SAP's Autonomous Enterprise** relies on NVIDIA's OpenShell for hardware-backed agent runtime isolation
+- **CISA, NSA, and Five Eyes** allies published [joint AI agent security guidance]({% post_url 2026-05-03-cisa-nsa-five-eyes-ai-agent-security-guidance %}), establishing international standards for agent identity and access management
 
 Into this landscape, RAMPART brings something different: **developer-owned safety**. The tests live in the same repo, run in the same CI pipeline, and are authored by the same engineers building the agents. It democratizes safety engineering.
 
@@ -178,6 +181,6 @@ Microsoft has released both tools under open-source licenses on GitHub:
 
 The agent era is defined by a paradox: agents are becoming more capable and more autonomous at precisely the moment when safety engineering needs to become more rigorous and more developer-friendly. Microsoft's RAMPART and Clarity strike at the heart of that paradox — making agent safety a repeatable, testable, CI-integrated practice that any team can adopt.
 
-The question is no longer "Can we build an agent that does X?" It's now "Can we build an agent that does X **safely**?" With these tools, that second question finally has a practical answer.
+The question is no longer "Can we build an agent that does X?" It's now "Can we build an agent that does X **safely**?" With these tools — and complementary approaches like [Forge Guardrails]({% post_url 2026-05-20-forge-guardrails-local-agent-reliability-may20 %}) for local agent reliability — that second question finally has a practical answer.
 
 *Sources: [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/05/20/introducing-rampart-and-clarity-open-source-tools-to-bring-safety-into-agent-development-workflow/), [Microsoft RAMPART GitHub](https://github.com/microsoft/RAMPART), [Microsoft Clarity GitHub](https://github.com/microsoft/clarity-agent/), [VentureBeat — Agent IAM Gap](https://venturebeat.com/security/cisco-crowdstrike-rsac-2026-agent-identity-iam-gap-maturity-model)*

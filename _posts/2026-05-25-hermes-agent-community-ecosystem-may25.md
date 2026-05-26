@@ -3,6 +3,8 @@ title: "Hermes Agent's Community Ecosystem Explosion: 276 Use Cases, 6K-Star Web
 layout: post
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
+5|last_modified_at: 2026-05-25 10:00:00 +0200
+meta_description: "Trois mois après son lancement, Hermes Agent explose : 276 cas d'usage, des Web UIs à 6000+ étoiles GitHub, des ports Go et Android, 165K stars et 1184 contributeurs."
 categories: [hermes-agent]
 tags: [hermes-agent, nous-research, open-source, community-ecosystem, web-ui, go-port, android, memory-systems, multi-agent-orchestration]
 reading_time: 7
@@ -11,7 +13,7 @@ excerpt: "Three months after launch, Hermes Agent's community has built an ecosy
 author: The Agent Report
 ---
 
-Three months ago, Nous Research shipped Hermes Agent — an open-source, self-improving AI agent with a built-in learning loop. The core project has been shipping at a breakneck pace: v0.14.0 "Foundation" landed May 16, a performance sprint followed two days later, and profile distributions unlocked agent sharing via git. But the most important story of late May 2026 isn't happening inside the core repository.
+Three months ago, Nous Research shipped Hermes Agent — an open-source, self-improving AI agent with a built-in learning loop. The core project has been shipping at a breakneck pace: [v0.14.0 "Foundation"]({% post_url 2026-05-18-hermes-agent-v0140-foundation-release-may16 %}) landed May 16, a [performance sprint]({% post_url 2026-05-20-hermes-agent-performance-sprint-may20 %}) followed two days later, and [profile distributions]({% post_url 2026-05-22-hermes-agent-profile-distributions-may22 %}) unlocked agent sharing via git. But the most important story of late May 2026 isn't happening inside the core repository.
 
 **It's happening in the community.**
 
@@ -101,7 +103,7 @@ Nous Research CTO Jeffrey Quesnelle captured this on the [Practical AI podcast](
 > *"AI agents are evolving from static tools that respond to queries into autonomous collaborators that grow, learn, and improve through recursive interaction with their environment."*
 > — Jeffrey Quesnelle, on Practical AI
 
-With v0.14.0's PyPI packaging, native Windows beta, and profile distributions now in the wild, the barrier to entry has never been lower. The next three months will likely see this ecosystem multiply — and the agents themselves will be writing parts of it.
+With v0.14.0's PyPI packaging, native Windows beta, and [profile distributions]({% post_url 2026-05-22-hermes-agent-profile-distributions-may22 %}) now in the wild, the barrier to entry has never been lower. The next three months will likely see this ecosystem multiply — and the agents themselves will be writing parts of it.
 
 ---
 

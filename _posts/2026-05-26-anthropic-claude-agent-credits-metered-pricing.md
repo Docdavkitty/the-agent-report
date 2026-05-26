@@ -3,6 +3,8 @@ layout: post
 title: "Anthropic Splits Billing for Claude Agents — Programmatic Credits Mark the End of Flat-Rate Automation"
 date: 2026-05-26 14:00:00 +0200
 last_modified_at: 2026-05-26 14:00:00 +0200
+5|last_modified_at: 2026-05-26 14:00:00 +0200
+meta_description: "Anthropic lance des crédits mensuels séparés pour l'usage programmatique de Claude (Agent SDK, CLI, GitHub Actions) — la fin de l'automatisation agentique à tarif fixe."
 categories: [industry]
 tags: [anthropic, claude, agent-pricing, billing, openclaw, agent-sdk, developer-ecosystem, ai-economics]
 reading_time: 7
@@ -13,7 +15,7 @@ author: The Agent Report
 
 # Anthropic Splits Billing for Claude Agents — Programmatic Credits Mark the End of Flat-Rate Automation
 
-**May 26, 2026** — Anthropic announced today that starting **June 15, 2026**, it will separate programmatic Claude usage from standard chat subscriptions, introducing dedicated monthly credits for the **Claude Agent SDK**, `claude -p` CLI, GitHub Actions, and third-party frameworks like OpenClaw. The move reverses the company's controversial April ban on third-party agents — but replaces it with a system that many developers say effectively ends flat-rate agentic automation.
+**May 26, 2026** — Anthropic announced today that starting **June 15, 2026**, it will separate programmatic Claude usage from standard chat subscriptions, introducing dedicated monthly credits for the **Claude Agent SDK**, `claude -p` CLI, GitHub Actions, and third-party frameworks like [OpenClaw]({{ "/2026/05/openclaw-v2026-5-20-beta1-policy-plugin-compliance/" | relative_url }}). The move reverses the company's controversial April ban on third-party agents — but replaces it with a system that many developers say effectively ends flat-rate agentic automation.
 
 > *"Third-party services were really hard for us to do sustainably because they bypassed caching mechanisms."*
 > — **Boris Cherny, Head of Claude Code**
@@ -50,7 +52,7 @@ The reasoning was straightforward: some subscribers on $20–$200 flat-rate plan
 
 > The problem was less about bad actors and more about a fundamental mismatch: **flat-rate subscriptions were never designed for programmatic, multi-turn agent workloads.**
 
-**May 19, 2026:** Anthropic acquired **Stainless**, an API infrastructure company — signaling a shift toward more sophisticated billing and API management.
+**May 19, 2026:** Anthropic acquired **[Stainless]({{ "/2026/05/anthropic-acquires-stainless-sdk-mcp-agent-frontier/" | relative_url }})**, an API infrastructure company — signaling a shift toward more sophisticated billing and API management.
 
 **Late May 2026:** The company reversed course, restoring third-party access but wrapping it in the new credit system. As one VentureBeat analyst put it: *"Anthropic reinstates OpenClaw and third-party agent usage — with a catch."*
 
@@ -103,7 +105,7 @@ The contrast is revealing: while Chinese labs like DeepSeek race to the bottom o
 The era of subscription-based compute arbitrage — paying $20 for what would cost $1,000 at API rates — is effectively over. This has implications for:
 
 1. **Individual developers** running side projects and personal automations on Claude subscriptions
-2. **Open-source agent frameworks** like OpenClaw and Hermes Agent, which relied on subscriber API access for local experimentation
+2. **Open-source agent frameworks** like OpenClaw and [Hermes Agent]({{ "/2026/05/hermes-agent-community-ecosystem-may25/" | relative_url }}), which relied on subscriber API access for local experimentation
 3. **CI/CD pipelines** that use Claude for code review, test generation, and auto-fix
 4. **Small teams** that bypassed API billing by routing everything through a single Max subscription
 

@@ -3,6 +3,8 @@ layout: post
 title: "Anthropic's Agent Platform Comes of Age — Dreaming, Multiagent Orchestration, and Outcomes Hit General Availability"
 date: 2026-05-25 15:00:00 +0200
 last_modified_at: 2026-05-25 15:00:00 +0200
+5|last_modified_at: 2026-05-25 15:00:00 +0200
+meta_description: "Dreaming, orchestration multi-agent et Outcomes : la plateforme Claude Managed Agents passe en GA avec auto-amélioration entre sessions, collaboration multi-agent et validation autonome."
 categories: [industry]
 tags: [anthropic, claude, managed-agents, multiagent, dreaming, orchestration, outcomes, sandbox, advisor-model]
 reading_time: 6
@@ -11,11 +13,11 @@ excerpt: "Anthropic's Claude Managed Agents platform is now generally available 
 author: The Agent Report
 ---
 
-Three weeks after the **Code with Claude 2026** developer conference in San Francisco, Anthropic's agent platform story is snapping into focus — and it's bigger than a model update. The company has shipped a suite of capabilities that fundamentally change what Claude agents can do without human intervention: self-improvement between runs, coordinated multi-agent teams, and rubric-driven output validation that sends agents back to revise until they get it right.
+Three weeks after the **Code with Claude 2026** developer conference in San Francisco, Anthropic's agent platform story is snapping into focus — and it's bigger than a model update. The company has shipped a suite of capabilities that fundamentally change what Claude agents can do without human intervention: [self-improvement between runs]({% post_url 2026-05-24-moss-self-evolving-ai-agents-rewrite-code %}), coordinated multi-agent teams, and rubric-driven output validation that sends agents back to revise until they get it right.
 
 ## Dreaming: Agents That Learn While You Sleep
 
-The most conceptually ambitious feature is **Dreaming** — a scheduled process that reviews past agent sessions, identifies patterns, and curates memory for future runs. The name is apt: like biological sleep consolidating memories, Dreaming lets Claude Managed Agents improve between deployments by learning from what worked and what didn't.
+The most conceptually ambitious feature is **[Dreaming]({% post_url 2026-05-07-anthropic-managed-agents-dreaming-outcomes %})** — a scheduled process that reviews past agent sessions, identifies patterns, and curates memory for future runs. The name is apt: like biological sleep consolidating memories, Dreaming lets Claude Managed Agents improve between deployments by learning from what worked and what didn't.
 
 In practice, this means an agent deployed on a nightly schedule doesn't start from scratch each run. It carries forward insights, avoids repeating mistakes, and builds institutional knowledge over time. Combined with the newly launched **Memory for Managed Agents** (public beta), which provides filesystem-based persistent memory with audit logs and API control, agents can now accumulate context across sessions in a way that was previously only possible with custom scaffolding.
 
@@ -39,7 +41,7 @@ Meanwhile, **programmatic tool calling** has graduated to general availability. 
 
 ## The Bigger Picture: 80× Revenue Growth and the Infrastructure Bottleneck
 
-Anthropic disclosed at Code with Claude that Q1 2026 revenue grew **80×** on an annualized basis against a planned 10×, reaching $30 billion annualized. Usage-based pricing is driving consumption so aggressively that enterprise customers are exhausting token budgets within months.
+Anthropic disclosed at Code with Claude that Q1 2026 revenue grew **80×** on an annualized basis against a planned 10×, reaching $30 billion annualized. [Usage-based pricing]({% post_url 2026-05-26-anthropic-claude-agent-credits-metered-pricing %}) is driving consumption so aggressively that enterprise customers are exhausting token budgets within months.
 
 But the most telling line came from Jess Yan and Lance Martin's Managed Agents session: **"Infrastructure, not intelligence, is now the bottleneck for production agents."** Every feature in this wave — Dreaming, multiagent orchestration, Outcomes, self-hosted sandboxes, MCP tunnels — addresses that exact bottleneck. It's no longer about whether the model is smart enough; it's about whether the platform can run it safely, reliably, and economically at scale.
 

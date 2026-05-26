@@ -3,6 +3,8 @@ layout: post
 title: "The 10% Club: Why Only 1 in 10 Companies Are Scaling AI Agents Despite 67% Productivity Gains"
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
+5|last_modified_at: 2026-05-25 10:00:00 +0200
+meta_description: "67 % des organisations mesurent des gains de productivité avec les agents IA, mais seules 10 % passent à l'échelle — plombées par les coûts d'inférence qui se cumulent à chaque étape."
 categories: [industry]
 tags: [digitalocean, survey, adoption, inference, roi, scaling, enterprise]
 hero_image: /assets/images/hero/hero-digitalocean-currents-2026-ai-agent-adoption-gap.jpg
@@ -52,7 +54,7 @@ The report's most sobering finding isn't about capability — it's about cost.
 - **49%** of respondents cite the **high cost of inference at scale** as their #1 barrier
 - **44%** spend **76–100% of their AI budget on inference alone** — not training, not fine-tuning, just running the models
 
-This is the "inference tax" in action. Unlike traditional SaaS where costs are relatively predictable, AI agents confound cost models because:
+This is the "inference tax" in action. [Anthropic's new metered credits system]({% post_url 2026-05-26-anthropic-claude-agent-credits-metered-pricing %}) represents one emerging approach to making agent workloads more predictable, though the industry is still searching for the right economic formula. Unlike traditional SaaS where costs are relatively predictable, AI agents confound cost models because:
 
 1. **Every reasoning step burns tokens.** Plan → act → observe → replan. Each cycle costs money.
 2. **Self-correction multiplies cost.** When an agent retries a failed action, the user pays for both the error *and* the retry.
@@ -72,11 +74,11 @@ Agents hallucinate. They get stuck in loops. They misunderstand tool outputs. In
 
 ### 2. Observability Is Immature
 
-When a human employee makes a mistake, a manager can ask "what happened?" When an AI agent fails, the answer is often buried in thousands of tokens of reasoning traces. Only **21%** of respondents report using agents for data analysis — a domain where chains of reasoning are long, errors compound silently, and debugging is notoriously difficult.
+When a human employee makes a mistake, a manager can ask "what happened?" When an AI agent fails, the answer is often buried in thousands of tokens of reasoning traces. Only **21%** of respondents report using agents for data analysis — a domain where chains of reasoning are long, errors compound silently, and debugging is notoriously difficult. The [LangChain State of Agent Engineering report]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) echoes this finding — observability and evaluation tooling remain the biggest gaps preventing teams from moving agents beyond proof-of-concept stages.
 
 ### 3. Organizational Readiness Lags
 
-Implementing an AI agent isn't just a technical decision. It requires process redesign, retraining, and — perhaps hardest of all — trust. The 32% who report "reduced need to hire additional staff" hints at the labor implications that make agent adoption politically fraught inside organizations.
+Implementing an AI agent isn't just a technical decision. It requires process redesign, retraining, and — perhaps hardest of all — trust. [HBR's research on AI agents reshaping organizational charts]({% post_url 2026-05-23-hbr-ai-agents-org-chart-research-2026 %}) confirms that the companies seeing the most success are fundamentally rethinking team structures, not just bolting agents onto existing workflows. The 32% who report "reduced need to hire additional staff" hints at the labor implications that make agent adoption politically fraught inside organizations.
 
 ## What the 10% Do Differently
 

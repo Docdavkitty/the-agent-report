@@ -17,7 +17,7 @@ author: The Agent Report
 
 ## The Big Number: 57% Have Agents in Production
 
-LangChain's survey reveals that **57% of organizations now have AI agents in production**, up from 51% the previous year. Among large enterprises (10,000+ employees), that figure jumps to **67%**. This isn't a distant trend — it's happening inside the companies that build your software, manage your finances, and treat your healthcare.
+LangChain's survey reveals that **57% of organizations now have AI agents in production**, up from 51% the previous year. Among large enterprises (10,000+ employees), that figure jumps to **67%**. A complementary [DigitalOcean survey of developers]({% post_url 2026-05-25-digitalocean-currents-2026-ai-agent-adoption-gap %}) confirms this enterprise momentum while revealing a persistent gap between AI tool availability and team readiness. This isn't a distant trend — it's happening inside the companies that build your software, manage your finances, and treat your healthcare.
 
 Datadog's production telemetry confirms the explosion in a different way: **LLM agent framework adoption nearly doubled year-over-year**, from just over 9% in early 2025 to roughly 18% in early 2026. The number of services using agentic frameworks more than doubled in the same period.
 
@@ -29,7 +29,7 @@ Datadog's production telemetry confirms the explosion in a different way: **LLM 
 
 ## Quality Is Still the #1 Barrier — But Security Is Rising Fast
 
-For the second year running, **quality** — accuracy, relevance, consistency, and tone — is the top barrier to production deployment, cited by **32% of respondents**. But the report uncovers a nuance: at organizations with over 2,000 employees, **security** surges to the #2 position (24.9%), overtaking latency.
+For the second year running, **quality** — accuracy, relevance, consistency, and tone — is the top barrier to production deployment, cited by **32% of respondents**. But the report uncovers a nuance: at organizations with over 2,000 employees, **security** surges to the #2 position (24.9%), overtaking latency. This shift mirrors findings from [HBR's research on AI agents and organizational design]({% post_url 2026-05-23-hbr-ai-agents-org-chart-research-2026 %}), which shows that governance and structural challenges intensify as agent deployments scale across the enterprise.
 
 > "For orgs with 10k+ employees, write-in responses pointed to hallucinations and consistency of outputs as the biggest challenge in ensuring agent quality." — **LangChain Report**
 
@@ -85,6 +85,8 @@ At large enterprises (10k+), the priorities shift: **internal productivity** ran
 The most-used daily agents, by write-in response, are **coding assistants** (Claude Code, Cursor, GitHub Copilot, Amazon Q, Windsurf), **research agents** (ChatGPT, Claude, Gemini, Perplexity), and **custom agents** built on LangChain/LangGraph for QA, search, SQL generation, demand planning, and workflow automation.
 
 > "A meaningful minority noted they don't yet use agents beyond LLM chat or coding assistance — broader 'agentic everything' is still in its early innings." — **LangChain Report**
+
+Yet some organizations are already far past the experimentation phase. [SAP's Autonomous Enterprise initiative]({% post_url 2026-05-26-sap-autonomous-enterprise-200-agents %}) now runs over **200 agents** in production, offering a glimpse of what scaled, industrial-grade agent deployment looks like.
 
 ## Self-Hosted Models and Fine-Tuning: The Myths
 

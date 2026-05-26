@@ -3,6 +3,8 @@ layout: post
 title: "Complete Guide to AI Agents 2026: Frameworks, Architecture & Best Practices"
 date: 2026-05-26 08:00:00 +0200
 last_modified_at: 2026-05-26 08:00:00 +0200
+5|last_modified_at: 2026-05-26 08:00:00 +0200
+meta_description: "Guide complet 2026 : architecture des agents IA, frameworks, design patterns, systèmes multi-agents et déploiement en production — l'état de l'art du développement agentique."
 categories: research tools-frameworks
 tags: [ai-agents, guide, frameworks, architecture, best-practices, llm, tool-use, multi-agent, autonomous-systems, production]
 hero_image: /assets/images/hero/hero-complete-guide-ai-agents-2026.jpg
@@ -88,6 +90,8 @@ This is the software layer that orchestrates the model, tools, and memory. Optio
 Tools connect agents to the outside world. The 2026 landscape:
 
 **MCP (Model Context Protocol)** — Anthropic's open protocol that has become the industry standard. Think of it as "USB-C for AI agents" — a universal connector that any MCP-compatible agent can use to discover and invoke any MCP-compatible server.
+
+[Read more: MCP Protocol — Agentic Tool Use Deep Dive]({% post_url 2025-04-28-mcp-protocol-agentic-tool-use %})
 
 Key MCP servers include:
 - Filesystem access
@@ -179,6 +183,8 @@ Deploying agents to production is different from deploying traditional software.
 - **Timeout handling**: Set generous but firm timeouts on agent runs
 - **Cost tracking**: Monitor token usage per session — runaway agent loops can be expensive
 
+[Read more: State of Agent Engineering 2026 — Reliability & Production Patterns]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %})
+
 ### Scaling
 
 - **Session management**: Each user conversation is a separate agent session with its own context
@@ -205,6 +211,8 @@ Open-source agent runtime focused on flexibility and local-first operation. Key 
 - **Voice & messaging** — Telegram, Discord, and voice interface support
 
 Best for: Developers who want a local-first, open-source agent they can customize fully.
+
+[See our full coverage: Hermes Agent's Community Ecosystem Explosion]({% post_url 2026-05-25-hermes-agent-community-ecosystem-may25 %})
 
 ### OpenAI Agents SDK
 

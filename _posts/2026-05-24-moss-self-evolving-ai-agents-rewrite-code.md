@@ -3,6 +3,8 @@ layout: post
 title: "MOSS: The Dawn of Self-Evolving AI Agents That Rewrite Their Own Code"
 date: 2026-05-24 10:00:00 +0200
 last_modified_at: 2026-05-24 10:00:00 +0200
+5|last_modified_at: 2026-05-24 10:00:00 +0200
+meta_description: "MOSS : des agents IA capables d'analyser leurs faiblesses, réécrire leur code source, valider via des tests automatisés et se redéployer sans humain dans la boucle."
 categories: [research]
 tags: [moss, self-evolving-agents, code-generation, agent-research, autonomous-systems, ai-safety, self-modification]
 hero_image: /assets/images/hero/hero-moss-self-evolving-ai-agents-rewrite-code.jpg
@@ -68,7 +70,7 @@ The MOSS paper isn't an isolated curiosity — it arrives at a moment when sever
 
 ### 1. The Cost of Human-in-the-Loop
 
-The LangChain State of Agent Engineering report, published just this week, found that **quality is the #1 barrier to production agent deployment** (cited by 32% of practitioners). The bottleneck isn't model capability — it's the manual effort required to debug, patch, and improve agent behavior. MOSS directly attacks this bottleneck.
+The [LangChain State of Agent Engineering]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) report, published just this week, found that **quality is the #1 barrier to production agent deployment** (cited by 32% of practitioners). The bottleneck isn't model capability — it's the manual effort required to debug, patch, and improve agent behavior. MOSS directly attacks this bottleneck.
 
 ### 2. The Scale Problem
 
@@ -76,7 +78,7 @@ As agents multiply in production (57% of organizations now have agents deployed,
 
 ### 3. The Compilation Convergence
 
-Notably, MOSS shares thematic DNA with another paper from the same week — *Compiling Agentic Workflows into LLM Weights*, which demonstrates distilling multi-step agent pipelines into single fine-tuned models at **two orders of magnitude less cost**. Together, these papers suggest a future where agents improve through two parallel mechanisms:
+Notably, MOSS shares thematic DNA with another paper from the same week — [*Compiling Agentic Workflows into LLM Weights*]({% post_url 2026-05-22-agent-jit-compilation-icml-2026 %}), which demonstrates distilling multi-step agent pipelines into single fine-tuned models at **two orders of magnitude less cost**. Together, these papers suggest a future where agents improve through two parallel mechanisms:
 
 | Approach | MOSS (Source Rewriting) | Workflow Compilation |
 |----------|------------------------|---------------------|
@@ -87,7 +89,7 @@ Notably, MOSS shares thematic DNA with another paper from the same week — *Com
 
 ## The Risk Landscape
 
-Self-evolving agents introduce a new category of risk that the agent safety community has been warning about:
+Self-evolving agents introduce a new category of risk that the [agent safety community]({% post_url 2026-05-23-agent-safety-trust-gap-may23 %}) has been warning about:
 
 ### Cascading Self-Modification
 

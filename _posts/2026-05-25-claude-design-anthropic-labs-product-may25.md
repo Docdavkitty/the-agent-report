@@ -3,6 +3,8 @@ layout: post
 title: "Claude Design by Anthropic Labs: Building Visual Products by Talking to AI"
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
+5|last_modified_at: 2026-05-25 10:00:00 +0200
+meta_description: "Anthropic lance Claude Design, son premier produit Labs : créer prototypes, slides et visuels marketing par simple conversation, propulsé par Opus 4.7 et intégré à Canva."
 categories: [industry]
 tags: [anthropic, claude, claude-design, ai-design-tools, anthropic-labs, visual-ai]
 hero_image: /assets/images/hero/hero-claude-design-anthropic-labs-product-may25.jpg
@@ -13,7 +15,7 @@ author: The Agent Report
 
 **On April 17, 2026, Anthropic launched Claude Design — the first product under its new [Anthropic Labs](https://www.anthropic.com/news/introducing-anthropic-labs) banner — marking the company's first deliberate step beyond chat interfaces and coding terminals into the visual creation space.** The move was seismic: Figma shares dropped 6%, Adobe 2.7%, and Wix 4.7% in a single day as markets digested what a conversational design surface means for the existing tooling landscape.
 
-Claude Design is not a "Figma clone." It is a fundamentally different approach to visual creation — one where the primary interface is conversation, not layers, frames, or boolean groups. Powered by Claude Opus 4.7's enhanced vision and instruction-following capabilities, it lets users generate interactive prototypes, pitch decks, marketing collateral, and production-ready design systems simply by describing what they want.
+Claude Design is not a "Figma clone." It is a fundamentally different approach to visual creation — one where the primary interface is conversation, not layers, frames, or boolean groups. Powered by [Claude Opus 4.7]({% post_url 2026-05-20-claude-opus-4-7-launch %})'s enhanced vision and instruction-following capabilities, it lets users generate interactive prototypes, pitch decks, marketing collateral, and production-ready design systems simply by describing what they want.
 
 ## How Claude Design Works
 
@@ -69,9 +71,11 @@ Claude Design represents a pattern that other AI agent platforms will likely fol
 
 The agent is no longer just writing code or answering questions — it is becoming the **primary interface for creative production**. This is a natural evolution of the "chat as operating system" thesis: if you can build a UI by describing it, the distinction between "designer" and "developer" starts to blur, and the entire product development lifecycle compresses.
 
+This launch also arrives alongside the [Managed Agents platform reaching GA]({% post_url 2026-05-25-anthropic-managed-agents-platform-dreaming-orchestration-may25 %}), bringing multiagent orchestration to the Anthropic ecosystem — a combination that lets organizations go from conversation to design to code to deployed multi-agent workflows without leaving the platform.
+
 ## Availability
 
-Claude Design is available in research preview to all Claude Pro, Max, Team, and Enterprise subscribers at [claude.ai/design](https://claude.ai/design). Enterprise customers can enable it via Organization settings. It uses your plan's existing subscription limits, with optional extra usage for heavy workloads.
+Claude Design is available in research preview to all Claude Pro, Max, Team, and Enterprise subscribers at [claude.ai/design](https://claude.ai/design). Enterprise customers can enable it via Organization settings. It uses your plan's existing subscription limits, with optional extra usage for heavy workloads. This release builds on Anthropic's recent platform expansion, including the [Claude Platform AWS]({% post_url 2026-05-12-claude-platform-aws-general-availability %}) general availability and the launch of [Claude for small business]({% post_url 2026-05-14-claude-for-small-business-agentic-workflows %}) with agentic workflows.
 
 > "What used to take a week of back-and-forth between PM, designer, and engineer now happens in a single conversation." — **Aneesh Kethini, Product Manager, Datadog**
 

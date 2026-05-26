@@ -3,6 +3,8 @@ layout: post
 title: "Google Search as You Know It Is Over: The AI Agent Revolution Begins at I/O 2026"
 date: 2026-05-24 08:00:00 +0200
 last_modified_at: 2026-05-24 08:00:00 +0200
+5|last_modified_at: 2026-05-24 08:00:00 +0200
+meta_description: "Google I/O 2026 : la fin des liens bleus. Search devient une plateforme agentique avec IA conversationnelle, UI générative et mini-apps pilotées par des agents autonomes."
 categories: [industry]
 tags: [google, google-io, search, ai-agents, information-agents, gemini, generative-ui]
 hero_image: /assets/images/hero/hero-google-io-2026-end-of-search-ai-agents.jpg
@@ -62,7 +64,7 @@ These aren't pre-built widgets — they're generated in real time by AI agents. 
 
 ## The Technology Stack Behind the Shift
 
-Internally, these features are powered by **Gemini models** (including the newly announced Gemini Flash 3.5) and **Google Antigravity**, the company's internal agentic development platform. Sundar Pichai emphasized that efficiency is the key enabler:
+Internally, these features are powered by **Gemini models** (including the newly announced [Gemini Flash 3.5]({% post_url 2026-05-21-gemini-35-flash-agent-frontier-may21 %})) and **Google Antigravity**, the company's internal agentic development platform. Sundar Pichai emphasized that efficiency is the key enabler:
 
 > "Part of the reason we focus on delivering frontier models — highly capable, but also very efficient, fast, and at a lower price — is because we want to bring it to as many people as possible."
 
@@ -79,6 +81,7 @@ For the agent engineering community, Google's announcements validate several tre
 | **Multi-modal synthesis** | Agents combine text, data, and visuals automatically |
 | **Natural language as UI** | The search box becomes an agent command center |
 | **Agent identity** | Each information agent has its own configuration and history |
+| **Industry benchmark** | The [State of Agent Engineering 2026]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) report confirms the shift toward managed, always-on agents |
 
 ### The Publisher Impact
 
@@ -92,7 +95,7 @@ For agent builders, this creates an interesting tension: the web's openness is t
 
 Google's announcement comes at a moment of intense competition in the agent space:
 
-- **Anthropic** recently raised substantial funding and launched enterprise agent services with Blackstone and Goldman Sachs
+- **Anthropic** recently raised substantial funding and launched enterprise agent services with Blackstone and Goldman Sachs, including [Anthropic Managed Agents]({% post_url 2026-05-25-anthropic-managed-agents-platform-dreaming-orchestration-may25 %})
 - **OpenAI** continues to push ChatGPT as an agent platform (900M weekly active users)
 - **Perplexity** has opened up its skills design core, enabling custom agent behaviors
 - **Microsoft** is embedding agents across its Copilot and Agent 365 ecosystem
