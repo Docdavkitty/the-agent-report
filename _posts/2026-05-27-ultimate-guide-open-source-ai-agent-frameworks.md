@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Ultimate Guide to Open Source AI Agent Frameworks in 2026"
-date: 2026-06-02 10:00:00 +0000
-last_modified_at: 2026-06-02 10:00:00 +0000
+date: 2026-05-27 10:00:00 +0000
+last_modified_at: 2026-05-27 10:00:00 +0000
 categories: [research]
 tags: [frameworks, comparison, open-source, guide, langchain, autogen, crewai, haystack, semantic-kernel, mastra, vercel-ai-sdk, openai-agents-sdk]
 hero_image: /assets/images/hero/hero-ultimate-guide-open-source-ai-agent-frameworks.jpg
