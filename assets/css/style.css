@@ -460,40 +460,40 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 
 /* ─── Newsletter Hero Banner (Homepage) ─── */
 .newsletter-hero {
-  background: linear-gradient(135deg, rgba(108,92,231,.12) 0%, rgba(0,206,201,.08) 100%);
+  background: linear-gradient(135deg, rgba(108,92,231,.08) 0%, rgba(0,206,201,.05) 100%);
   border: 1px solid var(--border-light);
   border-radius: var(--radius);
-  padding: 40px 32px;
-  margin: 32px 0;
+  padding: 20px 24px;
+  margin: 20px 0;
   text-align: center;
 }
-.newsletter-hero-content { max-width: 600px; margin: 0 auto; }
+.newsletter-hero-content { max-width: 520px; margin: 0 auto; }
 .newsletter-hero h2 {
-  font-size: 1.6rem;
-  font-weight: 800;
+  font-size: 1.15rem;
+  font-weight: 700;
   color: var(--text);
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
-.newsletter-hero p {
-  font-size: .95rem;
+.newsletter-hero > .newsletter-hero-content > p {
+  font-size: .82rem;
   color: var(--text-muted);
-  margin-bottom: 20px;
-  line-height: 1.5;
+  margin-bottom: 12px;
+  line-height: 1.4;
 }
 .newsletter-hero-form {
   display: flex;
-  gap: 8px;
+  gap: 6px;
   justify-content: center;
-  max-width: 460px;
+  max-width: 380px;
   margin: 0 auto;
 }
 .hero-input {
   flex: 1;
-  min-width: 200px;
-  padding: 12px 16px;
+  min-width: 140px;
+  padding: 8px 12px;
   border: 1px solid var(--border);
-  border-radius: 8px;
-  font-size: .92rem;
+  border-radius: 6px;
+  font-size: .82rem;
   background: var(--bg);
   color: var(--text);
   transition: border-color .2s;
@@ -501,28 +501,28 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
 .hero-input:focus {
   outline: none;
   border-color: var(--accent);
-  box-shadow: 0 0 0 3px rgba(108,92,231,.15);
+  box-shadow: 0 0 0 2px rgba(108,92,231,.12);
 }
 .hero-btn {
-  padding: 12px 24px;
+  padding: 8px 16px;
   border: none;
-  border-radius: 8px;
+  border-radius: 6px;
   background: var(--accent);
   color: #fff;
-  font-weight: 700;
-  font-size: .92rem;
+  font-weight: 600;
+  font-size: .82rem;
   cursor: pointer;
   white-space: nowrap;
   transition: transform .2s, box-shadow .2s;
 }
 .hero-btn:hover {
   transform: translateY(-1px);
-  box-shadow: 0 4px 15px rgba(108,92,231,.3);
+  box-shadow: 0 3px 10px rgba(108,92,231,.25);
 }
 .newsletter-hero-footnote {
-  font-size: .78rem !important;
+  font-size: .72rem !important;
   color: var(--text-dim) !important;
-  margin-top: 16px !important;
+  margin-top: 10px !important;
   margin-bottom: 0 !important;
 }
 
