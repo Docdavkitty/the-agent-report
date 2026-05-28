@@ -48,11 +48,9 @@ The 28% traffic surge suggests this message is landing with a substantial audien
 
 The surge is particularly noteworthy given DuckDuckGo's trajectory:
 
-| Metric | Before AI Mode | After AI Mode Push |
-|--------|---------------|-------------------|
-| Weekly visits | Baseline | +28% |
-| Hacker News rank | N/A | #3 trending (835 pts) |
-| User sentiment | Stable | Rapidly growing |
+- **Weekly visits** : Baseline → **+28%**
+- **Hacker News rank** : N/A → **#3 trending (835 pts)**
+- **User sentiment** : Stable → **Rapidly growing**
 
 DuckDuckGo has been steadily growing for years, but a 28% weekly spike is extraordinary for a mature search engine. For context, DuckDuckGo processed approximately **3.5 billion searches per month** in 2025. A 28% increase would represent nearly **1 billion additional searches per month** — a massive shift in user behavior.
 
