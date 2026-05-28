@@ -25,7 +25,7 @@ Rather than a traditional donation or equity investment, the partnership operate
 - **API credits and technical support** from Anthropic for approved projects
 - **Shared public goods** — datasets, benchmarks, and infrastructure openly available to all
 
-The structure mirrors Anthropic's growing emphasis on *responsible capability distribution — a principle at the heart of the [state of AI agents in 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %})* — ensuring that frontier AI models don't remain exclusively in the hands of the wealthiest actors and use cases.
+The structure mirrors Anthropic's growing emphasis on *responsible capability distribution — a principle at the heart of the [state of AI agents in 2026](/2026/05/state-of-ai-agents-may-2026/)* — ensuring that frontier AI models don't remain exclusively in the hands of the wealthiest actors and use cases.
 
 ## Global Health: Accelerating Vaccines and Disease Surveillance
 

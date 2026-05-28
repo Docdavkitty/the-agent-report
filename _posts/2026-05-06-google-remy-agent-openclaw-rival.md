@@ -60,7 +60,7 @@ Remy appears to be Google's attempt to solve this by going **bigger than a brows
 
 ### The Ratatouille Connection
 
-The name "Remy" is almost certainly a reference to the Pixar film Ratatouille — about an unlikely chef who turns out to be a rat. As one HN commenter noted, it's a curious choice for a company that has historically avoided naming AI products after things that evoke \"hidden\" or \"unseen\" actors. For more on the personal AI agent landscape, see our [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}).
+The name "Remy" is almost certainly a reference to the Pixar film Ratatouille — about an unlikely chef who turns out to be a rat. As one HN commenter noted, it's a curious choice for a company that has historically avoided naming AI products after things that evoke \"hidden\" or \"unseen\" actors. For more on the personal AI agent landscape, see our [state of AI agents May 2026](/2026/05/state-of-ai-agents-may-2026/).
 
 ## The Dogfooding Phase
 

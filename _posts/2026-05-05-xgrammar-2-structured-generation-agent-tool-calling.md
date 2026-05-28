@@ -55,7 +55,7 @@ These types are **fully composable**. Want to describe DeepSeek V4's output form
 }
 ```
 
-The result? **100% schema accuracy** on BFCL-V3 benchmarks — every single tool call conforms to the target JSON schema, eliminating format-related failures entirely. For smaller models, the accuracy gains are dramatic: when the model no longer has to guess the format, it can focus on the *semantics*. For more on agent tool infrastructure, see our [top 20 open source tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}).
+The result? **100% schema accuracy** on BFCL-V3 benchmarks — every single tool call conforms to the target JSON schema, eliminating format-related failures entirely. For smaller models, the accuracy gains are dramatic: when the model no longer has to guess the format, it can focus on the *semantics*. For more on agent tool infrastructure, see our [top 20 open source tools](/2026/06/top-20-open-source-ai-agent-tools-2026/).
 
 ## 80× Faster: The Efficiency Engine
 
@@ -103,7 +103,7 @@ For agent developers, this means:
 
 ## The Bottom Line
 
-XGrammar-2 is one of those rare infrastructure releases that matters far beyond its immediate scope. By solving the structured generation problem at the serving-engine level — with a clean, composable DSL and aggressive optimizations — it removes a key friction point that has held back reliable agent deployment. For more on agent tool-calling infrastructure, see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}) and the [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}).
+XGrammar-2 is one of those rare infrastructure releases that matters far beyond its immediate scope. By solving the structured generation problem at the serving-engine level — with a clean, composable DSL and aggressive optimizations — it removes a key friction point that has held back reliable agent deployment. For more on agent tool-calling infrastructure, see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}) and the [state of AI agents May 2026](/2026/05/state-of-ai-agents-may-2026/).
 
 As agent systems grow from demo prototypes to production workloads handling thousands of concurrent tool calls, the quality of their structured output isn't a nice-to-have — it's a requirement. XGrammar-2 delivers exactly that, and the industry is already voting with its integration.
 

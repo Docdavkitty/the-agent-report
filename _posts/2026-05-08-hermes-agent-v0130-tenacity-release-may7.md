@@ -47,7 +47,7 @@ Checkpoints received a ground-up rewrite with **real pruning**, disk guardrails,
 
 ## 🛡️ Security Wave — 8 P0 Closures
 
-v0.13.0 delivers the most aggressive security hardening pass in Hermes Agent's history. (For context on the broader [state of AI agent development as of May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}), see our comprehensive overview.) Eight Priority-0 issues were closed:
+v0.13.0 delivers the most aggressive security hardening pass in Hermes Agent's history. (For context on the broader [state of AI agent development as of May 2026](/2026/05/state-of-ai-agents-may-2026/), see our comprehensive overview.) Eight Priority-0 issues were closed:
 
 | Security Fix | Impact |
 |-------------|--------|

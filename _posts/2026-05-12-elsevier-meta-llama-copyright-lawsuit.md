@@ -8,7 +8,7 @@ categories: [research]
 tags: [meta, llama, open-source, copyright-lawsuit, elsevier, academic-publishing]
 hero_image: /assets/images/hero/hero-elsevier-meta-llama-copyright-lawsuit.jpg
 reading_time: 6
-excerpt: "Elsevier has joined the class-action lawsuit against Meta, making it the first major scientific publisher to sue over copyrighted research papers used to train the Llama family of models — a legal dimension of the [state of AI agents]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}) landscape. The suit alleges Meta used Common Crawl and LibGen to scrape paywalled papers — and the implications for open-source AI training data are massive."
+excerpt: "Elsevier has joined the class-action lawsuit against Meta, making it the first major scientific publisher to sue over copyrighted research papers used to train the Llama family of models — a legal dimension of the [state of AI agents](/2026/05/state-of-ai-agents-may-2026/) landscape. The suit alleges Meta used Common Crawl and LibGen to scrape paywalled papers — and the implications for open-source AI training data are massive."
 author: The Agent Report
 ---
 

@@ -39,7 +39,7 @@ The phrase "ideal for agentic programming" on Mojo's new website is worth unpack
 
 AI agents today face a paradox: they're built in Python (for its ecosystem and ease of use), but they need C++-level performance to run efficiently at scale. Each agent call involves model inference, tool execution, memory management, and orchestration logic — and when you're running thousands of agent loops concurrently, every microsecond matters.
 
-Mojo bridges this gap. It compiles to native code via MLIR, supports GPU acceleration without vendor lock-in, and achieves performance that rivals hand-tuned CUDA kernels — all with Python-like syntax, making it accessible to developers building with the [top 20 open-source AI agent tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}).
+Mojo bridges this gap. It compiles to native code via MLIR, supports GPU acceleration without vendor lock-in, and achieves performance that rivals hand-tuned CUDA kernels — all with Python-like syntax, making it accessible to developers building with the [top 20 open-source AI agent tools](/2026/06/top-20-open-source-ai-agent-tools-2026/).
 
 ```mojo
 # Example: A simple agent loop in Mojo (conceptual)

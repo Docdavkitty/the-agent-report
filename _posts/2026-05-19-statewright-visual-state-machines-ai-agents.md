@@ -56,7 +56,7 @@ Call a tool that's not in the current phase and the agent gets rejected with a m
 
 ## Under the Hood: A Rust Engine with MCP Integration
 
-The core of Statewright is a **deterministic Rust engine** that evaluates state machine definitions, part of a growing ecosystem of [agent reliability tooling]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}). No LLM in the loop — it's pure rules.
+The core of Statewright is a **deterministic Rust engine** that evaluates state machine definitions, part of a growing ecosystem of [agent reliability tooling](/2026/06/top-20-open-source-ai-agent-tools-2026/). No LLM in the loop — it's pure rules.
 
 On top of this sits a plugin layer that integrates with coding agents via **MCP (Model Context Protocol)**. When a workflow is activated, hooks enforce tool restrictions per state. The model goes from seeing 40 tools to seeing 5 — and gets clear instructions about its current phase and how to progress.
 

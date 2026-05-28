@@ -20,7 +20,7 @@ Announced on [OpenAI's blog](https://openai.com/index/work-with-codex-from-anywh
 
 Before today, Codex was a desktop-only experience. You installed it on your machine, it had access to your files, terminal, and browser — and you interacted with it through a local interface. Useful, but tethered.
 
-The mobile integration flips that model — a shift reflecting the trends tracked in our [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}) overview. From the ChatGPT app on your phone, you can:
+The mobile integration flips that model — a shift reflecting the trends tracked in our [state of AI agents May 2026](/2026/05/state-of-ai-agents-may-2026/) overview. From the ChatGPT app on your phone, you can:
 
 - **Start new tasks** — Tell Codex what to build or fix, and it begins working on your desktop machine
 - **Review outputs in real time** — Screenshots, terminal output, and diffs stream back to your phone as Codex works

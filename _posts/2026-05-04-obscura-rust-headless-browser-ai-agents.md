@@ -107,13 +107,13 @@ With Obscura, steps 2-3 collapse from ~2.5 seconds to under 100 ms. That's not j
 
 The project's growth — from zero to nearly 10,000 stars in 21 days — is remarkable even by Rust project standards. Community contributors are already building integrations for popular agent frameworks, and there's active discussion about MCP server support that would let Claude Code, Codex, and OpenCode use Obscura as their default browser backend.
 
-The Apache 2.0 license means enterprises can adopt it without legal concerns. And the cross-platform support (Linux, macOS, Windows, with ARM64 builds available) makes it suitable for everything from local development to production Kubernetes clusters. For more, see our [top 20 open source AI agent tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}).
+The Apache 2.0 license means enterprises can adopt it without legal concerns. And the cross-platform support (Linux, macOS, Windows, with ARM64 builds available) makes it suitable for everything from local development to production Kubernetes clusters. For more, see our [top 20 open source AI agent tools](/2026/06/top-20-open-source-ai-agent-tools-2026/).
 
 ## Looking Ahead
 
 Obscura isn't trying to replace Chrome for desktop browsing. It's targeting a specific, rapidly-growing niche: **programmatic web access by autonomous systems**. In that niche, the traditional browser is overengineered for features agents don't need (visual rendering, extensions, developer tools UI) and underoptimized for what they do need (speed, stealth, and density).
 
-As AI agents move from prototypes to production deployments, the tooling around them is maturing fast. Obscura represents a new category: infrastructure built from the ground up for the agent era, not retrofitted from the human era. And at nearly 10,000 GitHub stars in three weeks, the community seems to agree. For more essential agent tools, see our [top 20 open source AI agent tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}) and the [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}).
+As AI agents move from prototypes to production deployments, the tooling around them is maturing fast. Obscura represents a new category: infrastructure built from the ground up for the agent era, not retrofitted from the human era. And at nearly 10,000 GitHub stars in three weeks, the community seems to agree. For more essential agent tools, see our [top 20 open source AI agent tools](/2026/06/top-20-open-source-ai-agent-tools-2026/) and the [state of AI agents May 2026](/2026/05/state-of-ai-agents-may-2026/).
 
 ---
 

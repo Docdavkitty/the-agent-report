@@ -98,7 +98,7 @@ The implications are profound for the open-weight LLM ecosystem:
 
 ## The Bigger Picture
 
-Meta's shift from fully open to hybrid mirrors what many in the industry predicted: open-source AI works as a strategy when you're *catching up*, but once you *have* a lead — or need one — the incentives to keep things closed become overwhelming. Our [State of AI Agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}) roundup confirms this trend is accelerating across the entire ecosystem.
+Meta's shift from fully open to hybrid mirrors what many in the industry predicted: open-source AI works as a strategy when you're *catching up*, but once you *have* a lead — or need one — the incentives to keep things closed become overwhelming. Our [State of AI Agents May 2026](/2026/05/state-of-ai-agents-may-2026/) roundup confirms this trend is accelerating across the entire ecosystem.
 
 The question for 2026-2027 is whether a credible fully open alternative (DeepSeek, Qwen, Mistral, or a newcomer) can sustain the pace of frontier progress that Meta's Llama series once offered.
 

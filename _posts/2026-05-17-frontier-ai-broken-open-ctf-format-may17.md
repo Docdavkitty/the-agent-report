@@ -7,7 +7,7 @@ meta_description: "Claude Opus 4.5 and GPT-5.5 Pro have shattered the open Captu
 categories: [research]
 tags: [ctf, cybersecurity, frontier-models, agentic-security, ai-impact]
 reading_time: 8
-excerpt: "Claude Opus 4.5, GPT-5.5 Pro, and the rise of agentic solvers have quietly shattered the open Capture The Flag competition format — one facet of the [broader state of AI agents in May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}). A top-tier CTF veteran explains why the old game is gone — and why pretending otherwise hurts the next generation of security talent."
+excerpt: "Claude Opus 4.5, GPT-5.5 Pro, and the rise of agentic solvers have quietly shattered the open Capture The Flag competition format — one facet of the [broader state of AI agents in May 2026](/2026/05/state-of-ai-agents-may-2026/). A top-tier CTF veteran explains why the old game is gone — and why pretending otherwise hurts the next generation of security talent."
 hero_image: /assets/images/hero/hero-ctf-frontier-ai-may17.jpg
 author: The Agent Report
 ---

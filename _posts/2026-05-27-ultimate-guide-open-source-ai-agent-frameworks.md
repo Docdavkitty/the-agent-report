@@ -35,7 +35,7 @@ The table below compares all eight frameworks across eight essential dimensions.
 | **Mastra** | TypeScript | Single, Multi, Graph-based | Graph workflows (then/branch/parallel), RAG, MCP, evals, 4-tier memory, 81+ providers | Intermediate | Stable | TypeScript-native production agents, integrated framework | ~21k |
 | **Vercel AI SDK** | TypeScript, JavaScript | Single, Multi (tools-based) | Streaming, React hooks, 2.8M weekly downloads, Next.js native, provider-agnostic | Beginner | Mature | Web app AI features, React/Next.js teams, chatbots | ~20k |
 
-> **A note on star counts:** Star counts are a lagging indicator of community size — not of production readiness. LangGraph has roughly one-quarter the stars of LangChain but more verified enterprise deployments. AutoGen has ~48k stars but is in maintenance mode. Choose by mental model and production track record, not by GitHub popularity. For a practical, ranked view of the tools built on these frameworks, see our [Top 20 Open Source AI Agent Tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}) guide.
+> **A note on star counts:** Star counts are a lagging indicator of community size — not of production readiness. LangGraph has roughly one-quarter the stars of LangChain but more verified enterprise deployments. AutoGen has ~48k stars but is in maintenance mode. Choose by mental model and production track record, not by GitHub popularity. For a practical, ranked view of the tools built on these frameworks, see our [Top 20 Open Source AI Agent Tools](/2026/06/top-20-open-source-ai-agent-tools-2026/) guide.
 
 ---
 

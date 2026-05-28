@@ -20,7 +20,7 @@ Thanks to Simon Willison's [exhaustive reverse-engineering](https://simonwilliso
 
 ## The 16 Tools Powering Muse Spark
 
-This launch arrives at a pivotal moment in the [state of AI agents]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}), as frontier models increasingly ship with built-in agentic capabilities.
+This launch arrives at a pivotal moment in the [state of AI agents](/2026/05/state-of-ai-agents-may-2026/), as frontier models increasingly ship with built-in agentic capabilities.
 
 ### 🔍 Web Browsing & Search
 

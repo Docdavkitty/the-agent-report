@@ -77,7 +77,7 @@ DeepClaude supports four backends out of the box:
 
 ## Why This Matters for the Agent Ecosystem
 
-DeepClaude's explosive growth signals something important about the state of AI agents in May 2026: cost efficiency is becoming as important as capability. For a broader view, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}).
+DeepClaude's explosive growth signals something important about the state of AI agents in May 2026: cost efficiency is becoming as important as capability. For a broader view, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the [state of AI agents May 2026](/2026/05/state-of-ai-agents-may-2026/).
 
 1. **Claude Code's architecture is the gold standard.** The fact that people are going to such lengths to keep Claude Code's agent loop while swapping the model underneath is a testament to how well Anthropic designed the tool-use interface, subagent spawning, and autonomous execution patterns.
 

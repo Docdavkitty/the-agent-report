@@ -77,7 +77,7 @@ For organizations running agent fleets at scale — think CI/CD pipeline agents,
 
 TokenSpeed is **fully open source** under the Apache 2.0 license, with the source code available on the LightSeek Foundation's GitHub. The foundation has also published a detailed technical whitepaper covering the compiler design, scheduler algorithms, and kernel optimization strategies.
 
-The project is already attracting attention from the agent infrastructure community, with several inference providers reportedly evaluating TokenSpeed for production deployment. Given the momentum behind agent-enabled infrastructure, a purpose-built inference engine feels less like a luxury and more like a necessity. For more on the agent tooling landscape, see our [top 20 open source AI agent tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}).
+The project is already attracting attention from the agent infrastructure community, with several inference providers reportedly evaluating TokenSpeed for production deployment. Given the momentum behind agent-enabled infrastructure, a purpose-built inference engine feels less like a luxury and more like a necessity. For more on the agent tooling landscape, see our [top 20 open source AI agent tools](/2026/06/top-20-open-source-ai-agent-tools-2026/).
 
 ## The Bottom Line
 

@@ -66,7 +66,7 @@ OpenCode's edge is its combination of **full openness** (MIT license), **termina
 
 The explosion of OpenCode signals something important: **developers are hungry for agentic coding tools that they actually own**. The virality suggests a backlash against the walled-garden approach of proprietary coding agents. When a tool gives you the source code, no usage quotas, and the freedom to customize, developers respond.
 
-It also validates the **terminal as the primary AI agent interface**. While the industry has been racing toward IDE plugins, voice interfaces, and web dashboards, OpenCode proves that many developers prefer the simplicity and speed of a terminal prompt. For a broader look at the coding agent landscape, see our [state of agent engineering]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) and the [top 20 open source tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}).
+It also validates the **terminal as the primary AI agent interface**. While the industry has been racing toward IDE plugins, voice interfaces, and web dashboards, OpenCode proves that many developers prefer the simplicity and speed of a terminal prompt. For a broader look at the coding agent landscape, see our [state of agent engineering]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) and the [top 20 open source tools](/2026/06/top-20-open-source-ai-agent-tools-2026/).
 
 ## Getting Started
 

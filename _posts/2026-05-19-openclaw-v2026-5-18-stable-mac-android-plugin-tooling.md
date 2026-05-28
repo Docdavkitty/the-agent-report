@@ -37,7 +37,7 @@ Perhaps the most technically impressive addition lands on **Android**: Talk Mode
 - **On-screen transcripts** displayed live during conversations
 - Gateway TLS thumbprint verification prompts on certificate rotation
 
-This architecture moves Android voice interactions from simple request-response patterns to full **duplex audio streaming**, putting Openclaw's voice capabilities on par with dedicated voice assistant apps, as tracked in our [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}) overview. The Android client also gains Live Activities that end when Openclaw is connected, idle, or disconnected, plus compact attention states for approval-required reconnects.
+This architecture moves Android voice interactions from simple request-response patterns to full **duplex audio streaming**, putting Openclaw's voice capabilities on par with dedicated voice assistant apps, as tracked in our [state of AI agents May 2026](/2026/05/state-of-ai-agents-may-2026/) overview. The Android client also gains Live Activities that end when Openclaw is connected, idle, or disconnected, plus compact attention states for approval-required reconnects.
 
 ## Plugin Developer Tooling: `defineToolPlugin` and CLI Commands
 

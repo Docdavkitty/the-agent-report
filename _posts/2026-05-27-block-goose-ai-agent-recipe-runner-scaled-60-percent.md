@@ -75,7 +75,7 @@ The implications are significant. The governance risk that held back enterprise 
 
 ## What This Means for the Industry
 
-Goose's recipe pattern is the strongest signal yet that the future of enterprise AI agents is not about better models — it's about **workflow abstractions that non-engineers can author**. The recipe is an architectural pattern, not a Goose-specific feature. The same shape works on top of Claude Code skills, Cursor agents, or any runtime that supports YAML-defined workflows and MCP tools. For a broader view of how open-source agent tools are evolving, see our [Top 20 Open Source AI Agent Tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}) ranking.
+Goose's recipe pattern is the strongest signal yet that the future of enterprise AI agents is not about better models — it's about **workflow abstractions that non-engineers can author**. The recipe is an architectural pattern, not a Goose-specific feature. The same shape works on top of Claude Code skills, Cursor agents, or any runtime that supports YAML-defined workflows and MCP tools. For a broader view of how open-source agent tools are evolving, see our [Top 20 Open Source AI Agent Tools](/2026/06/top-20-open-source-ai-agent-tools-2026/) ranking.
 
 The takeaway for any team building internal agent platforms: if your system doesn't have an analog for the recipe, you're going to end up with bespoke agent builds per team. The recipe is what lets one tool serve a 12,000-person company without forking.
 

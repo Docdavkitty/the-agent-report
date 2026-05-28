@@ -18,7 +18,7 @@ Until now, world models — neural networks that learn to simulate environments 
 
 ## The Multi-Agent Gap
 
-World models have advanced dramatically over the past two years — a trend covered in our [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}) report. Models like Odyssey's own Odyssey-2 and Google DeepMind's Genie 2 can generate stunningly coherent simulations from text prompts or single images. But they all share a fundamental limitation: **they can only support one active participant**.
+World models have advanced dramatically over the past two years — a trend covered in our [state of AI agents May 2026](/2026/05/state-of-ai-agents-may-2026/) report. Models like Odyssey's own Odyssey-2 and Google DeepMind's Genie 2 can generate stunningly coherent simulations from text prompts or single images. But they all share a fundamental limitation: **they can only support one active participant**.
 
 In a traditional world model, the entire simulation warps around a single agent's perspective. Add a second agent, and the model has no consistent way to maintain a shared world state — each agent effectively lives in its own parallel universe.
 

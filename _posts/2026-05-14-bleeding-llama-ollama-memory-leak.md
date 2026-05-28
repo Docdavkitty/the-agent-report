@@ -49,7 +49,7 @@ According to Cyera's research, the leaked heap memory can contain:
 - **User prompts and messages** sent to any model running on the server
 - **System prompts** from all loaded models
 - **Environment variables** from the host machine (API keys, tokens, credentials)
-- **Tool outputs** when Ollama is connected to agents like Claude Code or Codex — tools covered in our [top 20 open-source AI agent tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %})
+- **Tool outputs** when Ollama is connected to agents like Claude Code or Codex — tools covered in our [top 20 open-source AI agent tools](/2026/06/top-20-open-source-ai-agent-tools-2026/)
 
 > *"Imagine a large enterprise with 10,000+ employees using Ollama as their AI chat. An attacker can learn basically anything about the organization — API keys, proprietary code, customer contracts, and much more."*
 > — Cyera Research

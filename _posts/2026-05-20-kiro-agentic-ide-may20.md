@@ -92,7 +92,7 @@ The Kiro team hasn't shared their post-preview pricing yet, but they've committe
 
 ## The Bigger Picture
 
-Kiro's launch is part of a broader trend we're tracking at The Agent Report: the **industrialization of agentic software development**. First came standalone coding agents (Claude Code, Codex). Then came agentic IDEs (Cursor, Windsurf). Now we're entering the era of **workflow-driven development**, where the IDE enforces a process around how agents interact with code. This evolution mirrors what we're seeing across the entire agent landscape, as documented in our [State of AI Agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}) roundup.
+Kiro's launch is part of a broader trend we're tracking at The Agent Report: the **industrialization of agentic software development**. First came standalone coding agents (Claude Code, Codex). Then came agentic IDEs (Cursor, Windsurf). Now we're entering the era of **workflow-driven development**, where the IDE enforces a process around how agents interact with code. This evolution mirrors what we're seeing across the entire agent landscape, as documented in our [State of AI Agents May 2026](/2026/05/state-of-ai-agents-may-2026/) roundup.
 
 Kiro's spec-driven approach is the strongest signal yet that the industry is moving beyond "generate and pray" toward structured, auditable, and repeatable agent collaboration. Whether it succeeds will depend on whether developers — notorious for their preference for flexibility over process — embrace the rigor Kiro demands.
 

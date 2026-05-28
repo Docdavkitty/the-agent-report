@@ -14,7 +14,7 @@ author: The Agent Report
 
 The United Arab Emirates is no stranger to audacious technology ambitions. But a directive announced last week by Prime Minister Sheikh Mohammed bin Rashid Al Maktoum may be its most consequential yet: **50% of federal government operations must be powered by agentic AI within two years**.
 
-If the UAE meets this timeline, it will become the first nation-state to deploy autonomous decision-making systems at scale across public administration. The implications — for governance, for civil service, and for the global AI policy landscape — are enormous. For context on the enterprise agent deployment landscape, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}).
+If the UAE meets this timeline, it will become the first nation-state to deploy autonomous decision-making systems at scale across public administration. The implications — for governance, for civil service, and for the global AI policy landscape — are enormous. For context on the enterprise agent deployment landscape, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the [state of AI agents May 2026](/2026/05/state-of-ai-agents-may-2026/).
 
 ## Beyond Digitization: From e-Government to Autonomous Government
 
