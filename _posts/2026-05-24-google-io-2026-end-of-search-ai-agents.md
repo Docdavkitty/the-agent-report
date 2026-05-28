@@ -3,7 +3,7 @@ layout: post
 title: "Google I/O 2026: The AI Agent Revolution Begins"
 date: 2026-05-24 08:00:00 +0200
 last_modified_at: 2026-05-24 08:00:00 +0200
-meta_description: "Google I/O 2026 : la fin des liens bleus. Search devient une plateforme agentique avec IA conversationnelle, UI générative et mini-apps pilotées par des agents autonomes."
+meta_description: "Discover how Google I/O 2026 launched the AI agent revolution by replacing ten blue links with conversational AI, generative UI, and agent-driven mini-apps across Search."
 categories: [industry]
 tags: [google, google-io, search, ai-agents, information-agents, gemini, generative-ui]
 hero_image: /assets/images/hero/hero-google-io-2026-end-of-search-ai-agents.jpg

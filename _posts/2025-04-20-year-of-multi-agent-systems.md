@@ -3,6 +3,7 @@ layout: post
 title: "Why 2025 Is the Year of Multi-Agent Systems"
 date: 2025-04-20 11:00:00 +0200
 last_modified_at: 2025-04-20 11:00:00 +0200
+meta_description: "Single-agent architectures hit limits on context and reliability — see why 2025 pivots to multi-agent systems that delegate, coordinate, and scale together."
 categories: opinion
 tags: [multi-agent, orchestration, future, trends]
 hero_image: /assets/images/hero/hero-04-20-year-of-multi-agent-systems.jpg
@@ -40,7 +41,7 @@ Multi-agent systems address these limitations through **divide and conquer**:
 ## Frameworks Leading the Charge
 
 - **CrewAI** — Role-based agent teams with managed handoffs
-- **LangGraph** — Graph-based agent workflows with conditional routing
+- **LangGraph** — Graph-based agent workflows with conditional routing. For a deeper comparison, see our [open-source agent frameworks comparison]({% post_url 2025-04-16-open-source-agent-frameworks-comparison %}).
 - **AutoGen** — Microsoft's conversational multi-agent framework
 - **Semantic Kernel** — Microsoft's enterprise orchestration layer
 - **OpenAI Swarm** — Lightweight experimental multi-agent patterns
@@ -53,4 +54,4 @@ Look for three trends to define the next phase:
 2. **Cross-platform agents** — Agents that span desktop, mobile, and cloud
 3. **Human-in-the-loop orchestration** — Hybrid systems where humans oversee agent teams
 
-The single-agent era was a necessary stepping stone. The multi-agent era is where the real value gets built.
+The single-agent era was a necessary stepping stone. The multi-agent era is where the real value gets built. For a comprehensive look at the frameworks making this possible, see our [open-source agent frameworks comparison]({% post_url 2025-04-16-open-source-agent-frameworks-comparison %}).

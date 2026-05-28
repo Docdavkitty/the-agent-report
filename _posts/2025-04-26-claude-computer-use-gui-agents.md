@@ -3,6 +3,7 @@ layout: post
 title: "Claude's Computer Use: A New Paradigm for GUI Agents"
 date: 2025-04-26 10:30:00 +0200
 last_modified_at: 2025-04-26 10:30:00 +0200
+meta_description: "Anthropic computer-use capability lets Claude see and interact with desktop interfaces, opening a new frontier for GUI-based agent automation and screen."
 categories: research
 tags: [Claude, computer-use, GUI-agents, Anthropic]
 hero_image: /assets/images/hero/hero-04-26-claude-computer-use-gui-agents.jpg
@@ -42,4 +43,4 @@ Computer use is still evolving:
 
 ## The Bigger Picture
 
-Computer use points toward a future where agents can operate **any software, any interface, any platform** — no integrations needed. Combined with MCP for tool access and specialized agent frameworks for orchestration, it represents one piece of the puzzle in building truly general-purpose digital assistants.
+Computer use points toward a future where agents can operate **any software, any interface, any platform** — no integrations needed. Combined with MCP for tool access (read our [MCP deep dive]({% post_url 2025-04-28-mcp-protocol-agentic-tool-use %})) and specialized agent frameworks for orchestration, it represents one piece of the puzzle in building truly general-purpose digital assistants. For the bigger picture, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and how Claude fits into the [state of AI agents]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}).

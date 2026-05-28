@@ -3,6 +3,7 @@ layout: post
 title: "Openclaw v2026.5.22 Ships 4,100× Faster Model Listing, Meeting Notes Plugin, and Major Packaging Overhaul"
 date: 2026-05-26 10:00:00 +0000
 last_modified_at: 2026-05-26 10:00:00 +0000
+meta_description: "Openclaw v2026.5.22 delivers a 4,100x speedup in model-listing calls, a Meeting Notes plugin with Discord voice capture, and a comprehensive packaging."
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, performance-optimization, enterprise-packaging]
 reading_time: 7
@@ -109,9 +110,9 @@ The release includes a massive documentation update touching **Signal configPath
 
 ## The Big Picture
 
-Openclaw v2026.5.22 represents a release where **infrastructure maturity catches up with feature velocity**. The 4,100× performance improvement isn't just a benchmark trophy — it fundamentally changes how responsive the gateway feels during provider configuration. The Meeting Notes plugin opens a new product category for agent-powered productivity. And the packaging overhaul addresses the #1 blocker for enterprise deployment: supply-chain integrity.
+Openclaw v2026.5.22 represents a release where **infrastructure maturity catches up with feature velocity**. The 4,100× performance improvement isn't just a benchmark trophy — it fundamentally changes how responsive the gateway feels during provider configuration. The Meeting Notes plugin opens a new product category for agent-powered productivity. And the packaging overhaul addresses the #1 blocker for enterprise deployment: supply-chain integrity. This release follows just days after the [Policy Plugin introduced compliance-as-code]({% post_url 2026-05-21-openclaw-v2026-5-20-beta1-policy-plugin-compliance %}) for agent orchestration.
 
-The project now sits at **375,000+ GitHub stars** with **78,000+ forks**. The stable release is available immediately:
+The project now sits at **375,000+ GitHub stars** with **78,000+ forks**. The stable release is available immediately. For developers evaluating the open-source agent landscape, our [Complete Guide to AI Agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) provides a comprehensive overview of how platforms like Openclaw fit into the broader ecosystem.
 
 ```bash
 npm install -g openclaw

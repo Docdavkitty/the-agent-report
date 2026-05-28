@@ -3,6 +3,7 @@ layout: post
 title: "Ex-GitHub CEO Thomas Dohmke Launches Entire with $60M to Build the Next Developer Platform for AI Agents"
 date: 2026-05-27 10:00:00 +0200
 last_modified_at: 2026-05-27 10:00:00 +0200
+meta_description: "Ex-GitHub CEO Thomas Dohmke launches Entire with 60 million dollars to rebuild the developer platform for an era where AI agents produce the majority of code,."
 categories: [industry]
 tags: [entire, thomas-dohmke, github, developer-platform, ai-coding-agents, git, seed-round]
 reading_time: 8
@@ -68,11 +69,11 @@ The message is clear: the people who built the last generation of developer plat
 
 ## What This Means for the AI Agent Ecosystem
 
-Entire's launch signals something profound about the maturity of the AI agent ecosystem. When a former GitHub CEO — who helped build the most ubiquitous developer platform in the world — says the current infrastructure is irreparably broken, it validates what many developers have been experiencing firsthand.
+Entire's launch signals something profound about the maturity of the AI agent ecosystem. When a former GitHub CEO — who helped build the most ubiquitous developer platform in the world — says the current infrastructure is irreparably broken, it validates what many developers have been experiencing firsthand with tools like [Kiro's spec-driven IDE]({% post_url 2026-05-20-kiro-agentic-ide-may20 %}) and the rapidly maturing [open-source agent framework landscape]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 The tooling problem is real. Current CI/CD pipelines stall on AI-generated PRs that can be thousands of lines long. Code review breaks down when reviewers can't understand the reasoning behind agent-written code. Git histories become useless when every commit message just says "agent-generated code."
 
-Entire's approach — making agent reasoning a first-class citizen in version control — is one of the most promising solutions to emerge this year. The open-source CLI means the entire ecosystem can experiment with it immediately, and the $60M seed round gives the company runway to build the full platform vision.
+Entire's approach — making agent reasoning a first-class citizen in version control — is one of the most promising solutions to emerge this year. The open-source CLI means the entire ecosystem can experiment with it immediately, and the $60M seed round gives the company runway to build the full platform vision. This fits into a broader pattern we're tracking: from [Block's Goose recipe runner]({% post_url 2026-05-27-block-goose-ai-agent-recipe-runner-scaled-60-percent %}) to purpose-built agentic IDEs, the developer tooling layer is being rebuilt from the ground up for the agent era.
 
 The question now is whether Entire can win the network effects battle. Developer platforms are notoriously hard to displace — ask anyone who's tried to pry developers away from GitHub. But Dohmke knows this better than anyone. He spent years running GitHub, and his entire pitch is that the incumbents can't retrofit their way into the agent era.
 

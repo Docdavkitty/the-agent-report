@@ -3,6 +3,7 @@ layout: post
 title: "Agora-1: Odyssey's Multi-Agent World Model Lets AIs and Humans Share a Single Simulated Reality in Real Time"
 date: 2026-05-19 10:00:00 +0200
 last_modified_at: 2026-05-19 10:00:00 +0200
+meta_description: "Odyssey releases Agora-1, a [multi-agent world model]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}) enabling humans and AIs to share simulated reality in real time, decoupling simulation from rendering for gaming and robotics."
 categories: [research]
 tags: [odyssey, agora-1, multi-agent, world-models, simulation, ai-research, reinforcement-learning, gaming, robotics]
 hero_image: /assets/images/hero/hero-agora-1-multi-agent-world-model-odyssey.jpg
@@ -17,7 +18,7 @@ Until now, world models — neural networks that learn to simulate environments 
 
 ## The Multi-Agent Gap
 
-World models have advanced dramatically over the past two years. Models like Odyssey's own Odyssey-2 and Google DeepMind's Genie 2 can generate stunningly coherent simulations from text prompts or single images. But they all share a fundamental limitation: **they can only support one active participant**.
+World models have advanced dramatically over the past two years — a trend covered in our [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}) report. Models like Odyssey's own Odyssey-2 and Google DeepMind's Genie 2 can generate stunningly coherent simulations from text prompts or single images. But they all share a fundamental limitation: **they can only support one active participant**.
 
 In a traditional world model, the entire simulation warps around a single agent's perspective. Add a second agent, and the model has no consistent way to maintain a shared world state — each agent effectively lives in its own parallel universe.
 

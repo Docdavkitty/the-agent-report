@@ -3,6 +3,7 @@ layout: post
 title: "Anthropic Lets Its Managed Agents Dream: Scheduled Memory, Outcomes Evaluation, and Multi-Agent Orchestration Hit Public Beta"
 date: 2026-05-07 10:00:00 +0200
 last_modified_at: 2026-05-07 10:00:00 +0200
+meta_description: "Anthropic Managed Agents gain dreaming, a scheduled background memory process, outcomes-based evaluation, and multi-agent orchestration in public beta."
 categories: [industry]
 tags: [anthropic, managed-agents, dreaming, claude, multi-agent, enterprise-ai, agent-orchestration]
 reading_time: 7
@@ -30,7 +31,7 @@ Behind the scenes, dreaming operates on a **scheduled compute budget**. Administ
 
 The process is fully transparent: each dreaming session produces a detailed log of reasoning steps, dead ends explored, and decisions made. This audit trail is critical for enterprise compliance requirements — a common barrier to autonomous agent deployment in regulated industries.
 
-Critically, dreaming is not just "thinking longer." It's a **structured, resource-bounded process** with configurable limits on compute time, token usage, and exploration depth. Organizations can set strict budgets per session, ensuring that dreaming never spirals into uncontrolled resource consumption.
+Critically, dreaming is not just "thinking longer." It's a **structured, resource-bounded process** with configurable limits on compute time, token usage, and exploration depth. Organizations can set strict budgets per session, ensuring that dreaming never spirals into uncontrolled resource consumption. For more on Anthropic's agent platform, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).
 
 ## Outcomes-Based Evaluation: Measuring What Matters
 
@@ -51,7 +52,7 @@ OBE integrates directly with the dreaming system: after a dreaming session, the 
 
 The third major piece of the announcement is the public beta of **multi-agent orchestration** — the ability to deploy multiple Managed Agents that coordinate on shared objectives.
 
-Anthropic's orchestration model uses a **supervisor-agent architecture**:
+Anthropic's orchestration model uses a **supervisor-agent architecture**. For more on Anthropic's expanding agent platform, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the coverage of the [FIS financial crime agent]({% post_url 2026-05-05-anthropic-fis-ai-agent-financial-crime-banking %}).
 
 ```yaml
 # Example configuration concept

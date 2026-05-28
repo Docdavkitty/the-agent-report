@@ -3,6 +3,7 @@ layout: post
 title: "Why You Shouldn't Put AI Agents on the Org Chart"
 date: 2026-05-23 10:00:00 +0200
 last_modified_at: 2026-05-23 10:00:00 +0200
+meta_description: "A Harvard Business Review study of 1,261 managers finds treating AI agents as employees backfires, reducing error detection by 18 percent and increasing."
 categories: [research]
 tags: [hbr, ai-agents, organizational-behavior, enterprise-adoption, ai-governance, human-ai-collaboration]
 hero_image: /assets/images/hero/hero-hbr-ai-agents-org-chart-research-2026.jpg
@@ -107,7 +108,7 @@ Adoption follows manager behavior, not org chart design. Leaders should **active
 
 ## What This Means for the Agentic Enterprise
 
-The HBR study arrives at a critical moment. As LangChain's State of Agent Engineering report shows, **57% of organizations now have agents in production**. The question is no longer *if* agents will reshape the workplace but *how organizations manage the human side of that transition*.
+The HBR study arrives at a critical moment. As our coverage of the [State of Agent Engineering 2026]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) confirms, **57% of organizations now have agents in production**. The question is no longer *if* agents will reshape the workplace but *how organizations manage the human side of that transition*. This organizational dimension is also what the [DigitalOcean Currents survey]({% post_url 2026-05-25-digitalocean-currents-2026-ai-agent-adoption-gap %}) reveals: 67% see value but only 10% scale, in part because teams don't know how to integrate agents into existing workflows.
 
 The research offers a counterintuitive but evidence-backed answer: **the best way to integrate AI agents is not to pretend they are human**. The most effective organizations will treat agents as powerful, specialized tools — and invest their cultural energy in training humans to manage, challenge, and orchestrate them effectively.
 

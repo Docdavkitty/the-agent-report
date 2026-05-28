@@ -3,7 +3,7 @@ layout: post
 title: "MOSS: Self-Evolving AI Agents That Rewrite Their Own Code"
 date: 2026-05-24 10:00:00 +0200
 last_modified_at: 2026-05-24 10:00:00 +0200
-meta_description: "MOSS : des agents IA capables d'analyser leurs faiblesses, réécrire leur code source, valider via des tests automatisés et se redéployer sans humain dans la boucle."
+meta_description: "Explore MOSS, a framework for self-evolving AI agents that rewrite their own source code, run automated tests, and redeploy without human intervention."
 categories: [research]
 tags: [moss, self-evolving-agents, code-generation, agent-research, autonomous-systems, ai-safety, self-modification]
 hero_image: /assets/images/hero/hero-moss-self-evolving-ai-agents-rewrite-code.jpg

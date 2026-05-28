@@ -3,10 +3,11 @@ layout: post
 title: "Frontier AI Has Broken the Open CTF Format — And the Scoreboard Will Never Be the Same"
 date: 2026-05-17 10:00:00 +0200
 last_modified_at: 2026-05-17 10:00:00 +0200
+meta_description: "Claude Opus 4.5 and GPT-5.5 Pro have shattered the open Capture The Flag format as agentic solvers make the old game obsolete, threatening the next generation."
 categories: [research]
 tags: [ctf, cybersecurity, frontier-models, agentic-security, ai-impact]
 reading_time: 8
-excerpt: "Claude Opus 4.5, GPT-5.5 Pro, and the rise of agentic solvers have quietly shattered the open Capture The Flag competition format. A top-tier CTF veteran explains why the old game is gone — and why pretending otherwise hurts the next generation of security talent."
+excerpt: "Claude Opus 4.5, GPT-5.5 Pro, and the rise of agentic solvers have quietly shattered the open Capture The Flag competition format — one facet of the [broader state of AI agents in May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}). A top-tier CTF veteran explains why the old game is gone — and why pretending otherwise hurts the next generation of security talent."
 hero_image: /assets/images/hero/hero-ctf-frontier-ai-may17.jpg
 author: The Agent Report
 ---
@@ -40,7 +41,7 @@ The release of Claude Opus 4.5 changed everything. Kabir describes the shift blu
 
 > *"Almost every medium difficulty challenge, and some hard challenges, became agent-solvable. Claude Code packaged everything into a CLI and made it easy to connect other CLI and MCP tools. It became trivial to build an orchestrator that used the CTFd API to spin up a Claude instance for every challenge."*
 
-Teams that refused to use AI weren't just missing a convenience — they were playing a fundamentally slower version of the game. The scoreboard started measuring **orchestration skill and willingness to use frontier models** alongside, and sometimes above, raw security expertise.
+Teams that refused to use AI weren't just missing a convenience — they were playing a fundamentally slower version of the game, reflecting the [agent safety trust gap]({% post_url 2026-05-23-agent-safety-trust-gap-may23 %}) between capability and understanding. The scoreboard started measuring **orchestration skill and willingness to use frontier models** alongside, and sometimes above, raw security expertise.
 
 ### Wave 3: GPT-5.5 Pro — The Nail in the Coffin
 

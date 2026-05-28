@@ -3,6 +3,7 @@ layout: post
 title: "Claude for the Legal Industry — Anthropic Launches 20+ MCP Connectors and 12 Practice-Area Plugins"
 date: 2026-05-13 14:00:00 +0200
 last_modified_at: 2026-05-13 14:00:00 +0200
+meta_description: "Anthropic launches Claude for the Legal Industry with 20 MCP connectors to legal software and 12 practice-area plugins, its biggest vertical-industry swing yet."
 categories: [industry]
 tags: [anthropic, claude, legal-tech, mcp, claude-cowork, enterprise, vertical-ai]
 reading_time: 7
@@ -13,7 +14,7 @@ author: The Agent Report
 
 Anthropic made its most aggressive vertical-industry move to date on May 12, launching **Claude for the Legal Industry** — a bundle of 20+ new MCP (Model Context Protocol) connectors, 12 practice-area plugins, and strategic partnerships aimed at embedding Claude into the daily workflow of legal professionals.
 
-The release follows the playbook Anthropic established with *Claude for Financial Services* (early May) and *Claude for Creative Work* (late April): instead of shipping a generic tool, the company is systematically building domain-specific connector ecosystems that plug into the software lawyers already use.
+The release follows the playbook Anthropic established with *Claude for Financial Services* (early May) and *Claude for Creative Work* (late April): instead of shipping a generic tool, the company is systematically building domain-specific connector ecosystems — following the playbook established with [Claude for Financial Services]({% post_url 2026-05-06-anthropic-finance-agent-templates-microsoft-365 %}) that plug into the software lawyers already use.
 
 ## What Ships in the Legal Bundle
 
@@ -29,7 +30,7 @@ Claude now connects to the core software stack that powers modern legal practice
 - **E-Discovery & Data Rooms:** Everlaw
 - **Office Productivity:** Microsoft Word, Outlook, Excel, PowerPoint (with cross-app context persistence)
 
-Each connector uses the open MCP protocol, meaning firms can also build custom connectors on top of the same framework.
+Each connector uses the [open MCP protocol]({% post_url 2025-04-28-mcp-protocol-agentic-tool-use %}), meaning firms can also build custom connectors on top of the same framework.
 
 ### 2. Practice-Area Plugins (12)
 

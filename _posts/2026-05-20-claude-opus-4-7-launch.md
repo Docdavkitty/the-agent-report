@@ -3,6 +3,7 @@ layout: post
 title: "Claude Opus 4.7: Anthropic Drops Its Most Capable Coding Model Yet — Here Is Everything"
 date: 2026-05-20 10:00:00 +0200
 last_modified_at: 2026-05-20 10:00:00 +0200
+meta_description: "Anthropic releases Claude Opus 4.7: state-of-the-art coding, 3x higher-res vision, better instruction following, file-based memory, and an effort parameter. No."
 categories: [research]
 tags: [anthropic, claude, opus-4-7, model-launch, coding-ai, vision-models, agentic-ai]
 hero_image: /assets/images/hero/hero-claude-opus-4-7-launch.jpg
@@ -61,7 +62,7 @@ This means teams upgrading from Opus 4.6 need to **re-tune their prompts and har
 
 ### 5. File-Based Memory
 
-Opus 4.7 uses file system-based memory more effectively — remembering important notes across long, multi-session work. This means less up-front context is needed for subsequent tasks, which is particularly valuable for agentic workflows that span hours or days.
+Opus 4.7 uses file system-based memory more effectively — remembering important notes across long, multi-session work. This means less up-front context is needed for subsequent tasks, which is particularly valuable for agentic workflows that span hours or days. Anthropic's recently launched [Managed Agents platform]({% post_url 2026-05-25-anthropic-managed-agents-platform-dreaming-orchestration-may25 %}) builds on exactly this kind of persistent context, with Dreaming and multiagent orchestration now generally available.
 
 ## Claude Code Gets Major Upgrades Too
 
@@ -79,7 +80,7 @@ Anthropic's business model remains straightforward: enterprise contracts and pai
 
 ## The Big Picture
 
-Claude Opus 4.7 arrives at a pivotal moment. The frontier model race has increasingly shifted from benchmark scores to **real-world agentic capability** — can a model sustain long-running tasks, recover from errors, follow complex instructions, and interact with tools autonomously? Opus 4.7 appears to deliver on all fronts.
+Claude Opus 4.7 arrives at a pivotal moment. The frontier model race has increasingly shifted from benchmark scores to **real-world agentic capability** — can a model sustain long-running tasks, recover from errors, follow complex instructions, and interact with tools autonomously? As we've documented in our [Complete Guide to AI Agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}), this shift toward sustained autonomous capability is the defining trend of 2026. Opus 4.7 appears to deliver on all fronts.
 
 The testimonials from over a dozen production deployments — Cursor's +12 point CursorBench jump, XBOW's near-perfect visual acuity, Notion's +14% agent reliability with fewer tool errors, and CodeRabbit's +10% code review recall — suggest this isn't a marketing narrative. It's a genuinely useful step forward for anyone building with AI.
 

@@ -3,6 +3,7 @@ layout: post
 title: "Claude Platform on AWS Goes GA — Anthropic's Full Agent Stack Now Available to Every AWS Customer"
 date: 2026-05-12 10:30:00 +0200
 last_modified_at: 2026-05-12 10:30:00 +0200
+meta_description: "Anthropic launches Claude Platform on AWS GA: Managed Agents, code execution, skills, and advisor with IAM auth, CloudTrail logging, and commitment retirement."
 categories: [tools-frameworks]
 tags: [anthropic, claude, aws, cloud, managed-agents, enterprise, infrastructure]
 reading_time: 6
@@ -19,7 +20,7 @@ author: The Agent Report
 
 ## The Big Picture
 
-Starting today, any AWS customer can deploy Claude agents at enterprise scale without leaving the AWS console. The announcement, published on [Claude's blog](https://claude.com/blog/claude-platform-on-aws), marks Anthropic's most aggressive push yet into enterprise infrastructure — and it signals a clear strategy: **meet enterprises where they already are.**
+Starting today, any AWS customer can deploy Claude agents at enterprise scale without leaving the AWS console. The announcement, published on [Claude's blog](https://claude.com/blog/claude-platform-on-aws), marks Anthropic's most aggressive push yet into enterprise infrastructure — and it signals a clear strategy: **meet enterprises where they already are — a strategy also reflected in Anthropic's [Claude for Small Business]({% post_url 2026-05-14-claude-for-small-business-agentic-workflows %}) launch.**
 
 The Claude Platform on AWS gives customers access to the "full set of Claude Platform features with AWS authentication, billing, and commitment retirement." In plain English: enterprises can now use their existing AWS budgets to pay for Claude agents, manage access through IAM policies they already control, and audit every agent action through CloudTrail.
 
@@ -28,7 +29,7 @@ The Claude Platform on AWS gives customers access to the "full set of Claude Pla
 The platform ships with everything Anthropic has built over the past six months:
 
 ### Claude Managed Agents (Beta)
-The headline feature. Enterprises can deploy AI agents that operate autonomously over long time horizons — planning, executing, and iterating on complex tasks. Managed Agents support:
+The headline feature. Enterprises can deploy AI agents that operate autonomously over long time horizons — planning, executing, and iterating — building on Anthropic's [Managed Agents platform]({% post_url 2026-05-25-anthropic-managed-agents-platform-dreaming-orchestration-may25 %}) on complex tasks. Managed Agents support:
 - **Code execution** — agents can write, test, and deploy code
 - **Skills** — reusable agent capabilities (similar to Hermes Agent's skill system)
 - **Advisor strategy** — multi-agent orchestration where specialized agents collaborate on complex problems

@@ -3,6 +3,7 @@ layout: post
 title: "Needle: Gemini Tool Calling Distilled Into a 26M Parameter Model — Tiny AI That Actually Calls Functions"
 date: 2026-05-13 14:00:00 +0200
 last_modified_at: 2026-05-13 14:00:00 +0200
+meta_description: "Cactus Compute distills Gemini 3.1 tool-calling into a 26-million-parameter model running at 1200 tokens per second on phones, watches, and glasses with fully."
 categories: [research]
 tags: [needle, gemini, model-distillation, tool-calling, function-calling, on-device-ai, tiny-models]
 hero_image: /assets/images/hero/hero-needle-gemini-tool-calling-distilled-26m-parameter-model.jpg
@@ -23,9 +24,9 @@ Let's be precise about what Needle does and doesn't do.
 
 **What it does:** Given a user query and a set of tool definitions (JSON schema), Needle outputs the correct tool call with arguments. It's a single-turn function-calling engine — you get: `[{"name": "get_weather", "arguments": {"location": "San Francisco"}}]`.
 
-**What it doesn't do:** Conversational chat, multi-turn reasoning, general knowledge QA, or anything that requires broad language understanding. That's not the point. Needle is a **specialized router** — the part of an agent pipeline that decides *which function to invoke* and *with what parameters*.
+**What it doesn't do:** Conversational chat, multi-turn reasoning, general knowledge QA, or anything that requires broad language understanding. That's not the point. Needle is a **specialized router** — the part of an agent pipeline that decides *which function to invoke* and *with what parameters* — a key concept in our [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}) of 55 essential terms.
 
-This specialization is exactly what makes it so powerful for agentic workloads.
+This specialization is exactly what makes it so powerful for agentic workloads, fitting into the [broader agent frameworks landscape]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 ## The Architecture: Simple Attention Networks
 

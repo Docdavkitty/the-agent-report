@@ -3,6 +3,7 @@ layout: post
 title: "Claude for Small Business: Anthropic Deploys Agentic AI Into the Tools SMBs Already Use"
 date: 2026-05-14 10:00:00 +0200
 last_modified_at: 2026-05-14 10:00:00 +0200
+meta_description: "Anthropic launches Claude for Small Business with 15 pre-built agentic workflows connecting to QuickBooks, PayPal, HubSpot, Canva, and Docusign for autonomous."
 categories: [tools-frameworks]
 tags: [anthropic, claude, small-business, agentic-workflows, quickbooks, payroll-automation]
 hero_image: /assets/images/hero/hero-claude-for-small-business-agentic-workflows.jpg
@@ -20,9 +21,9 @@ Small businesses account for **44% of U.S. GDP** and employ nearly half the priv
 
 ## How It Works
 
-Claude for Small Business operates through **Claude Cowork**, Anthropic's agentic workspace. Once toggled on, users connect their existing accounts — QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365 — and Claude surfaces a menu of ready-to-run jobs. Each job is a **multi-step agentic workflow** with explicit approval gates: Claude does the work, but nothing sends, posts, or pays until the business owner approves.
+Claude for Small Business operates through **Claude Cowork**, Anthropic's agentic workspace. Once toggled on, users connect their existing accounts — QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365 — and Claude surfaces a menu of ready-to-run jobs. Each job is a **multi-step agentic workflow** with explicit approval gates: Claude does the work, but nothing sends, posts, or pays until the business owner approves — a pattern that mirrors Anthropic's [broader Managed Agents strategy]({% post_url 2026-05-25-anthropic-managed-agents-platform-dreaming-orchestration-may25 %}).
 
-The launch ships with **15 pre-built workflows** and **15 repeatable skills**, built directly on what small business owners told Anthropic slows them down the most.
+The launch ships with **15 pre-built workflows, part of Anthropic's [broader Managed Agents strategy]({% post_url 2026-05-25-anthropic-managed-agents-platform-dreaming-orchestration-may25 %})** and **15 repeatable skills**, built directly on what small business owners told Anthropic slows them down the most.
 
 ## The Workflows That Matter
 

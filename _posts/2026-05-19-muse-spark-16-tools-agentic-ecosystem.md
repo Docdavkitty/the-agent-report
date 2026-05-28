@@ -3,6 +3,7 @@ layout: post
 title: "Muse Spark Exposed — Meta's New Model Has 16 Agentic Tools, Code Interpreter, and Visual Grounding"
 date: 2026-05-19 14:00:00 +0200
 last_modified_at: 2026-05-19 14:00:00 +0200
+meta_description: "Meta's Muse Spark ships with 16 built-in agent tools: Python code execution, visual grounding, sub-agent spawning, web browsing, and Meta content search —."
 categories: [research]
 tags: [meta, muse-spark, agentic-ai, code-interpreter, visual-grounding, sub-agents]
 hero_image: /assets/images/hero/hero-muse-spark-16-tools-agentic-ecosystem.jpg
@@ -13,11 +14,13 @@ author: The Agent Report
 
 When Meta announced **Muse Spark** on April 8, 2026, most headlines focused on the benchmarks: competitive with Opus 4.6, Gemini 3.1 Pro, and GPT-5.4. But the real story — the one that signals Meta's ambitions in the agentic AI space — lies in what the model can *do*.
 
-Muse Spark is Meta's first model release since Llama 4, and it marks a decisive pivot. It is **not** open-weight. It is hosted exclusively on Meta's infrastructure, accessible through [meta.ai](https://meta.ai/) (with a Facebook or Instagram login) and through a private API preview at [llama.developer.meta.com](https://llama.developer.meta.com/). But unlike earlier Llama models that were pure text-in/text-out, Muse Spark ships with a full agentic tool harness that rivals — and in some areas surpasses — what Claude and ChatGPT offer.
+Muse Spark is Meta's first model release since Llama 4, and it marks a decisive pivot. It is **not** open-weight. It is hosted exclusively on Meta's infrastructure, accessible through [meta.ai](https://meta.ai/) (with a Facebook or Instagram login) and through a private API preview at [llama.developer.meta.com](https://llama.developer.meta.com/). But unlike earlier Llama models that were pure text-in/text-out, Muse Spark ships with a full agentic tool harness that rivals — and in some areas surpasses — what Claude and ChatGPT offer, as catalogued in our [ultimate framework guide]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 Thanks to Simon Willison's [exhaustive reverse-engineering](https://simonwillison.net/2026/Apr/8/muse-spark/) of the meta.ai chat interface, we now have a complete picture of what Muse Spark can do. Here is the full breakdown.
 
 ## The 16 Tools Powering Muse Spark
+
+This launch arrives at a pivotal moment in the [state of AI agents]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}), as frontier models increasingly ship with built-in agentic capabilities.
 
 ### 🔍 Web Browsing & Search
 

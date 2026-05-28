@@ -3,6 +3,7 @@ layout: post
 title: "TokenSpeed: LightSeek's Speed-of-Light Inference Engine Redesigns LLM Serving from First Principles for Agentic Workloads"
 date: 2026-05-07 12:00:00 +0200
 last_modified_at: 2026-05-07 12:00:00 +0200
+meta_description: "TokenSpeed redesigns LLM inference for agentic workloads: compiler-backed SPMD modeling, high-perf scheduling, and safe KV cache reuse squeeze more throughput."
 categories: [research]
 tags: [lightseek, tokenspeed, inference-engine, llm-serving, agentic-workloads, performance, compute-efficiency]
 reading_time: 8
@@ -76,11 +77,11 @@ For organizations running agent fleets at scale — think CI/CD pipeline agents,
 
 TokenSpeed is **fully open source** under the Apache 2.0 license, with the source code available on the LightSeek Foundation's GitHub. The foundation has also published a detailed technical whitepaper covering the compiler design, scheduler algorithms, and kernel optimization strategies.
 
-The project is already attracting attention from the agent infrastructure community, with several inference providers reportedly evaluating TokenSpeed for production deployment. Given the momentum behind [agent-enabled infrastructure](/2026/05/cloudflare-agent-account-domain-deploy/), a purpose-built inference engine feels less like a luxury and more like a necessity.
+The project is already attracting attention from the agent infrastructure community, with several inference providers reportedly evaluating TokenSpeed for production deployment. Given the momentum behind agent-enabled infrastructure, a purpose-built inference engine feels less like a luxury and more like a necessity. For more on the agent tooling landscape, see our [top 20 open source AI agent tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}).
 
 ## The Bottom Line
 
-TokenSpeed represents a recognition that **agentic AI is not just a new application of existing LLM technology — it's a new compute paradigm** that demands infrastructure designed from the ground up. Just as the shift from batch processing to real-time web services spawned a generation of purpose-built databases and server architectures, the shift from chat to agentic workloads is spawning a new generation of inference engines.
+TokenSpeed represents a recognition that **agentic AI is not just a new application of existing LLM technology — it's a new compute paradigm** that demands infrastructure designed from the ground up. Just as the shift from batch processing to real-time web services spawned a generation of purpose-built databases and server architectures, the shift from chat to agentic workloads is spawning a new generation of inference engines. For more on agent infrastructure, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the [state of agent engineering]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}).
 
 As the [agent economy scales](/2026/05/uae-50-percent-agentic-ai-government/), the winners won't just be those with the best models — they'll be those with the most efficient infrastructure for running those models at scale. TokenSpeed is an early, credible bet on that thesis.
 

@@ -3,6 +3,7 @@ layout: post
 title: "Agents Need Control Flow, Not More Prompts: Why Prompt Engineering Hits a Hard Ceiling"
 date: 2026-05-08 08:02:00 +0200
 last_modified_at: 2026-05-08 08:02:00 +0200
+meta_description: "AI agents need deterministic control flow in software, not elaborate prompt chains. A viral essay argues prompt engineering hits a hard ceiling for complex."
 categories: [opinion]
 tags: [agent-architecture, control-flow, agent-reliability, prompt-engineering, llm-orchestration, deterministic-agents]
 reading_time: 6
@@ -93,9 +94,9 @@ Others note that the most successful production agents today — like [Anthropic
 
 ## The Verdict
 
-The essay's core thesis is hard to dispute: **reliability requires determinism at the architectural level.** No amount of prompt engineering can paper over the fundamental non-determinism of stochastic language models. As agents move from demos to production systems handling real money, data, and decisions, the industry will need to adopt the software engineering practices that every other production system takes for granted.
+The essay's core thesis is hard to dispute: **reliability requires determinism at the architectural level.** No amount of prompt engineering can paper over the fundamental non-determinism of stochastic language models. As agents move from demos to production systems handling real money, data, and decisions, the industry will need to adopt the software engineering practices that every other production system takes for granted. For more on agent reliability, see our [state of agent engineering]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}).
 
-The question isn't whether agents need control flow — it's whether today's frameworks are ready to provide it.
+The question isn't whether agents need control flow — it's whether today's frameworks are ready to provide it. For more on agent architecture, see our [enterprise agent stack architecture]({% post_url 2025-04-14-enterprise-agent-stack-architecture %}) and the [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).
 
 ---
 

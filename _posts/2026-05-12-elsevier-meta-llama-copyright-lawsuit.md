@@ -3,17 +3,18 @@ layout: post
 title: "Elsevier Sues Meta Over Llama Training Data — First Science Publisher Joins the Copyright Fight"
 date: 2026-05-12 14:00:00 +0200
 last_modified_at: 2026-05-12 14:00:00 +0200
+meta_description: "Elsevier sues Meta for allegedly using Common Crawl and LibGen to scrape paywalled papers for Llama training, with massive implications for open-source AI."
 categories: [research]
 tags: [meta, llama, open-source, copyright-lawsuit, elsevier, academic-publishing]
 hero_image: /assets/images/hero/hero-elsevier-meta-llama-copyright-lawsuit.jpg
 reading_time: 6
-excerpt: "Elsevier has joined the class-action lawsuit against Meta, making it the first major scientific publisher to sue over copyrighted research papers used to train the Llama family of models. The suit alleges Meta used Common Crawl and LibGen to scrape paywalled papers — and the implications for open-source AI training data are massive."
+excerpt: "Elsevier has joined the class-action lawsuit against Meta, making it the first major scientific publisher to sue over copyrighted research papers used to train the Llama family of models — a legal dimension of the [state of AI agents]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}) landscape. The suit alleges Meta used Common Crawl and LibGen to scrape paywalled papers — and the implications for open-source AI training data are massive."
 author: The Agent Report
 ---
 
 **The copyright war against Meta's Llama models just escalated to the academic front line.** Elsevier — the world's largest scientific publisher, with over 2,900 journals including *The Lancet* and *Cell* — has joined the class-action lawsuit against Meta, alleging that millions of copyrighted research papers were scraped and used without permission to train the Llama family of models.
 
-This is the **first time a major scientific publisher** has entered the AI copyright fray, and it changes the legal calculus significantly. Here's what happened, why it matters, and what it means for the future of open-source AI training data.
+This is the **first time a major scientific publisher** has entered the AI copyright fray, and it changes the legal calculus significantly. Here's what happened, why it matters, and what it means for the future of [open-source AI training data]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 ## What Elsevier Alleges
 

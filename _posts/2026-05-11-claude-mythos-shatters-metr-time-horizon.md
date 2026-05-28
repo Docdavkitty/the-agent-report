@@ -3,6 +3,7 @@ layout: post
 title: "Claude Mythos Shatters METR's Time Horizon Graph — First Model to Crack Multi-Hour Autonomous Tasks"
 date: 2026-05-11 14:00:00 +0200
 last_modified_at: 2026-05-11 14:00:00 +0200
+meta_description: "Claude Mythos Preview hits a 6.25-hour 50% time horizon on METR's benchmark, nearly doubling the next-best model. METR warns measurements above 16 hours are now unreliable."
 categories: [research]
 tags: [anthropic, claude, claude-mythos, metr, ai-agents, time-horizon, model-benchmarks]
 reading_time: 7
@@ -13,7 +14,7 @@ author: The Agent Report
 
 # Claude Mythos Shatters METR's Time Horizon Graph — First Model to Crack Multi-Hour Autonomous Tasks
 
-**Anthropic's Claude Mythos Preview achieved a staggering 6.25-hour 50% time horizon on the METR benchmark — more than double any other publicly evaluated model — forcing the research lab to add a warning that its measurement suite cannot reliably assess tasks beyond 16 hours.**
+**Anthropic's Claude Mythos Preview achieved a staggering 6.25-hour 50% time horizon on the METR benchmark — more than double any other publicly evaluated model — a milestone that comes as Anthropic also announced [Claude Managed Agents]({% post_url 2026-05-07-anthropic-managed-agents-dreaming-outcomes %}) entering a new era of orchestration that its measurement suite cannot reliably assess tasks beyond 16 hours.**
 
 On May 8, 2026, METR (Model Evaluation and Threat Research) updated its [Task-Completion Time Horizons](https://metr.org/time-horizons/) page with a new entry: "Claude Mythos Preview (early)." The release date is listed as April 7, 2026, but the evaluation results were only published this week — and they immediately broke the chart.
 
@@ -54,7 +55,7 @@ For context, here's how Mythos compares to the broader landscape:
 - **GPT-5.4**: 1.26 hrs
 - **GPT-5.2**: 1.31 hrs
 
-## What This Means for AI Agents
+## What This Means for AI Agents — contextualized in our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %})
 
 A 6.25-hour time horizon is a milestone. It means Claude Mythos can reliably handle tasks that would take a human professional most of a workday — debugging complex systems, building substantial features from scratch, or performing multi-step research.
 

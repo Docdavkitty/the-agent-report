@@ -3,6 +3,7 @@ layout: post
 title: "OpenCode Is Open Source: The Free Coding Agent Shaking Up AI-Assisted Development"
 date: 2026-05-16 10:00:00 +0200
 last_modified_at: 2026-05-16 10:00:00 +0200
+meta_description: "OpenCode rockets to 1,200 Hacker News points as a fully open-source AI coding agent with a local-first extensible architecture, democratizing agentic coding."
 categories: [tools-frameworks]
 tags: [OpenCode, open-source, coding-agents, AI-IDE, developer-tools, SST]
 reading_time: 7
@@ -25,7 +26,7 @@ At its core, OpenCode is a **terminal-native AI coding agent** that understands 
 
 Key features include:
 
-- **Local-first architecture**: All context gathering and prompt construction happens on your machine. You can use local models via Ollama, or connect to any OpenAI-compatible API.
+- **Local-first architecture — echoing the principles behind [Agent Safehouse]({% post_url 2026-05-20-agent-safehouse-macos-sandbox-may20 %})**: All context gathering and prompt construction happens on your machine. You can use local models via Ollama, or connect to any OpenAI-compatible API.
 - **Deep codebase understanding**: OpenCode builds a semantic map of your project, tracking imports, types, function signatures, and documentation across files.
 - **Autonomous file editing**: The agent can read, edit, create, and delete files, with diffs previewed before application.
 - **Git integration**: Automatic commit generation with meaningful messages, branch management, and PR creation.

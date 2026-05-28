@@ -13,11 +13,11 @@ layout: default
         <article class="post-card">
           {% if post.hero_image %}
             <div class="post-card-image">
-              {% include picture.html src=post.hero_image alt=post.title %}
+              {% include picture.html src=post.hero_image alt=post.title loading="lazy" %}
             </div>
           {% else %}
             <div class="post-card-image">
-              <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="{{ post.title }}">
+              <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="{{ post.title }}" loading="lazy">
             </div>
           {% endif %}
           <div class="post-card-body">

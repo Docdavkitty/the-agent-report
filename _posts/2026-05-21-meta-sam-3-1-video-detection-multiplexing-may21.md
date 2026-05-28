@@ -3,6 +3,7 @@ layout: post
 title: "Meta SAM 3.1 — Faster Real-Time Video Detection and Tracking with Multiplexing and Global Reasoning"
 date: 2026-05-21 14:00:00 +0200
 last_modified_at: 2026-05-21 14:00:00 +0200
+meta_description: "Meta releases SAM 3.1 with Object Multiplex for joint multi-object video tracking at faster speeds without accuracy loss, advancing open-source video detection."
 categories: [research]
 tags: [meta, sam3, open-source, computer-vision, segment-anything, video-tracking, object-detection]
 hero_image: /assets/images/hero/hero-meta-sam-3-1-video-detection-multiplexing-may21.jpg
@@ -121,11 +122,11 @@ predictor = build_sam3_video_predictor()
 
 ## The Broader Context
 
-SAM 3.1 arrives at a time when Meta is doubling down on both open-source computer vision and its Superintelligence Labs (MSL). The SAM family has been one of Meta's most successful open-source contributions, with the original SAM accumulating over 54,000 GitHub stars and SAM 2 nearly 20,000.
+SAM 3.1 arrives at a time when Meta is doubling down on both open-source computer vision and its Superintelligence Labs (MSL) — the same division behind [Meta's closed-source Muse Spark model]({% post_url 2026-05-26-meta-muse-spark-hybrid-strategy-2026 %}). The SAM family has been one of Meta's most successful open-source contributions, with the original SAM accumulating over 54,000 GitHub stars and SAM 2 nearly 20,000.
 
 The release also signals Meta's continuing commitment to **open-weight vision models** even as its flagship language model (Llama 4) remains unreleased and its Muse Spark model is hosted-only. SAM 3.1 is fully open-source, with model weights available on Hugging Face and code on GitHub — a strategy that has made Meta's vision models the de facto standard for research and commercial applications alike.
 
-For the broader AI ecosystem, SAM 3.1's multiplexing architecture is an important technical contribution. The shared-memory tracking pattern could influence other domains where multi-instance reasoning is required — from multi-agent tracking in robotics to simultaneous object detection in autonomous systems.
+For the broader AI ecosystem, SAM 3.1's multiplexing architecture is an important technical contribution. The shared-memory tracking pattern could influence other domains where multi-instance reasoning is required — from multi-agent tracking in robotics to simultaneous object detection in autonomous systems. This mirrors the broader shift toward multi-agent architectures documented in our [Ultimate Guide to Open Source AI Agent Frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 ## Summary
 

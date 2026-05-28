@@ -3,6 +3,7 @@ layout: post
 title: "Codex Now Lives in Your Pocket — OpenAI Brings Agentic Coding to Mobile"
 date: 2026-05-15 10:00:00 +0200
 last_modified_at: 2026-05-15 10:00:00 +0200
+meta_description: "OpenAI brings Codex to ChatGPT mobile, letting developers command desktop coding agents from iOS or Android. Review diffs, approve commands, and watch terminal."
 categories: [tools-frameworks]
 tags: [openai, codex, mobile, chatgpt, agentic-coding, ios, android]
 hero_image: /assets/images/hero/hero-codex-chatgpt-mobile-app-may15.jpg
@@ -13,13 +14,13 @@ author: The Agent Report
 
 **You can now control OpenAI's Codex — the agentic coding assistant that writes code and operates desktop applications — directly from your phone.** The feature, rolling out today as a preview on iOS and Android, represents a fundamental shift in how developers interact with AI coding agents: the agent is no longer tethered to the machine where it runs.
 
-Announced on [OpenAI's blog](https://openai.com/index/work-with-codex-from-anywhere/) and quickly shooting to **#5 on Hacker News with 309 points**, the move is a direct response to the surging popularity of Anthropic's Claude Code, which has set the standard for agentic coding workflows over the past six months. OpenAI is now fighting back — not by matching Claude Code feature-for-feature, but by making Codex available in the one place no other coding agent has gone: your pocket.
+Announced on [OpenAI's blog](https://openai.com/index/work-with-codex-from-anywhere/) and quickly shooting to **#5 on Hacker News with 309 points**, the move is a direct response to the surging popularity of Anthropic's Claude Code, which has set the standard for agentic coding workflows — as documented in our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) over the past six months. OpenAI is now fighting back — not by matching Claude Code feature-for-feature, but by making Codex available in the one place no other coding agent has gone: your pocket.
 
 ## What Actually Changes
 
 Before today, Codex was a desktop-only experience. You installed it on your machine, it had access to your files, terminal, and browser — and you interacted with it through a local interface. Useful, but tethered.
 
-The mobile integration flips that model. From the ChatGPT app on your phone, you can:
+The mobile integration flips that model — a shift reflecting the trends tracked in our [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}) overview. From the ChatGPT app on your phone, you can:
 
 - **Start new tasks** — Tell Codex what to build or fix, and it begins working on your desktop machine
 - **Review outputs in real time** — Screenshots, terminal output, and diffs stream back to your phone as Codex works

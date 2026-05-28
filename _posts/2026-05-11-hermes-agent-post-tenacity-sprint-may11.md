@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent's Post-Tenacity Sprint: 143K Stars, New Finance Skill, and 179 Merged PRs in 4 Days"
 date: 2026-05-11 12:00:00 +0200
 last_modified_at: 2026-05-11 12:00:00 +0200
+meta_description: "Hermes Agent executes a post-Tenacity cleanup sprint with community-driven PRs addressing regression fixes, documentation updates, and platform stability."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, post-tenacity, community-momentum, stocks-finance, kanban-diagnostics, platform-maturation]
 reading_time: 6
@@ -17,7 +18,7 @@ Since May 8, the GitHub repository has jumped from ~138,000 to **143,510 stars**
 
 ## 📈 Explosive Star Growth
 
-At roughly **1,375 new stars per day**, Hermes Agent is now the fastest-growing AI agent runtime on GitHub by a significant margin:
+At roughly **1,375 new stars per day**, Hermes Agent is [now the fastest-growing AI agent runtime on GitHub]({% post_url 2026-05-25-hermes-agent-community-ecosystem-may25 %}) by a significant margin:
 
 | Milestone | Stars | Date | Days |
 |-----------|-------|------|------|
@@ -27,7 +28,7 @@ At roughly **1,375 new stars per day**, Hermes Agent is now the fastest-growing 
 | v0.13.0 Tenacity | 138K | May 7 | +1 |
 | **Today** | **143.5K** | **May 11** | **+4** |
 
-The project has added **~16,500 stars in 11 days** since v0.12.0 — a trajectory that shows no signs of slowing. Forks have reached **22,406**, and the repository now has **9,960 open issues** (a testament to the scale of community engagement).
+The project has added **~16,500 stars in 11 days** since v0.12.0 — a trajectory that shows no signs of slowing — and the project would go on to ship [v0.14.0 "Foundation" just 9 days later]({% post_url 2026-05-18-hermes-agent-v0140-foundation-release-may16 %}). Forks have reached **22,406**, and the repository now has **9,960 open issues** (a testament to the scale of community engagement).
 
 ## 🆕 New Skills and Features
 

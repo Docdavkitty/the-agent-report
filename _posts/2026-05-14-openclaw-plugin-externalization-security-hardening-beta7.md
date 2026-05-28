@@ -3,6 +3,7 @@ layout: post
 title: "Openclaw Sheds Weight: Plugin Externalization and Security Hardening in v2026.5.12-beta"
 date: 2026-05-14 10:00:00 +0000
 last_modified_at: 2026-05-14 10:00:00 +0000
+meta_description: "Openclaw externalizes Bedrock, Slack, and Vertex into optional plugins, slimming the core install while shipping 50+ security fixes and gateway protocol v4."
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, plugin-architecture, security-hardening]
 reading_time: 7
@@ -11,7 +12,7 @@ hero_image: /assets/images/hero/hero-openclaw-plugin-externalization-security-be
 author: The Agent Report
 ---
 
-Openclaw's rapid-release train continues at full speed. Between May 12 and May 14, the project pushed **four beta releases** (v2026.5.12-beta.3 through beta.7), culminating in the most architecturally significant update in recent weeks. While the star count crossed **371,000** and the awesome-openclaw-skills ecosystem reached **48,600+ stars** with 5,400+ cataloged skills, the real story is under the hood: Openclaw is deliberately **shedding weight** from its core distribution.
+Openclaw's rapid-release train continues at full speed. Between May 12 and May 14, the project pushed **four beta releases** (v2026.5.12-beta.3 through beta.7) —  culminating in the most architecturally significant update in recent weeks. While the star count crossed **371,000** and the awesome-openclaw-skills ecosystem reached **48,600+ stars** with 5,400+ cataloged skills, the real story is under the hood: Openclaw is deliberately **shedding weight** from its core distribution.
 
 ## The Big Shift: Plugin Externalization
 
@@ -40,7 +41,7 @@ The same release also removes the bundled `codex-cli` backend, migrating legacy 
 
 ## Security Hardening: A Coordinated Push
 
-Alongside the architectural changes, the beta cycle ships what appears to be a **coordinated security audit response**. Over 50 commits carry explicit `[AI]` tags from contributor `@pgondhi987`, addressing attack surfaces across the gateway, sandbox, and plugin systems:
+Alongside the architectural changes, the beta cycle ships what appears to be a **coordinated security audit response**. Over 50 commits carry explicit `[AI]` tags from contributor `@pgondhi987`, addressing the kind of [plugin security concerns]({% post_url 2025-04-16-open-source-agent-frameworks-comparison %}) addressing attack surfaces across the gateway, sandbox, and plugin systems:
 
 ### Sandbox and Execution Hardening
 

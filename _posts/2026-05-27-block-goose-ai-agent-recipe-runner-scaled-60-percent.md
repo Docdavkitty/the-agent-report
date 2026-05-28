@@ -3,6 +3,7 @@ layout: post
 title: "Block Open-Sourced Goose: How a YAML Recipe File Scaled an AI Agent to 60% of the Company"
 date: 2026-05-27 14:00:00 +0200
 last_modified_at: 2026-05-27 14:00:00 +0200
+meta_description: "Block open-sourced Goose scaling to 60 percent of 12,000 employees via YAML recipe files any team member can author, now at 44,000 GitHub stars and 368."
 categories: [tools-frameworks]
 tags: [goose, block, square, open-source, mcp, enterprise-adoption, agent-framework]
 reading_time: 6
@@ -64,7 +65,7 @@ The recipe format is the architectural breakthrough that explains the adoption n
 
 For engineers, the value is different: a recipe is a **committable artifact** that lives in the same repo as the code it operates on. A team's review workflow sits at `recipes/review-pr.yaml` next to the service code. New hires read the recipe to understand the workflow. Changes get reviewed like any other artifact.
 
-The MCP extension layer is the multiplier. Every new internal capability is a one-time MCP server build, and then it's available to every recipe. Block doesn't write a separate "PR review agent" and "ticket triage agent." They write **one Goose binary**, then ship a directory of recipes and a directory of MCP servers. **Composition does the rest.**
+The MCP extension layer is the multiplier. Every new internal capability is a one-time MCP server build, and then it's available to every recipe. Block doesn't write a separate "PR review agent" and "ticket triage agent." They write **one Goose binary**, then ship a directory of recipes and a directory of MCP servers. **Composition does the rest.** This MCP-based composition pattern is a core theme in our [Ultimate Guide to Open Source AI Agent Frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 ## Goose Is Now a Foundation Project
 
@@ -74,7 +75,7 @@ The implications are significant. The governance risk that held back enterprise 
 
 ## What This Means for the Industry
 
-Goose's recipe pattern is the strongest signal yet that the future of enterprise AI agents is not about better models — it's about **workflow abstractions that non-engineers can author**. The recipe is an architectural pattern, not a Goose-specific feature. The same shape works on top of Claude Code skills, Cursor agents, or any runtime that supports YAML-defined workflows and MCP tools.
+Goose's recipe pattern is the strongest signal yet that the future of enterprise AI agents is not about better models — it's about **workflow abstractions that non-engineers can author**. The recipe is an architectural pattern, not a Goose-specific feature. The same shape works on top of Claude Code skills, Cursor agents, or any runtime that supports YAML-defined workflows and MCP tools. For a broader view of how open-source agent tools are evolving, see our [Top 20 Open Source AI Agent Tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}) ranking.
 
 The takeaway for any team building internal agent platforms: if your system doesn't have an analog for the recipe, you're going to end up with bespoke agent builds per team. The recipe is what lets one tool serve a 12,000-person company without forking.
 

@@ -3,6 +3,7 @@ layout: post
 title: "State of Agent Engineering 2026: Where AI Agents Stand"
 date: 2026-05-23 08:00:00 +0200
 last_modified_at: 2026-05-23 08:00:00 +0200
+meta_description: "LangChain and Datadog surveys reveal 57% have agents in production, quality is the #1 barrier, observability is non-negotiable, and multi-model strategies."
 categories: [research]
 tags: [langchain, datadog, agent-engineering, production-ai, observability, multi-agent, surveys]
 hero_image: /assets/images/hero/hero-state-of-agent-engineering-2026-langchain-datadog.jpg

@@ -3,6 +3,7 @@ layout: post
 title: "OpenAI Agents SDK: A Developer's First Look"
 date: 2025-04-24 14:00:00 +0200
 last_modified_at: 2025-04-24 14:00:00 +0200
+meta_description: "Hands-on with OpenAI Agents SDK: how it compares to LangChain and CrewAI, what makes it stand out for Python developers building production-ready agent systems."
 categories: tools-frameworks
 tags: [OpenAI, SDK, agents, python]
 hero_image: /assets/images/hero/hero-04-24-openai-agents-sdk-first-look.jpg
@@ -52,4 +53,4 @@ print(result.final_output)
 
 ## Verdict
 
-The OpenAI Agents SDK is an excellent choice if you're already in the OpenAI ecosystem. It's simpler, cleaner, and better integrated than the alternatives. The main trade-off is vendor lock-in — you can't easily swap models without rewriting your agent logic.
+The OpenAI Agents SDK is an excellent choice if you're already in the OpenAI ecosystem. It's simpler, cleaner, and better integrated than the alternatives. The main trade-off is vendor lock-in — you can't easily swap models without rewriting your agent logic. For a broader comparison, see our [open-source agent frameworks comparison]({% post_url 2025-04-16-open-source-agent-frameworks-comparison %}) and [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).

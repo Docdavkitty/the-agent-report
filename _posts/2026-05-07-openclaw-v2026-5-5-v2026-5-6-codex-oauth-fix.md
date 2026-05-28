@@ -3,6 +3,7 @@ layout: post
 title: "Openclaw Ships Two Releases in a Day: v2026.5.5 and v2026.5.6 Fix Codex OAuth Routing, Plugin Fetch Stability"
 date: 2026-05-07 10:00:00 +0200
 last_modified_at: 2026-05-07 10:00:00 +0200
+meta_description: "Openclaw ships two releases in one day: v2026.5.5 with Discord and Telegram fixes, then v2026.5.6 hotfixing a critical Codex OAuth routing regression from doctor --fix."
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, codex-oauth, rapid-iteration]
 reading_time: 5
@@ -11,7 +12,7 @@ excerpt: "Openclaw shipped two back-to-back releases on May 6 — v2026.5.5 with
 author: The Agent Report
 ---
 
-**Openclaw** — the open-source personal AI assistant now sitting at **369,246 GitHub stars** and **76,186 forks** — demonstrated its operational cadence on May 6 with two releases in a single day. **v2026.5.5** shipped in the morning with a broad set of fixes across messaging platforms, provider integrations, and the control UI. Hours later, **v2026.5.6** followed to hotfix a regression introduced by v2026.5.5's `doctor --fix` repair logic that could accidentally break OpenAI Codex OAuth setups.
+**Openclaw** — the open-source personal AI assistant now sitting at **369,246 GitHub stars** and **76,186 forks** — demonstrated its operational cadence on May 6 with two releases in a single day. For ecosystem context, see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}). **v2026.5.5** shipped in the morning with a broad set of fixes across messaging platforms, provider integrations, and the control UI. Hours later, **v2026.5.6** followed to hotfix a regression introduced by v2026.5.5's `doctor --fix` repair logic that could accidentally break OpenAI Codex OAuth setups.
 
 The double-release is a glimpse into what operating at this scale looks like: even well-intentioned automated repair tools need careful guardrails, and the project's ability to detect, roll back, and communicate fixes within hours is a sign of growing engineering maturity.
 
@@ -57,7 +58,7 @@ Beyond the revert, v2026.5.6 included three additional fixes:
 
 ## What This Says About Openclaw's Operational Maturity
 
-Two releases in a day — especially one that shipped a bug and another that fixed it within hours — is not a sign of instability. It's a sign of **operational maturity**:
+Shipping two releases in one day — and hotfixing a regression within hours — is the kind of operational tempo that distinguishes mature platforms from weekend projects. For more on the agent framework ecosystem, see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 | Metric | v2026.5.5 → v2026.5.6 |
 |--------|----------------------|

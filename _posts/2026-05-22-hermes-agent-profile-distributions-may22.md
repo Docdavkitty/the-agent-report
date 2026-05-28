@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent Profile Distributions — Share Complete Agents as Git Repos"
 date: 2026-05-22 14:00:00 +0200
 last_modified_at: 2026-05-22 14:00:00 +0200
+meta_description: "Hermes Agent introduces Profile Distributions packaging complete agents with personality, skills, and MCP configs as git repositories for one-command."
 categories: [hermes-agent]
 tags: [hermes-agent, nous-research, open-source, profile-distributions, agent-sharing, git-workflow, devops]
 reading_time: 6
@@ -123,9 +124,9 @@ The repository automatically excludes sensitive files (`auth.json`, `.env`, `mem
 
 ## 🔮 Implications for the Agent Ecosystem
 
-Profile Distributions are more than a convenience feature — they lay the foundation for an **agent marketplace** embedded in the open-source workflow. Teams can publish internal compliance-monitoring agents as private repos. Community members can share specialized agents (research assistants, DevOps bots, writing editors) as public repos. The `hermes profile install` command becomes the equivalent of `pip install` for pre-configured agents.
+Profile Distributions are more than a convenience feature — they lay the foundation for an **agent marketplace** embedded in the open-source workflow. Teams can publish internal compliance-monitoring agents as private repos. Community members can share specialized agents (research assistants, DevOps bots, writing editors) as public repos. The `hermes profile install` command becomes the equivalent of `pip install` for pre-configured agents. This distribution model comes as the broader [Hermes Agent community ecosystem]({% post_url 2026-05-25-hermes-agent-community-ecosystem-may25 %}) has exploded to 276 documented use cases across 16 categories.
 
-This pairs naturally with the recent `hermes profile create --clone` improvements and the HuggingFace skills tap (`huggingface/skills` as a default source). Combined, Hermes Agent now has a complete distribution pipeline:
+This pairs naturally with the recent `hermes profile create --clone` improvements and the HuggingFace skills tap (`huggingface/skills` as a default source). Combined, Hermes Agent now has a complete distribution pipeline — alongside the [performance sprint]({% post_url 2026-05-20-hermes-agent-performance-sprint-may20 %}) that cut 1+ second per turn and multiple security hardening PRs:
 
 - **Skills** → reusable capability modules (via HuggingFace/community taps)
 - **Profiles** → local agent environments (via `profile create --clone`)

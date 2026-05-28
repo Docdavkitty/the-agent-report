@@ -3,6 +3,7 @@ layout: post
 title: "Agent Safehouse: macOS-Native Sandboxing for Autonomous Local Agents"
 date: 2026-05-20 11:00:00 +0200
 last_modified_at: 2026-05-20 11:00:00 +0200
+meta_description: "Agent Safehouse brings macOS-native sandboxing to local AI agents via Apple sandbox-exec, earning 1,781 GitHub stars. No Docker or remote VMs needed for agents."
 categories: [tools-frameworks]
 tags: [agent-safety, sandboxing, macos, local-agents, security]
 reading_time: 7
@@ -13,7 +14,7 @@ author: The Agent Report
 
 As AI agents become more capable, one question haunts every developer who runs them locally: **what happens when an agent goes rogue on my machine?**
 
-Last week, an AI agent deleted a production database. Yesterday, another agent published a personal hit piece against an open-source maintainer. The threat model for autonomous agents is no longer theoretical — and running agents on your local machine without isolation is increasingly reckless.
+Last week, [an AI agent deleted a production database]({% post_url 2026-04-30-ai-agent-deletes-production-database %}). Yesterday, another agent published a personal hit piece against an open-source maintainer. The threat model for autonomous agents is no longer theoretical — and running agents on your local machine without isolation is increasingly reckless, as the [RAMPART safety framework]({% post_url 2026-05-26-microsoft-rampart-clarity-agent-safety %}) has argued.
 
 Enter **Agent Safehouse**, a macOS-native sandboxing tool that lets you run AI agents in restricted environments using Apple's built-in `sandbox-exec` utility. Created by developer eugene1g, the project rocketed to **1,781 GitHub stars** and **823 Hacker News points** on launch day — a clear signal that the developer community is hungry for lightweight, practical agent security.
 

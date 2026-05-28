@@ -3,6 +3,7 @@ layout: post
 title: "The Llama Trap: How Meta Killed Open-Source AI"
 date: 2026-05-07 14:00:00 +0200
 last_modified_at: 2026-05-07 14:00:00 +0200
+meta_description: "Meta built an open-source ecosystem around Llama then deprecated it for proprietary Muse Spark amidst a copyright lawsuit and confirmed benchmark manipulation,."
 categories: [research]
 tags: [meta, llama, open-source, copyright-lawsuit, meta-ai, ecosystem]
 hero_image: /assets/images/hero/hero-meta-llama-trap-open-source.jpg
@@ -87,7 +88,7 @@ It's not all bad news for open-source AI:
 - **Mistral** continues releasing competitive open-weight models with transparent governance
 - **DeepSeek** has emerged as a serious open-weight contender
 - **Qwen (Alibaba)** maintains a strong open-source release cadence
-- **Hermes Agent** and other community-driven projects prove that the ecosystem extends beyond any single model provider
+- **Hermes Agent** and other community-driven projects prove that the ecosystem extends beyond any single model provider (see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}))
 
 The Llama trap has also spurred interest in **decentralized AI infrastructure** — truly open models governed by foundations rather than corporations.
 
@@ -106,4 +107,4 @@ Meta's open-source AI strategy was always a means to an end — and the end was 
 
 The Llama trap is a cautionary tale for every startup building on a single-vendor open-source AI stack. **True open-source requires open governance, not just open weights.**
 
-The open-source AI community will survive — but the era of trusting Meta with its future is over.
+The open-source AI community will survive — but the era of trusting Meta with its future is over. For broader context on the AI agent model landscape, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}).

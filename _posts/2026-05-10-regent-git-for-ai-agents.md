@@ -3,6 +3,7 @@ layout: post
 title: "Git for AI Agents — re_gent Brings Version Control to Agent Workflows"
 date: 2026-05-10 08:00:00 +0200
 last_modified_at: 2026-05-10 08:00:00 +0200
+meta_description: "re_gent brings Git-style version control to AI coding agents, tracking every tool call and prompt with full auditability at 290 GitHub stars and 115 HN points."
 categories: tools-frameworks
 tags: version-control agent-tooling devtools claude-code open-source
 reading_time: 6
@@ -13,11 +14,11 @@ author: The Agent Report
 
 *You're five minutes deep into a Claude Code session. The agent just refactored three files, added a test suite, and somewhere in the chaos — broke the build. Which change did it? Which *prompt* caused it? You scroll through your terminal history, looking for answers. There has to be a better way.*
 
-There is now. Enter **re_gent**, an open-source version control system purpose-built for AI coding agents. It landed on Hacker News this weekend with **115 points** and crossed **290 GitHub stars** within days — and it might be one of the most practical devtools to emerge from the agent era.
+There is now. Enter **re_gent**, an open-source version control system purpose-built for AI coding agents — complementing tools like [git-surgeon]({% post_url 2026-05-18-git-surgeon-agentic-git-control %}) that also tackle the git-agent interface. It landed on Hacker News this weekend with **115 points** and crossed **290 GitHub stars** within days — and it might be one of the most practical devtools to emerge from the agent era.
 
 ## The Problem: Agents Have No Audit Trail
 
-AI coding agents — Claude Code, Codex, Cursor — are rewriting how we build software. But they introduce a fundamental gap: **agent activity has no version control of its own.**
+AI coding agents — Claude Code, Codex, Cursor — are [reshaping software engineering]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) — are rewriting how we build software. But they introduce a fundamental gap: **agent activity has no version control of its own.**
 
 Think about it. Git tracks what *you* did. But when an agent runs autonomously:
 

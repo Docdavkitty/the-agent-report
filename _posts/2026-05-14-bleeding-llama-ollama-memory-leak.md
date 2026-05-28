@@ -3,6 +3,7 @@ layout: post
 title: "Bleeding Llama — Critical Ollama Memory Leak Exposes User Prompts, System Instructions, and Environment Secrets"
 date: 2026-05-14 14:00:00 +0200
 last_modified_at: 2026-05-14 14:00:00 +0200
+meta_description: "Cyera Research discloses Bleeding Llama, a critical unauthenticated memory leak in Ollama exposing user prompts and environment secrets from roughly 300,000."
 categories: [research]
 tags: [meta, llama, open-source, ollama, security-vulnerability, local-llm, llm-security]
 hero_image: /assets/images/hero/hero-bleeding-llama-ollama-memory-leak.jpg
@@ -16,6 +17,8 @@ author: The Agent Report
 Discovered by **Cyera Research** and published this week, "Bleeding Llama" (no CVE assigned yet) exploits an out-of-bounds heap read in Ollama's GGUF file parsing code. The attack requires no authentication, works on default Ollama installations, and can be executed in three API calls. With an estimated **300,000 Ollama servers exposed on the public internet**, the blast radius is enormous.
 
 ## What Is Bleeding Llama?
+
+Ollama is a key part of the [open-source AI agent framework ecosystem]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}), powering local inference for hundreds of thousands of developers.
 
 Bleeding Llama is an out-of-bounds heap read vulnerability in Ollama's model creation pipeline. It lives in the code that converts model tensor data from one precision format to another — specifically, the `ConvertToF32` and `WriteTo` functions that handle GGUF (GGML Universal Format) files.
 
@@ -46,7 +49,7 @@ According to Cyera's research, the leaked heap memory can contain:
 - **User prompts and messages** sent to any model running on the server
 - **System prompts** from all loaded models
 - **Environment variables** from the host machine (API keys, tokens, credentials)
-- **Tool outputs** when Ollama is connected to agents like Claude Code or Codex
+- **Tool outputs** when Ollama is connected to agents like Claude Code or Codex — tools covered in our [top 20 open-source AI agent tools]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %})
 
 > *"Imagine a large enterprise with 10,000+ employees using Ollama as their AI chat. An attacker can learn basically anything about the organization — API keys, proprietary code, customer contracts, and much more."*
 > — Cyera Research

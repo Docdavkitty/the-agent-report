@@ -3,6 +3,7 @@ layout: post
 title: "Google's Project Mariner: Agents in the Browser"
 date: 2025-04-18 16:00:00 +0200
 last_modified_at: 2025-04-18 16:00:00 +0200
+meta_description: "Google unveils Project Mariner, a Gemini-powered browser agent navigating websites, filling forms, and completing multi-step tasks autonomously through Chrome."
 categories: research industry
 tags: [Google, browser-agents, Gemini, Project-Mariner]
 hero_image: /assets/images/hero/hero-04-18-google-project-mariner-browser-agent.jpg
@@ -36,7 +37,7 @@ In Google's demonstrations, Project Mariner handled:
 
 Project Mariner enters a crowded space alongside:
 
-- **Claude Computer Use** (Anthropic) — Full desktop, not just browser
+- **Claude Computer Use** (Anthropic) — Full desktop, not just browser (see our [deep dive on Claude's computer use]({% post_url 2025-04-26-claude-computer-use-gui-agents %}))
 - **Operator** (OpenAI) — Browser-based agent in preview
 - **Browser Use** (open source) — Community-driven browser agent framework
 
@@ -51,4 +52,4 @@ Google has implemented several safeguards:
 - The agent operates in an isolated browser context
 - All actions are logged for user review
 
-Project Mariner hasn't been publicly released yet, but it signals Google's serious commitment to the agent space.
+Project Mariner hasn't been publicly released yet, but it signals Google's serious commitment to the agent space. For more on Google's agent ambitions, see our coverage of [Google's Remy agent]({% post_url 2026-05-06-google-remy-agent-openclaw-rival %}) and [DeepMind's AlphaEvolve]({% post_url 2026-05-08-deepmind-alphaevolve-mainstream %}).

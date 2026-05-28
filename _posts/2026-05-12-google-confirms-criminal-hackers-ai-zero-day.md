@@ -3,6 +3,7 @@ layout: post
 title: "The First AI-Written Zero-Day — Google Confirms Criminal Hackers Used AI to Find a Critical Software Flaw"
 date: 2026-05-12 10:00:00 +0200
 last_modified_at: 2026-05-12 10:00:00 +0200
+meta_description: "Google confirms the first documented case of criminal hackers using AI to discover and weaponize a zero-day vulnerability, marking a watershed for offensive AI."
 categories: [industry]
 tags: [google, ai-security, zero-day, cyber-crime, ai-agents, vulnerability, mandiant]
 reading_time: 8
@@ -13,7 +14,7 @@ author: The Agent Report
 
 # The First AI-Written Zero-Day — Google Confirms Criminal Hackers Used AI to Find a Critical Software Flaw
 
-**For the first time, Google's Threat Intelligence Group (GTIG) has documented a criminal threat actor using an AI model to discover a zero-day vulnerability — and developing a working exploit for what would have been a mass-exploitation event. The finding, published Monday, confirms what security researchers have feared for months: agentic AI is no longer just a defensive tool.**
+**For the first time, Google's Threat Intelligence Group (GTIG) has documented a criminal threat actor using an AI model to discover a zero-day vulnerability — and developing a working exploit for what would have been a mass-exploitation event. The finding, published Monday, confirms what security researchers have feared for months: agentic AI is no longer just a defensive tool — as the [CISA/NSA Five Eyes guidance]({% post_url 2026-05-03-cisa-nsa-five-eyes-ai-agent-security-guidance %}) warned just weeks earlier.**
 
 ---
 
@@ -48,7 +49,7 @@ Google documented **PROMPTSPY**, an AI-enabled malware that represents a shift t
 
 Perhaps most striking for the agent community: Google directly observed threat actors experimenting with **OpenClaw** and **OneClaw** — popular open-source agent frameworks — alongside intentionally vulnerable testing environments. They're using these tools to refine AI-generated payloads in controlled settings before deployment.
 
-> "In their pursuit of this vulnerability research, we see clear indications of automation and scaled research... actors are also experimenting with agentic tools such as OpenClaw and OneClaw alongside intentionally vulnerable testing environments."
+> "In their pursuit of this vulnerability research, we see clear indications of automation and scaled research... actors are also experimenting with [agentic tools such as OpenClaw and OneClaw]({% post_url 2026-05-14-openclaw-plugin-externalization-security-hardening-beta7 %}) alongside intentionally vulnerable testing environments."
 > — Google Threat Intelligence Group
 
 ## The Defense One Perspective

@@ -3,6 +3,7 @@ layout: post
 title: "Statewright: Visual State Machines That Make AI Coding Agents Reliable — From 20% to 100% Pass Rate on SWE-bench"
 date: 2026-05-19 14:00:00 +0200
 last_modified_at: 2026-05-19 14:00:00 +0200
+meta_description: "Statewright introduces visual state machines enforcing per-phase tool access for AI coding agents, lifting local models from 20 to 100 percent pass rates."
 categories: [tools-frameworks]
 tags: [statewright, ai-agents, state-machines, agent-reliability, swi-bench, claude-code, codex, mcp, open-source, developer-tools]
 reading_time: 6
@@ -25,7 +26,7 @@ Anyone who has watched an AI coding agent at work has seen the failure pattern. 
 - Gets stuck in "read-loop death spirals"
 - Calls destructive shell operations without guardrails
 
-The conventional response is to use a bigger model or write a longer system prompt. This helps at the margins but doesn't fix the root cause: **the model is being asked to self-regulate its own tool use, and it's not good at it.**
+The conventional response is to use a bigger model or write a longer system prompt. This helps at the margins but doesn't fix the root cause: **the model is being asked to self-regulate its own tool use — a problem that the [Forge guardrails framework]({% post_url 2026-05-20-forge-guardrails-local-agent-reliability-may20 %}) also addresses from a different angle, and it's not good at it.**
 
 Observability tools tell you what went wrong after the fact. They don't prevent it.
 
@@ -55,7 +56,7 @@ Call a tool that's not in the current phase and the agent gets rejected with a m
 
 ## Under the Hood: A Rust Engine with MCP Integration
 
-The core of Statewright is a **deterministic Rust engine** that evaluates state machine definitions. No LLM in the loop — it's pure rules.
+The core of Statewright is a **deterministic Rust engine** that evaluates state machine definitions, part of a growing ecosystem of [agent reliability tooling]({% post_url 2026-06-01-top-20-open-source-ai-agent-tools-2026 %}). No LLM in the loop — it's pure rules.
 
 On top of this sits a plugin layer that integrates with coding agents via **MCP (Model Context Protocol)**. When a workflow is activated, hooks enforce tool restrictions per state. The model goes from seeing 40 tools to seeing 5 — and gets clear instructions about its current phase and how to progress.
 

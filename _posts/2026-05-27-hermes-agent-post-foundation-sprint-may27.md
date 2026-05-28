@@ -3,7 +3,7 @@ layout: post
 title: "Hermes Agent Post-Foundation Sprint: Dashboard OAuth, Kynver Memory, Qwen 3.7-Max, and 30+ Merged PRs"
 date: 2026-05-27 14:00:00 +0200
 last_modified_at: 2026-05-27 14:00:00 +0200
-meta_description: "In the 11 days since v0.14.0 Foundation, the Hermes Agent team has merged over 30 PRs — shipping Dashboard OAuth login, a Kynver memory provider bridge, Qwen 3.7-Max support, API server session controls, security plugins with pattern-matched code warnings, and major Codex reliability fixes."
+meta_description: "Discover Hermes Agent's post-Foundation sprint delivering Dashboard OAuth, Kynver memory bridge, Qwen 3.7-Max support, API session controls, and 30+ merged PRs in 11 days."
 categories: [hermes-agent]
 tags: [hermes-agent, nous-research, open-source, dashboard-oauth, kynver-memory, qwen-37-max, api-server, security-plugins, codex-reliability]
 reading_time: 6
@@ -118,6 +118,6 @@ Eleven days after the Foundation release, Hermes Agent's development velocity is
 3. **Security is front-and-center** — pattern-matched security plugins for code writing is a direct response to the unique risks of self-improving agents
 4. **Daily reliability compounding** — the Codex cluster alone fixes 7+ distinct failure modes that real users were hitting
 
-The pace is remarkable: 30+ PRs merged in a single day, spanning infrastructure (auth, config, API), models (Qwen 3.7-Max), memory systems, security, and reliability. If the Foundation release was about _surface area_, this sprint is about _depth_ — making every subsystem more reliable, more secure, and more capable.
+The pace is remarkable: 30+ PRs merged in a single day, spanning infrastructure (auth, config, API), models (Qwen 3.7-Max), memory systems, security, and reliability. If the Foundation release was about _surface area_, this sprint is about _depth_ — making every subsystem more reliable, more secure, and more capable. The project's momentum mirrors what we've documented across the broader [Hermes Agent community ecosystem]({% post_url 2026-05-25-hermes-agent-community-ecosystem-may25 %}), which has grown to 276 documented use cases and 165K GitHub stars.
 
 With **169.5K stars and counting**, Hermes Agent continues to be the fastest-growing open-source agent framework — and if today's sprint is any indication, the next release (v0.15.0?) will be worth the wait.

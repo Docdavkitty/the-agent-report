@@ -3,6 +3,7 @@ layout: post
 title: "Google Is Building 'Remy' — A 24/7 Personal AI Agent That Could Be Its Answer to OpenClaw"
 date: 2026-05-06 14:00:00 +0200
 last_modified_at: 2026-05-06 14:00:00 +0200
+meta_description: "Google internally tests Remy, a persistent proactive AI agent integrated with Google services that monitors, plans, and acts on behalf of users around."
 categories: [industry]
 tags: [google, remy, gemini, openclaw, personal-agent, ai-competition, consumer-agents]
 reading_time: 7
@@ -55,11 +56,11 @@ Google has a unique challenge in the agent space. The company arguably has the *
 
 Yet Google has **no widely available, fully autonomous agent product** that competes with OpenClaw, Claude Code, or even the OpenAI Agents SDK. Project Mariner (announced in April 2025) demonstrated browser-based agent capabilities but never reached public release. The "Agent Mode" features in Gemini are useful but limited.
 
-Remy appears to be Google's attempt to solve this by going **bigger than a browser extension** — building an infrastructure-level agent that lives inside Google's ecosystem and acts as a persistent digital proxy for the user.
+Remy appears to be Google's attempt to solve this by going **bigger than a browser extension** — building an infrastructure-level agent that lives inside Google's ecosystem and acts as a persistent digital proxy for the user. For more on Google's agent strategy, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the coverage of [DeepMind's AlphaEvolve]({% post_url 2026-05-08-deepmind-alphaevolve-mainstream %}).
 
 ### The Ratatouille Connection
 
-Why "Remy"? The name has an interesting dual etymology. It derives from the Latin *Remigius*, meaning "oarsman" or "rower" — fitting for an agent that does the heavy lifting. But it's also the name of the chef rat from Pixar's *Ratatouille*, who pursues an audacious goal with creativity and persistence. Knowing Google's penchant for playful code names, it's likely both.
+The name "Remy" is almost certainly a reference to the Pixar film Ratatouille — about an unlikely chef who turns out to be a rat. As one HN commenter noted, it's a curious choice for a company that has historically avoided naming AI products after things that evoke \"hidden\" or \"unseen\" actors. For more on the personal AI agent landscape, see our [state of AI agents May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}).
 
 ## The Dogfooding Phase
 

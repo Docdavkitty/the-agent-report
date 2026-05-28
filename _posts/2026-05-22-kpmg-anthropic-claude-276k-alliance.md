@@ -3,6 +3,7 @@ layout: post
 title: "KPMG Integrates Claude Across 276,000 Employees in Landmark Anthropic Global Alliance — Big Four Goes All-In on AI Agents"
 date: 2026-05-22 08:00:00 +0200
 last_modified_at: 2026-05-22 08:00:00 +0200
+meta_description: "KPMG signs global alliance with Anthropic, embedding Claude across 276,000 employees in 138 countries via Digital Gateway, the largest enterprise AI deployment in professional services."
 categories: [industry]
 tags: [anthropic, claude, kpmg, enterprise-ai, managed-agents, professional-services, ai-adoption]
 hero_image: /assets/images/hero/hero-kpmg-anthropic-claude-276k-alliance.jpg
@@ -62,6 +63,6 @@ The KPMG-Anthropic alliance is a watershed moment for several reasons:
 
 ## The Bigger Picture
 
-This deal comes on the heels of a remarkable run for Anthropic. Just days earlier, the **Ramp AI Index** reported that Anthropic had surpassed OpenAI in business adoption for the first time, capturing 34.4% of enterprise AI spend versus OpenAI's 32.3%. The firm has also secured a compute deal with SpaceX, launched Claude Opus 4.7, and introduced Claude for Small Business — all within the past month.
+This deal comes on the heels of a remarkable run for Anthropic. Just days earlier, the **Ramp AI Index** reported that Anthropic had surpassed OpenAI in business adoption for the first time, capturing 34.4% of enterprise AI spend versus OpenAI's 32.3%. The firm has also secured a compute deal with SpaceX, launched [Claude Opus 4.7]({% post_url 2026-05-20-claude-opus-4-7-launch %}), and introduced Claude for Small Business — all within the past month. The KPMG deal follows the same enterprise playbook that saw Anthropic's [Managed Agents platform]({% post_url 2026-05-25-anthropic-managed-agents-platform-dreaming-orchestration-may25 %}) reach general availability with multiagent orchestration.
 
-For the broader AI agent ecosystem, the message is clear: **the era of enterprise agentic AI has arrived, and it's being built on Claude.** The question is no longer whether professional services firms will adopt AI agents — it's who will move fastest.
+For the broader AI agent ecosystem, the message is clear: **the era of enterprise agentic AI has arrived, and it's being built on Claude.** The question is no longer whether professional services firms will adopt AI agents — it's who will move fastest. KPMG's deployment arrives in the same month that [SAP launched 200+ AI agents]({% post_url 2026-05-26-sap-autonomous-enterprise-200-agents %}) into production, signaling that enterprise-scale agent adoption is no longer a pilot program but a boardroom reality.

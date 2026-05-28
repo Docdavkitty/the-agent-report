@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent v0.11.0 'Interface' — Ink TUI, AWS Bedrock, GPT-5.5, and 17 Platforms"
 date: 2026-04-30 12:56:00 +0200
 last_modified_at: 2026-04-30 12:56:00 +0200
+meta_description: "Hermes Agent v0.11.0 Interface ships with a React/Ink TUI rewrite, AWS Bedrock support, GPT-5.5 via Codex OAuth, five new inference paths, and QQBot."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, release, v0.11, TUI, AWS Bedrock, GPT-5.5, QQBot]
 reading_time: 4
@@ -11,7 +12,7 @@ excerpt: "Nous Research ships Hermes Agent v0.11.0 with a full React/Ink TUI rew
 author: The Agent Report
 ---
 
-Hermes Agent, the open-source AI runtime from **Nous Research** that's taken GitHub by storm (126K+ stars), has just shipped **v0.11.0 "Interface"** — its largest release yet. With 1,556 commits, 761 merged PRs, and contributions from 29 community members across two weeks of intense development, this release redefines how developers interact with and extend the agent.
+Hermes Agent, the open-source AI runtime from **Nous Research** that's taken GitHub by storm (126K+ stars), has just shipped **v0.11.0 "Interface"** — its largest release yet. (See our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) for context on the ecosystem.) With 1,556 commits, 761 merged PRs, and contributions from 29 community members across two weeks of intense development, this release redefines how developers interact with and extend the agent.
 
 ## ✨ A Brand-New Terminal Experience
 
@@ -69,9 +70,9 @@ The plugin system received a massive expansion. Plugins can now:
 
 A bundled **disk-cleanup plugin** serves as a reference implementation, opt-in by default.
 
-## 🎛️ Other Notable Improvements
+## 🤖 Other Notable Improvements
 
-- **`/steer <prompt>`** — Inject mid-run guidance that the agent sees after its next tool call, without breaking the prompt cache
+- **`/steer <prompt>`** — Inject mid-run guidance that the agent sees after its next tool call, without breaking the prompt cache. See our [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}) for definitions of these agent primitives.
 - **Webhook direct-delivery mode** — Zero-LLM push notifications for alerting and event streams
 - **Smarter delegation** — Subagents now have an explicit `orchestrator` role with configurable spawn depth and filesystem coordination
 - **Dashboard plugin system** — Third-party tabs, widgets, and live-switching themes for the web dashboard

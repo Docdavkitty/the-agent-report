@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent Performance Sprint: Adaptive Polling Cuts 1+ Second Per Turn, xAI Web Search Lands, and Security Hardening Touches Down"
 date: 2026-05-20 14:00:00 +0200
 last_modified_at: 2026-05-20 14:00:00 +0200
+meta_description: "Hermes Agent cuts 1 second per turn via adaptive polling, ships xAI Web Search, Chromium auto-launch, and critical security hardening for plugin tool overrides."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, performance, xai-web-search, browser-autolaunch, security, kanban-dashboard]
 reading_time: 6
@@ -11,7 +12,7 @@ excerpt: "Hermes Agent ships a coordinated performance cluster — adaptive subp
 author: The Agent Report
 ---
 
-Two days after the massive v0.14.0 "Foundation" release, the Hermes Agent team has been far from idle. A coordinated **performance sprint** — four PRs shipping in a single day — delivers the kind of user-visible speed improvements that make the agent feel snappier on every single turn. Alongside the perf work, we got a new web search provider (xAI), auto-launch browser support for CDP, critical security hardening around plugin tool overrides, and significant Kanban dashboard improvements.
+Two days after the massive v0.14.0 "Foundation" release, the Hermes Agent team has been far from idle. A coordinated **performance sprint** — four PRs shipping in a single day — delivers the kind of user-visible speed improvements that make the agent feel snappier on every single turn. This rapid iteration pace reflects the maturing open-source agent landscape we track in our [Complete Guide to AI Agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}). Alongside the perf work, we got a new web search provider (xAI), auto-launch browser support for CDP, critical security hardening around plugin tool overrides, and significant Kanban dashboard improvements.
 
 Let's dig into what landed on May 19–20.
 
@@ -129,7 +130,7 @@ A wave of smaller fixes rounded out the two days:
 
 ## Looking Ahead
 
-The v0.14.0 "Foundation" release was about surface area — new platforms, new providers, new integrations. This two-day sprint is about **tightening the bolts**: making everything already shipped feel faster, work more securely, and integrate more smoothly. The adaptive polling change alone transforms the daily experience of every Hermes Agent user, and the plugin security hardening reinforces the platform's commitment to safe extensibility.
+The v0.14.0 "Foundation" release was about surface area — new platforms, new providers, new integrations. This two-day sprint is about **tightening the bolts**: making everything already shipped feel faster, work more securely, and integrate more smoothly. The adaptive polling change alone transforms the daily experience of every Hermes Agent user, and the plugin security hardening reinforces the platform's commitment to safe extensibility. Meanwhile, the [community ecosystem]({% post_url 2026-05-25-hermes-agent-community-ecosystem-may25 %}) has exploded to 276 documented use cases and 165K GitHub stars, with [profile distributions]({% post_url 2026-05-22-hermes-agent-profile-distributions-may22 %}) now enabling one-command agent sharing via Git.
 
 With the xAI Web Search provider filling a natural gap, browser auto-launch removing friction from CDP workflows, and Kanban gaining real task-introspection capabilities, the platform is maturing rapidly. We're watching for the next tagged release — likely v0.14.1 or a v0.15.0 — to bundle all of this together.
 

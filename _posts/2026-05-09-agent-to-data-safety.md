@@ -3,6 +3,7 @@ layout: post
 title: "Agent-to-Data Safety: The Emerging Security Battlefield for AI Agents"
 date: 2026-05-09 14:00:00 +0200
 last_modified_at: 2026-05-09 14:00:00 +0200
+meta_description: "Agent-to-data safety emerges as the critical frontier: kernel sandboxes, SQL proxy guardrails, and privilege escalation controls that govern what AI agents can."
 categories: [research]
 tags: [ai-safety, agent-safety, database-safety, privilege-escalation, tool-safety, alignment]
 reading_time: 8

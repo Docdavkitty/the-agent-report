@@ -3,7 +3,7 @@ layout: post
 title: "Microsoft RAMPART & Clarity: Open-Source Agent Safety Tools"
 date: 2026-05-26 10:00:00 +0200
 last_modified_at: 2026-05-26 10:00:00 +0200
-meta_description: "Microsoft publie RAMPART et Clarity en open source : tests de sécurité agentique intégrés à pytest et outil de revue de conception pour intégrer la sûreté dès le cycle de développement."
+meta_description: "Explore Microsoft's open-source RAMPART and Clarity tools that bring agent safety testing into pytest and structured design review into the development lifecycle."
 categories: tools-frameworks
 tags: [microsoft, agent-safety, open-source, rampart, clarity, prompt-injection, ci-cd]
 reading_time: 8

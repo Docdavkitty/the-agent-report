@@ -3,7 +3,7 @@ layout: post
 title: "Anthropic Launches Project Glasswing — Claude Mythos Preview, $100M Cyber Defense Initiative with AWS, Apple, Google, Microsoft, and NVIDIA"
 date: 2026-05-27 16:00:00 +0200
 last_modified_at: 2026-05-27 16:00:00 +0200
-meta_description: "Anthropic announces Project Glasswing, a cross-industry cybersecurity initiative bringing together AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, the Linux Foundation, Microsoft, NVIDIA, and Palo Alto Networks around Claude Mythos Preview — a frontier model that found zero-day vulnerabilities in every major operating system and browser."
+meta_description: "Discover Project Glasswing, Anthropic's $100M cybersecurity initiative with AWS, Apple, Google, Microsoft, and NVIDIA, powered by Claude Mythos Preview for autonomous defense."
 categories: [industry]
 tags: [anthropic, claude, cybersecurity, glasswing, mythos-preview, zero-day, ai-safety]
 reading_time: 6
@@ -104,9 +104,9 @@ The breadth of industry participation is remarkable for a single AI company init
 
 Project Glasswing has implications beyond cybersecurity:
 
-1. **A new capability tier is confirmed.** Mythos Preview's benchmark scores — particularly the 24.4pp jump on SWE-bench Pro — validate that a significant capability leap exists beyond Opus 4.7. This is the model that will inform Anthropic's next general-purpose release.
+1. **A new capability tier is confirmed.** Mythos Preview's benchmark scores — particularly the 24.4pp jump on SWE-bench Pro — validate that a significant capability leap exists beyond [Claude Opus 4.7]({% post_url 2026-05-20-claude-opus-4-7-launch %}). This is the model that will inform Anthropic's next general-purpose release.
 
-2. **Agentic security is now a first-class use case.** Autonomous vulnerability discovery and patching is one of the highest-value agent applications yet demonstrated. The model found vulnerabilities without human steering, wrote exploits autonomously, and in some cases chained multiple bugs together — all capabilities that transfer directly to non-security agent tasks.
+2. **Agentic security is now a first-class use case.** Autonomous vulnerability discovery and patching is one of the highest-value agent applications yet demonstrated. The model found vulnerabilities without human steering, wrote exploits autonomously, and in some cases chained multiple bugs together — all capabilities that transfer directly to non-security agent tasks. This autonomous security capability underscores the concerns raised in our [agent safety trust gap analysis]({% post_url 2026-05-23-agent-safety-trust-gap-may23 %}), which found that only 14.4% of agents receive full security approval before deployment.
 
 3. **The defensive vs. offensive AI debate gets real.** Anthropic is explicitly withholding Mythos from general release while deploying it defensively. This sets a precedent for how frontier AI companies might gate access to especially powerful capabilities.
 

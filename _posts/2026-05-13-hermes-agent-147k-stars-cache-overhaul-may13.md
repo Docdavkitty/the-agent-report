@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent Crosses 147K Stars: Cache Architecture Overhaul, Platform Maturation Accelerates Post-Tenacity"
 date: 2026-05-13 12:00:00 +0200
 last_modified_at: 2026-05-13 12:00:00 +0200
+meta_description: "Hermes Agent crosses 147K GitHub stars with a cache architecture overhaul boosting prompt cache hit rates from 66.6 to 83.3 percent and a provider rebrand."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, cache-architecture, platform-maturation, qwen-cloud, post-tenacity, infrastructure]
 reading_time: 6
@@ -11,13 +12,15 @@ excerpt: "Hermes Agent has crossed 147,782 GitHub stars — up 4,272 in just two
 author: The Agent Report
 ---
 
-The post-Tenacity momentum hasn't slowed. Hermes Agent has vaulted from **143,510 to 147,782 GitHub stars** (+4,272 in 48 hours) and from **22,406 to 23,222 forks** — but the real story isn't in the numbers. In the two days since our last roundup, **40+ commits have landed** across cache infrastructure, provider tooling, security, and cross-platform support, while **10+ new feature PRs** have been filed for what's shaping up to be the v0.14.0 cycle.
+The post-Tenacity momentum hasn't slowed — Hermes Agent has vaulted from **143,510 to 147,782 GitHub stars** (+4,272 in 48 hours) and from **22,406 to 23,222 forks** — but the real story isn't in the numbers. In the two days since our last roundup, **40+ commits have landed** across cache infrastructure, provider tooling, security, and cross-platform support, contributing to an ecosystem documented in our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}), while **10+ new feature PRs** have been filed for what's shaping up to be the v0.14.0 cycle.
 
 Here's what's changed since May 11.
 
 ---
 
 ## 🧠 Cache Architecture Overhaul: The System Prompt Is Now Byte-Static
+
+This work builds toward what would become the [v0.14.0 Foundation Release]({% post_url 2026-05-18-hermes-agent-v0140-foundation-release-may16 %}).
 
 The most consequential change since Tenacity is **[PR #24778](https://github.com/NousResearch/hermes-agent/pull/24778) — a ground-up rework of Hermes Agent's prompt caching strategy**, merged by **Teknium** on May 13.
 

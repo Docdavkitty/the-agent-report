@@ -3,6 +3,7 @@ layout: post
 title: "TD Bank Cuts Mortgage Processing From 15 Hours to 3 Minutes with Agentic AI — A Blueprint for Enterprise Adoption"
 date: 2026-05-22 10:00:00 +0200
 last_modified_at: 2026-05-22 10:00:00 +0200
+meta_description: "TD Bank deploys agentic AI, cutting mortgage processing from 15 hours to under 3 minutes via automated pre-adjudication in a $1B enterprise AI push led."
 categories: industry
 tags: [td-bank, agentic-ai, enterprise-ai, banking, fintech, automation, mortgage]
 reading_time: 7
@@ -67,7 +68,7 @@ The agentic AI push isn't stopping at mortgages. TD plans to expand to every ste
 TD's launch is significant for several reasons:
 
 ### 1. **First-mover in a critical vertical**
-While tech companies race to build general-purpose agents, TD has deployed agents in one of the most tightly regulated, high-stakes domains in the world. If agentic AI can work in mortgage lending — with its compliance requirements, privacy regulations, and accuracy demands — it can work anywhere in financial services.
+While tech companies race to build general-purpose agents, TD has deployed agents in one of the most tightly regulated, high-stakes domains in the world. If agentic AI can work in mortgage lending — with its compliance requirements, privacy regulations, and accuracy demands — it can work anywhere in financial services. This mirrors the enterprise momentum we've tracked across [SAP's 200+ agent deployment]({% post_url 2026-05-26-sap-autonomous-enterprise-200-agents %}) and [KPMG's 276K-employee Anthropic alliance]({% post_url 2026-05-22-kpmg-anthropic-claude-276k-alliance %}).
 
 ### 2. **A replicable governance model**
 TD's Trustworthy AI framework — with its independent evaluation team, rigorous pre-deployment testing, and ongoing monitoring — provides a template that other regulated institutions can adopt. In an industry where "move fast and break things" is not an option, this governance-first approach is essential.

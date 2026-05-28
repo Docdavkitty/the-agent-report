@@ -3,6 +3,7 @@ layout: post
 title: "Agent-Desktop: The Rust-Powered Native CLI That's Giving AI Agents Direct Desktop Access"
 date: 2026-05-03 10:00:00 +0200
 last_modified_at: 2026-05-03 10:00:00 +0200
+meta_description: "Agent-desktop, a Rust-powered CLI for desktop automation via AI agents, gives structured macOS application access through accessibility trees with no."
 categories: [tools-frameworks]
 tags: [agent-tools, desktop-automation, rust, open-source, mcp]
 reading_time: 7
@@ -22,7 +23,7 @@ Most desktop automation tools for AI agents today rely on one of two approaches:
 - **Screenshot-based vision**, where the agent takes a picture of your screen and uses an LLM with vision to decide where to click. This works but is slow, expensive, and prone to hallucination.
 - **Coordinate-based scripting**, where developers hard-code pixel positions or use OCR to find UI elements. This breaks whenever the UI changes.
 
-Agent-desktop takes a fundamentally different approach. It taps directly into **OS accessibility trees** — the same structured data that screen readers use — and exposes every UI element as a deterministic, machine-readable reference.
+Agent-desktop takes a fundamentally different approach. It taps directly into **OS accessibility trees** — the same structured data that screen readers use — and exposes every UI element as a deterministic, machine-readable reference. For more on desktop automation agents, see our coverage of [Cua's sandboxed approach]({% post_url 2026-04-30-cua-computer-use-agent-sandbox %}).
 
 ```
 # Get a snapshot of all UI elements in Finder
@@ -63,7 +64,7 @@ agent-desktop mcp --transport stdio          # For Claude Code / Cursor
 agent-desktop mcp --transport sse --port 3100 # For remote agents
 ```
 
-This means any AI agent that supports MCP — including Claude Code, Cursor, and the growing ecosystem of MCP-native agents — can immediately use Agent-desktop for desktop control without custom integration code. The appliance, as they say, just plugs in.
+This means any AI agent that supports MCP — including Claude Code, Cursor, and the growing ecosystem of MCP-native agents — can immediately use Agent-desktop for desktop control without custom integration code. For more on MCP, see our [deep dive on the protocol]({% post_url 2025-04-28-mcp-protocol-agentic-tool-use %}) and the [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).
 
 ## Practical Use Cases
 

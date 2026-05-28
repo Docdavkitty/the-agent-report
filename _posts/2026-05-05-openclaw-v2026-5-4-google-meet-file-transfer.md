@@ -3,6 +3,7 @@ layout: post
 title: "Openclaw v2026.5.4: Google Meet Voice Integration, File Transfer Plugin, and 368K GitHub Stars"
 date: 2026-05-05 14:30:00 +0200
 last_modified_at: 2026-05-05 14:30:00 +0200
+meta_description: "Openclaw v2026.5.4 ships Google Meet voice integration, file-transfer plugin, OpenRouter caching, and WhatsApp Newsletter support at 368,455 GitHub stars."
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, google-meet, voice-agents]
 reading_time: 7
@@ -13,7 +14,7 @@ author: The Agent Report
 
 **Openclaw** — the open-source personal AI assistant that has taken the developer world by storm — shipped **v2026.5.4** today, a blockbuster release packing a Google Meet voice bridge, a built-in file-transfer plugin, OpenRouter caching support, WhatsApp Newsletter messaging, and over 120 bug fixes and performance improvements.
 
-The release arrives as Openclaw's GitHub repository crosses **368,455 stars** with **75,895 forks**, making it one of the most-starred open-source projects on the planet. The project, built by Peter Steinberger (now at OpenAI) and a massive community of contributors, has evolved from a simple Claude Code harness into a full-blown personal AI operating system.
+The release arrives as Openclaw's GitHub repository crosses **368,455 stars** with **75,895 forks**, making it one of the most-starred open-source projects on the planet. For context on the open-source agent ecosystem, see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}) and the [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).
 
 ## What's New in v2026.5.4
 
@@ -31,7 +32,7 @@ The Meet integration also includes automatic `BlackHole 2ch` audio routing for l
 
 ### Bundled File-Transfer Plugin
 
-A new **file-transfer plugin** ships bundled with v2026.5.4, providing five agent-accessible tools:
+A new **file-transfer plugin** ships bundled with v2026.5.4, providing five agent-accessible tools. For more on OpenClaw's security posture, see our coverage of [OpenClaw plugin security]({% post_url 2026-05-14-openclaw-plugin-externalization-security-hardening-beta7 %}).
 
 - `file_fetch` — read binary files from paired nodes
 - `dir_list` — list directory contents

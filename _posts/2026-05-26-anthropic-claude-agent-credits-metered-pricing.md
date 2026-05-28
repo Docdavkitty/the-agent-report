@@ -3,7 +3,7 @@ layout: post
 title: "Anthropic Splits Billing: Metered Credits for Claude Agents"
 date: 2026-05-26 08:00:00 +0200
 last_modified_at: 2026-05-26 08:00:00 +0200
-meta_description: "Anthropic lance des crédits mensuels séparés pour l'usage programmatique de Claude (Agent SDK, CLI, GitHub Actions) — la fin de l'automatisation agentique à tarif fixe."
+meta_description: "Discover how Anthropic introduces metered credits for programmatic Claude usage via Agent SDK, CLI, and GitHub Actions, ending flat-rate agentic automation on June 15."
 categories: [industry]
 tags: [anthropic, claude, agent-pricing, billing, openclaw, agent-sdk, developer-ecosystem, ai-economics]
 reading_time: 7
@@ -14,7 +14,7 @@ author: The Agent Report
 
 # Anthropic Splits Billing for Claude Agents — Programmatic Credits Mark the End of Flat-Rate Automation
 
-**May 26, 2026** — Anthropic announced today that starting **June 15, 2026**, it will separate programmatic Claude usage from standard chat subscriptions, introducing dedicated monthly credits for the **Claude Agent SDK**, `claude -p` CLI, GitHub Actions, and third-party frameworks like [OpenClaw]({{ "/2026/05/openclaw-v2026-5-20-beta1-policy-plugin-compliance/" | relative_url }}). The move reverses the company's controversial April ban on third-party agents — but replaces it with a system that many developers say effectively ends flat-rate agentic automation.
+**May 26, 2026** — Anthropic announced today that starting **June 15, 2026**, it will separate programmatic Claude usage from standard chat subscriptions, introducing dedicated monthly credits for the **Claude Agent SDK**, `claude -p` CLI, GitHub Actions, and third-party frameworks like [OpenClaw]({{ "/2026/05/openclaw-v2026-5-20-beta1-policy-plugin-compliance/" | relative_url }}). The move reverses the company's controversial April ban on third-party agents — but replaces it with a system that many developers say effectively ends flat-rate agentic automation. For context on the broader shift toward [metered agent pricing]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and how it compares to other providers, see our [complete guide to AI agents]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}).
 
 > *"Third-party services were really hard for us to do sustainably because they bypassed caching mechanisms."*
 > — **Boris Cherny, Head of Claude Code**

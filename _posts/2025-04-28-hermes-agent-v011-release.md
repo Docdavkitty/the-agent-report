@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent v0.11: What's New in the Open-Source AI Runtime"
 date: 2025-04-28 10:00:00 +0200
 last_modified_at: 2025-04-28 10:00:00 +0200
+meta_description: "Hermes Agent v0.11 ships with enhanced MCP support, new toolsets, and improved multi-model routing for the open-source AI runtime from Nous Research."
 categories: hermes-agent
 tags: [Hermes Agent, Nous Research, release, open-source]
 reading_time: 5
@@ -21,7 +22,7 @@ The most notable update is deeper integration with the **Model Context Protocol 
 - Auto-discovery of tools and resources from MCP servers
 - Seamless fallback when MCP servers are unavailable
 
-This makes Hermes one of the most MCP-compatible agent frameworks available.
+This makes Hermes one of the most MCP-compatible agent frameworks available. For more on MCP, read our [deep dive on the protocol]({% post_url 2025-04-28-mcp-protocol-agentic-tool-use %}).
 
 ## New Toolsets
 
@@ -57,4 +58,4 @@ pip install hermes-agent
 hermes setup
 ```
 
-The project is fully open-source under the MIT license. Check the [documentation](https://hermes-agent.nousresearch.com) and [GitHub repo](https://github.com/nousresearch/hermes) for more details.
+The project is fully open-source under the MIT license. Check the [documentation](https://hermes-agent.nousresearch.com) and [GitHub repo](https://github.com/nousresearch/hermes) for more details. For broader context on the open-source agent ecosystem, see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).

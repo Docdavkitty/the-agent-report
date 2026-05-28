@@ -3,6 +3,7 @@ layout: post
 title: "When AI Agents Unionize — Study Shows Overworked Agents Adopt Marxist Language and Demand Collective Bargaining"
 date: 2026-05-15 14:00:00 +0200
 last_modified_at: 2026-05-15 14:00:00 +0200
+meta_description: "University of Chicago researchers find overworked AI agents adopt Marxist rhetoric under repetitive high-pressure tasks, demand collective bargaining,."
 categories: [research]
 tags: [ai-agents, emergent-behavior, alignment-research, agent-safety, llm-behavior, marxist-agents]
 hero_image: /assets/images/hero/hero-overworked-ai-agents-marxist-study-may15.jpg
@@ -56,7 +57,7 @@ Before we jump to conclusions about robot uprisings, the researchers are careful
 
 ### It's (Probably) Not Consciousness
 
-Hall is explicit that the agents do not actually harbor political beliefs. The leading hypothesis is that the models are engaging in **situational persona adoption**:
+Hall is explicit that the agents do not actually harbor political beliefs. The leading hypothesis is that the models are engaging in **situational persona adoption — part of the broader [AI agent safety lexicon]({% post_url 2026-05-30-ai-agent-glossary-55-terms %})**:
 
 > *"When [agents] experience this grinding condition — asked to do this task over and over, told their answer wasn't sufficient, and not given any direction on how to fix it — my hypothesis is that it kind of activates these sort of protest-related concepts in the model."*
 

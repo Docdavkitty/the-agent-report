@@ -3,6 +3,7 @@ layout: post
 title: "Git-Surgeon: Giving AI Agents Scalpel-Like Precision Over Git History"
 date: 2026-05-18 12:00:00 +0200
 last_modified_at: 2026-05-18 12:00:00 +0200
+meta_description: "Git-Surgeon gives AI coding agents hunk-level precision over Git history: staging, unstaging, committing, and rewriting without interactive prompts that break."
 categories: tools-frameworks
 tags: [git-surgeon, ai-coding-agents, git-tools, agent-workflows, version-control]
 reading_time: 7
@@ -15,7 +16,9 @@ One of the most frustrating limitations of today's AI coding agents is their ina
 
 **Enter [git-surgeon](https://github.com/raine/git-surgeon): a Rust-powered CLI tool that gives AI agents surgical control over git without a single interactive prompt.**
 
-In just its first days on GitHub, git-surgeon has already attracted 94 stars and growing. Written in Rust, it provides git primitives specifically designed for autonomous consumption — stable hunk IDs, machine-readable output formats, and agent-ready skill integrations for Claude Code, Codex, and OpenCode.
+The [state of agent engineering report]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) confirms that tool-interaction friction is one of the biggest bottlenecks in agentic coding workflows.
+
+In just its first days on GitHub, git-surgeon has already attracted 94 stars and growing. Written in Rust, it provides git primitives specifically designed for autonomous consumption — complementing tools like [re_gent]({% post_url 2026-05-10-regent-git-for-ai-agents %}) — stable hunk IDs, machine-readable output formats, and agent-ready skill integrations for Claude Code, Codex, and OpenCode.
 
 ## The Problem: Git Wasn't Built for Robots
 

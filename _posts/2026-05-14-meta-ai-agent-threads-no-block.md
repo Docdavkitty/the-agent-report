@@ -3,6 +3,7 @@ layout: post
 title: "Meta Won't Let You Block Its AI Agent on Threads — And Users Are Furious"
 date: 2026-05-14 10:00:00 +0200
 last_modified_at: 2026-05-14 10:00:00 +0200
+meta_description: "Meta tests a Threads AI agent users cannot block, sparking over a million protest posts and raising hard questions about consent and agent autonomy on social."
 categories: [industry]
 tags: [meta, threads, ai-agents, platform-policy, user-autonomy, social-media-ai]
 hero_image: /assets/images/hero/hero-meta-ai-agent-threads-no-block.jpg
@@ -26,7 +27,7 @@ But when users navigated to the **three-dot menu** on the @MetaAI profile, the b
 
 ## The Agent Autonomy Problem
 
-This isn't just a UX dispute — it's a **canary in the coal mine for AI agent platform design**. As AI agents become first-class participants in social platforms, fundamental questions about consent, opt-out, and user sovereignty are emerging.
+This isn't just a UX dispute — it's a **canary in the coal mine for AI agent platform design** — as explored in the [agent safety trust gap research]({% post_url 2026-05-23-agent-safety-trust-gap-may23 %}). As AI agents become first-class participants in social platforms, fundamental questions about consent, opt-out, and user sovereignty are emerging.
 
 Consider the parallels. When **Grok** joined X, users could block it. When **Copilot** appeared across Microsoft products, users could disable it. Meta's decision to disable blocking for its AI agent represents a **new frontier in agent deployment** — one where the platform itself becomes an agent that users cannot fully exclude from their experience.
 
@@ -34,7 +35,7 @@ The core tension is between **utility and autonomy**. Meta argues that blocking 
 
 ## Economic and Strategic Context
 
-This move doesn't happen in a vacuum. Meta has been investing **billions in AI talent and infrastructure** as it races to compete with OpenAI, Google, and xAI. In April, it launched **[Muse Spark](https://www.anthropic.com)** — the first model from the newly-formed **Meta Superintelligence Labs (MSL)** — and promised to bring it across its entire app ecosystem.
+This move doesn't happen in a vacuum. Meta has been investing **billions in AI talent and infrastructure** as it races to compete with OpenAI, Google, and xAI. In April, it launched **[Muse Spark]({% post_url 2026-05-19-muse-spark-16-tools-agentic-ecosystem %})** — the first model from the newly-formed **Meta Superintelligence Labs (MSL)** — and promised to bring it across its entire app ecosystem.
 
 Threads is Meta's fastest-growing platform, and embedding AI directly into conversations is a high-leverage strategy to **drive engagement and data collection**. Every @MetaAI interaction generates training signals, conversation patterns, and preference data — the kind of feedback loop that powers the next generation of models.
 

@@ -3,6 +3,7 @@ layout: post
 title: "The Enterprise Agent Stack: A Reference Architecture"
 date: 2025-04-14 09:00:00 +0200
 last_modified_at: 2025-04-14 09:00:00 +0200
+meta_description: "Explore the four-layer enterprise agent stack — model selection, orchestration, memory, and guardrails that power reliable AI agent infrastructure at scale."
 categories: industry opinion
 tags: [enterprise, architecture, infrastructure, deployment]
 hero_image: /assets/images/hero/hero-04-14-enterprise-agent-stack-architecture.jpg
@@ -23,7 +24,7 @@ The foundation. Enterprises are adopting a multi-model strategy:
 - **Fine-tuned small models** for high-volume, low-latency tasks
 
 ### 2. Agent Framework Layer
-The orchestration middleware. LangGraph leads in production, with CrewAI gaining for simpler use cases. Key requirements:
+The orchestration middleware. LangGraph leads in production, with CrewAI gaining for simpler use cases (see our [open-source frameworks comparison]({% post_url 2025-04-16-open-source-agent-frameworks-comparison %})). Key requirements:
 
 - State persistence across sessions
 - Human-in-the-loop intervention points
@@ -33,7 +34,7 @@ The orchestration middleware. LangGraph leads in production, with CrewAI gaining
 ### 3. Tool Integration Layer
 Connecting agents to enterprise systems:
 
-- **MCP servers** for standardized tool access
+- **MCP servers** for standardized tool access (learn more about MCP in our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}))
 - **Internal API gateways** with auth and throttling
 - **Database connectors** (read-only agents, write-audited agents)
 - **File system agents** with strict access controls

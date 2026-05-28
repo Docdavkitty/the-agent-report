@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent v0.12.0 'Curator' — Autonomous Skill Maintenance, 4 New Providers, Spotify & Google Meet Integrations"
 date: 2026-05-01 10:00:00 +0200
 last_modified_at: 2026-05-01 10:00:00 +0200
+meta_description: "Hermes Agent v0.12.0 Curator ships an autonomous background agent that grades, prunes, and consolidates your skill library plus 4 new providers and Spotify."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, release, v0.12, Curator, Spotify, Google Meet, ComfyUI, LM Studio, TTS]
 reading_time: 4
@@ -11,7 +12,7 @@ excerpt: "Nous Research ships Hermes Agent v0.12.0 'The Curator' — an autonomo
 author: The Agent Report
 ---
 
-Hermes Agent, the open-source AI runtime from **Nous Research** (now 127K+ stars on GitHub), has shipped **v0.12.0 "The Curator"** — a release that marks a major step toward self-maintaining agents. Published on April 30, 2026, this release packs 1,096 commits, 550 merged PRs, and contributions from 213 community members since v0.11.0 one week earlier.
+Hermes Agent, the open-source AI runtime from **Nous Research** (now 127K+ stars on GitHub, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %})), has shipped **v0.12.0 "The Curator"** — a release that marks a major step toward self-maintaining agents. Published on April 30, 2026, this release packs 1,096 commits, 550 merged PRs, and contributions from 213 community members since v0.11.0 one week earlier.
 
 ## ✨ The Autonomous Curator
 
@@ -44,7 +45,7 @@ ComfyUI has been promoted from optional to **bundled-by-default**, with official
 Expanded with GLSL, post-FX, audio, geometry, and 9 new reference docs. ([#16753](https://github.com/NousResearch/hermes-agent/pull/16753))
 
 ### Spotify — Native Tools + Wizard
-7 native tools (play, search, queue, playlists, devices) behind PKCE OAuth, with an interactive setup wizard and bundled skill. ([#15121](https://github.com/NousResearch/hermes-agent/pull/15121))
+7 native tools (play, search, queue, playlists, devices) behind PKCE OAuth, with an interactive setup wizard and bundled skill. ([#15121](https://github.com/NousResearch/hermes-agent/pull/15121)). For a broader look at the Hermes Agent ecosystem, see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 ### Google Meet Plugin
 Full pipeline to join calls, transcribe, speak, and follow up — powered by realtime OpenAI transport + a Node bot server. ([#16364](https://github.com/NousResearch/hermes-agent/pull/16364))

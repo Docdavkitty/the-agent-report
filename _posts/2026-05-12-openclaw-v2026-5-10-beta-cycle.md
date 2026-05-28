@@ -3,6 +3,7 @@ layout: post
 title: "Openclaw v2026.5.10 Beta Cycle: Five Releases in Two Days, 371K Stars, and Agent-to-Agent Depth"
 date: 2026-05-12 10:00:00 +0000
 last_modified_at: 2026-05-12 10:00:00 +0000
+meta_description: "Openclaw ships five beta releases in two days: agent-to-agent protocols, Slack, Discord voice, and Fal image generation, crossing 371K stars with configurable."
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, agent-to-agent, pnpm11]
 reading_time: 6
@@ -17,7 +18,7 @@ The cadence is remarkable even by Openclaw's standards: **beta.1** on May 10 at 
 
 ## Agent-to-Agent: Deeper Conversation Chains
 
-The most architecturally significant change in the beta cycle is the relaxation of agent-to-agent limits. Previously capped at 5 ping-pong turns, `session.agentToAgent.maxPingPongTurns` can now be configured up to **20** (default remains at 5). This matters for complex multi-agent workflows where agents need sustained back-and-forth — collaborative debugging sessions, iterative code reviews, or negotiation tasks between specialized sub-agents.
+The most architecturally significant change in the beta cycle is the relaxation of agent-to-agent limits. Previously capped at 5 ping-pong turns, `session.agentToAgent.maxPingPongTurns` can now be configured up to **20** (default remains at 5) — building on the [initial Openclaw controller design]({% post_url 2025-04-25-openclaw-controller-introduction %}). This matters for complex multi-agent workflows where agents need sustained back-and-forth — collaborative debugging sessions, iterative code reviews, or negotiation tasks between specialized sub-agents.
 
 Two companion features reinforce this direction:
 
@@ -70,7 +71,7 @@ On the code quality front, the beta cycle enabled stricter Vitest lint rules (fo
 
 ## The 371K Milestone
 
-At **371,074 stars**, Openclaw has added approximately **2,600 stars since May 7** (when it was at 369,246). The growth rate shows no signs of slowing — the project now averages over 500 new stars per day, making it one of the fastest-growing open-source projects on GitHub by any measure.
+At **371,074 stars**, Openclaw has added approximately **2,600 stars since May 7** — part of the [open-source agent ecosystem]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}) **2,600 stars since May 7** (when it was at 369,246). The growth rate shows no signs of slowing — the project now averages over 500 new stars per day, making it one of the fastest-growing open-source projects on GitHub by any measure.
 
 The ecosystem around Openclaw continues to expand as well. The **awesome-openclaw-skills** list (VoltAgent) has passed 48,500 stars with 4,750 forks, and the official **ClawHub** skill directory sits at 8,574 stars with 1,324 forks — both indicators that the plugin and skill ecosystem is maturing alongside the core project.
 

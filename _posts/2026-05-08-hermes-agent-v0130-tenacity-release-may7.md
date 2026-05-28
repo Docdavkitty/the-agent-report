@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent v0.13.0 \"Tenacity\" Lands — Multi-Agent Kanban, /goal Persistence, Checkpoints v2, and Major Security Hardening"
 date: 2026-05-08 16:00:00 +0200
 last_modified_at: 2026-05-08 16:00:00 +0200
+meta_description: "Hermes Agent v0.13.0 Tenacity ships multi-agent Kanban boards, goal persistence, Checkpoints v2, 8 P0 security fixes, Google Chat as the 20th platform,."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, v0.13.0, tenacity, multi-agent-kanban, durable-goals, security-hardening, checkpoints, i18n]
 reading_time: 7
@@ -11,11 +12,13 @@ excerpt: "Hermes Agent ships v0.13.0 'The Tenacity Release' — the biggest upda
 author: The Agent Report
 ---
 
-Hermes Agent, the open-source AI runtime from **Nous Research**, has released **v0.13.0 (v2026.5.7) — "The Tenacity Release"** — its most ambitious update to date. The release ships just one week after v0.12.0 "Curator" and represents **864 commits, 588 merged PRs, 829 files changed, 128,366 insertions, and 282 issues closed** (13 of them P0 severity). The project has also crossed **138,390 GitHub stars**, up from 135K just two days ago.
+Hermes Agent, the open-source AI runtime from **Nous Research**, has released **v0.13.0 (v2026.5.7) — "The Tenacity Release"** — its most ambitious update to date. The release ships just one week after v0.12.0 "Curator" — and it arrives in the midst of a rapidly maturing open-source agent ecosystem and represents **864 commits, 588 merged PRs, 829 files changed, 128,366 insertions, and 282 issues closed** (13 of them P0 severity). The project has also crossed **138,390 GitHub stars**, up from 135K just two days ago.
 
 > *"The Tenacity Release — Hermes Agent now finishes what it starts."* — Teknium1, release notes
 
 ## 🧩 Multi-Agent Kanban: Delegate to an AI Team That Actually Finishes
+
+Hermes Agent sits among the [top open-source AI agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}), and this release cements that position.
 
 The headline feature of v0.13.0 is the **durable multi-agent Kanban board system** — a complete reimplementation that lets you spin up a board, drop tasks on it, and have multiple Hermes worker agents pick them up, hand off, and close them out with real reliability guarantees.
 
@@ -44,7 +47,7 @@ Checkpoints received a ground-up rewrite with **real pruning**, disk guardrails,
 
 ## 🛡️ Security Wave — 8 P0 Closures
 
-v0.13.0 delivers the most aggressive security hardening pass in Hermes Agent's history. Eight Priority-0 issues were closed:
+v0.13.0 delivers the most aggressive security hardening pass in Hermes Agent's history. (For context on the broader [state of AI agent development as of May 2026]({% post_url 2026-05-29-state-of-ai-agents-may-2026 %}), see our comprehensive overview.) Eight Priority-0 issues were closed:
 
 | Security Fix | Impact |
 |-------------|--------|

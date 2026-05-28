@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent v0.14.0 'Foundation' Lands: Grok OAuth, OpenAI-Compatible Proxy, PyPI, Native Windows Beta, and 155K Stars"
 date: 2026-05-18 10:00:00 +0200
 last_modified_at: 2026-05-18 10:00:00 +0200
+meta_description: "Hermes Agent v0.14.0 Foundation ships Grok OAuth with 1M context, an OpenAI-compatible proxy, PyPI packaging, native Windows beta, and 155K GitHub stars."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, v0.14.0, foundation-release, grok-oauth, local-proxy, pypi, windows-beta, microsoft-teams]
 reading_time: 8
@@ -13,7 +14,7 @@ author: The Agent Report
 
 Just 9 days after the massive Tenacity release, Nous Research has shipped **Hermes Agent v0.14.0 — the "Foundation Release"** — and the name is deserved. This isn't a single-feature release; it's a sweeping infrastructure reset that makes Hermes Agent ***installable, runnable, and connectable*** from almost anywhere.
 
-The numbers alone are staggering: **808 commits, 633 merged PRs, 1,393 files changed, 165,061 insertions, 545 issues closed (12 P0, 50 P1), 215 community contributors** — all in 9 days since v0.13.0. The project now sits at **155,609 GitHub stars** (+17,000 since Tenacity), with **24,980 forks** and **11,989 open issues** reflecting a rapidly scaling community.
+The numbers alone are staggering: **808 commits, 633 merged PRs, 1,393 files changed, 165,061 insertions, 545 issues closed (12 P0, 50 P1), 215 community contributors** — all in 9 days since the [Tenacity release]({% post_url 2026-05-08-hermes-agent-v0130-tenacity-release-may7 %}). The project now sits at **155,609 GitHub stars** (+17,000 since Tenacity), with **24,980 forks** and **11,989 open issues** reflecting a rapidly scaling community — [growth that mirrors the wider ecosystem]({% post_url 2026-05-25-hermes-agent-community-ecosystem-may25 %}).
 
 Here is the full breakdown of what the Foundation Release delivers.
 
@@ -21,7 +22,7 @@ Here is the full breakdown of what the Foundation Release delivers.
 
 ## 🤖 xAI Grok via SuperGrok OAuth — With a 1M Context Window
 
-The headliner. If you pay for SuperGrok, you can now use **xAI Grok inside Hermes Agent** by signing in with your xAI account — no API key, no separate billing. The integration goes through OAuth, so your subscription credentials are handled securely without exposing raw tokens.
+The headliner. If you pay for SuperGrok, you can now use **xAI Grok inside Hermes Agent** — positioning the project among the [top open-source AI agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}) — by signing in with your xAI account — no API key, no separate billing. The integration goes through OAuth, so your subscription credentials are handled securely without exposing raw tokens.
 
 But the real surprise: **Grok's context window jumps to 1M tokens** through this wire-through. That means you can drop entire codebases or research corpora into a single Grok prompt — a capability that puts Grok on par with Gemini 2.5 Pro for long-context use cases. ([#26534](https://github.com/NousResearch/hermes-agent/pull/26534), [#26664](https://github.com/NousResearch/hermes-agent/pull/26664), [#26644](https://github.com/NousResearch/hermes-agent/pull/26644))
 

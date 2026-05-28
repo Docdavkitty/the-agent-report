@@ -3,6 +3,7 @@ layout: post
 title: "LLMs Corrupt Your Documents When You Delegate — Inside the DELEGATE-52 Study"
 date: 2026-05-10 08:00:00 +0200
 last_modified_at: 2026-05-10 08:00:00 +0200
+meta_description: "Frontier models silently corrupt ~25% of document content during long delegation workflows, per a new benchmark. Serious implications for the vibe coding era."
 categories: research
 tags: safety delegation document-integrity trust research
 reading_time: 7
@@ -28,7 +29,7 @@ The benchmark covers **52 professional domains**, including:
 - **Medical records** — patient data formatting
 - **Scientific papers** — citation management, figure descriptions
 
-Each task requires **long, multi-step document editing workflows** — exactly the kind of thing AI agents are being marketed to do.
+Each task requires **long, multi-step document editing workflows** — exactly the kind of thing AI agents are being marketed to do — as documented in our [complete guide to AI agents in 2026]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).
 
 ## The Results: Systematic Degradation
 
@@ -56,7 +57,7 @@ The researchers note that degradation is **exacerbated** by:
 
 ## Why Agentic Tool Use Doesn't Help
 
-Perhaps the most concerning finding: **agentic tool use does not improve performance on DELEGATE-52**.
+Perhaps the most concerning finding: **agentic tool use does not improve performance — a finding that complicates the [state of agent engineering]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) narrative on DELEGATE-52**.
 
 This contradicts the prevailing wisdom that giving agents tools (search, edit, read) makes them more reliable. The paper's experiments show that even with tool access, models still introduce errors at roughly the same rate. The problem isn't tooling — it's fundamental to how LLMs process and regenerate document content.
 

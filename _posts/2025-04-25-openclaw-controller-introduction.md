@@ -3,6 +3,7 @@ layout: post
 title: "Openclaw: A New Open-Source Controller for AI Agent Autonomy"
 date: 2025-04-25 14:00:00 +0200
 last_modified_at: 2025-04-25 14:00:00 +0200
+meta_description: "Openclaw introduces fine-grained control and safety guardrails for autonomous AI agents, offering an open-source alternative to proprietary agent controllers."
 categories: openclaw
 tags: [Openclaw, controller, open-source, automation]
 reading_time: 4
@@ -36,4 +37,4 @@ Openclaw provides a **control layer** between AI models and their execution envi
 
 As agents become more capable, the need for **safety infrastructure** grows. Openclaw addresses a critical gap in the open-source agent stack: how to give agents enough freedom to be useful while maintaining the control needed to be safe in production.
 
-The project is in early stages but shows promise as a foundational piece of the enterprise agent stack.
+The project is in early stages but shows promise as a foundational piece of the enterprise agent stack. For context on the broader ecosystem, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and our [enterprise agent stack architecture]({% post_url 2025-04-14-enterprise-agent-stack-architecture %}).

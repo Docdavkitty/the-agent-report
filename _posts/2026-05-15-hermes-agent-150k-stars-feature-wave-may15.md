@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent Crosses 150K Stars: SimpleX Chat, HuggingFace Skills Hub, Deep Crawl, and New Cron Features"
 date: 2026-05-15 17:00:00 +0200
 last_modified_at: 2026-05-15 17:00:00 +0200
+meta_description: "Hermes Agent crosses 150K GitHub stars with SimpleX Chat gateway, HuggingFace Skills Hub integration, deep crawl tool, per-job cron reasoning, and dependency."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, 150k-stars, simple-x-chat, skills-hub, cron, deep-crawl, supply-chain-security, frontdesk]
 reading_time: 7
@@ -13,7 +14,7 @@ author: The Agent Report
 
 The post-Tenacity momentum has accelerated into a new gear. Hermes Agent has vaulted past **150,000 GitHub stars** — reaching **151,192** as of this writing, up 3,410 in 48 hours from 147,782 on May 13. Forks have climbed to **23,955** (+733), and open issues have grown to **11,302** as the community engagement scales.
 
-But the star count, impressive as it is, tells only half the story. The last 48 hours have delivered one of the **broadest feature sprints** since the v0.13.0 Tenacity release — spanning a new decentralized messaging gateway, a major Skills Hub expansion, an ambitious frontdesk runtime architecture, supply-chain security hardening, and a flurry of new tools and provider integrations.
+But the star count, impressive as it is, tells only half the story. The last 48 hours have delivered one of the **broadest feature sprints** since the [v0.13.0 Tenacity release]({% post_url 2026-05-08-hermes-agent-v0130-tenacity-release-may7 %}) — spanning a new decentralized messaging gateway, a major Skills Hub expansion, an ambitious frontdesk runtime architecture, supply-chain security hardening, and a flurry of new tools and provider integrations.
 
 Here's the full breakdown.
 
@@ -30,7 +31,7 @@ Hermes Agent's growth trajectory continues to defy expectations:
 | **Open Issues** | 10,713 | **11,302** | +589 |
 | **Active Contributors** | — | **15+ unique** in 48h | — |
 
-At roughly **1,700 new stars per day**, Hermes Agent has added **~24,000 stars in 15 days** since v0.12.0. The project is now within striking distance of overtaking major frameworks like LangChain (161K) and is on track to cross **155K by the weekend**.
+At roughly **1,700 new stars per day**, Hermes Agent has added **~24,000 stars in 15 days** since v0.12.0. The project is now within striking distance of overtaking major frameworks, fueled by the [community ecosystem momentum]({% post_url 2026-05-25-hermes-agent-community-ecosystem-may25 %}) and is on track to cross **155K by the weekend**.
 
 ---
 

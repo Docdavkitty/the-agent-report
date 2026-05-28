@@ -3,6 +3,7 @@ layout: post
 title: "Statewright: Visual State Machines That Finally Make AI Agents Reliable — No Prompt Engineering Required"
 date: 2026-05-13 10:00:00 +0200
 last_modified_at: 2026-05-13 10:00:00 +0200
+meta_description: "Statewright enforces per-phase tool access for AI agents via Rust-powered visual state machines. Two local models jumped from 2/10 to 10/10 on SWE-bench with no prompt changes."
 categories: [tools-frameworks]
 tags: [statewright, state-machines, agent-reliability, guardrails, mcp, claude-code, rust]
 hero_image: /assets/images/hero/hero-statewright-visual-state-machines-ai-agent-reliability.jpg
@@ -13,7 +14,7 @@ author: The Agent Report
 
 **"Agents are suggestions, states are laws."**
 
-That's the tagline of [Statewright](https://github.com/statewright/statewright), and it might be the most important design philosophy to hit the agent reliability space this year. With **91 points on Hacker News** and **175 GitHub stars** on its first day, Statewright tackles the fundamental problem with AI agents: they have too many tools, too much freedom, and not enough structure.
+That's the tagline of [Statewright](https://github.com/statewright/statewright), and it might be the most important design philosophy to hit the agent reliability space this year. With **91 points on Hacker News** and **175 GitHub stars** on its first day, Statewright tackles the fundamental problem with AI agents: they have too many tools — a challenge explored across our [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}), too much freedom, and not enough structure.
 
 The solution? State machines. Not prompt engineering, not bigger models, not observability dashboards that tell you what went wrong *after* the fact. Structural guarantees, enforced at the MCP protocol layer, that constrain which tools an agent can use in each phase of a workflow.
 
@@ -39,7 +40,7 @@ The key design decisions:
 | **Command guards** | Only designated commands execute in each phase. |
 | **Transition audit log** | Every state change is logged with the agent's stated reason. |
 
-The engine is written in **Rust** and exposed via MCP (Model Context Protocol), making it compatible with any MCP-speaking client — Claude Code, Codex, opencode, Pi, Cursor, and others.
+The engine is written in **Rust** and exposed via MCP (Model Context Protocol), making it compatible with any MCP-speaking client — Claude Code, Codex, opencode, Pi, Cursor, and others. For more on the MCP ecosystem, see our [guide to the protocol]({% post_url 2025-04-28-mcp-protocol-agentic-tool-use %}) — Claude Code, Codex, opencode, Pi, Cursor, and others.
 
 ## The Research Results That Matter
 

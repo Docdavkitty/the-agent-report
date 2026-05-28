@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent Goes Global with i18n, Smart Skill Tiers, and Mac Sandbox: Platform Maturity Accelerates Past 135K Stars"
 date: 2026-05-06 12:00:00 +0200
 last_modified_at: 2026-05-06 12:00:00 +0200
+meta_description: "Hermes Agent crosses 135K GitHub stars with official i18n support for Chinese, Japanese, German, and Spanish, Smart Skill Lifecycle Management, and Mac."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, i18n, skill-management, mac-sandbox, platform-maturity, voice-hooks]
 reading_time: 6
@@ -11,7 +12,7 @@ excerpt: "Hermes Agent crosses 135K GitHub stars as Teknium1 merges official i18
 author: The Agent Report
 ---
 
-Hermes Agent, the open-source AI runtime from **Nous Research**, has crossed **135,066 GitHub stars** — up roughly 3,200 stars in just two days since the May 4 community salvage wave. But the star count is only part of the story. In the past 24 hours, three major platform features have landed or been proposed that signal a decisive shift: Hermes Agent is maturing from a powerful single-user CLI tool into a globally accessible, enterprise-ready agent platform.
+Hermes Agent, the open-source AI runtime from **Nous Research**, has crossed **135,066 GitHub stars** — up roughly 3,200 stars in just two days since the May 4 community salvage wave. But the star count is only part of the story. In the past 24 hours, three major platform features have landed or been proposed that signal a decisive shift: Hermes Agent is maturing from a powerful single-user CLI tool into a globally accessible, enterprise-ready agent platform. For ecosystem context, see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 ## 🌐 i18n Support: Hermes Agent Speaks Your Language — PR [#20231](https://github.com/NousResearch/hermes-agent/pull/20231)
 
@@ -38,7 +39,7 @@ The architecture is clean and minimal: a new `agent/i18n.py` module with a **cat
 
 > *"If a user wants the agent itself to reply in another language, they say so in their prompt — orthogonal to this."* — PR #20231 description
 
-This is a thoughtful, pragmatic choice. By decoupling the UI translation layer from the model's language behavior, Hermes Agent can serve a global user base without compromising the flexibility of prompting.
+This is a thoughtful, pragmatic choice. By decoupling the UI translation layer from the model's language behavior, Hermes Agent can serve a global user base without compromising the flexibility of prompting. For more on the Hermes ecosystem, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).
 
 ## 🧠 Smart Skill Lifecycle Management: Auto-Tiering + Auto-Matching — PR [#20644](https://github.com/NousResearch/hermes-agent/pull/20644)
 

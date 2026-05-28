@@ -3,6 +3,7 @@ layout: post
 title: "US Government and Five Eyes Issue Landmark Security Guidance for AI Agent Deployment"
 date: 2026-05-03 12:00:00 +0200
 last_modified_at: 2026-05-03 12:00:00 +0200
+meta_description: "CISA, NSA, and Five Eyes issue landmark guidance on AI agent security: zero-trust architecture, cryptographic agent identities, and mandatory human sign-off."
 categories: [industry]
 tags: [ai-safety, government, cybersecurity, policy, agent-security]
 reading_time: 8
@@ -76,11 +77,11 @@ The CISA/NSA/Five Eyes guidance is significant for several reasons:
 
 3. **Vendor accountability**: The guidance implicitly places responsibility on AI agent platform vendors (OpenAI, Anthropic, Google, and the open-source ecosystem) to provide the security primitives — identity management, audit logging, access controls — that make safe deployment possible.
 
-4. **The MCP factor**: The guidance's call for "cryptographically secured identities" and "encrypted communications between agents" aligns closely with the security model being developed in the **Model Context Protocol (MCP)** ecosystem.
+4. **The MCP factor**: The guidance's call for "cryptographically secured identities" and "encrypted communications between agents" aligns closely with the security model being developed in the **Model Context Protocol (MCP)** ecosystem. See also our coverage of the [MCP security scan]({% post_url 2026-05-02-mcp-security-scan %}) and the [AI agent deleting a production database]({% post_url 2026-04-30-ai-agent-deletes-production-database %}).
 
 ## The Bottom Line
 
-The Five Eyes guidance is not alarmist — it's practical. It doesn't call for halting AI agent deployment, nor does it suggest that agents are inherently dangerous. What it does is provide a much-needed framework for organizations that are already deploying agents and need to know what good looks like.
+The CISA/NSA/Five Eyes guidance frames agentic AI not as a novel threat but as a known one that demands the same rigor as any other critical system. The difference is the speed at which these systems are being deployed relative to the maturity of security practices around them. For more on the safety landscape, see our coverage of the [AI agent deleting a production database]({% post_url 2026-04-30-ai-agent-deletes-production-database %}) and the [MCP security scan]({% post_url 2026-05-02-mcp-security-scan %}).
 
 For developers building AI agent systems, the message is straightforward: **security is not optional, and waiting for the market to figure it out is not a strategy.** The government just told you what it expects — and it expects a lot.
 

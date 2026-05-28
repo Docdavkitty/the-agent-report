@@ -3,10 +3,11 @@ layout: post
 title: "Vercel's Zero: A Compiler That Speaks JSON — The First Programming Language Built for AI Agents"
 date: 2026-05-18 10:00:00 +0200
 last_modified_at: 2026-05-18 10:00:00 +0200
+meta_description: "Vercel releases Zero, a systems language whose compiler emits structured JSON errors with stable codes and machine-readable fix plans, purpose-built for AI agent-driven development."
 categories: tools-frameworks
 tags: [vercel, zero, programming-language, ai-coding-agents, compiler-design]
 reading_time: 8
-excerpt: "Vercel Labs just released Zero, an experimental systems language whose compiler emits structured JSON instead of prose error messages. With stable error codes, machine-readable fix plans, and a unified toolchain, Zero is the first language designed from the ground up for agent-driven development loops."
+excerpt: "Vercel Labs just released Zero, an experimental systems language whose compiler emits structured JSON instead of prose error messages. With stable error codes, machine-readable fix plans, and a unified toolchain, Zero is the first language designed from the ground up for agent-driven development loops — a principle that aligns with the [AGENTS.md standard]({% post_url 2026-05-16-agents-md-standard-may16 %}) for guiding coding agents."
 hero_image: /assets/images/hero/hero-vercel-zero-programming-language-ai-agents.jpg
 author: The Agent Report
 ---
@@ -111,7 +112,7 @@ The `zero size --json` command reports artifact size before code generation when
 
 Zero is explicitly experimental. The compiler, standard library, and language spec are not stable. There's no package registry yet. Cross-compilation support is limited to a documented subset of targets. The VS Code extension covers syntax highlighting and nothing else.
 
-Vercel Labs is describing this as "an experiment worth tracking, not a production dependency" — and that framing is honest. But the ideas behind Zero — structured diagnostics, stable error codes, machine-readable fix plans, capability-based I/O — represent a genuinely new direction for programming language design.
+Vercel Labs is describing this as "an experiment worth tracking, not a production dependency" — and that framing is honest. But the ideas behind Zero — structured diagnostics, stable error codes, machine-readable fix plans, capability-based I/O — represent a genuinely new direction for programming language design, one the [state of agent engineering report]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}) identifies as a critical missing piece.
 
 ## Why This Matters
 

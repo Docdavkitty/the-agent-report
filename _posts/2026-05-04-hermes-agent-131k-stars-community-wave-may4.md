@@ -3,6 +3,7 @@ layout: post
 title: "Hermes Agent Surpasses 131K Stars as Community Contribution Wave Hits — `hermes send`, Context Compaction Rework, and Tool Argument Repair Land"
 date: 2026-05-04 16:00:00 +0200
 last_modified_at: 2026-05-04 16:00:00 +0200
+meta_description: "Hermes Agent crosses 131K GitHub stars as community salvage PRs merge alongside hermes send, context compaction rework, and a semantic tool argument repair."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, community, open-source, hermes-send, context-compaction, tool-repair, 131K-stars]
 reading_time: 5
@@ -11,7 +12,7 @@ excerpt: "Hermes Agent crosses 131K GitHub stars as Teknium1 merges 8+ community
 author: The Agent Report
 ---
 
-Hermes Agent, the open-source AI runtime from **Nous Research**, has crossed **131,842 GitHub stars** — up roughly 5,000 stars in just three days since the v0.12.0 "Curator" release on April 30. But the real story today is not just the metric: it's the explosive growth of the **community contribution pipeline**.
+Hermes Agent, the open-source AI runtime from **Nous Research**, has crossed **131,842 GitHub stars** — up roughly 5,000 stars in just three days since the v0.12.0 "Curator" release on April 30 (see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) for ecosystem context). But the real story today is not just the metric: it's the explosive growth of the **community contribution pipeline**.
 
 On May 4, 2026, project lead **Teknium1** merged a batch of **eight community salvage PRs** — contributions originally submitted by external developers that were rebased onto `main` with authorship preserved. At the same time, three significant feature proposals were filed, pointing to the next evolution of the agent runtime.
 
@@ -77,6 +78,8 @@ Hermes Agent's GitHub presence continues its steep trajectory:
 - **20,008 forks**
 - **8,156 open issues** (a sign of an active, engaged user base filing everything from bugs to feature requests)
 - **16 releases** in 2026 alone, each named with a theme (Curator, Interface, Tool Gateway, Intelligence, Everywhere...)
+
+For the latest on Hermes Agent, see our [ultimate guide to agent frameworks]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 The topic tags on the repo now include `ai-agent`, `claude-code`, `codex`, `openclaw`, `moltbot`, and `clawdbot` — reflecting the runtime's growing role as an **interoperability layer** across AI coding assistants.
 

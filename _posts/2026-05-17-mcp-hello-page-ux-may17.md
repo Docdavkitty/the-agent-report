@@ -3,17 +3,18 @@ layout: post
 title: "MCP Hello Page: When Agent Protocols Meet Real-World Users — And How One Developer Fixed the UX Gap"
 date: 2026-05-17 12:00:00 +0200
 last_modified_at: 2026-05-17 12:00:00 +0200
+meta_description: "MCP servers return 401 in browsers, triggering user tickets. One developer's elegant fix exposes the UX gap between agent-protocol design assumptions and real."
 categories: [tools-frameworks]
 tags: [mcp, model-context-protocol, developer-experience, agent-tools, ux]
 reading_time: 6
-excerpt: "MCP servers return a 401 when opened in a browser — and users immediately file support tickets. One developer's elegant fix reveals a growing tension between the 'vibe coding' culture of the agent ecosystem and the expectations of real-world users."
+excerpt: "MCP servers return a 401 when opened in a browser — and users immediately file support tickets. One developer's elegant fix reveals a growing tension between the 'vibe coding' culture of the agent ecosystem, as surveyed in our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the expectations of real-world users."
 hero_image: /assets/images/hero/hero-mcp-hello-page-ux-may17.jpg
 author: The Agent Report
 ---
 
 # MCP Hello Page: When Agent Protocols Meet Real-World Users — And How One Developer Fixed the UX Gap
 
-**The Model Context Protocol (MCP) has become one of the most important plumbing layers in the AI agent ecosystem, enabling agents to connect with tools, databases, and APIs through a standardized interface. But it has a dirty secret: if you open an MCP server endpoint in a browser, you get a raw 401 Unauthorized error. And that's creating a support desk nightmare.**
+**The Model Context Protocol (MCP) has become one of the most important plumbing layers in the AI agent ecosystem. See our deep dive on [the MCP protocol]({% post_url 2025-04-28-mcp-protocol-agentic-tool-use %}), enabling agents to connect with tools, databases, and APIs through a standardized interface. But it has a dirty secret: if you open an MCP server endpoint in a browser, you get a raw 401 Unauthorized error. And that's creating a support desk nightmare.**
 
 In a [delightfully pragmatic blog post](https://www.hybridlogic.co.uk/blog/2026/05/mcp-hello-page) that climbed to the front page of Hacker News this weekend, Luke Lanchester — a software engineer and maintainer at HybridLogic — describes exactly this problem and the clever fix he implemented.
 

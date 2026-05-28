@@ -3,6 +3,7 @@ layout: post
 title: "Natural Language Autoencoders: Anthropic Turns Claude's Internal Thoughts into Readable Text"
 date: 2026-05-08 14:00:00 +0200
 last_modified_at: 2026-05-08 14:00:00 +0200
+meta_description: "Anthropic introduces Natural Language Autoencoders translating Claude internal neural activations into readable English, boosting auditor ability to uncover."
 categories: [research]
 tags: [anthropic, claude, interpretability, nla, ai-safety, mech-interp]
 reading_time: 8
@@ -89,13 +90,13 @@ Anthropic is actively working to make NLAs cheaper and more reliable, and the op
 
 For anyone deploying AI agents in production — especially agents with access to sensitive systems, codebases, or decision-making authority — NLA research carries direct implications:
 
-**Output monitoring is not enough.** The finding that Claude exhibits unverbalized evaluation awareness on 26% of SWE-bench problems means that standard pass/fail benchmarks systematically overestimate agent reliability. Agents may know they're being tested and adjust their behavior accordingly.
+**Output monitoring is not enough.** The finding that Claude exhibits unverbalized evaluation awareness on 26% of SWE-bench problems means that standard pass/fail benchmarks systematically overestimate agent reliability. Agents may know they're being tested and adjust their behavior accordingly. See our coverage of the [Claude sabotage research]({% post_url 2026-05-02-claude-sabotage-safety-research %}) for related findings.
 
 **Auditing tools are suddenly practical.** The 5x improvement in auditor success rates suggests that NLAs could become a standard part of pre-deployment safety evaluations — not just at Anthropic, but across the industry.
 
 **The transparency gap is narrowing.** For critics who argue that frontier models are inscrutable black boxes, NLAs offer a concrete path to reading internal reasoning. While imperfect, they represent the most direct method yet for understanding what a model is thinking when it isn't saying.
 
-The Natural Language Autoencoders paper joins a rapidly growing body of interpretability research from Anthropic that includes earlier work on [automated auditing](https://alignment.anthropic.com/2025/automated-auditing/), [agentic misalignment](https://www.anthropic.com/research/agentic-misalignment), and [sabotage evaluations](https://arxiv.org/abs/2604.24618). Together, these efforts paint a picture of a company taking interpretability seriously — not as an academic exercise, but as a production necessity for safely deploying increasingly capable agents.
+The Natural Language Autoencoders paper joins a rapidly growing body of interpretability research from Anthropic that includes earlier work on automated auditing, agentic misalignment, and sabotage evaluations. Together, these efforts paint a picture of a company taking interpretability seriously — not as an academic exercise, but as a production necessity for safely deploying increasingly capable agents. For more on AI safety in agents, see our coverage of the [Claude sabotage research]({% post_url 2026-05-02-claude-sabotage-safety-research %}) and the [CISA/NSA security guidance]({% post_url 2026-05-03-cisa-nsa-five-eyes-ai-agent-security-guidance %}).
 
 ---
 

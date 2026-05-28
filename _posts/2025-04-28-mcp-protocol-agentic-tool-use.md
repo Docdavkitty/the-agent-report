@@ -3,6 +3,7 @@ layout: post
 title: "MCP: The Protocol That's Unlocking Agentic Tool Use"
 date: 2025-04-28 09:00:00 +0200
 last_modified_at: 2025-04-28 09:00:00 +0200
+meta_description: "The Model Context Protocol creates a universal standard for connecting LLMs to tools, data sources, and APIs, unlocking interoperable agentic tool use across."
 categories: research tools-frameworks
 tags: [MCP, protocol, tool-use, interoperability]
 hero_image: /assets/images/hero/hero-04-28-mcp-protocol-agentic-tool-use.jpg
@@ -43,7 +44,7 @@ The MCP ecosystem is growing fast. Major players include:
 
 MCP solves one of the hardest problems in agent development: **tool discoverability and interoperability**. Instead of hardcoding tool calls, agents can dynamically discover available tools through MCP's list-tools capability, inspect their schemas, and invoke them through a uniform interface.
 
-The protocol also supports **resource exposure** (files, database queries, API data) and **prompt templates**, making it a comprehensive standard for agent-environment interaction.
+The protocol also supports **resource exposure** (files, database queries, API data) and **prompt templates**, making it a comprehensive standard for agent-environment interaction. For more on the evolving agent tooling ecosystem, see our [open-source frameworks comparison]({% post_url 2025-04-16-open-source-agent-frameworks-comparison %}) and the [ultimate guide]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
 ## Looking Ahead
 

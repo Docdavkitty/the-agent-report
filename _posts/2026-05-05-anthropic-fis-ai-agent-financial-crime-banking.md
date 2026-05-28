@@ -3,6 +3,7 @@ layout: post
 title: "Anthropic and FIS Partner to Build an AI Agent That Fights Financial Crime — and It's Already Talking to Banks"
 date: 2026-05-05 10:00:00 +0200
 last_modified_at: 2026-05-05 10:00:00 +0200
+meta_description: "Anthropic and FIS build an AI agent to detect money laundering and fraud, cutting false-positive rates by 40 percent and reducing investigation times from days."
 categories: [industry]
 tags: [anthropic, fis, financial-crimes, banking, enterprise-ai, ai-agents, compliance]
 reading_time: 8
@@ -38,7 +39,7 @@ The Anthropic-FIS agent, built on [Claude](https://www.anthropic.com/claude), op
 
 4. **Draft Reporting** — For high-confidence confirmations or dismissals, it drafts the Suspicious Activity Report, freeing analysts to focus on edge cases.
 
-The initial target is **40% reduction in false-positive rates**, with investigation timelines collapsing from **3–5 days to under 30 minutes** for routine alerts.
+The initial target is **40% reduction in false-positive rates**, with investigation timelines collapsing from **3–5 days to under 30 minutes** for routine alerts. For more on Anthropic's enterprise push, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).
 
 ## Why FIS — and Why Now
 
@@ -46,7 +47,7 @@ FIS is not a random partner. The company's core systems process **trillions of d
 
 "Anthropic brings frontier reasoning; FIS brings the distribution," an industry analyst told The Agent Report. "This isn't a pilot with one bank. If FIS integrates this agent into its existing compliance module, it's immediately available to thousands of institutions."
 
-The partnership also signals a strategic pivot for Anthropic. While the company has focused heavily on safety research and developer tools (Claude Code, the Agent SDK), the FIS deal marks its deepest **enterprise vertical play** to date. Financial services, with its high willingness to pay for compliance technology and acute need for trustworthy AI, is a natural beachhead.
+The partnership also signals a strategic pivot for Anthropic. While the company has focused heavily on safety research and developer tools (Claude Code, the Agent SDK), the FIS deal marks its deepest **enterprise vertical play** to date. For more on Anthropic's expanding agent platform, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and coverage of the [Anthropic finance agent templates]({% post_url 2026-05-06-anthropic-finance-agent-templates-microsoft-365 %}).
 
 ## The Compliance Agent Market Is Heating Up
 

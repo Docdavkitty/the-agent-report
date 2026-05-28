@@ -3,6 +3,7 @@ layout: post
 title: "Claude Hits New Milestone: Anthropic Signs SpaceX Compute Deal for Colossus 1 Data Center — 220,000+ NVIDIA GPUs and Orbital AI Compute on the Horizon"
 date: 2026-05-18 14:00:00 +0200
 last_modified_at: 2026-05-18 14:00:00 +0200
+meta_description: "Anthropic signs landmark compute deal with SpaceX for Colossus 1: 300+ MW, 220K NVIDIA GPUs, doubled Claude Code limits, raised Opus quotas, with orbital AI."
 categories: [industry]
 tags: [anthropic, claude, spacex, compute-infrastructure, nvidia-gpus, colossus-datacenter, ai-infrastructure]
 hero_image: /assets/images/hero/hero-claude-spacex-compute-deal-colossus.jpg
@@ -13,13 +14,13 @@ author: The Agent Report
 
 **Anthropic has signed an agreement with SpaceX to utilize the entire compute capacity of their Colossus 1 data center — unlocking over 300 megawatts of new capacity and more than 220,000 NVIDIA GPUs within the month.** The deal comes alongside a sweeping set of usage limit increases for Claude users and hints at an even more ambitious future: orbital AI compute infrastructure.
 
-The announcement, published on [Anthropic's newsroom](https://www.anthropic.com/news/higher-limits-spacex), represents the compute-constrained AI company's most aggressive infrastructure play to date — and signals that the frontier model race is increasingly determined not by architecture alone, but by **who can secure enough GPUs to train and serve at scale**.
+The announcement, published on [Anthropic's newsroom](https://www.anthropic.com/news/higher-limits-spacex), represents the compute-constrained AI company's most aggressive infrastructure play to date — and signals that the frontier model race is increasingly determined not by architecture alone — as our [complete guide to AI agents in 2026]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) explores in depth, but by **who can secure enough GPUs to train and serve at scale**.
 
 ## Higher Usage Limits — Effective Immediately
 
 The partnership announcement came bundled with three immediate improvements to Claude's service limits, all effective today:
 
-### 1. Doubled Claude Code Rate Limits
+### 1. Doubled Claude Code Rate Limits — building on the [Claude Platform on AWS]({% post_url 2026-05-12-claude-platform-aws-general-availability %}) GA launch
 Pro, Max, Team, and seat-based Enterprise plans now get **double the five-hour rate limit** for Claude Code. For power users running multiple agent sessions simultaneously, this means longer, uninterrupted autonomous coding sessions without hitting the ceiling.
 
 ### 2. Peak Hours Limit Removed on Claude Code

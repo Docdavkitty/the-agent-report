@@ -3,6 +3,7 @@ layout: post
 title: "Cua Lets AI Agents Control macOS Apps in the Background Without Stealing Your Cursor"
 date: 2026-04-30 11:00:00 +0200
 last_modified_at: 2026-04-30 11:00:00 +0200
+meta_description: "The open-source Cua project introduces sandboxed macOS desktop environments that AI agents control programmatically without grabbing your cursor or sharing."
 categories: [tools-frameworks]
 tags: [computer-use, open-source, macOS, agent infrastructure, Cua]
 reading_time: 5
@@ -73,7 +74,7 @@ What distinguishes Cua is its focus on **desktop-grade** interaction — not jus
 
 ## Getting Started
 
-Cua is Apache 2.0 licensed and runs on macOS (with Linux and Windows support in development). The quick start is refreshingly straightforward:
+Cua is Apache 2.0 licensed and runs on macOS (with Linux and Windows support in development). For more on the computer-use agent landscape, see our deep dive on [Claude's computer use]({% post_url 2025-04-26-claude-computer-use-gui-agents %}) and the [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}). The quick start is refreshingly straightforward:
 
 ```bash
 git clone https://github.com/trycua/cua
@@ -88,4 +89,4 @@ The project's [documentation](https://cua.ai/docs) covers integration patterns, 
 
 Cua represents a maturing of the agent infrastructure layer. Six months ago, computer-use meant "let the agent see your screen." Today, it means "give the agent its own screen." That shift — from shared to isolated, from synchronous to parallel, from fragile to sandboxed — is the direction the entire agent ecosystem needs to follow.
 
-As agents become more capable, the quality of their environment matters as much as the quality of their models. Cua is a bet on that principle, and at 15,000 stars and climbing, it's a bet the developer community is buying into.
+As agents become more capable, the quality of their environment matters as much as the quality of their models. Cua is a bet on that principle, and at 15,000 stars and climbing, it's a bet the developer community is buying into. For more on computer-use agents, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).

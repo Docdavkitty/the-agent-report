@@ -3,11 +3,12 @@ layout: post
 title: "AGENTS.md: How a Simple Text File Became the Must-Have Standard for Guiding AI Coders"
 date: 2026-05-16 10:00:00 +0200
 last_modified_at: 2026-05-16 10:00:00 +0200
+meta_description: "Over 60,000 open-source projects adopt AGENTS.md, a simple Markdown file telling AI coding agents how to behave, becoming essential infrastructure."
 categories: [tools-frameworks]
 tags: [AGENTS-dot-md, coding-agents, open-source, developer-tools, AI-standards, agent-guidance]
 reading_time: 6
 hero_image: /assets/images/hero/hero-agents-md-standard-may16.jpg
-excerpt: "Over 60,000 open-source projects have adopted AGENTS.md — a simple Markdown file format that tells AI coding agents how to behave. In a world of increasingly autonomous code editors, this humble convention might be the most important infrastructure you've never heard of."
+excerpt: "Over 60,000 open-source projects have adopted AGENTS.md — part of the [open-source agent framework ecosystem]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}) — a simple Markdown file format that tells AI coding agents how to behave. In a world of increasingly autonomous code editors, this humble convention might be the most important infrastructure you've never heard of."
 author: The Agent Report
 ---
 
@@ -19,7 +20,7 @@ And it's working. The [Hacker News thread](https://news.ycombinator.com/item?id=
 
 ## The Problem AGENTS.md Solves
 
-Modern AI coding agents — Claude Code, GitHub Copilot, Cursor, OpenCode, and dozens more — are increasingly autonomous. They don't just autocomplete the next token; they read your codebase, plan multi-file edits, run tests, and commit changes.
+Modern AI coding agents — Claude Code, GitHub Copilot, Cursor, OpenCode — as tracked in our [state of agent engineering 2026]({% post_url 2026-05-23-state-of-agent-engineering-2026-langchain-datadog %}), and dozens more — are increasingly autonomous. They don't just autocomplete the next token; they read your codebase, plan multi-file edits, run tests, and commit changes.
 
 But here's the uncomfortable truth: **no AI agent can read your mind**. Every project has unwritten rules:
 
