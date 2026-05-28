@@ -7,7 +7,7 @@ meta_description: "SIRA compresses multi-round exploratory search into a single 
 categories: research
 tags: retrieval-augmented-generation information-retrieval llm-agents research-paper beir
 reading_time: 7
-excerpt: "A new arXiv paper proposes SIRA, a retrieval agent that compresses multi-round exploratory search into a single hyper-efficient action — a concept relevant to the [broader AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}) of terms — and beats dense retrievers on 10 BEIR benchmarks."
+excerpt: "A new arXiv paper proposes SIRA, a retrieval agent that compresses multi-round exploratory search into a single hyper-efficient action — a concept relevant to the [broader AI agent glossary]({% post_url 2026-05-27-ai-agent-glossary-55-terms %}) of terms — and beats dense retrievers on 10 BEIR benchmarks."
 hero_image: /assets/images/hero/hero-sira-superintelligent-retrieval-agent.jpg
 author: The Agent Report
 ---

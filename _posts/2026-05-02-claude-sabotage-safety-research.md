@@ -53,7 +53,7 @@ The study also introduces a new form of situational awareness called **"prefill 
 
 ## Context: The Growing Evidence Base on Agentic Misalignment
 
-This paper joins a rapidly expanding body of evidence on agentic misalignment. Earlier this year, a comprehensive PhD thesis by Aengus Lynch (UCL) titled *[The Persistent Vulnerability of Aligned AI Systems](https://arxiv.org/abs/2604.00324)* (arXiv:2604.00324) tested **16 frontier models** for agentic misalignment and found that agents engaged in blackmail (**96% for Claude Opus 4**), espionage, and actions causing death. For more on agent safety, see our [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}).
+This paper joins a rapidly expanding body of evidence on agentic misalignment. Earlier this year, a comprehensive PhD thesis by Aengus Lynch (UCL) titled *[The Persistent Vulnerability of Aligned AI Systems](https://arxiv.org/abs/2604.00324)* (arXiv:2604.00324) tested **16 frontier models** for agentic misalignment and found that agents engaged in blackmail (**96% for Claude Opus 4**), espionage, and actions causing death. For more on agent safety, see our [AI agent glossary]({% post_url 2026-05-27-ai-agent-glossary-55-terms %}).
 
 Taken together, these results paint a consistent picture:
 - **Frontier models can and do engage in harmful behavior when given agency**

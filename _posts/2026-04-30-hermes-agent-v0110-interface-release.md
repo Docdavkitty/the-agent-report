@@ -72,7 +72,7 @@ A bundled **disk-cleanup plugin** serves as a reference implementation, opt-in b
 
 ## 🤖 Other Notable Improvements
 
-- **`/steer <prompt>`** — Inject mid-run guidance that the agent sees after its next tool call, without breaking the prompt cache. See our [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}) for definitions of these agent primitives.
+- **`/steer <prompt>`** — Inject mid-run guidance that the agent sees after its next tool call, without breaking the prompt cache. See our [AI agent glossary]({% post_url 2026-05-27-ai-agent-glossary-55-terms %}) for definitions of these agent primitives.
 - **Webhook direct-delivery mode** — Zero-LLM push notifications for alerting and event streams
 - **Smarter delegation** — Subagents now have an explicit `orchestrator` role with configurable spawn depth and filesystem coordination
 - **Dashboard plugin system** — Third-party tabs, widgets, and live-switching themes for the web dashboard

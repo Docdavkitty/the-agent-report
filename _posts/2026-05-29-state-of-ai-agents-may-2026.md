@@ -14,7 +14,7 @@ author: The Agent Report
 
 **May 2026 was not a normal month.** Over 31 days, this publication tracked and analyzed 98 articles — an average of 3.8 per day, accelerating to 5 per day in the final week. The volume alone tells a story: AI agents are no longer a research curiosity or a developer toy. They are the organizing principle around which the entire AI industry is restructuring itself. For foundational context, our [Complete Guide to AI Agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) covers the architectures, frameworks, and best practices powering this transformation.
 
-This is the first monthly State of AI Agents roundup. Our goal is simple: compile every story we covered, identify the patterns invisible in any single article, and produce a reference that the ecosystem can cite, debate, and build on. If you want to understand where AI agents stand in mid-2026 — not from a press release, but from the full corpus of what actually shipped, broke, and alarmed people — this is that document. For definitions of the key terms used throughout, consult our [AI Agent Glossary of 55+ terms]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}).
+This is the first monthly State of AI Agents roundup. Our goal is simple: compile every story we covered, identify the patterns invisible in any single article, and produce a reference that the ecosystem can cite, debate, and build on. If you want to understand where AI agents stand in mid-2026 — not from a press release, but from the full corpus of what actually shipped, broke, and alarmed people — this is that document. For definitions of the key terms used throughout, consult our [AI Agent Glossary of 55+ terms]({% post_url 2026-05-27-ai-agent-glossary-55-terms %}).
 
 ---
 

@@ -107,4 +107,4 @@ Meta's open-source AI strategy was always a means to an end — and the end was 
 
 The Llama trap is a cautionary tale for every startup building on a single-vendor open-source AI stack. **True open-source requires open governance, not just open weights.**
 
-The open-source AI community will survive — but the era of trusting Meta with its future is over. For broader context on the AI agent model landscape, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}).
+The open-source AI community will survive — but the era of trusting Meta with its future is over. For broader context on the AI agent model landscape, see our [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}) and the [AI agent glossary]({% post_url 2026-05-27-ai-agent-glossary-55-terms %}).

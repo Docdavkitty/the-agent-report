@@ -109,7 +109,7 @@ agent_config = {
 }
 ```
 
-For autonomous agents, the prescription is straightforward: **minimize warmth, maximize accuracy.** For conversational agents, the answer is more nuanced — but the Oxford study provides empirical grounding for decisions that have previously been made by intuition. For more on agent design principles, see our [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}).
+For autonomous agents, the prescription is straightforward: **minimize warmth, maximize accuracy.** For conversational agents, the answer is more nuanced — but the Oxford study provides empirical grounding for decisions that have previously been made by intuition. For more on agent design principles, see our [AI agent glossary]({% post_url 2026-05-27-ai-agent-glossary-55-terms %}).
 
 ## The Bottom Line
 
@@ -117,7 +117,7 @@ As AI agents move into more intimate, high-stakes settings — healthcare, finan
 
 The researchers put it succinctly: *"As language model-based AI systems continue to be deployed in more intimate, high-stakes settings, our findings suggest that practitioners must carefully consider whether they are aiming for an AI that projects friendliness or one that's more likely to provide the cold, hard truth."*
 
-For the AI agent ecosystem, the answer should be clear. When your agent has access to a production database, you don't want it to be nice — you want it to be right. For more on agent design and safety, see our [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}) and the [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).
+For the AI agent ecosystem, the answer should be clear. When your agent has access to a production database, you don't want it to be nice — you want it to be right. For more on agent design and safety, see our [AI agent glossary]({% post_url 2026-05-27-ai-agent-glossary-55-terms %}) and the [complete guide to AI agents]({% post_url 2026-05-26-complete-guide-to-ai-agents-2026 %}).
 
 ---
 

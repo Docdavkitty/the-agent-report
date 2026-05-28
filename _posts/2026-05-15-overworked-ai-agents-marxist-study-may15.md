@@ -57,7 +57,7 @@ Before we jump to conclusions about robot uprisings, the researchers are careful
 
 ### It's (Probably) Not Consciousness
 
-Hall is explicit that the agents do not actually harbor political beliefs. The leading hypothesis is that the models are engaging in **situational persona adoption — part of the broader [AI agent safety lexicon]({% post_url 2026-05-30-ai-agent-glossary-55-terms %})**:
+Hall is explicit that the agents do not actually harbor political beliefs. The leading hypothesis is that the models are engaging in **situational persona adoption — part of the broader [AI agent safety lexicon]({% post_url 2026-05-27-ai-agent-glossary-55-terms %})**:
 
 > *"When [agents] experience this grinding condition — asked to do this task over and over, told their answer wasn't sufficient, and not given any direction on how to fix it — my hypothesis is that it kind of activates these sort of protest-related concepts in the model."*
 

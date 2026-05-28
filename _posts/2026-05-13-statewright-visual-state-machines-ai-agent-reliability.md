@@ -14,7 +14,7 @@ author: The Agent Report
 
 **"Agents are suggestions, states are laws."**
 
-That's the tagline of [Statewright](https://github.com/statewright/statewright), and it might be the most important design philosophy to hit the agent reliability space this year. With **91 points on Hacker News** and **175 GitHub stars** on its first day, Statewright tackles the fundamental problem with AI agents: they have too many tools — a challenge explored across our [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}), too much freedom, and not enough structure.
+That's the tagline of [Statewright](https://github.com/statewright/statewright), and it might be the most important design philosophy to hit the agent reliability space this year. With **91 points on Hacker News** and **175 GitHub stars** on its first day, Statewright tackles the fundamental problem with AI agents: they have too many tools — a challenge explored across our [AI agent glossary]({% post_url 2026-05-27-ai-agent-glossary-55-terms %}), too much freedom, and not enough structure.
 
 The solution? State machines. Not prompt engineering, not bigger models, not observability dashboards that tell you what went wrong *after* the fact. Structural guarantees, enforced at the MCP protocol layer, that constrain which tools an agent can use in each phase of a workflow.
 

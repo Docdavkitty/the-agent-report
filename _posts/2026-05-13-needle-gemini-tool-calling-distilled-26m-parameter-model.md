@@ -24,7 +24,7 @@ Let's be precise about what Needle does and doesn't do.
 
 **What it does:** Given a user query and a set of tool definitions (JSON schema), Needle outputs the correct tool call with arguments. It's a single-turn function-calling engine — you get: `[{"name": "get_weather", "arguments": {"location": "San Francisco"}}]`.
 
-**What it doesn't do:** Conversational chat, multi-turn reasoning, general knowledge QA, or anything that requires broad language understanding. That's not the point. Needle is a **specialized router** — the part of an agent pipeline that decides *which function to invoke* and *with what parameters* — a key concept in our [AI agent glossary]({% post_url 2026-05-30-ai-agent-glossary-55-terms %}) of 55 essential terms.
+**What it doesn't do:** Conversational chat, multi-turn reasoning, general knowledge QA, or anything that requires broad language understanding. That's not the point. Needle is a **specialized router** — the part of an agent pipeline that decides *which function to invoke* and *with what parameters* — a key concept in our [AI agent glossary]({% post_url 2026-05-27-ai-agent-glossary-55-terms %}) of 55 essential terms.
 
 This specialization is exactly what makes it so powerful for agentic workloads, fitting into the [broader agent frameworks landscape]({% post_url 2026-05-27-ultimate-guide-open-source-ai-agent-frameworks %}).
 
