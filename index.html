@@ -2,7 +2,8 @@
 layout: default
 ---
 
-<h1 class="sr-only">{{ site.title }} — AI Agent News &amp; Magazine</h1>
+<h1 class="homepage-title">{{ site.title }} — AI Agent News &amp; Magazine</h1>
+<style>.homepage-title{font-size:1.8rem;text-align:center;margin:32px 0 8px;font-weight:800;letter-spacing:-.5px;color:var(--text)}@media(max-width:600px){.homepage-title{font-size:1.4rem}}</style>
 
 {% assign hero_post = site.posts[0] %}
 {% assign side_posts = site.posts | slice: 1, 3 %}
