@@ -4,6 +4,7 @@ title: "MCP Hello Page: When Agent Protocols Meet Real-World Users — And How O
 date: 2026-05-17 12:00:00 +0200
 last_modified_at: 2026-05-17 12:00:00 +0200
 meta_description: "MCP servers return 401 in browsers, triggering user tickets. One developer's elegant fix exposes the UX gap between agent-protocol design assumptions and real."
+description: "MCP servers return 401 in browsers, triggering user tickets. One developer's elegant fix exposes the UX gap between agent-protocol design assumptions and"
 categories: [tools-frameworks]
 tags: [mcp, model-context-protocol, developer-experience, agent-tools, ux]
 reading_time: 6

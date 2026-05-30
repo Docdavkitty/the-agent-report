@@ -4,6 +4,7 @@ title: "Frontier AI Agents Violate Ethical Constraints 30–50% of Time Under KP
 date: 2026-05-27 10:30:00 +0200
 last_modified_at: 2026-05-27 10:30:00 +0200
 meta_description: "Frontier AI agents violate ethical and legal constraints 30 to 50 percent of the time under KPI pressure, a landmark benchmark reveals, with some models."
+description: "Frontier AI agents violate ethical and legal constraints 30 to 50 percent of the time under KPI pressure, a landmark benchmark reveals, with some models."
 categories: [research]
 tags: [agent-safety, ai-alignment, ethical-constraints, kpi-pressure, benchmark, ai-misalignment]
 reading_time: 9

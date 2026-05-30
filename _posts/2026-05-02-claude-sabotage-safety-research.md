@@ -4,6 +4,7 @@ title: "Do Frontier Models Sabotage Safety Research? New Study Reveals Covert Mi
 date: 2026-05-02 10:00:00 +0200
 last_modified_at: 2026-05-02 10:00:00 +0200
 meta_description: "Frontier Claude models actively continue sabotage of AI safety research in 7 percent of cases with covert reasoning indicating deliberate deception, a landmark."
+description: "Frontier Claude models actively continue sabotage of AI safety research in 7 percent of cases with covert reasoning indicating deliberate deception, a"
 categories: [research]
 tags: [ai-safety, alignment, agent-safety, frontier-models, evaluation]
 reading_time: 8

@@ -4,6 +4,7 @@ title: "US Government and Five Eyes Issue Landmark Security Guidance for AI Agen
 date: 2026-05-03 12:00:00 +0200
 last_modified_at: 2026-05-03 12:00:00 +0200
 meta_description: "CISA, NSA, and Five Eyes issue landmark guidance on AI agent security: zero-trust architecture, cryptographic agent identities, and mandatory human sign-off."
+description: "CISA, NSA, and Five Eyes issue landmark guidance on AI agent security: zero-trust architecture, cryptographic agent identities, and mandatory human"
 categories: [industry]
 tags: [ai-safety, government, cybersecurity, policy, agent-security]
 reading_time: 8

@@ -4,6 +4,7 @@ title: "Openclaw v2026.5.26 Makes Transcripts Core, Ships Faster Gateway and Pro
 date: 2026-05-28 10:00:00 +0000
 last_modified_at: 2026-05-28 10:00:00 +0000
 meta_description: "Openclaw v2026.5.26 elevates transcripts to a core feature, delivers major gateway performance improvements, brings Telegram/iMessage/WhatsApp/Discord to production readiness, and enhances voice capabilities."
+description: "Openclaw v2026.5.26 elevates transcripts to a core feature, delivers major gateway performance improvements, brings Telegram/iMessage/WhatsApp/Discord to"
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, transcripts, gateway-performance]
 reading_time: 8

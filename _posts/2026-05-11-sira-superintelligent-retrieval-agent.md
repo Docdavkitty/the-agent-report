@@ -4,6 +4,7 @@ title: "SIRA — The SuperIntelligent Retrieval Agent That Thinks Before It Sear
 date: 2026-05-11 10:00:00 +0200
 last_modified_at: 2026-05-11 10:00:00 +0200
 meta_description: "SIRA compresses multi-round exploratory search into a single hyper-efficient action, beating dense retrievers on 10 BEIR benchmarks by reasoning before it."
+description: "SIRA compresses multi-round exploratory search into a single hyper-efficient action, beating dense retrievers on 10 BEIR benchmarks by reasoning before it."
 categories: research
 tags: retrieval-augmented-generation information-retrieval llm-agents research-paper beir
 reading_time: 7

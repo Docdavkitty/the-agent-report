@@ -4,6 +4,7 @@ title: "Agent-Desktop: The Rust-Powered Native CLI That's Giving AI Agents Direc
 date: 2026-05-03 10:00:00 +0200
 last_modified_at: 2026-05-03 10:00:00 +0200
 meta_description: "Agent-desktop, a Rust-powered CLI for desktop automation via AI agents, gives structured macOS application access through accessibility trees with no."
+description: "Agent-desktop, a Rust-powered CLI for desktop automation via AI agents, gives structured macOS application access through accessibility trees with no."
 categories: [tools-frameworks]
 tags: [agent-tools, desktop-automation, rust, open-source, mcp]
 reading_time: 7

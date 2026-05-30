@@ -4,6 +4,7 @@ title: "Meta SAM 3.1 — Faster Real-Time Video Detection and Tracking with Mult
 date: 2026-05-21 14:00:00 +0200
 last_modified_at: 2026-05-21 14:00:00 +0200
 meta_description: "Meta releases SAM 3.1 with Object Multiplex for joint multi-object video tracking at faster speeds without accuracy loss, advancing open-source video detection."
+description: "Meta releases SAM 3.1 with Object Multiplex for joint multi-object video tracking at faster speeds without accuracy loss, advancing open-source video"
 categories: [research]
 tags: [meta, sam3, open-source, computer-vision, segment-anything, video-tracking, object-detection]
 hero_image: /assets/images/hero/hero-meta-sam-3-1-video-detection-multiplexing-may21.jpg

@@ -4,6 +4,7 @@ title: "OpenCode Is Open Source: The Free Coding Agent Shaking Up AI-Assisted De
 date: 2026-05-16 10:00:00 +0200
 last_modified_at: 2026-05-16 10:00:00 +0200
 meta_description: "OpenCode rockets to 1,200 Hacker News points as a fully open-source AI coding agent with a local-first extensible architecture, democratizing agentic coding."
+description: "OpenCode rockets to 1,200 Hacker News points as a fully open-source AI coding agent with a local-first extensible architecture, democratizing agentic"
 categories: [tools-frameworks]
 tags: [OpenCode, open-source, coding-agents, AI-IDE, developer-tools, SST]
 reading_time: 7

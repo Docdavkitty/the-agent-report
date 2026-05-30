@@ -4,6 +4,7 @@ title: "Structural Backpressure Beats Smarter Agents — How Formal Verification
 date: 2026-05-21 10:00:00 +0200
 last_modified_at: 2026-05-21 10:00:00 +0200
 meta_description: "Structural backpressure at compile time beats smarter agents for coding reliability. Shen-Backpressure shows formal verification gates catch bugs that prompts."
+description: "Structural backpressure at compile time beats smarter agents for coding reliability. Shen-Backpressure shows formal verification gates catch bugs that"
 categories: [tools-frameworks]
 tags: [formal-verification, ai-coding-agents, backpressure, type-systems, open-source, agent-reliability, code-generation]
 reading_time: 6

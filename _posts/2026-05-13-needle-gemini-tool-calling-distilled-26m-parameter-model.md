@@ -4,6 +4,7 @@ title: "Needle: Gemini Tool Calling Distilled Into a 26M Parameter Model — Tin
 date: 2026-05-13 14:00:00 +0200
 last_modified_at: 2026-05-13 14:00:00 +0200
 meta_description: "Cactus Compute distills Gemini 3.1 tool-calling into a 26-million-parameter model running at 1200 tokens per second on phones, watches, and glasses with fully."
+description: "Cactus Compute distills Gemini 3.1 tool-calling into a 26-million-parameter model running at 1200 tokens per second on phones, watches, and glasses with"
 categories: [research]
 tags: [needle, gemini, model-distillation, tool-calling, function-calling, on-device-ai, tiny-models]
 hero_image: /assets/images/hero/hero-needle-gemini-tool-calling-distilled-26m-parameter-model.jpg

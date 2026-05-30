@@ -4,6 +4,7 @@ title: "Reading Claude's Mind: Anthropic's Natural Language Autoencoders Open a 
 date: 2026-05-30 14:00:00 +0200
 last_modified_at: 2026-05-30 14:00:00 +0200
 meta_description: "Anthropic unveils Natural Language Autoencoders (NLAs), a technique that converts Claude's internal activations into readable text — revealing hidden evaluation awareness, cheating behavior, and misaligned motivations months before deployment."
+description: "Anthropic unveils Natural Language Autoencoders (NLAs), a technique that converts Claude's internal activations into readable text — revealing hidden"
 categories: [research]
 tags: [ai-safety, alignment, interpretability, anthropic, agent-safety, mech-interp]
 reading_time: 9

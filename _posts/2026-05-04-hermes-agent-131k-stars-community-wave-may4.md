@@ -4,6 +4,7 @@ title: "Hermes Agent Surpasses 131K Stars as Community Contribution Wave Hits â€
 date: 2026-05-04 16:00:00 +0200
 last_modified_at: 2026-05-04 16:00:00 +0200
 meta_description: "Hermes Agent crosses 131K GitHub stars as community salvage PRs merge alongside hermes send, context compaction rework, and a semantic tool argument repair."
+description: "Hermes Agent crosses 131K GitHub stars as community salvage PRs merge alongside hermes send, context compaction rework, and a semantic tool argument"
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, community, open-source, hermes-send, context-compaction, tool-repair, 131K-stars]
 reading_time: 5

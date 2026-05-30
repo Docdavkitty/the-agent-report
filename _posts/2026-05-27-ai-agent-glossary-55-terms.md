@@ -4,6 +4,7 @@ title: "AI Agent Terminology: 55+ Terms You Need to Know in 2026"
 date: 2026-05-27 22:00:00 +0000
 last_modified_at: 2026-05-27 22:00:00 +0000
 meta_description: "Master 55 essential AI agent terms in 2026 from Agent Loop and MCP to RLHF and Vector Database. Clear definitions for developers navigating the rapidly."
+description: "Master 55 essential AI agent terms in 2026 from Agent Loop and MCP to RLHF and Vector Database. Clear definitions for developers navigating the rapidly."
 categories: [research]
 tags: [glossary, ai-agents, reference, terminology, beginners-guide]
 hero_image: /assets/images/hero/hero-ai-agent-glossary-55-terms.jpg

@@ -4,6 +4,7 @@ title: "Anthropic Forms $200M Partnership with the Gates Foundation — AI for G
 date: 2026-05-15 14:00:00 +0200
 last_modified_at: 2026-05-15 14:00:00 +0200
 meta_description: "Anthropic and the Gates Foundation announce a 200 million dollar partnership to build AI tools for global health, education, and agriculture with API credits."
+description: "Anthropic and the Gates Foundation announce a 200 million dollar partnership to build AI tools for global health, education, and agriculture with API"
 categories: [industry]
 tags: [anthropic, claude, gates-foundation, global-health, ai-for-good, industry-partnerships]
 hero_image: /assets/images/hero/hero-anthropic-gates-foundation-200m-partnership-may15.jpg

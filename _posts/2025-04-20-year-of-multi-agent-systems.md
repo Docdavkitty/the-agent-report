@@ -4,6 +4,7 @@ title: "Why 2025 Is the Year of Multi-Agent Systems"
 date: 2025-04-20 11:00:00 +0200
 last_modified_at: 2025-04-20 11:00:00 +0200
 meta_description: "Single-agent architectures hit limits on context and reliability — see why 2025 pivots to multi-agent systems that delegate, coordinate, and scale together."
+description: "Single-agent architectures hit limits on context and reliability — see why 2025 pivots to multi-agent systems that delegate, coordinate, and scale"
 categories: opinion
 tags: [multi-agent, orchestration, future, trends]
 hero_image: /assets/images/hero/hero-04-20-year-of-multi-agent-systems.jpg

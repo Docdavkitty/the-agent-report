@@ -4,6 +4,7 @@ title: "Hermes Agent Crosses 147K Stars: Cache Architecture Overhaul, Platform M
 date: 2026-05-13 12:00:00 +0200
 last_modified_at: 2026-05-13 12:00:00 +0200
 meta_description: "Hermes Agent crosses 147K GitHub stars with a cache architecture overhaul boosting prompt cache hit rates from 66.6 to 83.3 percent and a provider rebrand."
+description: "Hermes Agent crosses 147K GitHub stars with a cache architecture overhaul boosting prompt cache hit rates from 66.6 to 83.3 percent and a provider rebrand."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, cache-architecture, platform-maturation, qwen-cloud, post-tenacity, infrastructure]
 reading_time: 6

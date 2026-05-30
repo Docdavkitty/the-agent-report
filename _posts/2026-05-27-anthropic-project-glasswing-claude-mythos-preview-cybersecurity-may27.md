@@ -4,6 +4,7 @@ title: "Anthropic Launches Project Glasswing — Claude Mythos Preview, $100M Cy
 date: 2026-05-27 16:00:00 +0200
 last_modified_at: 2026-05-27 16:00:00 +0200
 meta_description: "Discover Project Glasswing, Anthropic's $100M cybersecurity initiative with AWS, Apple, Google, Microsoft, and NVIDIA, powered by Claude Mythos Preview for autonomous defense."
+description: "Discover Project Glasswing, Anthropic's $100M cybersecurity initiative with AWS, Apple, Google, Microsoft, and NVIDIA, powered by Claude Mythos Preview"
 categories: [industry]
 tags: [anthropic, claude, cybersecurity, glasswing, mythos-preview, zero-day, ai-safety]
 reading_time: 6

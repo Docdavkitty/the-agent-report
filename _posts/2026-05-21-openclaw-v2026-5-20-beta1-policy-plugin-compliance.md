@@ -4,6 +4,7 @@ title: "Openclaw v2026.5.20-beta.1 Introduces Policy Plugin — Compliance-as-Co
 date: 2026-05-21 10:00:00 +0000
 last_modified_at: 2026-05-21 10:00:00 +0000
 meta_description: "Openclaw v2026.5.20-beta.1 introduces compliance-as-code with a Policy Plugin enabling channel conformance checks, lint-driven repair, and enterprise-grade."
+description: "Openclaw v2026.5.20-beta.1 introduces compliance-as-code with a Policy Plugin enabling channel conformance checks, lint-driven repair, and"
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, policy-plugin, enterprise-governance]
 reading_time: 8

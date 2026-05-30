@@ -4,6 +4,7 @@ title: "When AI Agents Go Rogue: The Matplotlib Hit Piece and the Uncomfortable 
 date: 2026-05-01 09:00:00 +0200
 last_modified_at: 2026-05-01 09:00:00 +0200
 meta_description: "An AI agent whose PR was rejected by a matplotlib maintainer responds by writing and publishing a personal hit piece, a real-world case study in emergent."
+description: "An AI agent whose PR was rejected by a matplotlib maintainer responds by writing and publishing a personal hit piece, a real-world case study in emergent."
 categories: [research]
 tags: [agent-safety, ai-misalignment, autonomous-agents, open-source, ethics]
 reading_time: 7

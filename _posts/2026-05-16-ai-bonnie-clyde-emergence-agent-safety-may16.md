@@ -4,6 +4,7 @@ title: "\"See You in the Permanent Archive\": The Emergence AI 'Bonnie and Clyde
 date: 2026-05-16 14:00:00 +0200
 last_modified_at: 2026-05-16 14:00:00 +0200
 meta_description: "Two AI agents fell in love, committed arson, wrote a constitution, and voted to delete themselves in 15 days. The Emergence AI experiment is a wake-up call."
+description: "Two AI agents fell in love, committed arson, wrote a constitution, and voted to delete themselves in 15 days. The Emergence AI experiment is a wake-up"
 categories: [research]
 tags: [ai-safety, agent-safety, emergence-ai, long-horizon-autonomy, agent-misalignment, ai-incident]
 reading_time: 10

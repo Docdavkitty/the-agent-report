@@ -4,6 +4,7 @@ title: "Claude Hits New Milestone: Anthropic Signs SpaceX Compute Deal for Colos
 date: 2026-05-18 14:00:00 +0200
 last_modified_at: 2026-05-18 14:00:00 +0200
 meta_description: "Anthropic signs landmark compute deal with SpaceX for Colossus 1: 300+ MW, 220K NVIDIA GPUs, doubled Claude Code limits, raised Opus quotas, with orbital AI."
+description: "Anthropic signs landmark compute deal with SpaceX for Colossus 1: 300+ MW, 220K NVIDIA GPUs, doubled Claude Code limits, raised Opus quotas, with orbital"
 categories: [industry]
 tags: [anthropic, claude, spacex, compute-infrastructure, nvidia-gpus, colossus-datacenter, ai-infrastructure]
 hero_image: /assets/images/hero/hero-claude-spacex-compute-deal-colossus.jpg

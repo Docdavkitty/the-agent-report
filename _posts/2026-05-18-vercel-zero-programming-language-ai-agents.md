@@ -4,6 +4,7 @@ title: "Vercel's Zero: A Compiler That Speaks JSON — The First Programming Lan
 date: 2026-05-18 10:00:00 +0200
 last_modified_at: 2026-05-18 10:00:00 +0200
 meta_description: "Vercel releases Zero, a systems language whose compiler emits structured JSON errors with stable codes and machine-readable fix plans, purpose-built for AI agent-driven development."
+description: "Vercel releases Zero, a systems language whose compiler emits structured JSON errors with stable codes and machine-readable fix plans, purpose-built for"
 categories: tools-frameworks
 tags: [vercel, zero, programming-language, ai-coding-agents, compiler-design]
 reading_time: 8

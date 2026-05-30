@@ -4,6 +4,7 @@ title: "Hermes Agent Profile Distributions — Share Complete Agents as Git Repo
 date: 2026-05-22 14:00:00 +0200
 last_modified_at: 2026-05-22 14:00:00 +0200
 meta_description: "Hermes Agent introduces Profile Distributions packaging complete agents with personality, skills, and MCP configs as git repositories for one-command."
+description: "Hermes Agent introduces Profile Distributions packaging complete agents with personality, skills, and MCP configs as git repositories for one-command."
 categories: [hermes-agent]
 tags: [hermes-agent, nous-research, open-source, profile-distributions, agent-sharing, git-workflow, devops]
 reading_time: 6

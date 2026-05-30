@@ -4,6 +4,7 @@ title: "Hermes Agent v0.14.0 'Foundation' Lands: Grok OAuth, OpenAI-Compatible P
 date: 2026-05-18 10:00:00 +0200
 last_modified_at: 2026-05-18 10:00:00 +0200
 meta_description: "Hermes Agent v0.14.0 Foundation ships Grok OAuth with 1M context, an OpenAI-compatible proxy, PyPI packaging, native Windows beta, and 155K GitHub stars."
+description: "Hermes Agent v0.14.0 Foundation ships Grok OAuth with 1M context, an OpenAI-compatible proxy, PyPI packaging, native Windows beta, and 155K GitHub stars."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, v0.14.0, foundation-release, grok-oauth, local-proxy, pypi, windows-beta, microsoft-teams]
 reading_time: 8

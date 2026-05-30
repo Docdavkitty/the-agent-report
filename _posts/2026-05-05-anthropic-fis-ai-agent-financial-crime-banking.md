@@ -4,6 +4,7 @@ title: "Anthropic and FIS Partner to Build an AI Agent That Fights Financial Cri
 date: 2026-05-05 10:00:00 +0200
 last_modified_at: 2026-05-05 10:00:00 +0200
 meta_description: "Anthropic and FIS build an AI agent to detect money laundering and fraud, cutting false-positive rates by 40 percent and reducing investigation times from days."
+description: "Anthropic and FIS build an AI agent to detect money laundering and fraud, cutting false-positive rates by 40 percent and reducing investigation times from"
 categories: [industry]
 tags: [anthropic, fis, financial-crimes, banking, enterprise-ai, ai-agents, compliance]
 reading_time: 8

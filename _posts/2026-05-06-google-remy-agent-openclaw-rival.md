@@ -4,6 +4,7 @@ title: "Google Is Building 'Remy' — A 24/7 Personal AI Agent That Could Be Its
 date: 2026-05-06 14:00:00 +0200
 last_modified_at: 2026-05-06 14:00:00 +0200
 meta_description: "Google internally tests Remy, a persistent proactive AI agent integrated with Google services that monitors, plans, and acts on behalf of users around."
+description: "Google internally tests Remy, a persistent proactive AI agent integrated with Google services that monitors, plans, and acts on behalf of users around."
 categories: [industry]
 tags: [google, remy, gemini, openclaw, personal-agent, ai-competition, consumer-agents]
 reading_time: 7

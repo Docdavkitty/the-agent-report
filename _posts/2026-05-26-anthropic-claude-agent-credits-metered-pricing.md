@@ -4,6 +4,7 @@ title: "Anthropic Splits Billing: Metered Credits for Claude Agents"
 date: 2026-05-26 08:00:00 +0200
 last_modified_at: 2026-05-26 08:00:00 +0200
 meta_description: "Discover how Anthropic introduces metered credits for programmatic Claude usage via Agent SDK, CLI, and GitHub Actions, ending flat-rate agentic automation on June 15."
+description: "Discover how Anthropic introduces metered credits for programmatic Claude usage via Agent SDK, CLI, and GitHub Actions, ending flat-rate agentic"
 categories: [industry]
 tags: [anthropic, claude, agent-pricing, billing, openclaw, agent-sdk, developer-ecosystem, ai-economics]
 reading_time: 7

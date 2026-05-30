@@ -4,6 +4,7 @@ title: "Hermes Agent Post-Foundation Sprint: Dashboard OAuth, Kynver Memory, Qwe
 date: 2026-05-27 14:00:00 +0200
 last_modified_at: 2026-05-27 14:00:00 +0200
 meta_description: "Discover Hermes Agent's post-Foundation sprint delivering Dashboard OAuth, Kynver memory bridge, Qwen 3.7-Max support, API session controls, and 30+ merged PRs in 11 days."
+description: "Discover Hermes Agent's post-Foundation sprint delivering Dashboard OAuth, Kynver memory bridge, Qwen 3.7-Max support, API session controls, and 30+"
 categories: [hermes-agent]
 tags: [hermes-agent, nous-research, open-source, dashboard-oauth, kynver-memory, qwen-37-max, api-server, security-plugins, codex-reliability]
 reading_time: 6

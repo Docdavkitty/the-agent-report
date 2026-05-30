@@ -4,6 +4,7 @@ title: "Muse Spark Exposed — Meta's New Model Has 16 Agentic Tools, Code Inter
 date: 2026-05-19 14:00:00 +0200
 last_modified_at: 2026-05-19 14:00:00 +0200
 meta_description: "Meta's Muse Spark ships with 16 built-in agent tools: Python code execution, visual grounding, sub-agent spawning, web browsing, and Meta content search —."
+description: "Meta's Muse Spark ships with 16 built-in agent tools: Python code execution, visual grounding, sub-agent spawning, web browsing, and Meta content search —."
 categories: [research]
 tags: [meta, muse-spark, agentic-ai, code-interpreter, visual-grounding, sub-agents]
 hero_image: /assets/images/hero/hero-muse-spark-16-tools-agentic-ecosystem.jpg

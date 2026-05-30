@@ -4,6 +4,7 @@ title: "KPMG Integrates Claude Across 276,000 Employees in Landmark Anthropic Gl
 date: 2026-05-22 08:00:00 +0200
 last_modified_at: 2026-05-22 08:00:00 +0200
 meta_description: "KPMG signs global alliance with Anthropic, embedding Claude across 276,000 employees in 138 countries via Digital Gateway, the largest enterprise AI deployment in professional services."
+description: "KPMG signs global alliance with Anthropic, embedding Claude across 276,000 employees in 138 countries via Digital Gateway, the largest enterprise AI"
 categories: [industry]
 tags: [anthropic, claude, kpmg, enterprise-ai, managed-agents, professional-services, ai-adoption]
 hero_image: /assets/images/hero/hero-kpmg-anthropic-claude-276k-alliance.jpg

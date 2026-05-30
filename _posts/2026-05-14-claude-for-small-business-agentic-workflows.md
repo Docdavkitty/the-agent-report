@@ -4,6 +4,7 @@ title: "Claude for Small Business: Anthropic Deploys Agentic AI Into the Tools S
 date: 2026-05-14 10:00:00 +0200
 last_modified_at: 2026-05-14 10:00:00 +0200
 meta_description: "Anthropic launches Claude for Small Business with 15 pre-built agentic workflows connecting to QuickBooks, PayPal, HubSpot, Canva, and Docusign for autonomous."
+description: "Anthropic launches Claude for Small Business with 15 pre-built agentic workflows connecting to QuickBooks, PayPal, HubSpot, Canva, and Docusign for"
 categories: [tools-frameworks]
 tags: [anthropic, claude, small-business, agentic-workflows, quickbooks, payroll-automation]
 hero_image: /assets/images/hero/hero-claude-for-small-business-agentic-workflows.jpg

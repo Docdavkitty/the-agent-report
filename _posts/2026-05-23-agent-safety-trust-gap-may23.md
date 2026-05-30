@@ -4,6 +4,7 @@ title: "Trust in the Gap: The Three Alarm Bells Ringing for Agent Safety in 2026
 date: 2026-05-23 14:00:00 +0200
 last_modified_at: 2026-05-23 14:00:00 +0200
 meta_description: "Three alarm bells for agent safety in 2026: automated alignment producing misleading assessments, only 14.4% of agents getting full security approval, and NIST admitting frameworks cannot govern."
+description: "Three alarm bells for agent safety in 2026: automated alignment producing misleading assessments, only 14.4% of agents getting full security approval, and"
 categories: [research]
 tags: [ai-safety, agent-safety, alignment, NIST, automated-alignment, governance]
 hero_image: /assets/images/hero/hero-agent-safety-trust-gap-may23.jpg

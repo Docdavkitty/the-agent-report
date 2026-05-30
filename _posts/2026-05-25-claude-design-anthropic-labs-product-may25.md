@@ -4,6 +4,7 @@ title: "Claude Design: Building Visual Products by Talking to AI"
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
 meta_description: "Discover Claude Design, Anthropic's first Labs product that transforms natural conversation into prototypes, slides, and marketing visuals powered by Claude Opus 4.7."
+description: "Discover Claude Design, Anthropic's first Labs product that transforms natural conversation into prototypes, slides, and marketing visuals powered by"
 categories: [industry]
 tags: [anthropic, claude, claude-design, ai-design-tools, anthropic-labs, visual-ai]
 hero_image: /assets/images/hero/hero-claude-design-anthropic-labs-product-may25.jpg

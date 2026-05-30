@@ -4,6 +4,7 @@ title: "Git for AI Agents — re_gent Brings Version Control to Agent Workflows"
 date: 2026-05-10 08:00:00 +0200
 last_modified_at: 2026-05-10 08:00:00 +0200
 meta_description: "re_gent brings Git-style version control to AI coding agents, tracking every tool call and prompt with full auditability at 290 GitHub stars and 115 HN points."
+description: "re_gent brings Git-style version control to AI coding agents, tracking every tool call and prompt with full auditability at 290 GitHub stars and 115 HN"
 categories: tools-frameworks
 tags: version-control agent-tooling devtools claude-code open-source
 reading_time: 6

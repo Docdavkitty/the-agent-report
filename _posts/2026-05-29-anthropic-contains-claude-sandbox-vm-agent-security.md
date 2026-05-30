@@ -4,6 +4,7 @@ title: "How Anthropic Contains Claude: Sandboxes, VMs, and the Hard Lessons of A
 date: 2026-05-29 14:00:00 +0200
 last_modified_at: 2026-05-29 14:00:00 +0200
 meta_description: "Anthropic publishes a rare deep-dive into how it contains Claude across claude.ai, Claude Code, and Claude Cowork — with candid accounts of sandbox escapes, phishing red-teams, and egress proxy failures."
+description: "Anthropic publishes a rare deep-dive into how it contains Claude across claude.ai, Claude Code, and Claude Cowork — with candid accounts of sandbox"
 categories: [research]
 tags: [anthropic, claude, agent-safety, sandboxing, containment, ai-security]
 reading_time: 9

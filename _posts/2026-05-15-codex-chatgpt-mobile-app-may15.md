@@ -4,6 +4,7 @@ title: "Codex Now Lives in Your Pocket — OpenAI Brings Agentic Coding to Mobil
 date: 2026-05-15 10:00:00 +0200
 last_modified_at: 2026-05-15 10:00:00 +0200
 meta_description: "OpenAI brings Codex to ChatGPT mobile, letting developers command desktop coding agents from iOS or Android. Review diffs, approve commands, and watch terminal."
+description: "OpenAI brings Codex to ChatGPT mobile, letting developers command desktop coding agents from iOS or Android. Review diffs, approve commands, and watch"
 categories: [tools-frameworks]
 tags: [openai, codex, mobile, chatgpt, agentic-coding, ios, android]
 hero_image: /assets/images/hero/hero-codex-chatgpt-mobile-app-may15.jpg

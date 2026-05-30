@@ -4,6 +4,7 @@ title: "Hermes Agent Performance Sprint: Adaptive Polling Cuts 1+ Second Per Tur
 date: 2026-05-20 14:00:00 +0200
 last_modified_at: 2026-05-20 14:00:00 +0200
 meta_description: "Hermes Agent cuts 1 second per turn via adaptive polling, ships xAI Web Search, Chromium auto-launch, and critical security hardening for plugin tool overrides."
+description: "Hermes Agent cuts 1 second per turn via adaptive polling, ships xAI Web Search, Chromium auto-launch, and critical security hardening for plugin tool"
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, performance, xai-web-search, browser-autolaunch, security, kanban-dashboard]
 reading_time: 6

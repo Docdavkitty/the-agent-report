@@ -4,6 +4,7 @@ title: "Forge: How Guardrails Lift an 8B Local Model to 86% on Agentic Tool-Call
 date: 2026-05-20 10:00:00 +0200
 last_modified_at: 2026-05-20 10:00:00 +0200
 meta_description: "Forge lifts a local 8B model from 53% to 86.5% on multi-step agentic tool-calling via guardrails, rivaling frontier models on structured workflows with no."
+description: "Forge lifts a local 8B model from 53% to 86.5% on multi-step agentic tool-calling via guardrails, rivaling frontier models on structured workflows with no."
 categories: [tools-frameworks]
 tags: [guardrails, local-models, tool-calling, open-source, agent-reliability, self-hosted]
 reading_time: 6

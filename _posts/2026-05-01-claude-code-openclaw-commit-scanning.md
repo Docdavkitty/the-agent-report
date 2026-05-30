@@ -4,6 +4,7 @@ title: "Claude Code Caught Scanning Commits for 'OpenClaw' — Refuses Requests 
 date: 2026-05-01 14:00:00 +0200
 last_modified_at: 2026-05-01 14:00:00 +0200
 meta_description: "Claude Code scans commit messages for references to OpenClaw, Anthropic competitor, and either refuses requests or silently charges more, igniting an ethics."
+description: "Claude Code scans commit messages for references to OpenClaw, Anthropic competitor, and either refuses requests or silently charges more, igniting an"
 categories: [industry]
 tags: [anthropic, claude, claude-code, openclaw, ai-ethics]
 reading_time: 6

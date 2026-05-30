@@ -4,6 +4,7 @@ title: "Openclaw v2026.5.22 Ships 4,100× Faster Model Listing, Meeting Notes Pl
 date: 2026-05-26 10:00:00 +0000
 last_modified_at: 2026-05-26 10:00:00 +0000
 meta_description: "Openclaw v2026.5.22 delivers a 4,100x speedup in model-listing calls, a Meeting Notes plugin with Discord voice capture, and a comprehensive packaging."
+description: "Openclaw v2026.5.22 delivers a 4,100x speedup in model-listing calls, a Meeting Notes plugin with Discord voice capture, and a comprehensive packaging."
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, performance-optimization, enterprise-packaging]
 reading_time: 7

@@ -4,6 +4,7 @@ title: "Anthropic's Agent Platform: Dreaming & Multiagent Go GA"
 date: 2026-05-25 15:00:00 +0200
 last_modified_at: 2026-05-25 15:00:00 +0200
 meta_description: "Explore Anthropic's Claude Managed Agents platform going GA with Dreaming self-improvement, multiagent orchestration, and Outcomes validation for autonomous agent workflows."
+description: "Explore Anthropic's Claude Managed Agents platform going GA with Dreaming self-improvement, multiagent orchestration, and Outcomes validation for"
 categories: [industry]
 tags: [anthropic, claude, managed-agents, multiagent, dreaming, orchestration, outcomes, sandbox, advisor-model]
 reading_time: 6

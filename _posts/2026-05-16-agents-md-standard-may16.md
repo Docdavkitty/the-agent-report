@@ -4,6 +4,7 @@ title: "AGENTS.md: How a Simple Text File Became the Must-Have Standard for Guid
 date: 2026-05-16 10:00:00 +0200
 last_modified_at: 2026-05-16 10:00:00 +0200
 meta_description: "Over 60,000 open-source projects adopt AGENTS.md, a simple Markdown file telling AI coding agents how to behave, becoming essential infrastructure."
+description: "Over 60,000 open-source projects adopt AGENTS.md, a simple Markdown file telling AI coding agents how to behave, becoming essential infrastructure."
 categories: [tools-frameworks]
 tags: [AGENTS-dot-md, coding-agents, open-source, developer-tools, AI-standards, agent-guidance]
 reading_time: 6

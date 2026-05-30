@@ -4,6 +4,7 @@ title: "Hermes Agent v0.15.0 'Velocity' + v0.15.1 Hotfix: run_agent.py -76%, Kan
 date: 2026-05-29 18:00:00 +0200
 last_modified_at: 2026-05-29 18:00:00 +0200
 meta_description: "Hermes Agent v0.15.0 'Velocity Release' ships the biggest refactor ever (run_agent.py 16K→3.8K lines), Kanban as a multi-agent platform, 4,500× faster session_search, promptware defense, Bitwarden Secrets Manager, and a same-day v0.15.1 hotfix."
+description: "Hermes Agent v0.15.0 'Velocity Release' ships the biggest refactor ever (run_agent.py 16K→3.8K lines), Kanban as a multi-agent platform, 4,500× faster"
 categories: [hermes-agent]
 tags: [hermes-agent, nous-research, open-source, v0.15.0, velocity-release, run-agent-refactor, kanban-platform, session-search, promptware-defense, bitwarden-secrets]
 reading_time: 8

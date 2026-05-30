@@ -4,6 +4,7 @@ title: "Statewright: Visual State Machines That Make AI Coding Agents Reliable â
 date: 2026-05-19 14:00:00 +0200
 last_modified_at: 2026-05-19 14:00:00 +0200
 meta_description: "Statewright introduces visual state machines enforcing per-phase tool access for AI coding agents, lifting local models from 20 to 100 percent pass rates."
+description: "Statewright introduces visual state machines enforcing per-phase tool access for AI coding agents, lifting local models from 20 to 100 percent pass rates."
 categories: [tools-frameworks]
 tags: [statewright, ai-agents, state-machines, agent-reliability, swi-bench, claude-code, codex, mcp, open-source, developer-tools]
 reading_time: 6

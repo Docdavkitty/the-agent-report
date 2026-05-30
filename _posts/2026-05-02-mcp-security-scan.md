@@ -4,6 +4,7 @@ title: "Breaking: Security Scan Reveals 22% of MCP Servers Vulnerable — the AI
 date: 2026-05-02 08:00:00 +0200
 last_modified_at: 2026-05-02 08:00:00 +0200
 meta_description: "A systematic scan of the top 100 MCP servers finds 22 percent contain security vulnerabilities including tool description injection, PII exfiltration,."
+description: "A systematic scan of the top 100 MCP servers finds 22 percent contain security vulnerabilities including tool description injection, PII exfiltration,."
 categories: [research]
 tags: [mcp, security, prompt-injection, agent-safety, vulnerability]
 reading_time: 7

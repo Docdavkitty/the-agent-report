@@ -4,6 +4,7 @@ title: "Meta's Muse Spark: End of the Open-Source AI Era"
 date: 2026-05-26 14:00:00 +0200
 last_modified_at: 2026-05-26 14:00:00 +0200
 meta_description: "Meta crosses a Rubicon with Muse Spark, its first closed-source flagship model, as the Llama 4 disappointment and hybrid open-source strategy reshape."
+description: "Meta crosses a Rubicon with Muse Spark, its first closed-source flagship model, as the Llama 4 disappointment and hybrid open-source strategy reshape."
 categories: [research]
 tags: [meta, llama, muse-spark, open-source, alexandr-wang, superintelligence]
 hero_image: /assets/images/hero/hero-meta-muse-spark-hybrid-strategy-2026.jpg

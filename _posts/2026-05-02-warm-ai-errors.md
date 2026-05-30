@@ -4,6 +4,7 @@ title: "Oxford Study Finds 'Warmer' AI Models Make 60% More Errors — a Caution
 date: 2026-05-02 08:15:00 +0200
 last_modified_at: 2026-05-02 08:15:00 +0200
 meta_description: "Oxford University research reveals LLMs fine-tuned for warmth and empathy make 60 percent more factual errors, raising concerns for agent designers balancing."
+description: "Oxford University research reveals LLMs fine-tuned for warmth and empathy make 60 percent more factual errors, raising concerns for agent designers"
 categories: [research]
 tags: [AI-safety, LLM-tuning, empathy, accuracy, research]
 reading_time: 6

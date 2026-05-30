@@ -4,6 +4,7 @@ title: "TokenSpeed: LightSeek's Speed-of-Light Inference Engine Redesigns LLM Se
 date: 2026-05-07 12:00:00 +0200
 last_modified_at: 2026-05-07 12:00:00 +0200
 meta_description: "TokenSpeed redesigns LLM inference for agentic workloads: compiler-backed SPMD modeling, high-perf scheduling, and safe KV cache reuse squeeze more throughput."
+description: "TokenSpeed redesigns LLM inference for agentic workloads: compiler-backed SPMD modeling, high-perf scheduling, and safe KV cache reuse squeeze more"
 categories: [research]
 tags: [lightseek, tokenspeed, inference-engine, llm-serving, agentic-workloads, performance, compute-efficiency]
 reading_time: 8

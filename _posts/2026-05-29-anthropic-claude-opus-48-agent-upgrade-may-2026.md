@@ -4,6 +4,7 @@ title: "Claude Opus 4.8 Is Here: Smarter, More Honest Agents — with Dynamic Wo
 date: 2026-05-29 09:00:00 +0200
 last_modified_at: 2026-05-29 09:00:00 +0200
 meta_description: "Anthropic releases Claude Opus 4.8 with major agentic improvements — dynamic workflows orchestrate hundreds of parallel subagents, honesty flaws drop 4x, and new effort control lets users dial intelligence from fast to max."
+description: "Anthropic releases Claude Opus 4.8 with major agentic improvements — dynamic workflows orchestrate hundreds of parallel subagents, honesty flaws drop 4x"
 categories: [research]
 tags: [anthropic, claude-opus, ai-agents, coding-agents, claude-code, agent-orchestration, ai-models]
 reading_time: 8

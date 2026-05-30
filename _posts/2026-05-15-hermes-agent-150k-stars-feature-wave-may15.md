@@ -4,6 +4,7 @@ title: "Hermes Agent Crosses 150K Stars: SimpleX Chat, HuggingFace Skills Hub, D
 date: 2026-05-15 17:00:00 +0200
 last_modified_at: 2026-05-15 17:00:00 +0200
 meta_description: "Hermes Agent crosses 150K GitHub stars with SimpleX Chat gateway, HuggingFace Skills Hub integration, deep crawl tool, per-job cron reasoning, and dependency."
+description: "Hermes Agent crosses 150K GitHub stars with SimpleX Chat gateway, HuggingFace Skills Hub integration, deep crawl tool, per-job cron reasoning, and"
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, 150k-stars, simple-x-chat, skills-hub, cron, deep-crawl, supply-chain-security, frontdesk]
 reading_time: 7

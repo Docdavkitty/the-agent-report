@@ -4,6 +4,7 @@ title: "Why You Shouldn't Put AI Agents on the Org Chart"
 date: 2026-05-23 10:00:00 +0200
 last_modified_at: 2026-05-23 10:00:00 +0200
 meta_description: "A Harvard Business Review study of 1,261 managers finds treating AI agents as employees backfires, reducing error detection by 18 percent and increasing."
+description: "A Harvard Business Review study of 1,261 managers finds treating AI agents as employees backfires, reducing error detection by 18 percent and increasing."
 categories: [research]
 tags: [hbr, ai-agents, organizational-behavior, enterprise-adoption, ai-governance, human-ai-collaboration]
 hero_image: /assets/images/hero/hero-hbr-ai-agents-org-chart-research-2026.jpg

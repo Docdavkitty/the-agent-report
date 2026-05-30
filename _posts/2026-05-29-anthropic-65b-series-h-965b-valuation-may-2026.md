@@ -4,6 +4,7 @@ title: "Anthropic Raises $65B at $965B Valuation — Wall Street Bets Big on the
 date: 2026-05-29 10:00:00 +0200
 last_modified_at: 2026-05-29 10:00:00 +0200
 meta_description: "Anthropic's $65B Series H at $965B post-money valuation — led by Altimeter, Dragoneer, Greenoaks, and Sequoia — signals that Wall Street sees AI agents as the next trillion-dollar platform shift."
+description: "Anthropic's $65B Series H at $965B post-money valuation — led by Altimeter, Dragoneer, Greenoaks, and Sequoia — signals that Wall Street sees AI agents as"
 categories: [industry]
 tags: [anthropic, funding, series-h, valuation, ai-industry, enterprise-ai, ai-economics]
 reading_time: 7

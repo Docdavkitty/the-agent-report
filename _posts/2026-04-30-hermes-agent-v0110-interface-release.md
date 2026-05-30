@@ -4,6 +4,7 @@ title: "Hermes Agent v0.11.0 'Interface' — Ink TUI, AWS Bedrock, GPT-5.5, and 
 date: 2026-04-30 12:56:00 +0200
 last_modified_at: 2026-04-30 12:56:00 +0200
 meta_description: "Hermes Agent v0.11.0 Interface ships with a React/Ink TUI rewrite, AWS Bedrock support, GPT-5.5 via Codex OAuth, five new inference paths, and QQBot."
+description: "Hermes Agent v0.11.0 Interface ships with a React/Ink TUI rewrite, AWS Bedrock support, GPT-5.5 via Codex OAuth, five new inference paths, and QQBot."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, release, v0.11, TUI, AWS Bedrock, GPT-5.5, QQBot]
 reading_time: 4

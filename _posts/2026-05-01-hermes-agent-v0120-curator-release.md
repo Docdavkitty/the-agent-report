@@ -4,6 +4,7 @@ title: "Hermes Agent v0.12.0 'Curator' — Autonomous Skill Maintenance, 4 New P
 date: 2026-05-01 10:00:00 +0200
 last_modified_at: 2026-05-01 10:00:00 +0200
 meta_description: "Hermes Agent v0.12.0 Curator ships an autonomous background agent that grades, prunes, and consolidates your skill library plus 4 new providers and Spotify."
+description: "Hermes Agent v0.12.0 Curator ships an autonomous background agent that grades, prunes, and consolidates your skill library plus 4 new providers and"
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, release, v0.12, Curator, Spotify, Google Meet, ComfyUI, LM Studio, TTS]
 reading_time: 4

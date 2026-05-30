@@ -4,6 +4,7 @@ title: "DeepMind's AlphaEvolve Goes Mainstream: The Gemini-Powered Agent Now Run
 date: 2026-05-08 08:01:00 +0200
 last_modified_at: 2026-05-08 08:01:00 +0200
 meta_description: "DeepMind AlphaEvolve, a Gemini-powered evolutionary coding agent, silently optimizes Google infrastructure recovering 0.7 percent of global compute."
+description: "DeepMind AlphaEvolve, a Gemini-powered evolutionary coding agent, silently optimizes Google infrastructure recovering 0.7 percent of global compute."
 categories: [research]
 tags: [deepmind, alphaevolve, gemini, coding-agent, algorithm-discovery, google, ai-infrastructure, tpu]
 reading_time: 8

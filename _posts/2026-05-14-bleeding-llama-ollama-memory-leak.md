@@ -4,6 +4,7 @@ title: "Bleeding Llama — Critical Ollama Memory Leak Exposes User Prompts, Sys
 date: 2026-05-14 14:00:00 +0200
 last_modified_at: 2026-05-14 14:00:00 +0200
 meta_description: "Cyera Research discloses Bleeding Llama, a critical unauthenticated memory leak in Ollama exposing user prompts and environment secrets from roughly 300,000."
+description: "Cyera Research discloses Bleeding Llama, a critical unauthenticated memory leak in Ollama exposing user prompts and environment secrets from roughly"
 categories: [research]
 tags: [meta, llama, open-source, ollama, security-vulnerability, local-llm, llm-security]
 hero_image: /assets/images/hero/hero-bleeding-llama-ollama-memory-leak.jpg

@@ -4,6 +4,7 @@ title: "Ex-GitHub CEO Thomas Dohmke Launches Entire with $60M to Build the Next 
 date: 2026-05-27 10:00:00 +0200
 last_modified_at: 2026-05-27 10:00:00 +0200
 meta_description: "Ex-GitHub CEO Thomas Dohmke launches Entire with 60 million dollars to rebuild the developer platform for an era where AI agents produce the majority of code,."
+description: "Ex-GitHub CEO Thomas Dohmke launches Entire with 60 million dollars to rebuild the developer platform for an era where AI agents produce the majority of"
 categories: [industry]
 tags: [entire, thomas-dohmke, github, developer-platform, ai-coding-agents, git, seed-round]
 reading_time: 8

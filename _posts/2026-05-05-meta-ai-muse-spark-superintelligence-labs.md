@@ -4,6 +4,7 @@ title: "Meta AI Unveils Muse Spark — First Model from Meta Superintelligence L
 date: 2026-05-05 14:00:00 +0200
 last_modified_at: 2026-05-05 14:00:00 +0200
 meta_description: "Meta AI launches Muse Spark, the first natively multimodal reasoning model from Meta Superintelligence Labs, featuring multi-agent parallel reasoning via."
+description: "Meta AI launches Muse Spark, the first natively multimodal reasoning model from Meta Superintelligence Labs, featuring multi-agent parallel reasoning via."
 categories: [research]
 tags: [meta, llama, open-source, muse-spark, multimodal-reasoning, superintelligence]
 hero_image: /assets/images/hero/hero-meta-ai-muse-spark-superintelligence-labs.jpg

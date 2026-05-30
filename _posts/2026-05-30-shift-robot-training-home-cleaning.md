@@ -9,6 +9,7 @@ reading_time: 6
 author: The Agent Report
 hero_image: /assets/images/hero/hero-shift-robot-training-home-cleaning.jpg
 excerpt: "A new AI startup is offering free home cleaning services — in exchange for recording every movement, every scrub, and every vacuum pass. The footage trains robot agents to one day do the job themselves."
+description: "A new AI startup is offering free home cleaning services — in exchange for recording every movement, every scrub, and every vacuum pass. The footage"
 ---
 
 A novel — and controversial — startup called **Shift** is offering New Yorkers a deal that seems too good to be true: free professional home cleaning. The catch, as reported by [The Verge](https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning), is that every mop stroke, every wiped counter, and every vacuumed carpet is being recorded to train future robot agents.
@@ -49,7 +50,7 @@ Synthetic data and simulation have made impressive strides, but the gap between 
 
 ## The Market Context
 
-Shift's model fits within a broader trend of companies using novel data collection strategies to train AI agents. Similar approaches have been used for:
+Shift's model fits within a broader trend of companies using novel data collection strategies to train [AI agents](/2026/05/complete-guide-to-ai-agents-2026/). Similar approaches have been used for:
 
 - **Autonomous driving** — Waymo and Tesla have logged billions of miles, including from human-driven data
 - **Warehouse robotics** — Amazon's Pegasus system learns from human pickers
@@ -66,7 +67,7 @@ This vision raises a larger question: **how many physical tasks could be learned
 
 ## The Bigger Picture
 
-The trajectory here is unmistakable. As AI agents become more capable, the bottleneck shifts from model architecture to **training data for physical interaction with the world.** Companies like Shift, Scale AI, and others are building the data pipelines that will power the next generation of embodied agents.
+The trajectory here is unmistakable. As [AI agents become more capable](/2026/05/state-of-ai-agents-may-2026/), the bottleneck shifts from model architecture to **training data for physical interaction with the world.** Companies like Shift, Scale AI, and others are building the data pipelines that will power the next generation of [embodied agents](/2026/06/top-20-open-source-ai-agent-tools-2026/).
 
 Whether consumers will trade their privacy for a free cleaning — and whether Shift can deliver on the promise of a robot that cleans as well as a trained professional — remains to be seen. But the strategy is a window into how the AI industry thinks about the path from language models to physical agents.
 

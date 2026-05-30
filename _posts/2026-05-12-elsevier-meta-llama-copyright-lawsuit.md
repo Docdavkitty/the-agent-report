@@ -4,6 +4,7 @@ title: "Elsevier Sues Meta Over Llama Training Data — First Science Publisher 
 date: 2026-05-12 14:00:00 +0200
 last_modified_at: 2026-05-12 14:00:00 +0200
 meta_description: "Elsevier sues Meta for allegedly using Common Crawl and LibGen to scrape paywalled papers for Llama training, with massive implications for open-source AI."
+description: "Elsevier sues Meta for allegedly using Common Crawl and LibGen to scrape paywalled papers for Llama training, with massive implications for open-source AI."
 categories: [research]
 tags: [meta, llama, open-source, copyright-lawsuit, elsevier, academic-publishing]
 hero_image: /assets/images/hero/hero-elsevier-meta-llama-copyright-lawsuit.jpg

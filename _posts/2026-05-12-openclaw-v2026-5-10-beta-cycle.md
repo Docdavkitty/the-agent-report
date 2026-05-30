@@ -4,6 +4,7 @@ title: "Openclaw v2026.5.10 Beta Cycle: Five Releases in Two Days, 371K Stars, a
 date: 2026-05-12 10:00:00 +0000
 last_modified_at: 2026-05-12 10:00:00 +0000
 meta_description: "Openclaw ships five beta releases in two days: agent-to-agent protocols, Slack, Discord voice, and Fal image generation, crossing 371K stars with configurable."
+description: "Openclaw ships five beta releases in two days: agent-to-agent protocols, Slack, Discord voice, and Fal image generation, crossing 371K stars with"
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, agent-to-agent, pnpm11]
 reading_time: 6

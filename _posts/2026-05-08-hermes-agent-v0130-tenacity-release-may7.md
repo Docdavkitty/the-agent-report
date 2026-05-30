@@ -4,6 +4,7 @@ title: "Hermes Agent v0.13.0 \"Tenacity\" Lands — Multi-Agent Kanban, /goal Pe
 date: 2026-05-08 16:00:00 +0200
 last_modified_at: 2026-05-08 16:00:00 +0200
 meta_description: "Hermes Agent v0.13.0 Tenacity ships multi-agent Kanban boards, goal persistence, Checkpoints v2, 8 P0 security fixes, Google Chat as the 20th platform,."
+description: "Hermes Agent v0.13.0 Tenacity ships multi-agent Kanban boards, goal persistence, Checkpoints v2, 8 P0 security fixes, Google Chat as the 20th platform,."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, v0.13.0, tenacity, multi-agent-kanban, durable-goals, security-hardening, checkpoints, i18n]
 reading_time: 7

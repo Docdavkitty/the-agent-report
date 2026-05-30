@@ -4,6 +4,7 @@ title: "Claude Platform on AWS Goes GA — Anthropic's Full Agent Stack Now Avai
 date: 2026-05-12 10:30:00 +0200
 last_modified_at: 2026-05-12 10:30:00 +0200
 meta_description: "Anthropic launches Claude Platform on AWS GA: Managed Agents, code execution, skills, and advisor with IAM auth, CloudTrail logging, and commitment retirement."
+description: "Anthropic launches Claude Platform on AWS GA: Managed Agents, code execution, skills, and advisor with IAM auth, CloudTrail logging, and commitment"
 categories: [tools-frameworks]
 tags: [anthropic, claude, aws, cloud, managed-agents, enterprise, infrastructure]
 reading_time: 6

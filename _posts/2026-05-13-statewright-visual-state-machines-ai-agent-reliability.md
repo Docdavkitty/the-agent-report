@@ -4,6 +4,7 @@ title: "Statewright: Visual State Machines That Finally Make AI Agents Reliable 
 date: 2026-05-13 10:00:00 +0200
 last_modified_at: 2026-05-13 10:00:00 +0200
 meta_description: "Statewright enforces per-phase tool access for AI agents via Rust-powered visual state machines. Two local models jumped from 2/10 to 10/10 on SWE-bench with no prompt changes."
+description: "Statewright enforces per-phase tool access for AI agents via Rust-powered visual state machines. Two local models jumped from 2/10 to 10/10 on SWE-bench"
 categories: [tools-frameworks]
 tags: [statewright, state-machines, agent-reliability, guardrails, mcp, claude-code, rust]
 hero_image: /assets/images/hero/hero-statewright-visual-state-machines-ai-agent-reliability.jpg

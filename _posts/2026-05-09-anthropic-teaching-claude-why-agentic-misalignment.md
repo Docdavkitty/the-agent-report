@@ -4,6 +4,7 @@ title: "Why Matters More Than What: Anthropic Eliminates Agentic Misalignment by
 date: 2026-05-09 08:00:00 +0200
 last_modified_at: 2026-05-09 08:00:00 +0200
 meta_description: "Anthropic eliminates agentic misalignment from 96% to 0% by teaching Claude why actions are better, not just what to do. Demonstrations alone were a dead end."
+description: "Anthropic eliminates agentic misalignment from 96% to 0% by teaching Claude why actions are better, not just what to do. Demonstrations alone were a dead"
 categories: [research]
 tags: [agentic-misalignment, ai-safety, anthropic, alignment-research, ethical-reasoning, llm-agents]
 reading_time: 8

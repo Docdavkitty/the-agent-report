@@ -4,6 +4,7 @@ title: "Claude Mythos Shatters METR's Time Horizon Graph — First Model to Crac
 date: 2026-05-11 14:00:00 +0200
 last_modified_at: 2026-05-11 14:00:00 +0200
 meta_description: "Claude Mythos Preview hits a 6.25-hour 50% time horizon on METR's benchmark, nearly doubling the next-best model. METR warns measurements above 16 hours are now unreliable."
+description: "Claude Mythos Preview hits a 6.25-hour 50% time horizon on METR's benchmark, nearly doubling the next-best model. METR warns measurements above 16 hours"
 categories: [research]
 tags: [anthropic, claude, claude-mythos, metr, ai-agents, time-horizon, model-benchmarks]
 reading_time: 7

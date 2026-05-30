@@ -4,6 +4,7 @@ title: "Cua Lets AI Agents Control macOS Apps in the Background Without Stealing
 date: 2026-04-30 11:00:00 +0200
 last_modified_at: 2026-04-30 11:00:00 +0200
 meta_description: "The open-source Cua project introduces sandboxed macOS desktop environments that AI agents control programmatically without grabbing your cursor or sharing."
+description: "The open-source Cua project introduces sandboxed macOS desktop environments that AI agents control programmatically without grabbing your cursor or"
 categories: [tools-frameworks]
 tags: [computer-use, open-source, macOS, agent infrastructure, Cua]
 reading_time: 5

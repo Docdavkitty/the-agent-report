@@ -4,6 +4,7 @@ title: "Meta Won't Let You Block Its AI Agent on Threads — And Users Are Furio
 date: 2026-05-14 10:00:00 +0200
 last_modified_at: 2026-05-14 10:00:00 +0200
 meta_description: "Meta tests a Threads AI agent users cannot block, sparking over a million protest posts and raising hard questions about consent and agent autonomy on social."
+description: "Meta tests a Threads AI agent users cannot block, sparking over a million protest posts and raising hard questions about consent and agent autonomy on"
 categories: [industry]
 tags: [meta, threads, ai-agents, platform-policy, user-autonomy, social-media-ai]
 hero_image: /assets/images/hero/hero-meta-ai-agent-threads-no-block.jpg

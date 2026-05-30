@@ -4,6 +4,7 @@ title: "Zendesk: AI Agents Now Available to Every Customer"
 date: 2026-05-25 10:00:00 +0200
 last_modified_at: 2026-05-25 10:00:00 +0200
 meta_description: "Discover how Zendesk democratizes AI agents by rolling out advanced agent capabilities to every customer on every plan, turning agentic AI from premium luxury to baseline."
+description: "Discover how Zendesk democratizes AI agents by rolling out advanced agent capabilities to every customer on every plan, turning agentic AI from premium"
 categories: [business, industry]
 tags: [zendesk, customer-service, enterprise, automation, ai-agents, democratization]
 hero_image: /assets/images/hero/hero-zendesk-ai-agents-all-customers-may25.jpg

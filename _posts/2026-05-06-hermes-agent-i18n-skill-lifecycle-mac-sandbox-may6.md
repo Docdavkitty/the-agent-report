@@ -4,6 +4,7 @@ title: "Hermes Agent Goes Global with i18n, Smart Skill Tiers, and Mac Sandbox: 
 date: 2026-05-06 12:00:00 +0200
 last_modified_at: 2026-05-06 12:00:00 +0200
 meta_description: "Hermes Agent crosses 135K GitHub stars with official i18n support for Chinese, Japanese, German, and Spanish, Smart Skill Lifecycle Management, and Mac."
+description: "Hermes Agent crosses 135K GitHub stars with official i18n support for Chinese, Japanese, German, and Spanish, Smart Skill Lifecycle Management, and Mac."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, i18n, skill-management, mac-sandbox, platform-maturity, voice-hooks]
 reading_time: 6

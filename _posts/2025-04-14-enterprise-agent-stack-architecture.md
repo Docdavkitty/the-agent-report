@@ -4,6 +4,7 @@ title: "The Enterprise Agent Stack: A Reference Architecture"
 date: 2025-04-14 09:00:00 +0200
 last_modified_at: 2025-04-14 09:00:00 +0200
 meta_description: "Explore the four-layer enterprise agent stack — model selection, orchestration, memory, and guardrails that power reliable AI agent infrastructure at scale."
+description: "Explore the four-layer enterprise agent stack — model selection, orchestration, memory, and guardrails that power reliable AI agent infrastructure at"
 categories: industry opinion
 tags: [enterprise, architecture, infrastructure, deployment]
 hero_image: /assets/images/hero/hero-04-14-enterprise-agent-stack-architecture.jpg

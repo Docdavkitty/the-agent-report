@@ -4,6 +4,7 @@ title: "Google's Project Mariner: Agents in the Browser"
 date: 2025-04-18 16:00:00 +0200
 last_modified_at: 2025-04-18 16:00:00 +0200
 meta_description: "Google unveils Project Mariner, a Gemini-powered browser agent navigating websites, filling forms, and completing multi-step tasks autonomously through Chrome."
+description: "Google unveils Project Mariner, a Gemini-powered browser agent navigating websites, filling forms, and completing multi-step tasks autonomously through"
 categories: research industry
 tags: [Google, browser-agents, Gemini, Project-Mariner]
 hero_image: /assets/images/hero/hero-04-18-google-project-mariner-browser-agent.jpg

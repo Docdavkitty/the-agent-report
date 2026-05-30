@@ -4,6 +4,7 @@ title: "DuckDuckGo Surges 28% as Users Flee Google's AI Mode — The Great Searc
 date: 2026-05-28 10:00:00 +0200
 last_modified_at: 2026-05-28 10:00:00 +0200
 meta_description: "DuckDuckGo saw nearly 28% more visits in the week after Google insisted users love AI Mode — signaling a growing backlash against AI-infused search experiences."
+description: "DuckDuckGo saw nearly 28% more visits in the week after Google insisted users love AI Mode — signaling a growing backlash against AI-infused search"
 categories: [industry]
 tags: [duckduckgo, google, ai-mode, search, ai-backlash, privacy, user-choice]
 reading_time: 6

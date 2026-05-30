@@ -4,6 +4,7 @@ title: "Meta MTIA: Four Custom AI Chips in Two Years — How Meta Is Powering Ll
 date: 2026-05-28 14:00:00 +0000
 last_modified_at: 2026-05-28 14:00:00 +0000
 meta_description: "Meta details four generations of custom MTIA AI chips built in under two years — MTIA 300 through 500 — purpose-built to run Llama and GenAI inference at planetary scale."
+description: "Meta details four generations of custom MTIA AI chips built in under two years — MTIA 300 through 500 — purpose-built to run Llama and GenAI inference at"
 categories: [research]
 tags: [meta, llama, mtia, ai-hardware, inference, custom-silicon]
 reading_time: 8

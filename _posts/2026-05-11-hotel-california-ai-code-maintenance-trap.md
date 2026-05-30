@@ -4,6 +4,7 @@ title: "The Hotel California of AI Code: Why Agentic Coding Is a Maintenance Tra
 date: 2026-05-11 08:00:00 +0200
 last_modified_at: 2026-05-11 08:00:00 +0200
 meta_description: "AI coding agents are a Faustian bargain: a temporary speed boost for permanent maintenance debt. Twice the productivity means you better halve your maintenance costs."
+description: "AI coding agents are a Faustian bargain: a temporary speed boost for permanent maintenance debt. Twice the productivity means you better halve your"
 categories: opinion
 tags: ai-coding-agents maintenance technical-debt productivity software-engineering
 reading_time: 9

@@ -4,6 +4,7 @@ title: "Agent Safehouse: macOS-Native Sandboxing for Autonomous Local Agents"
 date: 2026-05-20 11:00:00 +0200
 last_modified_at: 2026-05-20 11:00:00 +0200
 meta_description: "Agent Safehouse brings macOS-native sandboxing to local AI agents via Apple sandbox-exec, earning 1,781 GitHub stars. No Docker or remote VMs needed for agents."
+description: "Agent Safehouse brings macOS-native sandboxing to local AI agents via Apple sandbox-exec, earning 1,781 GitHub stars. No Docker or remote VMs needed for"
 categories: [tools-frameworks]
 tags: [agent-safety, sandboxing, macos, local-agents, security]
 reading_time: 7

@@ -4,6 +4,7 @@ title: "Anthropic Raises $3.5B: What It Means for the Agent Race"
 date: 2025-04-22 08:00:00 +0200
 last_modified_at: 2025-04-22 08:00:00 +0200
 meta_description: "Anthropic closes $3.5B at $60B+ valuation as the agentic AI arms race accelerates — compute infrastructure is the decisive battleground for frontier models."
+description: "Anthropic closes $3.5B at $60B+ valuation as the agentic AI arms race accelerates — compute infrastructure is the decisive battleground for frontier"
 categories: industry
 tags: [funding, Anthropic, investment, market]
 hero_image: /assets/images/hero/hero-04-22-anthropic-3-billion-funding.jpg

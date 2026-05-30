@@ -4,6 +4,7 @@ title: "Openclaw v2026.5.18 Goes Stable — Mac App Redesign, Android Talk Mode,
 date: 2026-05-19 10:00:00 +0000
 last_modified_at: 2026-05-19 10:00:00 +0000
 meta_description: "Openclaw ships v2026.5.18 stable: redesigned Mac app, Android Talk Mode via Gateway relay, plugin developer tooling, QA-Lab expansion, and 200+ fixes in its first stable release in weeks."
+description: "Openclaw ships v2026.5.18 stable: redesigned Mac app, Android Talk Mode via Gateway relay, plugin developer tooling, QA-Lab expansion, and 200+ fixes in"
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, mac-app, android-voice]
 reading_time: 8

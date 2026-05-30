@@ -4,6 +4,7 @@ title: "DeepClaude: Run DeepSeek V4 Pro Inside Claude Code at 17x Lower Cost"
 date: 2026-05-04 14:00:00 +0200
 last_modified_at: 2026-05-04 14:00:00 +0200
 meta_description: "DeepClaude swaps Claude Code backend for DeepSeek V4 Pro, slashing token costs 17x while keeping the full autonomous agent loop with 544 Hacker News points."
+description: "DeepClaude swaps Claude Code backend for DeepSeek V4 Pro, slashing token costs 17x while keeping the full autonomous agent loop with 544 Hacker News"
 categories: [industry]
 tags: [anthropic, claude, claude-code, deepseek, ai-agents]
 reading_time: 7

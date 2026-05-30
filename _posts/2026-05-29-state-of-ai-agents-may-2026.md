@@ -4,6 +4,7 @@ title: "State of AI Agents: May 2026 — 98 Stories, 7 Key Themes"
 date: 2026-05-29 10:00:00 +0000
 last_modified_at: 2026-05-29 10:00:00 +0000
 meta_description: "May 2026 was the busiest month in AI agent history with 98 articles, Anthropic reaching escape velocity, SAP deploying 200 agents, and safety alarms ringing."
+description: "May 2026 was the busiest month in AI agent history with 98 articles, Anthropic reaching escape velocity, SAP deploying 200 agents, and safety alarms"
 categories: [research]
 tags: [state-of-ai-agents, ai-agents-2026, may-2026, roundup, trends]
 hero_image: /assets/images/hero/hero-state-of-ai-agents-may-2026.jpg

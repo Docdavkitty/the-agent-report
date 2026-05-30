@@ -4,6 +4,7 @@ title: "Openclaw Sheds Weight: Plugin Externalization and Security Hardening in 
 date: 2026-05-14 10:00:00 +0000
 last_modified_at: 2026-05-14 10:00:00 +0000
 meta_description: "Openclaw externalizes Bedrock, Slack, and Vertex into optional plugins, slimming the core install while shipping 50+ security fixes and gateway protocol v4."
+description: "Openclaw externalizes Bedrock, Slack, and Vertex into optional plugins, slimming the core install while shipping 50+ security fixes and gateway protocol"
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, plugin-architecture, security-hardening]
 reading_time: 7

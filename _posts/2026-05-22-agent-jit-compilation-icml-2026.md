@@ -4,6 +4,7 @@ title: "Agent JIT Compilation — ICML 2026 Paper Shows 10.4× Speedup by Compil
 date: 2026-05-22 12:00:00 +0200
 last_modified_at: 2026-05-22 12:00:00 +0200
 meta_description: "An ICML 2026 paper introduces Agent JIT Compilation, compiling web agent tasks to executable code for 10.4x speedup and 28 percent higher accuracy over browser."
+description: "An ICML 2026 paper introduces Agent JIT Compilation, compiling web agent tasks to executable code for 10.4x speedup and 28 percent higher accuracy over"
 categories: research
 tags: [agent-jit-compilation, icml-2026, web-agents, latency-optimization, tool-calling, computer-use-agents]
 reading_time: 6

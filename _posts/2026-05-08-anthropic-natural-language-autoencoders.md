@@ -4,6 +4,7 @@ title: "Natural Language Autoencoders: Anthropic Turns Claude's Internal Thought
 date: 2026-05-08 14:00:00 +0200
 last_modified_at: 2026-05-08 14:00:00 +0200
 meta_description: "Anthropic introduces Natural Language Autoencoders translating Claude internal neural activations into readable English, boosting auditor ability to uncover."
+description: "Anthropic introduces Natural Language Autoencoders translating Claude internal neural activations into readable English, boosting auditor ability to"
 categories: [research]
 tags: [anthropic, claude, interpretability, nla, ai-safety, mech-interp]
 reading_time: 8

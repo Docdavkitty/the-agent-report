@@ -4,6 +4,7 @@ title: "Git-Surgeon: Giving AI Agents Scalpel-Like Precision Over Git History"
 date: 2026-05-18 12:00:00 +0200
 last_modified_at: 2026-05-18 12:00:00 +0200
 meta_description: "Git-Surgeon gives AI coding agents hunk-level precision over Git history: staging, unstaging, committing, and rewriting without interactive prompts that break."
+description: "Git-Surgeon gives AI coding agents hunk-level precision over Git history: staging, unstaging, committing, and rewriting without interactive prompts that"
 categories: tools-frameworks
 tags: [git-surgeon, ai-coding-agents, git-tools, agent-workflows, version-control]
 reading_time: 7

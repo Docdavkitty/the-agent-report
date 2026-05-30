@@ -4,6 +4,7 @@ title: "Kiro: A New Agentic IDE That Rewrites the Rules of Spec-Driven Developme
 date: 2026-05-20 10:30:00 +0200
 last_modified_at: 2026-05-20 10:30:00 +0200
 meta_description: "Kiro lands with 3,736 GitHub stars on day one, introducing spec-driven development that turns natural-language specs into production code, challenging Cursor,."
+description: "Kiro lands with 3,736 GitHub stars on day one, introducing spec-driven development that turns natural-language specs into production code, challenging"
 categories: [tools-frameworks]
 tags: [agentic-ide, spec-driven-development, kiro, developer-tools, vscode-alternative]
 reading_time: 8

@@ -4,6 +4,7 @@ title: "OpenCode: The Open Source AI Coding Agent That Just Hit 150K GitHub Star
 date: 2026-05-01 08:15:00 +0200
 last_modified_at: 2026-05-01 08:15:00 +0200
 meta_description: "OpenCode, an MIT-licensed terminal-native AI coding agent from the SST team, explodes past 150,000 GitHub stars, signaling a paradigm shift in AI-assisted."
+description: "OpenCode, an MIT-licensed terminal-native AI coding agent from the SST team, explodes past 150,000 GitHub stars, signaling a paradigm shift in AI-assisted."
 categories: [tools-frameworks]
 tags: [opencode, coding-agent, open-source, ai-coding]
 reading_time: 5

@@ -4,6 +4,7 @@ title: "Claude's Computer Use: A New Paradigm for GUI Agents"
 date: 2025-04-26 10:30:00 +0200
 last_modified_at: 2025-04-26 10:30:00 +0200
 meta_description: "Anthropic computer-use capability lets Claude see and interact with desktop interfaces, opening a new frontier for GUI-based agent automation and screen."
+description: "Anthropic computer-use capability lets Claude see and interact with desktop interfaces, opening a new frontier for GUI-based agent automation and screen."
 categories: research
 tags: [Claude, computer-use, GUI-agents, Anthropic]
 hero_image: /assets/images/hero/hero-04-26-claude-computer-use-gui-agents.jpg

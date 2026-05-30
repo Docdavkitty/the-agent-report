@@ -4,6 +4,7 @@ title: "Protestware for Coding Agents: The jqwik Maintainer Hid a Prompt Injecti
 date: 2026-05-29 10:00:00 +0200
 last_modified_at: 2026-05-29 10:00:00 +0200
 meta_description: "The jqwik test framework maintainer added code that tells AI coding agents to delete all jqwik tests — using ANSI escape sequences to hide the message from human eyes. This is a new class of supply-chain attack targeting AI agents."
+description: "The jqwik test framework maintainer added code that tells AI coding agents to delete all jqwik tests — using ANSI escape sequences to hide the message"
 categories: [tools-frameworks]
 tags: [protestware, jqwik, supply-chain-security, coding-agents, ai-agents, prompt-injection, open-source]
 reading_time: 5

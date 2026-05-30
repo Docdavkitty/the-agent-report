@@ -4,6 +4,7 @@ title: "Openclaw Ships Two Releases in a Day: v2026.5.5 and v2026.5.6 Fix Codex 
 date: 2026-05-07 10:00:00 +0200
 last_modified_at: 2026-05-07 10:00:00 +0200
 meta_description: "Openclaw ships two releases in one day: v2026.5.5 with Discord and Telegram fixes, then v2026.5.6 hotfixing a critical Codex OAuth routing regression from doctor --fix."
+description: "Openclaw ships two releases in one day: v2026.5.5 with Discord and Telegram fixes, then v2026.5.6 hotfixing a critical Codex OAuth routing regression from"
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, codex-oauth, rapid-iteration]
 reading_time: 5

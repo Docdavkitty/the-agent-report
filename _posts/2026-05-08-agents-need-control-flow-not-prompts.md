@@ -4,6 +4,7 @@ title: "Agents Need Control Flow, Not More Prompts: Why Prompt Engineering Hits 
 date: 2026-05-08 08:02:00 +0200
 last_modified_at: 2026-05-08 08:02:00 +0200
 meta_description: "AI agents need deterministic control flow in software, not elaborate prompt chains. A viral essay argues prompt engineering hits a hard ceiling for complex."
+description: "AI agents need deterministic control flow in software, not elaborate prompt chains. A viral essay argues prompt engineering hits a hard ceiling for"
 categories: [opinion]
 tags: [agent-architecture, control-flow, agent-reliability, prompt-engineering, llm-orchestration, deterministic-agents]
 reading_time: 6

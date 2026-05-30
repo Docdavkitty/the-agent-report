@@ -4,6 +4,7 @@ title: "Anthropic Drops 10 Financial Services Agent Templates with Native Micros
 date: 2026-05-06 14:00:00 +0200
 last_modified_at: 2026-05-06 14:00:00 +0200
 meta_description: "Anthropic releases ten financial services agent templates with native Microsoft 365 integration for Excel, PowerPoint, Word, and Outlook, marking its most."
+description: "Anthropic releases ten financial services agent templates with native Microsoft 365 integration for Excel, PowerPoint, Word, and Outlook, marking its most."
 categories: [industry]
 tags: [anthropic, claude, financial-services, agent-templates, microsoft-365, enterprise-ai]
 reading_time: 9

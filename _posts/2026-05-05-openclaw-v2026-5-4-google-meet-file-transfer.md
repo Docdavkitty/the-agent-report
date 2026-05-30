@@ -4,6 +4,7 @@ title: "Openclaw v2026.5.4: Google Meet Voice Integration, File Transfer Plugin,
 date: 2026-05-05 14:30:00 +0200
 last_modified_at: 2026-05-05 14:30:00 +0200
 meta_description: "Openclaw v2026.5.4 ships Google Meet voice integration, file-transfer plugin, OpenRouter caching, and WhatsApp Newsletter support at 368,455 GitHub stars."
+description: "Openclaw v2026.5.4 ships Google Meet voice integration, file-transfer plugin, OpenRouter caching, and WhatsApp Newsletter support at 368,455 GitHub stars."
 categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, google-meet, voice-agents]
 reading_time: 7

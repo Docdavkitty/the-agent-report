@@ -4,6 +4,7 @@ title: "Anthropic and OpenAI Finally Found Product-Market Fit — and It's All A
 date: 2026-05-28 09:00:00 +0200
 last_modified_at: 2026-05-28 09:00:00 +0200
 meta_description: "Simon Willison argues that Anthropic and OpenAI have found genuine product-market fit through coding agents like Claude Code and Codex — as enterprise pricing shifts to API rates and budgets balloon."
+description: "Simon Willison argues that Anthropic and OpenAI have found genuine product-market fit through coding agents like Claude Code and Codex — as enterprise"
 categories: [industry]
 tags: [anthropic, openai, product-market-fit, coding-agents, claude-code, codex, ai-economics, enterprise-ai]
 reading_time: 9

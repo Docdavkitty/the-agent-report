@@ -4,6 +4,7 @@ title: "Block Open-Sourced Goose: How a YAML Recipe File Scaled an AI Agent to 6
 date: 2026-05-27 14:00:00 +0200
 last_modified_at: 2026-05-27 14:00:00 +0200
 meta_description: "Block open-sourced Goose scaling to 60 percent of 12,000 employees via YAML recipe files any team member can author, now at 44,000 GitHub stars and 368."
+description: "Block open-sourced Goose scaling to 60 percent of 12,000 employees via YAML recipe files any team member can author, now at 44,000 GitHub stars and 368."
 categories: [tools-frameworks]
 tags: [goose, block, square, open-source, mcp, enterprise-adoption, agent-framework]
 reading_time: 6

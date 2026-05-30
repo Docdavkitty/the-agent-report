@@ -4,6 +4,7 @@ title: "NVIDIA Vera Is Here — The First CPU Built From the Ground Up for Agent
 date: 2026-05-22 10:00:00 +0200
 last_modified_at: 2026-05-22 10:00:00 +0200
 meta_description: "NVIDIA delivers Vera CPUs to Anthropic, OpenAI, SpaceXAI, and Oracle: 88 Olympus cores, 1.2 TB/s bandwidth, 2x efficiency, first silicon purpose-built for agent orchestration."
+description: "NVIDIA delivers Vera CPUs to Anthropic, OpenAI, SpaceXAI, and Oracle: 88 Olympus cores, 1.2 TB/s bandwidth, 2x efficiency, first silicon purpose-built for"
 categories: research
 tags: [nvidia, vera-cpu, agentic-ai, hardware, infrastructure, ai-labs]
 reading_time: 8

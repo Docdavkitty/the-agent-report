@@ -4,6 +4,7 @@ title: "TD Bank Cuts Mortgage Processing From 15 Hours to 3 Minutes with Agentic
 date: 2026-05-22 10:00:00 +0200
 last_modified_at: 2026-05-22 10:00:00 +0200
 meta_description: "TD Bank deploys agentic AI, cutting mortgage processing from 15 hours to under 3 minutes via automated pre-adjudication in a $1B enterprise AI push led."
+description: "TD Bank deploys agentic AI, cutting mortgage processing from 15 hours to under 3 minutes via automated pre-adjudication in a $1B enterprise AI push led."
 categories: industry
 tags: [td-bank, agentic-ai, enterprise-ai, banking, fintech, automation, mortgage]
 reading_time: 7

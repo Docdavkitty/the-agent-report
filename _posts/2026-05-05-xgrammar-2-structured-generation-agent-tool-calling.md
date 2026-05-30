@@ -4,6 +4,7 @@ title: "XGrammar-2: 80x Faster Structured Generation That's Quietly Powering the
 date: 2026-05-05 14:00:00 +0200
 last_modified_at: 2026-05-05 14:00:00 +0200
 meta_description: "XGrammar-2 introduces Structural Tag for composable JSON tool calling, delivering 80x faster grammar compilation and becoming the backbone of reliable agent."
+description: "XGrammar-2 introduces Structural Tag for composable JSON tool calling, delivering 80x faster grammar compilation and becoming the backbone of reliable"
 categories: [research]
 tags: [structured-generation, tool-calling, xgrammar, mlc-ai, llm-inference, constrained-decoding]
 reading_time: 8

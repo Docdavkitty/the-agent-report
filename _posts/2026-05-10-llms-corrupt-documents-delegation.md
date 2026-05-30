@@ -4,6 +4,7 @@ title: "LLMs Corrupt Your Documents When You Delegate — Inside the DELEGATE-52
 date: 2026-05-10 08:00:00 +0200
 last_modified_at: 2026-05-10 08:00:00 +0200
 meta_description: "Frontier models silently corrupt ~25% of document content during long delegation workflows, per a new benchmark. Serious implications for the vibe coding era."
+description: "Frontier models silently corrupt ~25% of document content during long delegation workflows, per a new benchmark. Serious implications for the vibe coding"
 categories: research
 tags: safety delegation document-integrity trust research
 reading_time: 7

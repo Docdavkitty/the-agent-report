@@ -4,6 +4,7 @@ title: "Hermes Agent v0.11: What's New in the Open-Source AI Runtime"
 date: 2025-04-28 10:00:00 +0200
 last_modified_at: 2025-04-28 10:00:00 +0200
 meta_description: "Hermes Agent v0.11 ships with enhanced MCP support, new toolsets, and improved multi-model routing for the open-source AI runtime from Nous Research."
+description: "Hermes Agent v0.11 ships with enhanced MCP support, new toolsets, and improved multi-model routing for the open-source AI runtime from Nous Research."
 categories: hermes-agent
 tags: [Hermes Agent, Nous Research, release, open-source]
 reading_time: 5

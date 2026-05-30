@@ -4,6 +4,7 @@ title: "The First AI-Written Zero-Day — Google Confirms Criminal Hackers Used 
 date: 2026-05-12 10:00:00 +0200
 last_modified_at: 2026-05-12 10:00:00 +0200
 meta_description: "Google confirms the first documented case of criminal hackers using AI to discover and weaponize a zero-day vulnerability, marking a watershed for offensive AI."
+description: "Google confirms the first documented case of criminal hackers using AI to discover and weaponize a zero-day vulnerability, marking a watershed for"
 categories: [industry]
 tags: [google, ai-security, zero-day, cyber-crime, ai-agents, vulnerability, mandiant]
 reading_time: 8

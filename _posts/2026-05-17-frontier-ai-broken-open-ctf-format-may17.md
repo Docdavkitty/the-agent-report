@@ -4,6 +4,7 @@ title: "Frontier AI Has Broken the Open CTF Format — And the Scoreboard Will N
 date: 2026-05-17 10:00:00 +0200
 last_modified_at: 2026-05-17 10:00:00 +0200
 meta_description: "Claude Opus 4.5 and GPT-5.5 Pro have shattered the open Capture The Flag format as agentic solvers make the old game obsolete, threatening the next generation."
+description: "Claude Opus 4.5 and GPT-5.5 Pro have shattered the open Capture The Flag format as agentic solvers make the old game obsolete, threatening the next"
 categories: [research]
 tags: [ctf, cybersecurity, frontier-models, agentic-security, ai-impact]
 reading_time: 8

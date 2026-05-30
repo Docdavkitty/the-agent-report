@@ -4,6 +4,7 @@ title: "Obscura: The Rust-Powered Headless Browser That's Quietly Becoming the A
 date: 2026-05-04 10:00:00 +0200
 last_modified_at: 2026-05-04 10:00:00 +0200
 meta_description: "Obscura, a Rust-powered headless browser with a 30 megabyte memory footprint and built-in anti-detection, becomes the go-to engine for AI agents navigating."
+description: "Obscura, a Rust-powered headless browser with a 30 megabyte memory footprint and built-in anti-detection, becomes the go-to engine for AI agents"
 categories: [tools-frameworks]
 tags: [headless-browser, rust, web-automation, ai-agents, open-source]
 reading_time: 8

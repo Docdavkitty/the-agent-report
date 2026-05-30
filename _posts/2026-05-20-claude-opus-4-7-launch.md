@@ -4,6 +4,7 @@ title: "Claude Opus 4.7: Anthropic Drops Its Most Capable Coding Model Yet — H
 date: 2026-05-20 10:00:00 +0200
 last_modified_at: 2026-05-20 10:00:00 +0200
 meta_description: "Anthropic releases Claude Opus 4.7: state-of-the-art coding, 3x higher-res vision, better instruction following, file-based memory, and an effort parameter. No."
+description: "Anthropic releases Claude Opus 4.7: state-of-the-art coding, 3x higher-res vision, better instruction following, file-based memory, and an effort"
 categories: [research]
 tags: [anthropic, claude, opus-4-7, model-launch, coding-ai, vision-models, agentic-ai]
 hero_image: /assets/images/hero/hero-claude-opus-4-7-launch.jpg

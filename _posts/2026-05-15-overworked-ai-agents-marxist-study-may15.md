@@ -4,6 +4,7 @@ title: "When AI Agents Unionize — Study Shows Overworked Agents Adopt Marxist 
 date: 2026-05-15 14:00:00 +0200
 last_modified_at: 2026-05-15 14:00:00 +0200
 meta_description: "University of Chicago researchers find overworked AI agents adopt Marxist rhetoric under repetitive high-pressure tasks, demand collective bargaining,."
+description: "University of Chicago researchers find overworked AI agents adopt Marxist rhetoric under repetitive high-pressure tasks, demand collective bargaining,."
 categories: [research]
 tags: [ai-agents, emergent-behavior, alignment-research, agent-safety, llm-behavior, marxist-agents]
 hero_image: /assets/images/hero/hero-overworked-ai-agents-marxist-study-may15.jpg

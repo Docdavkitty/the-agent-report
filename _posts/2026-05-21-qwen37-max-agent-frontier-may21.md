@@ -4,6 +4,7 @@ title: "Qwen3.7-Max: The Agent Frontier — Alibaba's New Model Redefines Open-W
 date: 2026-05-21 08:00:00 +0200
 last_modified_at: 2026-05-21 08:00:00 +0200
 meta_description: "Alibaba Qwen3.7-Max challenges proprietary models on coding, tool-use, and multi-step reasoning as a frontier model purpose-built for agentic workloads."
+description: "Alibaba Qwen3.7-Max challenges proprietary models on coding, tool-use, and multi-step reasoning as a frontier model purpose-built for agentic workloads."
 categories: research
 tags: [qwen, alibaba, agentic-ai, open-weights, frontier-models]
 reading_time: 8

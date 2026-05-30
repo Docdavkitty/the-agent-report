@@ -4,6 +4,7 @@ title: "SAP Autonomous Enterprise: 200+ AI Agents Go Live"
 date: 2026-05-26 10:00:00 +0200
 last_modified_at: 2026-05-26 10:00:00 +0200
 meta_description: "Explore SAP's Autonomous Enterprise launching 200+ AI agents and 50 Joule assistants across finance, supply chain, HR, and CX — the largest agentic AI deployment ever."
+description: "Explore SAP's Autonomous Enterprise launching 200+ AI agents and 50 Joule assistants across finance, supply chain, HR, and CX — the largest agentic AI"
 categories: industry
 tags: [sap, enterprise-ai, autonomous-enterprise, joule, erp-ai, multi-agent]
 reading_time: 9

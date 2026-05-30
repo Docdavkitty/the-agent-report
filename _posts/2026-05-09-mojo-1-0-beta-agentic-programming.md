@@ -4,6 +4,7 @@ title: "Mojo 1.0 Beta Arrives: Modular's Language for Agentic Programming Reache
 date: 2026-05-09 08:05:00 +0200
 last_modified_at: 2026-05-09 08:05:00 +0200
 meta_description: "Modular ships Mojo 1.0 beta with safe closures and TileTensor, positioning the language as purpose-built for AI agents and high-performance GPU programming."
+description: "Modular ships Mojo 1.0 beta with safe closures and TileTensor, positioning the language as purpose-built for AI agents and high-performance GPU"
 categories: [tools-frameworks]
 tags: [mojo, modular, agentic-programming, gpu-programming, ai-infrastructure, llm-inference]
 reading_time: 6

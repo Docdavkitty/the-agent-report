@@ -4,6 +4,7 @@ title: "Hermes Agent's Post-Tenacity Sprint: 143K Stars, New Finance Skill, and 
 date: 2026-05-11 12:00:00 +0200
 last_modified_at: 2026-05-11 12:00:00 +0200
 meta_description: "Hermes Agent executes a post-Tenacity cleanup sprint with community-driven PRs addressing regression fixes, documentation updates, and platform stability."
+description: "Hermes Agent executes a post-Tenacity cleanup sprint with community-driven PRs addressing regression fixes, documentation updates, and platform stability."
 categories: [hermes-agent]
 tags: [Hermes Agent, Nous Research, open-source, post-tenacity, community-momentum, stocks-finance, kanban-diagnostics, platform-maturation]
 reading_time: 6

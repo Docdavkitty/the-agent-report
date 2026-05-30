@@ -4,6 +4,7 @@ title: "UAE Sets Sights on 50% Agentic AI Government: A Blueprint for the Nation
 date: 2026-05-04 14:00:00 +0200
 last_modified_at: 2026-05-04 14:00:00 +0200
 meta_description: "The UAE announces a bold plan to run 50 percent of federal government operations through agentic AI within two years, the first large-scale test of AI."
+description: "The UAE announces a bold plan to run 50 percent of federal government operations through agentic AI within two years, the first large-scale test of AI."
 categories: [industry]
 tags: [uae, government-ai, agentic-ai, digital-transformation, ai-governance]
 reading_time: 10

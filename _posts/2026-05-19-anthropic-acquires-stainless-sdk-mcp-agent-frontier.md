@@ -4,6 +4,7 @@ title: "Anthropic Acquires Stainless: SDK Tooling Pioneer Joins the AI Agent Fro
 date: 2026-05-19 08:00:00 +0200
 last_modified_at: 2026-05-19 08:00:00 +0200
 meta_description: "Anthropic acquires Stainless, the SDK generator behind every official Anthropic SDK, signaling the frontier shifted from models that answer to agents that act."
+description: "Anthropic acquires Stainless, the SDK generator behind every official Anthropic SDK, signaling the frontier shifted from models that answer to agents that"
 categories: [industry]
 tags: [anthropic, claude, stainless, mcp, sdk-tooling, ai-agents, acquisition, developer-tools]
 hero_image: /assets/images/hero/hero-anthropic-acquires-stainless-sdk-mcp-agent-frontier.jpg

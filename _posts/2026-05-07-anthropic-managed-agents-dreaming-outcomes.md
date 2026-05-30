@@ -4,6 +4,7 @@ title: "Anthropic Lets Its Managed Agents Dream: Scheduled Memory, Outcomes Eval
 date: 2026-05-07 10:00:00 +0200
 last_modified_at: 2026-05-07 10:00:00 +0200
 meta_description: "Anthropic Managed Agents gain dreaming, a scheduled background memory process, outcomes-based evaluation, and multi-agent orchestration in public beta."
+description: "Anthropic Managed Agents gain dreaming, a scheduled background memory process, outcomes-based evaluation, and multi-agent orchestration in public beta."
 categories: [industry]
 tags: [anthropic, managed-agents, dreaming, claude, multi-agent, enterprise-ai, agent-orchestration]
 reading_time: 7
