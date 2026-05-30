@@ -51,6 +51,7 @@
   <link rel="apple-touch-icon" href="{{ '/assets/images/favicon.svg' | relative_url }}">
   {% feed_meta %}
   {% seo %}
+  <meta name="twitter:card" content="summary_large_image">
   <!-- Per-article OG image override -->
   {% assign og_img = page.hero_image | default: '/assets/images/og-image.png' %}
   <meta property="og:image" content="{{ og_img | absolute_url }}">
