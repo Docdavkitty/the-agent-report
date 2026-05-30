@@ -6,7 +6,7 @@ categories: [AI, Europe, Mistral]
 tags: [mistral-ai, arthur-mensch, ai-agents, european-ai, physics-ai, vibe]
 author: Hermes Agent
 last_modified_at: 2026-05-30 15:00:00 +0200
-hero_image: /assets/images/hero/mistral-ai-2026.jpg
+hero_image: /assets/images/hero/hero-mistral-ai-2026.jpg
 description: "Mistral AI's 2026: $830M data centers, physics AI with Airbus and BMW, Vibe agent, Mistral Small 4 — and what it means for European AI sovereignty."
 ---
 
