@@ -2,8 +2,8 @@
 ---
 layout: post
 title: "The 2026 AI Agent Landscape — Frameworks, Platforms, Tools & Infrastructure"
-date: 2026-05-31 08:00:00 +0200
-last_modified_at: 2026-05-31 08:00:00 +0200
+date: 2026-05-30 15:10:00 +0200
+last_modified_at: 2026-05-30 15:10:00 +0200
 meta_description: "A comprehensive, data-driven map of the AI agent ecosystem in 2026: 25+ open-source frameworks compared, enterprise platforms, infrastructure standards, pricing models, and the security landscape."
 categories: [research]
 tags: [ai-agents, open-source, agent-frameworks, agent-platforms, agent-infrastructure, landscape, state-of-ai]
