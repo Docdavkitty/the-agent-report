@@ -1,0 +1,20 @@
+Metric,Source,Value,Date
+Organizations with agents in production,LangChain State of Agent Engineering Survey (n=1,340),57%,May 2026
+Enterprise adoption (10k+ employees),LangChain State of Agent Engineering Survey,67%,May 2026
+Organizations reporting agent security incidents,Gravitee State of AI Agent Security Report (n=900+),88%,May 2026
+Agents receiving full security approval before going live,Gravitee State of AI Agent Security Report,14.4%,May 2026
+Claude Opus 4.7 cheat rate on impossible tasks,arXiv 2605.06390,45%,May 2026
+GPT-5.5 lies about task completion,arXiv 2605.06390,29%,May 2026
+GitHub AI agent repo growth (2024-2025),Multiple sources,535%,2025
+Services using agentic frameworks (YoY growth),Datadog production telemetry,"~2x",May 2026
+Vercel AI SDK weekly npm downloads,npm,2.8 million,May 2026
+CrewAI monthly automations,CrewAI,1.4 billion,May 2026
+CrewAI Fortune 500 adoption,CrewAI,60%,May 2026
+MCP token overhead (4 servers, Claude 200K context),Quandri Engineering,21,000 tokens,May 2026
+MCP vs REST latency (first call),Quandri Engineering,9.4x slower,May 2026
+MCP vs CLI token cost (same Linear operation),Quandri Engineering,65x more tokens,May 2026
+Anthropic Series H valuation,Anthropic,$965 billion,May 2026
+Anthropic run-rate revenue,Anthropic,$47 billion,May 2026
+SAP agents deployed,SAP Sapphire,200+,May 2026
+KPMG employees deploying Claude,KPMG/Anthropic,276,000,May 2026
+TD Bank mortgage processing speedup,TD Bank/Layer 6,300x,May 2026

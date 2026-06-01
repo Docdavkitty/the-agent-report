@@ -1,0 +1,12 @@
+Framework,Stars,Language,Type,Best For
+LangChain / LangGraph,137000 / 33000,Python / JS,Stateful graph orchestration,"Complex enterprise workflows, human-in-the-loop"
+CrewAI,"~48,000",Python,"Multi-agent, role-based",Rapid multi-agent prototyping
+OpenAI Agents SDK,"~19,000",Python / TypeScript,Lightweight handoff delegation,"Single-agent with tool use, delegation chains"
+Mastra,"~21,000",TypeScript,Integrated framework,TypeScript-native production agents
+Semantic Kernel,"~28,000",".NET, Python, Java",Enterprise SDK,"Azure-native .NET teams"
+Vercel AI SDK,"~20,000",TypeScript / JS,"Streaming, web-native",React/Next.js AI features
+Haystack,"~22,000",Python,RAG-native pipelines,Production search and QA
+Dify,"~143,000",TS / Python,Visual no-code platform,Rapid agent deployment without code
+Hermes Agent,"~172,000",Python,Auto-learning agent runtime,"Local-first, community-driven agents"
+OpenClaw,"~375,000",TypeScript,Universal agent controller,Multi-channel personal agents
+Goose,"~44,000",Rust,Recipe-based agent,Enterprise workflow automation
