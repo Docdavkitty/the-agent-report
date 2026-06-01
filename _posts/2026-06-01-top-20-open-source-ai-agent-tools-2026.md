@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Top 20 Open Source AI Agent Tools in 2026"
-date: 2026-06-01 10:00:00 +0000
-last_modified_at: 2026-06-01 10:00:00 +0000
+date: 2026-06-01 08:00:00 +0000
+last_modified_at: 2026-06-01 08:00:00 +0000
 meta_description: "Discover the 20 most impactful open-source AI agent tools in 2026 from multi-agent orchestration frameworks to coding agents, visual builders, and personal."
 description: "Discover the 20 most impactful open-source AI agent tools in 2026 from multi-agent orchestration frameworks to coding agents, visual builders, and"
 categories: [research]
