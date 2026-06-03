@@ -3,3 +3,4 @@
 2026-06-01-top-20-open-source-ai-agent-tools-2026.md
 2026-05-29-state-of-ai-agents-may-2026.md
 2026-06-01-sysdig-first-llm-agent-cyberattack-june-2026.md
+2026-06-02-github-copilot-token-billing-backlash-microsoft-mai-june-2026.md
