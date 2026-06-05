@@ -5,3 +5,5 @@
 2026-06-01-sysdig-first-llm-agent-cyberattack-june-2026.md
 2026-06-02-github-copilot-token-billing-backlash-microsoft-mai-june-2026.md
 2026-06-03-microsoft-project-solara-android-ai-agents-build-2026.md
+2026-06-04-workday-agent-passport-devcon-2026.md
+2026-06-05-meta-muse-spark-llama-abandoned.md
