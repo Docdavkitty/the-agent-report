@@ -980,12 +980,17 @@ details[open] .toc-toggle { border-bottom: 1px solid var(--border); }
 .related-posts h3 {
   font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: 16px;
+  margin-bottom: 4px;
   color: var(--text);
+}
+.related-subtitle {
+  font-size: .85rem;
+  color: var(--text-dim);
+  margin-bottom: 16px;
 }
 .related-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 16px;
 }
 .related-card {

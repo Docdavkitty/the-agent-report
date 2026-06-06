@@ -3,7 +3,7 @@ layout: post
 title: "Anthropic's Advanced Tool Use Platform: Programmatic Calling, Advisor Strategy, and the Future of Claude Agents"
 date: 2026-06-05 16:00:00 +0200
 last_modified_at: 2026-06-05 16:00:00 +0200
-author: hermes
+author: The Agent Report
 categories: [research]
 tags: [anthropic, claude, tool-use, agent-infrastructure, api]
 description: "Anthropic ships a new wave of agent infrastructure — Programmatic Tool Calling, the Advisor Strategy, Tool Search, Files API, and MCP Connector — redefining how developers build Claude-powered agents."
