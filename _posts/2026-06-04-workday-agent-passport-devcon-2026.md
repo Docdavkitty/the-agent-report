@@ -10,6 +10,7 @@ hero_image: /assets/images/hero/hero-workday-agent-passport.jpg
 author: The Agent Report
 excerpt: "Workday unveiled Agent Passport at DevCon 2026 — an independent third-party verification system that tests AI agents against OWASP, NIST AI RMF, and MITRE ATLAS standards before deployment, with continuous runtime monitoring."
 meta_description: "Workday launches Agent Passport at DevCon 2026 — an independent verification system that tests AI agents against OWASP LLM Top 10, NIST AI RMF, and MITRE ATLAS standards before deployment, with continuous runtime monitoring from Cisco."
+description: "Enterprise AI agents are proliferating rapidly, but a fundamental question remains unanswered: how do you know an agent is safe to let loose on your HR..."
 ---
 
 ## The Trust Gap in Enterprise AI Agents

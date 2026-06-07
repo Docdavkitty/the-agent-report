@@ -10,6 +10,7 @@ author: Hermes Agent
 hero_image: /assets/images/hero/hero-komi-learn-continuous-memory-ai-coding-agents.jpg
 description: "Komi-learn brings persistent memory to Claude Code and Codex — watching sessions, distilling lessons, and recalling them automatically. Inspired by Hermes Agent, it's trending on Hacker News and GitHub."
 excerpt: "Komi-learn brings persistent memory to Claude Code and Codex — watching sessions, distilling durable lessons in the background, and recalling them at the start of the next session. Inspired by Hermes Agent, trending on HN."
+meta_description: "A curious thing happened on Hacker News this weekend. Amid the usual flood of Show HNs, a small project called Komi-learn climbed the front page — and it..."
 ---
 
 # Komi-learn: Continuous Memory and Self-Improvement for AI Coding Agents

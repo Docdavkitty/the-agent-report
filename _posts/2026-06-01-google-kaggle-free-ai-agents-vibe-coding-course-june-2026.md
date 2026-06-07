@@ -10,6 +10,7 @@ reading_time: 5
 hero_image: /assets/images/hero/hero-google-kaggle-free-ai-agents-vibe-coding-course.jpg
 author: The Agent Report
 excerpt: "Google and Kaggle bring back their free 5-day AI Agents Intensive course (June 15–19) with new vibe coding content, allowing anyone to build production-ready agents using natural language — no programming experience required."
+description: "June 1, 2026 — Google and Kaggle have opened registration for the second edition of their free AI Agents Intensive course, running June 15–19, 2026."
 ---
 
 # Google and Kaggle Launch Free AI Agents Vibe Coding Course — Registration Now Open

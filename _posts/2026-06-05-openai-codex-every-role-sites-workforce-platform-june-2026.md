@@ -10,6 +10,7 @@ hero_image: /assets/images/hero/hero-openai-codex-every-role-sites-workforce-pla
 excerpt: "OpenAI launches role-specific Codex plugins for data analytics, sales, investment banking, and more — plus Sites, a prompt-to-deployed-app builder — as non-developer users grow 3x faster than engineers."
 description: "OpenAI expands Codex from coding assistant into a workforce platform with 6 role-specific plugins, a hosted app builder called Sites, and annotations. Non-developer adoption is surging 3x faster than engineers."
 author: The Agent Report
+meta_description: "OpenAI made its boldest product move of 2026 on Tuesday, expanding Codex from a developer-centric coding assistant into a full-spectrum enterprise work..."
 ---
 
 OpenAI made its boldest product move of 2026 on Tuesday, expanding Codex from a developer-centric coding assistant into a full-spectrum enterprise work platform. The June 2 release introduces six role-specific plugins, a hosted app builder called **Sites**, and a refined annotations system — all aimed squarely at the knowledge workers who now make up a rapidly growing share of Codex's user base.

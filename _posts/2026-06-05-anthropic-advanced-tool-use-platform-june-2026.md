@@ -10,6 +10,7 @@ description: "Anthropic ships a new wave of agent infrastructure — Programmati
 reading_time: 8
 hero_image: /assets/images/hero/hero-anthropic-advanced-tool-use-platform-june-2026.jpg
 excerpt: "Anthropic has quietly shipped one of its most consequential developer platform updates to date. Programmatic Tool Calling, the Advisor Strategy, Tool Search, the Files API, and the MCP Connector are now available in public beta — fundamentally changing how Claude agents reason about tools, manage context, and orchestrate complex workflows."
+meta_description: "Anthropic has quietly shipped one of its most consequential developer platform updates to date."
 ---
 
 Anthropic has quietly shipped one of its most consequential developer platform updates to date. Over the past several weeks, a suite of new agent-infrastructure features has moved from research previews into **public beta**: **Programmatic Tool Calling**, the **Advisor Strategy**, **Tool Search**, the **Files API**, and the **MCP Connector**. Combined with the 1M-token context window now available on Claude Sonnet 4, these capabilities fundamentally change how developers build Claude-powered agents.

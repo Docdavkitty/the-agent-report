@@ -9,6 +9,8 @@ tags: [anthropic, claude, ipo, funding, s1-filing]
 reading_time: 6
 excerpt: "Anthropic confidentially filed its draft S-1 with the SEC on June 1, 2026, setting the stage for what could be the first trillion-dollar AI IPO. The filing caps a historic week that included a $65B Series H round at $965B valuation and the release of Claude Opus 4.8."
 hero_image: /assets/images/hero/hero-anthropic-ipo-s1-filing-june-2026.jpg
+meta_description: "Anthropic, the AI lab behind Claude, took its most decisive step toward becoming a public company on June 1, 2026, when it confidentially submitted a draft..."
+description: "Anthropic, the AI lab behind Claude, took its most decisive step toward becoming a public company on June 1, 2026, when it confidentially submitted a..."
 ---
 
 Anthropic, the AI lab behind Claude, took its most decisive step toward becoming a public company on June 1, 2026, when it confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission. The filing gives the company the option to proceed with an initial public offering once the SEC completes its review, subject to market conditions.

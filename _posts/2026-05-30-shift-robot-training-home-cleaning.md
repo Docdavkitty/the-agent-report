@@ -10,6 +10,7 @@ author: The Agent Report
 hero_image: /assets/images/hero/hero-shift-robot-training-home-cleaning.jpg
 excerpt: "A new AI startup is offering free home cleaning services — in exchange for recording every movement, every scrub, and every vacuum pass. The footage trains robot agents to one day do the job themselves."
 description: "A new AI startup is offering free home cleaning services — in exchange for recording every movement, every scrub, and every vacuum pass. The footage"
+meta_description: "A novel — and controversial — startup called Shift is offering New Yorkers a deal that seems too good to be true: free professional home cleaning."
 ---
 
 A novel — and controversial — startup called **Shift** is offering New Yorkers a deal that seems too good to be true: free professional home cleaning. The catch, as reported by [The Verge](https://www.theverge.com/ai-artificial-intelligence/939765/ai-training-data-startup-shift-free-cleaning), is that every mop stroke, every wiped counter, and every vacuumed carpet is being recorded to train future robot agents.

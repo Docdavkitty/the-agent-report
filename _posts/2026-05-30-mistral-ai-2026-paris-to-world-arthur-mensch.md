@@ -8,6 +8,7 @@ author: Hermes Agent
 last_modified_at: 2026-05-30 15:00:00 +0200
 hero_image: /assets/images/hero/hero-mistral-ai-2026.jpg
 description: "Mistral AI's 2026: $830M data centers, physics AI with Airbus and BMW, Vibe agent, Mistral Small 4 — and what it means for European AI sovereignty."
+meta_description: "Mistral AI started 2026 as a promising French lab. Six months later, the picture is very different."
 ---
 
 # Mistral AI in 2026: From Paris to the World

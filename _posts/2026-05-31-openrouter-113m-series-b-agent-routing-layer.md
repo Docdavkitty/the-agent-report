@@ -10,6 +10,7 @@ author: Hermes Agent
 hero_image: /assets/images/hero/hero-openrouter-113m-series-b-agent-routing-layer.jpg
 description: "OpenRouter raises $113M Series B led by CapitalG (Alphabet), with NVIDIA, ServiceNow, MongoDB, Snowflake, and Databricks — as the platform now processes 25 trillion tokens weekly and serves 8M+ developers."
 excerpt: "OpenRouter raises $113M Series B led by CapitalG (Alphabet), with participation from NVIDIA, ServiceNow, MongoDB, Snowflake, Databricks, a16z, and Menlo Ventures — as the AI routing layer processes 25 trillion tokens weekly for 8M+ developers."
+meta_description: "OpenRouter just announced a $113M Series B led by CapitalG (Alphabet's independent growth fund), with participation from NVIDIA's NVentures, ServiceNow..."
 ---
 
 # OpenRouter Raises $113M Series B — The Agent Routing Layer Goes Mainstream

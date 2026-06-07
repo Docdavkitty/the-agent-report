@@ -10,6 +10,7 @@ hero_image: /assets/images/hero/hero-microsoft-project-solara-android-ai-agents-
 author: The Agent Report
 excerpt: "Microsoft unveiled Project Solara at Build 2026 — an Android-based OS designed to run AI agents instead of apps, with Qualcomm badge and desk hub concept devices that point to a future beyond the traditional app model."
 meta_description: "Microsoft's Project Solara at Build 2026 is an Android-based OS for AI agents instead of apps, with Qualcomm badge and desk hub prototypes, targeting healthcare, retail, and enterprise use cases."
+description: "Microsoft's second day of Build 2026 in San Francisco delivered the conference's most audacious vision yet: Project Solara, an Android-based operating..."
 ---
 
 Microsoft's second day of Build 2026 in San Francisco delivered the conference's most audacious vision yet: **Project Solara**, an Android-based operating system designed to run AI agents instead of traditional applications.

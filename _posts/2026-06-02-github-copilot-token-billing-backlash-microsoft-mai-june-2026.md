@@ -10,6 +10,7 @@ hero_image: /assets/images/hero/hero-github-copilot-token-billing-backlash-micro
 author: The Agent Report
 excerpt: "GitHub Copilot's switch to token-based billing on June 1 triggered massive developer backlash — with some reporting costs jumping from $29 to $750/month — as Microsoft Build 2026 opens today with the expected debut of a cheaper homegrown MAI coding model."
 meta_description: "GitHub Copilot's June 1 switch to token-based AI Credits billing sparked developer backlash with 10-60x cost increases, as Microsoft Build 2026 opens today expected to announce the MAI coding model as a cheaper alternative."
+description: "The timing could hardly be more awkward — or more strategic."
 ---
 
 The timing could hardly be more awkward — or more strategic.

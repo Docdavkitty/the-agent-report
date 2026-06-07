@@ -10,6 +10,7 @@ author: The Agent Report
 hero_image: /assets/images/hero/hero-mcp-is-dead-developer-critique.jpg
 excerpt: "The protocol once hailed as the 'USB-C of AI' is now under fire. Developers at Quandri ran the numbers — and they paint a damning picture of context bloat, reliability issues, and architectural overlap with existing CLI tools."
 description: "The protocol once hailed as the 'USB-C of AI' is now under fire. Developers at Quandri ran the numbers — and they paint a damning picture of context"
+meta_description: "The Model Context Protocol (MCP) was supposed to be the great unifier — a standard way for AI agents to talk to the tools and services they need to get work..."
 ---
 
 The Model Context Protocol (MCP) was supposed to be the great unifier — a standard way for AI agents to talk to the tools and services they need to get work done. Launched in late 2024, it was quickly anointed "the USB-C of the AI ecosystem," adopted by Anthropic, OpenAI, and a growing ecosystem of tool providers.
