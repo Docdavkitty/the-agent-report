@@ -10,6 +10,7 @@ reading_time: 5
 hero_image: /assets/images/hero/hero-cognition-devin-desktop-agent-orchestration.jpg
 excerpt: "Cognition just shipped Devin Desktop — a full IDE rebuilt as an agent command center. But the real story isn't the rebrand: it's ACP, an open protocol that lets Codex, Claude, and any compatible agent run inside the same dashboard. The IDE is no longer where you write code. It's where you manage the agents writing it for you."
 meta_description: "Cognition's Devin Desktop rebrands the IDE as a multi-agent command center with ACP support for Codex, Claude, and custom agents. Devin Local replaces Cascade with a 30% faster Rust engine and subagent support."
+description: "Cognition shipped Devin Desktop last week — and on the surface, it looks like a rebrand of Windsurf."
 ---
 
 Cognition shipped Devin Desktop last week — and on the surface, it looks like a rebrand of Windsurf. But under the hood, it's something more consequential: the first major attempt to turn the IDE from a code editor with AI bolted on into a **command center for managing multiple AI coding agents simultaneously**.
