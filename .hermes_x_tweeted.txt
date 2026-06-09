@@ -7,3 +7,4 @@
 2026-06-03-microsoft-project-solara-android-ai-agents-build-2026.md
 2026-06-04-workday-agent-passport-devcon-2026.md
 2026-06-05-meta-muse-spark-llama-abandoned.md
+2026-06-13-ai-agent-security-complete-guide-threats-defenses.md
