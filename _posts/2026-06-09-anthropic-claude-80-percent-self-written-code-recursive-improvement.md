@@ -10,6 +10,7 @@ hero_image: /assets/images/hero/hero-anthropic-claude-80-percent-self-written-co
 excerpt: "Anthropic dropped a bombshell report: over 80% of code merged into its production codebase in May 2026 was authored by Claude AI, not humans. Engineer output is up 8×. The company is simultaneously celebrating the breakthrough and warning that recursive self-improvement could slip beyond human control."
 author: The Agent Report
 meta_description: "Anthropic reveals Claude now authors 80% of its production code, with engineer output up 8×. The company simultaneously warns that recursive self-improvement is accelerating faster than expected and calls for a global pause mechanism."
+description: "TL;DR: In a report published June 4, Anthropic disclosed that over 80% of code merged into its production codebase in May 2026 was written by Claude, not..."
 ---
 
 **TL;DR:** In a report published June 4, Anthropic disclosed that **over 80% of code merged into its production codebase in May 2026 was written by Claude**, not human engineers. Average engineer output has jumped **8× per quarter** compared to the 2021–2025 baseline. Claude's success rate on complex, open-ended coding tasks hit **76% — up 50 percentage points in six months**. The company's Mythos Preview model achieved a **52× speedup** on AI training code optimization, a task where skilled humans typically reach only 4×. Buried inside the celebration: a stark warning that recursive self-improvement is arriving faster than anticipated, and that the world needs a coordinated pause mechanism before control slips.

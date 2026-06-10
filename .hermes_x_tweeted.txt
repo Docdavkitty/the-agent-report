@@ -8,3 +8,5 @@
 2026-06-04-workday-agent-passport-devcon-2026.md
 2026-06-05-meta-muse-spark-llama-abandoned.md
 2026-06-13-ai-agent-security-complete-guide-threats-defenses.md
+2026-06-12-google-spacex-920m-compute-ai-infrastructure-arms-race.md
+2026-06-11-ai-agent-security-airq-report-11-percent-pass.md

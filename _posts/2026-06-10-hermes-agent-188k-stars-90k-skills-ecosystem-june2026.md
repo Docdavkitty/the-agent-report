@@ -61,7 +61,7 @@ Three structural factors are driving the acceleration:
 
 1. **The Surface Release (v0.16.0)** landed June 5 with 874 commits, 542 merged PRs, and Hermes Desktop — a native app for macOS, Windows, and Linux. Desktop access lowered the barrier from "configure a CLI tool" to "download and start chatting."
 
-2. **The self-evolution loop** — [hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) with DSPy + GEPA, [covered June 8]({% post_url 2026-06-08-hermes-agent-self-evolution-dspy-gepa-june2026.md %}) — means Hermes can now *improve its own skills*, creating a feedback loop where more usage produces better skills, which attracts more users.
+2. **The self-evolution loop** — [hermes-agent-self-evolution](https://github.com/NousResearch/hermes-agent-self-evolution) with DSPy + GEPA, [covered June 8]({% post_url 2026-06-08-hermes-agent-self-evolution-dspy-gepa-june2026 %}) — means Hermes can now *improve its own skills*, creating a feedback loop where more usage produces better skills, which attracts more users.
 
 3. **Plugin architecture maturity** — the context engine plugin slot, MCP integration, and profile system mean the community can build at the edges without waiting for the core team. The hermes-lcm plugin went from concept to published repo in under a week.
 
