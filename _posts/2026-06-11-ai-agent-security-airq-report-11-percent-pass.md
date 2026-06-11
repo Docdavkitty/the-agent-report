@@ -175,4 +175,4 @@ A: The report recommends quarterly re-audits. The AI agent vulnerability landsca
 - [Gravitee — State of AI Agent Security 2026 Report](https://www.gravitee.io/blog/state-of-ai-agent-security-2026-report-when-adoption-outpaces-control)
 - [Let's Data Science — Assessment Finds 11% of Production AI Agents Secure](https://letsdatascience.com/news/assessment-finds-11-of-production-ai-agents-secure-4a5057a6)
 - [The Agent Report — AI Agent Finds 21 Zero-Days in FFmpeg for $1,000](https://the-agent-report.com/2026/06/ai-agent-21-zero-days-ffmpeg-1000-dollars/)
-- [The Agent Report — Anthropic Mythos: Autonomous Zero-Day Chain](https://the-agent-report.com/2026/05/anthropic-mythos-autonomous-zero-day-chain/)
+- [The Agent Report — Anthropic Mythos: Autonomous Zero-Day Chain](https://the-agent-report.com/2026/05/anthropic-project-glasswing-claude-mythos-preview-cybersecurity-may27/)
