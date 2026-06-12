@@ -141,8 +141,8 @@ layout: default
     {% assign related_posts = related_posts | uniq | slice: 0, max_related %}
     {% if related_posts.size > 0 %}
       <div class="related-posts">
-        <h3>📖 À lire aussi</h3>
-        <p class="related-subtitle">Continuez votre lecture avec ces articles similaires</p>
+        <h3>📖 You Might Also Like</h3>
+        <p class="related-subtitle">Continue reading with these related articles</p>
         <div class="related-grid">
           {% for post in related_posts %}
             <a href="{{ post.url | relative_url }}" class="related-card">

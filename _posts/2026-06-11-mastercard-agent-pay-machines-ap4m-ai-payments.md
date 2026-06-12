@@ -10,6 +10,7 @@ hero_image: /assets/images/hero/hero-mastercard-agent-pay-machines-ap4m-ai-payme
 reading_time: 11
 excerpt: "Mastercard launches Agent Pay for Machines (AP4M) with 31+ partners including Coinbase, Stripe, Adyen, and Ripple — creating the financial infrastructure for a world where AI agents transact autonomously across cards, bank accounts, and stablecoins."
 meta_description: "Mastercard's Agent Pay for Machines (AP4M) lets AI agents spend money without humans — launching with 31+ partners across crypto, banking, and payments. Here's how credentialing, on-chain verification, and multi-rail settlement work."
+description: "TL;DR — Mastercard launched Agent Pay for Machines (AP4M) on June 10, 2026, a payments infrastructure layer that lets AI agents autonomously execute,..."
 ---
 
 **TL;DR** — Mastercard launched *Agent Pay for Machines* (AP4M) on June 10, 2026, a payments infrastructure layer that lets AI agents autonomously execute, permission, and settle transactions across cards, bank accounts, and stablecoins. With 31+ launch partners including Coinbase, Stripe, Adyen, Polygon, and Ripple, AP4M represents the most serious attempt yet to build financial rails for the emerging agentic economy — projected by McKinsey to reach $1.5 trillion in agentic spend globally by 2030. Unlike prior agent-payment experiments, AP4M bakes in credentialing, spending limits, on-chain verification, and guaranteed settlement from day one.
