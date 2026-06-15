@@ -7,6 +7,7 @@ tags: [gpt-5-6, claude-sonnet-4.8, gemini-3-5-pro, model-comparison, openai, ant
 hero_image: /assets/images/hero/hero-june-2026-ai-launch-wave-gpt-claude-gemini.jpg
 last_modified_at: 2026-06-15 20:00:00 +0200
 description: Three frontier AI models ship in the same 30-day window — OpenAI's GPT-5.6, Anthropic's Claude Sonnet 4.8, and Google's Gemini 3.5 Pro. A builder's decision map.
+meta_description: "TL;DR: Three frontier AI models shipped within 30 days in June 2026 — OpenAI GPT-5.6 (June 3), Anthropic Claude Sonnet 4.8 (June 10), and Google Gemini 3.5 Pro..."
 ---
 
 **TL;DR:** Three frontier AI models shipped within 30 days in June 2026 — OpenAI GPT-5.6 (June 3), Anthropic Claude Sonnet 4.8 (June 10), and Google Gemini 3.5 Pro (June 12). This is the first time all three labs converged on the same month. For AI agent builders choosing a backbone, the decision has never been harder — or more consequential. Here's what shipped, what's confirmed vs. rumored, and how to pick.

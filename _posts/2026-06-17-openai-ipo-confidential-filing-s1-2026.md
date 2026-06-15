@@ -7,6 +7,7 @@ tags: [openai, ipo, s1-filing, sam-altman, wall-street, ai-economy, equity-marke
 hero_image: /assets/images/hero/hero-openai-ipo-confidential-filing-s1-2026.jpg
 last_modified_at: 2026-06-15 20:00:00 +0200
 description: OpenAI confidentially files S-1 with SEC on June 8, 2026, targeting $1T valuation. Goldman Sachs and Morgan Stanley lead what could be the largest tech IPO in history.
+meta_description: "TL;DR: OpenAI confidentially filed its S-1 with the SEC on June 8, 2026 — exactly one week after rival Anthropic filed its own IPO paperwork."
 ---
 
 **TL;DR:** OpenAI confidentially filed its S-1 with the SEC on June 8, 2026 — exactly one week after rival Anthropic filed its own IPO paperwork. Goldman Sachs and Morgan Stanley are leading the offering, with early price talk suggesting a target valuation of up to **$1 trillion**. The filing reveals $25 billion in annualized revenue, $14 billion in projected 2026 losses, and a profitability horizon that stretches to roughly 2030. Combined with Anthropic's $965 billion target, the two AI IPOs could inject nearly **$2 trillion** of market value into the public markets — making this the single most consequential moment for the AI agent economy since ChatGPT launched.

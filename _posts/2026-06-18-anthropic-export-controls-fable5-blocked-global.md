@@ -7,6 +7,7 @@ tags: [anthropic, export-controls, fable-5, mythos-5, us-government, national-se
 hero_image: /assets/images/hero/hero-anthropic-export-controls-fable5-blocked-global.jpg
 last_modified_at: 2026-06-15 20:00:00 +0200
 description: US government issues export control directive suspending access to Anthropic's Fable 5 and Mythos 5 for all foreign nationals, citing national security.
+meta_description: "TL;DR: The US Department of Commerce issued an export control directive on June 12, 2026 that suspends foreign access to Anthropic's two most advanced AI..."
 ---
 
 **TL;DR:** The US Department of Commerce issued an export control directive on June 12, 2026 that suspends foreign access to Anthropic's two most advanced AI models — Fable 5 and Mythos 5 — effective immediately. The order applies to *all* foreign nationals, including close allies, and blindsided Anthropic, which confirmed it had no advance notice. Fable 5 API users outside the US have until June 22 to migrate off. India, which had been part of a handpicked group of nations granted early access to Fable 5, is among the hardest hit. The directive opens an unprecedented gap between the AI capabilities available to Americans and the models accessible to the rest of the world.

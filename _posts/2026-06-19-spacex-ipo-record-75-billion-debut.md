@@ -7,6 +7,7 @@ tags: [spacex, ipo, elon-musk, xai, stock-market, ai-infrastructure, starlink, o
 hero_image: /assets/images/hero/hero-spacex-ipo-record-75-billion-debut.jpg
 last_modified_at: 2026-06-15 20:00:00 +0200
 description: SpaceX's historic IPO raised $75B at a $1.77 trillion valuation on June 12, 2026 — the largest public offering in history, with the merged xAI division as the centerpiece.
+meta_description: "TL;DR: SpaceX priced its IPO at $135 per share on June 12, 2026, raising $75 billion — the largest public offering in history — at a $1.77 trillion valuation."
 ---
 
 **TL;DR:** SpaceX priced its IPO at **$135 per share** on June 12, 2026, raising **$75 billion** — the largest public offering in history — at a **$1.77 trillion valuation**. The debut comes after the company's merger with Elon Musk's xAI, folding Grok models and an orbital compute roadmap into a single publicly traded entity. Shares opened at $148 and CNBC reported the stock up 6% in premarket trading on June 15, pushing the valuation toward the $2 trillion threshold. For the AI agent economy, SpaceX's debut is less about rockets and more about infrastructure: Starlink as the edge inference backbone, orbital AI data centers as the next compute frontier, and Grok models now directly tied to a public company with a balance sheet that can fund the AI buildout.

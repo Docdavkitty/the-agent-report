@@ -7,6 +7,7 @@ tags: [g7-summit, ai-governance, sam-altman, dario-amodei, demis-hassabis, opena
 hero_image: /assets/images/hero/hero-g7-summit-ai-leaders-altman-amodei-hassabis.jpg
 last_modified_at: 2026-06-15 20:00:00 +0200
 description: "OpenAI's Sam Altman, Google DeepMind's Demis Hassabis, and Anthropic's Dario Amodei attend the G7 Summit in France for landmark AI governance discussions."
+meta_description: "The CEOs of the world's three most powerful AI labs — Sam Altman of OpenAI, Demis Hassabis of Google DeepMind, and Dario Amodei of Anthropic — will attend the..."
 ---
 
 The CEOs of the world's three most powerful AI labs — Sam Altman of OpenAI, Demis Hassabis of Google DeepMind, and Dario Amodei of Anthropic — will attend the G7 Summit in France this week, marking the first time frontier AI leadership has been invited to the table with heads of state for formal governance negotiations.

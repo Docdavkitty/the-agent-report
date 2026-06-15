@@ -7,6 +7,7 @@ tags: [spacex, ai-infrastructure, orbital-compute, starlink, elon-musk]
 hero_image: /assets/images/hero/hero-spacex-orbital-ai-data-centers-satellites.jpg
 last_modified_at: 2026-06-15 20:00:00 +0200
 description: Elon Musk unveils plans for orbital AI data centers leveraging Starlink, ahead of SpaceX IPO. Million-satellite constellation for space-based AI compute.
+meta_description: "TL;DR: SpaceX has revealed plans to build orbital AI data centers — a constellation of AI compute satellites that could eventually number in the millions — as..."
 ---
 
 **TL;DR:** SpaceX has revealed plans to build orbital AI data centers — a constellation of AI compute satellites that could eventually number in the millions — as part of a broader vision to move AI inference infrastructure off Earth and into low orbit. The announcement, reported by Reuters on June 9, comes just weeks ahead of the company's historic IPO and represents a radical rethinking of where the world's AI compute capacity should physically live. For AI agent builders, the promise is compelling: cheaper inference at the edge, abundant solar energy, and zero land-use constraints.
