@@ -9,7 +9,7 @@ categories: [openclaw]
 tags: [openclaw, claw-controller, agent-autonomy, plugin-architecture, security-hardening]
 reading_time: 7
 excerpt: "Openclaw's latest beta cycle delivers a major architectural shift — externalizing Amazon Bedrock, Slack, OpenShell, and Anthropic Vertex into optional plugins, slimming the core install while simultaneously shipping over 50 security fixes and gateway protocol v4."
-hero_image: /assets/images/hero/hero-openclaw-plugin-externalization-security-beta7.jpg
+hero_image: /assets/images/hero/hero-openclaw-plugin-externalization-security-hardening-beta7.jpg
 author: The Agent Report
 ---
 
