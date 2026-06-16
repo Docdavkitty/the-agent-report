@@ -16,7 +16,9 @@ meta_description: "TL;DR: SpaceX has revealed plans to build orbital AI data cen
 
 ## The Orbital Compute Vision
 
-On June 9, Reuters [reported](https://www.reuters.com/technology/spacex-plans-orbital-ai-data-centers-starlink-satellites-2026-06-09/) that SpaceX is planning to extend its Starlink satellite network into a full-fledged orbital AI compute platform. Rather than simply routing data packets around the globe, future Starlink satellites would carry dedicated AI inference hardware — effectively turning the constellation into a distributed data center floating 550 kilometers above the Earth.
+On June 9, Reuters reported that SpaceX is planning to extend its Starlink satellite network into a full-fledged orbital AI compute platform. Rather than simply routing data packets around the globe, future Starlink satellites would carry dedicated AI inference hardware — effectively turning the constellation into a distributed data center floating 550 kilometers above the Earth.
+
+*(Source: [Reuters — SpaceX plans orbital AI data centers using Starlink satellites](https://www.reuters.com/technology/spacex-plans-orbital-ai-data-centers-starlink-satellites-2026-06-09/))*
 
 The vision isn't modest. SpaceX has filed regulatory documents that reference a constellation of up to **one million satellites** — dwarfing the 42,000-satellite Starlink Gen2 plan and the ~7,000 satellites currently in orbit. While not every satellite would necessarily carry AI hardware, the scale signals ambition: SpaceX isn't just building a communications network. It's building compute infrastructure, and it's putting it where nobody else can.
 

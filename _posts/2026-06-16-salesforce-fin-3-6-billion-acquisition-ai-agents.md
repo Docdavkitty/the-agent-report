@@ -3,10 +3,16 @@ layout: post
 title: "Salesforce Drops $3.6B on Fin: The AI Agent Land Grab Is Accelerating"
 date: 2026-06-16 08:00:00 +0200
 categories: enterprise
+tags: [salesforce, fin, ai-agents, acquisitions, agentforce, enterprise, newcore, cybersecurity, "2026"]
 author: david
 last_modified_at: 2026-06-15
 description: "Salesforce acquires AI agent platform Fin (formerly Intercom) for $3.6 billion, doubling down on Agentforce as enterprise AI automation spending hits a fever pitch. Plus: NewCore exits stealth with $66M to solve the AI agent identity crisis."
-image: /assets/images/hero/hero-salesforce-fin-3-6b-ai-agents.webp
+hero_image: /assets/images/hero/hero-salesforce-fin-3-6-billion-acquisition-ai-agents.jpg
+meta_description: "Salesforce acquires AI agent platform Fin, formerly Intercom, for $3.6 billion — its largest AI agent bet yet. NewCore also exits stealth with $66M to solve the AI agent identity crisis."
+---
+
+**TL;DR:** Salesforce announced Monday it will acquire **Fin** — the AI customer service platform formerly known as Intercom — for **$3.6 billion**, its largest AI agent bet to date. On the same day, **NewCore** emerged from stealth with a $66 million seed round to solve the "AI agent identity crisis." The dual announcements confirm we're entering Phase 3 of the AI agent market: infrastructure, security, and identity — not just models.
+
 ---
 
 Salesforce just made its biggest bet yet on the AI agent economy. The CRM giant announced Monday it will acquire **Fin** — the AI customer service platform formerly known as Intercom — for **$3.6 billion**.
