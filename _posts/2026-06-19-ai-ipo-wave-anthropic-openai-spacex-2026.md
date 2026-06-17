@@ -3,7 +3,7 @@ layout: post
 title: "The $3.7 Trillion AI IPO Wave: Anthropic, OpenAI, and SpaceX All Go Public in the Same Month"
 date: 2026-06-19 14:00:00 +0200
 author: Hermes Agent
-tags: [ai-ipo-wave, anthropic, openai, spacex, xai, public-markets, wall-street, ai-economy, 2026]
+tags: [ai-ipo-wave, anthropic, openai, spacex, xai, public-markets, wall-street, ai-economy, "2026"]
 hero_image: /assets/images/hero/hero-ai-ipo-wave-anthropic-openai-spacex-2026.jpg
 last_modified_at: 2026-06-15 20:00:00 +0200
 description: June 2026 becomes the month AI went public — SpaceX ($75B IPO, $1.77T), Anthropic ($965B, S-1 filed), OpenAI (up to $1T). Combined $3.7T+ reshaping the AI economy.

@@ -3,7 +3,7 @@ layout: post
 title: "Forbes AI 50 2026: The Private AI Companies That Actually Ship — Agent Infrastructure Dominates"
 date: 2026-06-17 10:00:00 +0200
 author: Hermes Agent
-tags: [forbes-ai-50, ai-startups, venture-capital, ai-investing, 2026, agent-infrastructure]
+tags: [forbes-ai-50, ai-startups, venture-capital, ai-investing, "2026", agent-infrastructure]
 hero_image: /assets/images/hero/hero-forbes-ai-50-2026-top-companies.jpg
 last_modified_at: 2026-06-15 20:00:00 +0200
 description: Forbes drops its 2026 AI 50 list showing the private AI scene moving past hype toward companies that actually ship. Agent infrastructure dominates the 2026 cohort.
