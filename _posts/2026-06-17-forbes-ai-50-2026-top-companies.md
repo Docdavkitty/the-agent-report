@@ -14,6 +14,8 @@ Forbes published its annual AI 50 list over the weekend — the definitive ranki
 
 The answer, according to Forbes, is agent infrastructure companies. And for the first time, the editors introduced a companion list — the **Brink List** — spotlighting early-stage startups "on the brink" of breaking into the main ranking.
 
+*(Source: [Forbes — AI 50 2026](https://www.forbes.com/lists/ai50/))*
+
 ## Agent Infrastructure Takes the Crown
 
 The 2026 AI 50 reads like a who's-who of the agent economy. **Anthropic** secured the top spot on the strength of Claude's enterprise traction and its upcoming IPO — the S-1 filing landed just weeks ago revealing $8.5 billion in annualized revenue. **OpenAI** held the number two position, powered by Codex's expansion into a workforce platform with 5 million weekly active users and non-developer adoption growing 3x faster than engineers.
@@ -41,5 +43,33 @@ Three takeaways from the 2026 AI 50:
 **3. The Brink List is a roadmap.** Forbes' editors have effectively published an early-stage investment thesis. Every company on the Brink List is attacking a specific piece of the agent infrastructure stack — memory, version control, environment management, verification. If you're building or investing in AI agents, the Brink List is the closest thing to a cheat sheet for where the puck is going.
 
 After three years of AI hype cycles — foundation models, copilots, agents, AGI — the 2026 AI 50 feels like an inflection point. Forbes isn't celebrating the most ambitious visions or the largest funding rounds. It's celebrating companies that ship.
+
+## FAQ
+
+**Q: When was the Forbes AI 50 2026 list published?**
+
+A: Forbes published the list in mid-June 2026, with the Brink List debuting as a companion ranking for the first time.
+
+**Q: What is the Brink List?**
+
+A: A new companion ranking spotlighting 25 early-stage AI startups "on the brink" of breaking into the main AI 50 within 12–24 months. The list is heavily weighted toward agent infrastructure companies — environments, memory, version control, and governance.
+
+**Q: Which companies topped the 2026 AI 50?**
+
+A: Anthropic took the #1 spot, followed by OpenAI at #2. Cognition (Devin), Perplexity, and Cursor rounded out the top 10, reflecting how AI coding and enterprise search have become the category's most valuable beachheads.
+
+**Q: Why are pure model companies absent from this year's list?**
+
+A: The 2026 edition reflects a market shift away from foundation-model startups toward companies with clear distribution and enterprise go-to-market stories. The era when training a large language model was enough to attract nine-figure checks appears to be ending.
+
+**Q: How does this edition compare to previous AI 50 lists?**
+
+A: The 2026 edition marks a pivot from the 2024–25 era of foundation-model hype toward companies that actually ship products customers pay for. Previous lists were dominated by model builders and research labs; this year's list is infrastructure-heavy and enterprise-focused.
+
+## Further Reading
+
+- [Forbes — AI 50 2026](https://www.forbes.com/lists/ai50/)
+- [The Agent Report — OpenAI IPO: Confidential S-1 Filing](/2026/06/openai-ipo-confidential-filing-s1-2026/)
+- [The Agent Report — Top 20 Open Source AI Agent Tools 2026](/2026/06/top-20-open-source-ai-agent-tools-2026/)
 
 — The Agent Report
