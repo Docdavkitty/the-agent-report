@@ -22,7 +22,7 @@ The French presidential office confirmed the invitation on **June 12, 2026**, fr
 
 The timing of the summit is extraordinary. All three labs are either actively pursuing or preparing for public offerings, making the G7 appearance as much a geopolitical audition as a policy discussion:
 
-- **Anthropic** confidentially filed its S-1 with the SEC on June 1, fresh off a **$65 billion Series H round** that valued the company at **$965 billion**. Days later, the US government forced Anthropic to disable its most capable models — Fable 5 and Mythos 5 — for all foreign nationals, escalating a months-long feud with the Trump administration over AI safety and military applications. *(Source: [The Agent Report — Anthropic Files S-1](https://the-agent-report.com/2026/06/anthropic-confidentially-files-s1/))*
+- **Anthropic** confidentially filed its S-1 with the SEC on June 1, fresh off a **$65 billion Series H round** that valued the company at **$965 billion**. Days later, the US government forced Anthropic to disable its most capable models — Fable 5 and Mythos 5 — for all foreign nationals, escalating a months-long feud with the Trump administration over AI safety and military applications. *(Source: [The Agent Report — Anthropic Files S-1](https://the-agent-report.com/2026/06/anthropic-ipo-s1-filing-june-2026/))*
 
 - **OpenAI** is preparing its own S-1 filing following a $122 billion round at an $852 billion valuation. The company's trajectory from nonprofit research lab to trillion-dollar IPO candidate has drawn scrutiny from regulators on both sides of the Atlantic, particularly around its for-profit conversion and concentration of AI capability.
 
@@ -75,6 +75,6 @@ A: Very. The Act's high-risk and transparency obligations become enforceable on 
 - [BIS Export Control Directive — June 12, 2026](https://www.bis.gov/) — Full text of the directive restricting foreign access to Fable 5 and Mythos 5
 - [Anthropic Statement on Export Controls](https://www.anthropic.com/news) — Company response to the BIS order
 - [EU AI Act — High-Risk Obligations Enforcement Timeline](https://artificialintelligenceact.eu/) — August 2, 2026 enforcement date for high-risk AI systems
-- [The Agent Report — Anthropic S-1 Filing and $65B Series H](https://the-agent-report.com/2026/06/anthropic-confidentially-files-s1/) — Background on Anthropic's IPO trajectory and $965B valuation
+- [The Agent Report — Anthropic S-1 Filing and $65B Series H](https://the-agent-report.com/2026/06/anthropic-ipo-s1-filing-june-2026/) — Background on Anthropic's IPO trajectory and $965B valuation
 
 — The Agent Report

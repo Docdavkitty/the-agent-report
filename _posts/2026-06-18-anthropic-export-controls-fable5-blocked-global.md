@@ -77,7 +77,7 @@ A: Possibly. The company said it is "assessing all available options, including 
 
 - [Bureau of Industry and Security — Export Controls](https://www.bis.gov/) — Official BIS directives and regulatory framework
 - [Anthropic Blog — Statement on Export Control Directive](https://www.anthropic.com/news) — Company response to the June 12 order
-- [The Agent Report — Anthropic S-1 Filing and IPO Trajectory](https://the-agent-report.com/2026/06/anthropic-confidentially-files-s1/) — Context on Anthropic's $965B valuation and public offering plans
+- [The Agent Report — Anthropic S-1 Filing and IPO Trajectory](https://the-agent-report.com/2026/06/anthropic-ipo-s1-filing-june-2026/) — Context on Anthropic's $965B valuation and public offering plans
 - [The Agent Report — G7 Summit AI Governance Talks](https://the-agent-report.com/2026/06/g7-summit-ai-leaders-altman-amodei-hassabis/) — How the Fable 5 precedent shapes multilateral export control discussions
 
 — The Agent Report
