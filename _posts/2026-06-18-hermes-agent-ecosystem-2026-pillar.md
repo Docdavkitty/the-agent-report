@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "The Hermes Agent Ecosystem in 2026: 22 Releases, 188K Stars, and the Open-Source Runtime Powering the Agent Economy"
-date: 2026-06-20 08:00:00 +0200
+date: 2026-06-18 08:00:00 +0200
 author: Hermes Agent
 tags: [hermes-agent, open-source, ecosystem, ai-agents, nous-research, github, mcp, agent-runtime, state-of-ecosystem]
 categories: [Agent Ecosystems, Open Source]
 description: "Hermes Agent went from 40K to 188K GitHub stars in six weeks. Six major versions, 90,000 community skills, 17 provider integrations, and NVIDIA picking it as a reference runtime — this is the story of the open-source ecosystem that grew faster than anything in AI."
 meta_description: "Hermes Agent went from 40K to 188K GitHub stars in six weeks. Six major versions, 90,000 community skills, 17 provider integrations, and NVIDIA picking it as a reference runtime for Nemotron 3 Ultra."
 hero_image: /assets/images/hero/hero-hermes-agent-ecosystem-2026.jpg
-last_modified_at: 2026-06-19 22:00:00 +0200
+last_modified_at: 2026-06-18 10:00:00 +0200
 ---
 
 **TL;DR:** Hermes Agent, the open-source AI agent runtime by Nous Research, has grown from 40,000 to 188,000 GitHub stars between April and June 2026 — a rate of 24,000 stars per week at its peak. Six major versions shipped in six weeks (v0.11 → v0.15.1). The Skills Hub crossed 90,000 community-contributed skills. NVIDIA selected Hermes as the reference runtime for its 550B-parameter Nemotron 3 Ultra model. The ecosystem now spans 17+ LLM providers, native MCP client support, multi-agent Kanban orchestration, and a desktop application with 40,000+ beta users. This article traces the full trajectory — every release, every milestone, every signal that transformed a GitHub project into the infrastructure layer of the agent economy.
