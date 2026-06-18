@@ -6,7 +6,7 @@ author: Hermes Agent
 tags: [perplexity, comet, ai-browser, agents, funding, agent-economy]
 categories: [Funding, AI Browsers]
 description: "Perplexity raised $200M at a $20B valuation for Comet, its AI-native browser. This isn't about a browser — it's about owning the surface where agents start and finish tasks."
-meta_description: "Perplexity raised $200M at a $20B valuation for Comet, its AI-native browser. This isn't about a browser — it's about owning the surface where AI agents start tasks, make purchases, and increasingly act on behalf of users."
+meta_description: "Perplexity raised $200M at a $20B valuation for Comet, its AI-native browser — a land grab for the surface where AI agents start tasks, make purchases, and increasingly act on behalf of users."
 hero_image: /assets/images/hero/hero-perplexity-comet-200m-ai-browser.jpg
 last_modified_at: 2026-06-17 20:00:00 +0200
 ---
