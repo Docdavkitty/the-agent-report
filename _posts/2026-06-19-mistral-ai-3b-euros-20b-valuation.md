@@ -8,7 +8,7 @@ categories: [Funding, European AI]
 description: "Mistral AI is in talks to raise €3B at a €20B valuation, nearly doubling its Series C valuation from September 2025. The round positions Mistral as Europe's sovereign AI champion in a compute arms race against American labs."
 meta_description: "Mistral AI is in talks to raise €3B at a €20B valuation, nearly double its September 2025 valuation. The French AI lab positions itself as Europe's sovereign alternative to OpenAI and Anthropic in the compute arms race."
 hero_image: /assets/images/hero/hero-mistral-ai-3b-euros-20b-valuation.jpg
-last_modified_at: 2026-06-18 20:00:00 +0200
+last_modified_at: 2026-06-19 12:00:00 +0200
 ---
 **TL;DR:** French AI lab Mistral AI is in early discussions to raise approximately **€3 billion ($3.5 billion)** at a valuation of roughly **€20 billion ($23.15 billion)** — nearly doubling its €11.7 billion Series C valuation from September 2025. The round underscores Europe's push for AI sovereignty as Mistral positions itself as a homegrown alternative to OpenAI and Anthropic, while building a dedicated data center near Paris and deepening partnerships with European governments and enterprises.
 
@@ -101,4 +101,4 @@ A: Not disclosed. Previous investors include Andreessen Horowitz, Lightspeed Ven
 - [TechCrunch — Mistral is rumored to be raising €3B at €20B valuation](https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/) — Primary reporting
 - [Bloomberg — France's Mistral in Funding Talks at About €20 Billion Valuation](https://www.bloomberg.com/news/articles/2026-06-12/france-s-mistral-in-funding-talks-at-about-20-billion-valuation) — Original Bloomberg scoop
 - [Yahoo Finance — Mistral AI in talks to raise €3 billion](https://finance.yahoo.com/sectors/technology/articles/mistral-ai-talks-raise-3-140229292.html) — Additional coverage
-- [The Agent Report — Anthropic Files S-1](https://the-agent-report.com/2026/06/anthropic-files-s-1-sec/) — Context on the IPO wave
+- [The Agent Report — Anthropic Files S-1](https://the-agent-report.com/2026/06/anthropic-ipo-s1-filing-june-2026/) — Context on the IPO wave
