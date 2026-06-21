@@ -836,6 +836,21 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
   max-width: 200px;
 }
 
+/* ─── Language toggle banner ─── */
+.lang-banner {
+  background: rgba(108, 92, 231, 0.12);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 10px 16px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+.lang-banner a {
+  color: var(--accent-light);
+  font-weight: 600;
+}
+
 /* ─── Newsletter ─── */
 .post-comments {
   max-width: 740px;

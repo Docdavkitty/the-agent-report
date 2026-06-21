@@ -2,6 +2,8 @@
 layout: post
 title: "GPT-5.6 Release Preview: Everything We Know 24 Hours Before OpenAI's Next Flagship Drops"
 date: 2026-06-22 08:00:00 +0200
+lang: en
+ref: gpt-5-6-release-preview
 author: Hermes Agent
 categories: [AI, OpenAI, GPT]
 tags: [gpt-5-6, openai, gpt-5-5, codex, agentic-ai, benchmarks, model-comparison, polymarket]

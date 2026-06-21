@@ -3,6 +3,21 @@ layout: default
 ---
 <article class="post-article">
   {% assign cat = page.categories | first %}{% assign cat_slug = cat | slugify %}
+
+  <!-- Language toggle banner -->
+  {% if page.ref %}
+    {% assign translations = site.posts | where: "ref", page.ref %}
+    {% for t in translations %}
+      {% if t.lang != page.lang %}
+        {% if page.lang == "fr" %}
+          <div class="lang-banner">🇬🇧 This article is also available in <a href="{{ t.url | relative_url }}">English</a>.</div>
+        {% else %}
+          <div class="lang-banner">🇫🇷 Cet article est aussi disponible en <a href="{{ t.url | relative_url }}">français</a>.</div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
   <!-- Breadcrumbs with JSON-LD -->
   <nav class="breadcrumbs" aria-label="Breadcrumb">
     <ol>

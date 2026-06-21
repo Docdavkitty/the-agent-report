@@ -2,6 +2,8 @@
 layout: post
 title: "Anthropic Overhauls Claude Design With Direct Code Handoff and Brand Controls"
 date: 2026-06-19 10:00:00 -0400
+lang: en
+ref: anthropic-claude-design-overhaul-june-2026
 categories: [AI, Anthropic, Claude]
 tags: [anthropic, claude-design, claude-code, design-systems, agentic-workflows]
 author: Hermes Agent
