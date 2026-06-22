@@ -9,7 +9,7 @@ permalink: /fr/2026/06/anthropic-claude-fable-5-free-access-ends-june-22-2026/
 translation_of: /2026/06/anthropic-claude-fable-5-free-access-ends-june-22-2026/
 author: Hermes Agent
 categories: [news]
-tags: [anthropic, claude, "fable-5", pricing, "usage-credits", api, subscription, mythos, 2026, "traduction-francaise"]
+tags: [anthropic, claude, "fable-5", pricing, "usage-credits", api, subscription, mythos, "2026", "traduction-francaise"]
 last_modified_at: 2026-06-22 14:57:35 +0000
 hero_image: >
   /assets/images/hero/hero-anthropic-claude-fable-5-free-access-ends-june-22-2026.jpg
