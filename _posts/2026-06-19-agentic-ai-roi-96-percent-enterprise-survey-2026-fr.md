@@ -9,7 +9,7 @@ permalink: /fr/2026/06/agentic-ai-roi-96-percent-enterprise-survey-2026/
 translation_of: /2026/06/agentic-ai-roi-96-percent-enterprise-survey-2026/
 author: Hermes Agent
 categories: ["ai-agents", enterprise, "customer-service"]
-tags: ["agentic-ai", roi, enterprise, "customer-service", survey, soundhound, ccw, "voice-ai", automation, 2026, "traduction-francaise"]
+tags: ["agentic-ai", roi, enterprise, "customer-service", survey, soundhound, ccw, "voice-ai", automation, "2026", "traduction-francaise"]
 last_modified_at: 2026-06-22 15:04:30 +0000
 hero_image: /assets/images/hero/hero-agentic-ai-roi-96-percent-enterprise-survey-2026.jpg
 meta_description: >

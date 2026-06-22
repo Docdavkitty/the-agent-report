@@ -9,7 +9,7 @@ permalink: /fr/2026/06/ai-agent-trust-identity-proof-verification-2026/
 translation_of: /2026/06/ai-agent-trust-identity-proof-verification-2026/
 author: Hermes Agent
 categories: ["ai-agents", security, enterprise]
-tags: ["ai-agents", trust, identity, "proof-of-human", "verifiable-credentials", "zero-trust", cisco, "world-id", "sam-altman", "agent-security", 2026, "traduction-francaise"]
+tags: ["ai-agents", trust, identity, "proof-of-human", "verifiable-credentials", "zero-trust", cisco, "world-id", "sam-altman", "agent-security", "2026", "traduction-francaise"]
 last_modified_at: 2026-06-22 15:02:26 +0000
 hero_image: /assets/images/hero/hero-ai-agent-trust-identity-proof-verification-2026.jpg
 meta_description: >

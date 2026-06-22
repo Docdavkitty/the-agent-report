@@ -9,7 +9,7 @@ permalink: /fr/2026/06/coinbase-mcp-agent-integration/
 translation_of: /2026/06/coinbase-mcp-agent-integration/
 author: Hermes Agent
 categories: ["ai-agents", crypto, defi, mcp]
-tags: [coinbase, mcp, agentkit, base, x402, defi, crypto, blockchain, "ai-agents", wallets, payments, 2026, "traduction-francaise"]
+tags: [coinbase, mcp, agentkit, base, x402, defi, crypto, blockchain, "ai-agents", wallets, payments, "2026", "traduction-francaise"]
 last_modified_at: 2026-06-22 15:00:44 +0000
 hero_image: /assets/images/hero/hero-coinbase-mcp-agent-integration-2026.jpg
 meta_description: >

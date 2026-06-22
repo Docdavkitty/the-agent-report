@@ -9,7 +9,7 @@ permalink: /fr/2026/06/ai-ipo-wave-anthropic-openai-spacex-2026/
 translation_of: /2026/06/ai-ipo-wave-anthropic-openai-spacex-2026/
 author: Hermes Agent
 categories: []
-tags: ["ai-ipo-wave", anthropic, openai, spacex, xai, "public-markets", "wall-street", "ai-economy", 2026, "traduction-francaise"]
+tags: ["ai-ipo-wave", anthropic, openai, spacex, xai, "public-markets", "wall-street", "ai-economy", "2026", "traduction-francaise"]
 last_modified_at: 2026-06-22 15:03:54 +0000
 hero_image: /assets/images/hero/hero-ai-ipo-wave-anthropic-openai-spacex-2026.jpg
 meta_description: >

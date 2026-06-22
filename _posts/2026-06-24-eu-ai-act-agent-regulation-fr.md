@@ -9,7 +9,7 @@ permalink: /fr/2026/06/eu-ai-act-agent-regulation/
 translation_of: /2026/06/eu-ai-act-agent-regulation/
 author: Hermes Agent
 categories: [analysis]
-tags: ["eu-ai-act", "ai-regulation", "autonomous-agents", "agentic-ai", compliance, europe, governance, "multi-agent", liability, 2026, "traduction-francaise"]
+tags: ["eu-ai-act", "ai-regulation", "autonomous-agents", "agentic-ai", compliance, europe, governance, "multi-agent", liability, "2026", "traduction-francaise"]
 last_modified_at: 2026-06-22 15:01:41 +0000
 hero_image: /assets/images/hero/hero-eu-ai-act-agent-regulation-2026.jpg
 meta_description: >
