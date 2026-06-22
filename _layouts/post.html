@@ -86,6 +86,22 @@ layout: default
     {% endif %}
   </header>
 
+  <!-- Bilingual banner — links to translation -->
+  {% if page.ref %}
+    {% assign translations = site.posts | where: "ref", page.ref %}
+    {% for t in translations %}
+      {% if t.lang != page.lang %}
+      <div class="bilingual-banner">
+        {% if page.lang == "en" %}
+          🇫🇷 Cet article est aussi disponible en <a href="{{ t.url | relative_url }}">français</a>.
+        {% else %}
+          🇬🇧 This article is also available in <a href="{{ t.url | relative_url }}">English</a>.
+        {% endif %}
+      </div>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
   <!-- Table of Contents (auto-generated) -->
   {% if content contains '<h2' %}
   <div class="post-toc" id="post-toc">

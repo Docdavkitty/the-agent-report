@@ -1201,3 +1201,19 @@ details[open] .toc-toggle { border-bottom: 1px solid var(--border); }
     height: 140px;
   }
 }
+
+/* ─── Bilingual Banner ─── */
+.bilingual-banner {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  font-size: .95rem;
+  color: var(--text-muted);
+}
+.bilingual-banner a {
+  color: var(--accent-light);
+  font-weight: 600;
+}

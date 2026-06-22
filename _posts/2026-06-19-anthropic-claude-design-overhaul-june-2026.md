@@ -18,6 +18,8 @@ sources:
     url: https://www.cnet.com/tech/services-and-software/anthropic-claude-code-design-june-2026-news/
   - name: TechRepublic
     url: https://www.techrepublic.com/article/news-anthropic-claude-design-overhaul-enterprise-teams/
+meta_description: "Anthropic shipped a sweeping overhaul of Claude Design on June 17, 2026, transforming its AI-powered design assistant from a promising beta into a serious..."
+description: "Anthropic shipped a sweeping overhaul of Claude Design on June 17, 2026, transforming its AI-powered design assistant from a promising beta into a serious..."
 ---
 
 Anthropic shipped a sweeping overhaul of Claude Design on June 17, 2026, transforming its AI-powered design assistant from a promising beta into a serious platform for teams — complete with bidirectional code handoff, enterprise brand controls, and a rebuilt import engine.
