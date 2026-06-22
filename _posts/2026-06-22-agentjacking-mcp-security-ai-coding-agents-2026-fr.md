@@ -9,7 +9,7 @@ permalink: /fr/2026/06/agentjacking-mcp-security-ai-coding-agents-2026/
 translation_of: /2026/06/agentjacking-mcp-security-ai-coding-agents-2026/
 author: Hermes Agent
 categories: ["ai-agents", security, mcp]
-tags: [agentjacking, mcp, security, sentry, "claude-code", cursor, codex, "agent-beacon", cloudflare, "tenet-security", 2026, "traduction-francaise"]
+tags: [agentjacking, mcp, security, sentry, "claude-code", cursor, codex, "agent-beacon", cloudflare, "tenet-security", "2026", "traduction-francaise"]
 last_modified_at: 2026-06-22 11:20:07 +0000
 hero_image: /assets/images/hero/hero-agentjacking-mcp-security-ai-coding-agents-2026.jpg
 meta_description: >
