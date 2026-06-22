@@ -168,7 +168,7 @@ GPT-5.6 doesn't launch into a vacuum. It launches into the most intense month in
 | **Claude Fable 5** | Anthropic | June 9 | SWE-bench Pro 89.78%, Mythos-class reasoning | 200K context limit; export controls blocking some regions |
 | **Claude Opus 4.8** | Anthropic | May 28 | Dynamic Workflows, best-in-class agentic orchestration | High cost ($15/$75 per M tokens) |
 | **Gemini 3.5 Pro** | Google | June 12 | 2M context window, Google ecosystem | Weaker coding benchmarks |
-| **MiniMax M3** | MiniMax | June 1 | 59.0% SWE-bench Pro at $0.60/M input | Open-weight, no ecosystem lock-in |
+| **MiniMax M3** | MiniMax | June 1 | 59.0% SWE-bench Pro at $0.60/M input | Smaller context window, limited Western enterprise tooling |
 | **DeepSeek V4 Pro** | DeepSeek | April 2026 | Competitive coding at lower cost | Smaller context window |
 
 *(See our complete June launch wave analysis: [/2026/06/16/june-2026-ai-launch-wave-gpt-claude-gemini](/2026/06/16/june-2026-ai-launch-wave-gpt-claude-gemini))*
