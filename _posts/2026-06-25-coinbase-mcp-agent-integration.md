@@ -207,6 +207,6 @@ The primary risks are prompt injection (an attacker tricks the AI into making un
 - [Linux Foundation — x402 Foundation Launch](https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol)
 - [x402.org — Protocol Specification](https://www.x402.org/ecosystem)
 - [Thirdweb — What Coinbase's SEC-Registered AI Agent Means for Builders](https://blog.thirdweb.com/coinbase-just-registered-an-ai-agent-with-the-sec-what-it-means-for-onchain-builders/)
-- [The Agent Report — MetaMask Agent Wallet: DeFi for AI Agents](/2026/06/16/metamask-agent-wallet-defi-ai-agents/)
-- [The Agent Report — AI Agent Security: Complete Guide to Threats and Defenses](/2026/06/13/ai-agent-security-complete-guide-threats-defenses/)
+- [The Agent Report — MetaMask Agent Wallet: DeFi for AI Agents](/2026/06/metamask-agent-wallet-defi-ai-agents/)
+- [The Agent Report — AI Agent Security: Complete Guide to Threats and Defenses](/2026/06/ai-agent-security-complete-guide-threats-defenses/)
 - [Open Banking Tracker — Agentic Banking and MCP Directory (2026)](https://www.openbankingtracker.com/agentic-banking-and-mcp)

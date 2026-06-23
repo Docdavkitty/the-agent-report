@@ -210,6 +210,6 @@ Les principaux risques sont l'injection d'invite (un attaquant trompe l'IA pour 
 - [Linux Foundation — Lancement de la x402 Foundation](https://www.linuxfoundation.org/press/linux-foundation-is-launching-the-x402-foundation-and-welcoming-the-contribution-of-the-x402-protocol)
 - [x402.org — Spécification du protocole](https://www.x402.org/ecosystem)
 - [Thirdweb — Ce que l'agent IA enregistré SEC de Coinbase signifie pour les développeurs](https://blog.thirdweb.com/coinbase-just-registered-an-ai-agent-with-the-sec-what-it-means-for-onchain-builders/)
-- [The Agent Report — Portefeuille Agent MetaMask : DeFi pour agents IA](/2026/06/16/metamask-agent-wallet-defi-ai-agents/)
-- [The Agent Report — Sécurité des agents IA : Guide complet des menaces et défenses](/2026/06/13/ai-agent-security-complete-guide-threats-defenses/)
+- [The Agent Report — Portefeuille Agent MetaMask : DeFi pour agents IA](/2026/06/metamask-agent-wallet-defi-ai-agents/)
+- [The Agent Report — Sécurité des agents IA : Guide complet des menaces et défenses](/2026/06/ai-agent-security-complete-guide-threats-defenses/)
 - [Open Banking Tracker — Répertoire bancaire agentique et MCP (2026)](https://www.openbankingtracker.com/agentic-banking-and-mcp)

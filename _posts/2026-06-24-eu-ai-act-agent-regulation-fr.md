@@ -323,11 +323,11 @@ Une analyse de janvier 2026 par Michael Hannecke a qualifié cela de « problèm
 
 Pour les lecteurs de The Agent Report qui construisent, déploient ou investissent dans des agents d'IA autonomes, voici les points clés à retenir :
 
-- **Utilisateurs de [Hermes Agent](https://the-agent-report.com/hermes-agent/)** : Si votre agent traite des données d'utilisateurs de l'UE ou sert des clients européens, les obligations de transparence (divulgation de l'IA, étiquetage du contenu) s'appliquent à partir du 2 août 2026. Si votre agent opère dans des domaines de l'Annexe III (crédit, emploi, éducation), préparez-vous à une classification à haut risque d'ici décembre 2027.
+- **Utilisateurs de Hermes Agent** : Si votre agent traite des données d'utilisateurs de l'UE ou sert des clients européens, les obligations de transparence (divulgation de l'IA, étiquetage du contenu) s'appliquent à partir du 2 août 2026. Si votre agent opère dans des domaines de l'Annexe III (crédit, emploi, éducation), préparez-vous à une classification à haut risque d'ici décembre 2027.
 
-- **[Guide de déploiement d'agents IA en entreprise](/2026/06/17/enterprise-ai-agent-governance-2026/)** : Les cadres de gouvernance conçus pour les systèmes ML à modèle unique ne s'appliqueront pas proprement aux pipelines multi-agents. Planifiez une architecture de conformité spécifique aux agents.
+- **Déploiements en entreprise** : Les cadres de gouvernance conçus pour les systèmes ML à modèle unique ne s'appliqueront pas proprement aux pipelines multi-agents. Planifiez une architecture de conformité spécifique aux agents.
 
-- **[Sécurité des agents IA](/2026/06/13/ai-agent-security-complete-guide-threats-defenses/)** : Les exigences de cybersécurité de l'article 15 abordent explicitement l'injection de prompts et l'utilisation abusive d'outils — deux vecteurs d'attaque particulièrement pertinents pour les systèmes agentiques.
+- **[Sécurité des agents IA](/2026/06/ai-agent-security-complete-guide-threats-defenses/)** : Les exigences de cybersécurité de l'article 15 abordent explicitement l'injection de prompts et l'utilisation abusive d'outils — deux vecteurs d'attaque particulièrement pertinents pour les systèmes agentiques.
 
 ---
 

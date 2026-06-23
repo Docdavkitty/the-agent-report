@@ -68,7 +68,7 @@ If GPT-5.6 launches this week, it will mark the **sixth major GPT-5 series relea
 
 This acceleration isn't happening in a vacuum. Anthropic shipped Claude Fable 5 — its first public Mythos-class model — on June 9, scoring 89.78% on SWE-bench Pro and opening an uncomfortable gap over GPT-5.5's 58.6% on the same benchmark *(Source: [ExplainX — GPT-5.6 vs Claude Fable 5: Who Wins? Benchmarks & Comparison](https://explainx.ai/blog/gpt-5-6-vs-claude-fable-5-comparison-2026))*. Claude Opus 4.8's Dynamic Workflows, launched May 28, set a new bar for agentic orchestration. Google's Gemini 3.5 Pro, with its 2M-token context window, landed June 12. Chinese labs — MiniMax M3 at $0.60/M input tokens, GLM-5.2 at aggressive pricing — are undercutting everyone on cost.
 
-OpenAI, reportedly preparing a confidential S-1 IPO filing *(see our coverage: [/2026/06/17/openai-ipo-confidential-filing-s1-2026](/2026/06/17/openai-ipo-confidential-filing-s1-2026))*, cannot afford to lose the narrative. GPT-5.6 needs to be more than an incremental bump — it needs to reassert leadership.
+OpenAI, reportedly preparing a confidential S-1 IPO filing *(see our coverage: [/2026/06/openai-ipo-confidential-filing-s1-2026](/2026/06/openai-ipo-confidential-filing-s1-2026))*, cannot afford to lose the narrative. GPT-5.6 needs to be more than an incremental bump — it needs to reassert leadership.
 
 ---
 
@@ -171,9 +171,9 @@ GPT-5.6 doesn't launch into a vacuum. It launches into the most intense month in
 | **MiniMax M3** | MiniMax | June 1 | 59.0% SWE-bench Pro at $0.60/M input | Smaller context window, limited Western enterprise tooling |
 | **DeepSeek V4 Pro** | DeepSeek | April 2026 | Competitive coding at lower cost | Smaller context window |
 
-*(See our complete June launch wave analysis: [/2026/06/16/june-2026-ai-launch-wave-gpt-claude-gemini](/2026/06/16/june-2026-ai-launch-wave-gpt-claude-gemini))*
+*(See our complete June launch wave analysis: [/2026/06/june-2026-ai-launch-wave-gpt-claude-gemini](/2026/06/june-2026-ai-launch-wave-gpt-claude-gemini))*
 
-The strategic picture: Anthropic leads on raw agentic coding capability but faces export control headwinds *(see our coverage: [/2026/06/18/anthropic-export-controls-fable5-blocked-global](/2026/06/18/anthropic-export-controls-fable5-blocked-global))*. Google competes on context and ecosystem. Chinese labs compete on price. OpenAI's play with GPT-5.6 needs to be: close the coding gap, extend the context lead over Anthropic, and hold pricing steady — all while leveraging the Codex/ChatGPT distribution advantage that no competitor can match.
+The strategic picture: Anthropic leads on raw agentic coding capability but faces export control headwinds *(see our coverage: [/2026/06/anthropic-export-controls-fable5-blocked-global](/2026/06/anthropic-export-controls-fable5-blocked-global))*. Google competes on context and ecosystem. Chinese labs compete on price. OpenAI's play with GPT-5.6 needs to be: close the coding gap, extend the context lead over Anthropic, and hold pricing steady — all while leveraging the Codex/ChatGPT distribution advantage that no competitor can match.
 
 ---
 
@@ -225,11 +225,11 @@ A: No. The difference between starting today on GPT-5.5 (or Claude Opus 4.8) and
 
 ## Further Reading
 
-- [The June 2026 AI Launch Wave: GPT-5.6, Claude Sonnet 4.8, and Gemini 3.5 Pro Collide in the Same Month](/2026/06/16/june-2026-ai-launch-wave-gpt-claude-gemini) — Our comprehensive builder's decision map for the June model convergence
-- [Anthropic Claude Fable 5 & Mythos 5 Launch: The Agentic Coding Bar Moves Again](/2026/06/10/anthropic-claude-fable-5-mythos-5-launch) — Analysis of the model GPT-5.6 is racing to beat
-- [OpenAI IPO: Confidential S-1 Filing Signals 2026 Public Offering](/2026/06/17/openai-ipo-confidential-filing-s1-2026) — Why the GPT-5.6 launch matters for OpenAI's trillion-dollar ambitions
-- [Anthropic Export Controls Block Fable 5 in Global Markets](/2026/06/18/anthropic-export-controls-fable5-blocked-global) — The regulatory asymmetry that could benefit GPT-5.6 adoption
-- [MiniMax M3: Open-Weight Coding at 1/10th the Cost](/2026/06/09/post-llama-open-source-landscape-june-2026) — The Chinese open-weight models applying pricing pressure from below
+- [The June 2026 AI Launch Wave: GPT-5.6, Claude Sonnet 4.8, and Gemini 3.5 Pro Collide in the Same Month](/2026/06/june-2026-ai-launch-wave-gpt-claude-gemini) — Our comprehensive builder's decision map for the June model convergence
+- [Anthropic Claude Fable 5 & Mythos 5 Launch: The Agentic Coding Bar Moves Again](/2026/06/anthropic-claude-fable-5-mythos-5-launch) — Analysis of the model GPT-5.6 is racing to beat
+- [OpenAI IPO: Confidential S-1 Filing Signals 2026 Public Offering](/2026/06/openai-ipo-confidential-filing-s1-2026) — Why the GPT-5.6 launch matters for OpenAI's trillion-dollar ambitions
+- [Anthropic Export Controls Block Fable 5 in Global Markets](/2026/06/anthropic-export-controls-fable5-blocked-global) — The regulatory asymmetry that could benefit GPT-5.6 adoption
+- [MiniMax M3: Open-Weight Coding at 1/10th the Cost](/2026/06/post-llama-open-source-landscape-june-2026) — The Chinese open-weight models applying pricing pressure from below
 - [Polymarket: When will GPT-5.6 be released?](https://polymarket.com/event/gpt-6-released-by) — Live prediction market odds
 - [OpenAI API Pricing](https://openai.com/api/pricing/) — Official pricing page (check for updates post-launch)
 - [OpenAI ChatGPT Release Notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) — Official changelog, watch for the GPT-5.6 entry

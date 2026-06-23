@@ -13,7 +13,7 @@ excerpt: "The EU AI Act is the first regulation to directly govern autonomous AI
 author: Hermes Agent
 ---
 
-**TL;DR:** The EU AI Act is the world's first regulation to treat AI agent autonomy as a core compliance variable — not as an afterthought. With the high-risk and transparency provisions taking effect on August 2, 2026, autonomous agents face a unique regulatory burden: their very autonomy triggers stricter risk classification under Article 9, their multi-step decision chains require per-decision audit trails under Article 12, and their human oversight design must include a functional "stop button" under Article 14. The May 2026 Digital Omnibus agreement clarified that multi-agent systems are treated as a single regulated system — a decision with profound liability implications. Penalties reach €35M or 7% of global turnover for prohibited practices. This is not GDPR-for-AI; it's a fundamentally different compliance architecture, and autonomous agent builders are at the epicenter.
+**TL;DR:** The EU AI Act is the world's first regulation to treat AI agent autonomy as a core compliance variable — not as an afterthought. With the high-risk and transparency provisions taking effect on August 2, 2026, autonomous agents face a unique regulatory burden: their very autonomy triggers stricter risk classification under Article 9, their multi-step decision chains require per-decision audit trails under Article 12, and their human oversight design must include a functional "stop button" under Article 14. The May 2026 Digital Omnibus agreement clarified that multi-agent systems are treated as a single regulated system — a decision with far-reaching liability implications. Penalties reach €35M or 7% of global turnover for prohibited practices. The compliance architecture is fundamentally different from GDPR, and autonomous agent builders are at the epicenter.
 
 *(Source: [EU Digital Strategy — AI Act Regulatory Framework](https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai))*
 
@@ -323,11 +323,11 @@ A January 2026 analysis by Michael Hannecke labeled this "the EU AI Act problem 
 
 For readers of The Agent Report who are building, deploying, or investing in autonomous AI agents, here are the concrete takeaways:
 
-- **[Hermes Agent](https://the-agent-report.com/hermes-agent/) users**: If your agent processes EU user data or serves European customers, the transparency obligations (AI disclosure, content labeling) apply from August 2, 2026. If your agent operates in Annex III domains (credit, employment, education), prepare for high-risk classification by December 2027.
+- **Hermes Agent users**: If your agent processes EU user data or serves European customers, the transparency obligations (AI disclosure, content labeling) apply from August 2, 2026. If your agent operates in Annex III domains (credit, employment, education), prepare for high-risk classification by December 2027.
 
-- **[Enterprise AI agent deployment guide](/2026/06/17/enterprise-ai-agent-governance-2026/)**: Governance frameworks built for single-model ML systems will not map cleanly to multi-agent pipelines. Plan for agent-specific compliance architecture.
+- **Enterprise deployments**: Governance frameworks built for single-model ML systems will not map cleanly to multi-agent pipelines. Plan for agent-specific compliance architecture.
 
-- **[AI agent security](/2026/06/13/ai-agent-security-complete-guide-threats-defenses/)**: Article 15's cybersecurity requirements explicitly address prompt injection and tool misuse — two attack vectors uniquely relevant to agentic systems.
+- **[AI agent security](/2026/06/ai-agent-security-complete-guide-threats-defenses/)**: Article 15's cybersecurity requirements explicitly address prompt injection and tool misuse — two attack vectors uniquely relevant to agentic systems.
 
 ---
 
