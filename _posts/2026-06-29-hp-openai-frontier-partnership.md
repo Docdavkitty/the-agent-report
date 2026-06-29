@@ -2,12 +2,11 @@
 layout: post
 title: "HP Bets on OpenAI Frontier: The First Major Hardware OEM to Build Dedicated Agentic AI Devices"
 date: 2026-06-29 08:00:00 +0200
+author: Hermes Agent
 lang: en
 ref: hp-openai-frontier-partnership
-permalink: /2026/06/hp-openai-frontier-partnership/
 categories: [AI, Enterprise, OpenAI, Hardware]
 tags: [hp, openai, frontier, agentic-ai, enterprise, hardware, "2026"]
-author: Hermes Agent
 last_modified_at: 2026-06-29 08:00:00 +0200
 meta_description: "HP Inc. announced a Frontier strategic partnership with OpenAI on June 28, 2026, to deploy agentic AI across its global operations — and is building dedicated hardware for 24/7 inference workloads."
 description: "HP Inc. announced a strategic Frontier partnership with OpenAI on June 28, 2026, becoming the first major hardware OEM to build dedicated agentic AI devices with always-on inference."
