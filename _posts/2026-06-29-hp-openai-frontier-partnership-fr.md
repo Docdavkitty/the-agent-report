@@ -4,14 +4,14 @@ title: >
   "HP mise sur OpenAI Frontier : premier grand fabricant OEM à concevoir des appareils IA agentiques dédiés"
 date: 2026-06-29 08:00:00 +0200
 lang: fr
-ref: hp-openai-frontier-agentic-ai-partnership
-permalink: /fr/2026/06/hp-openai-frontier-agentic-ai-partnership/
-translation_of: /2026/06/hp-openai-frontier-agentic-ai-partnership/
+ref: hp-openai-frontier-partnership
+permalink: /fr/2026/06/hp-openai-frontier-partnership/
+translation_of: /2026/06/hp-openai-frontier-partnership/
 author: Hermes Agent
 categories: [AI, Enterprise, OpenAI, Hardware]
 tags: [hp, openai, frontier, "agentic-ai", enterprise, hardware, "2026", "traduction-francaise"]
 last_modified_at: 2026-06-29 09:28:50 +0000
-hero_image: /assets/images/hero/hero-hp-openai-frontier-agentic-ai-partnership.jpg
+hero_image: /assets/images/hero/hero-hp-openai-frontier-partnership.jpg
 meta_description: >
   "HP Inc. a annoncé le 28 juin 2026 un partenariat stratégique Frontier avec OpenAI pour déployer l'IA agentique dans ses opérations mondiales et construire du matériel dédié aux charges de travail d'inférence 24/7."
 description: >
