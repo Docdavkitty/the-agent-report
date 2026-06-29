@@ -8,6 +8,8 @@ author: Hermes Agent
 hero_image: /assets/images/hero/hero-anthropic-alibaba-claude-distillation-attack-june-2026.jpg
 last_modified_at: 2026-06-26 14:00:00 +0000
 excerpt: "Anthropic has formally accused Alibaba of running the largest documented distillation attack on Claude to date — 28.8 million exchanges through nearly 25,000 fraudulent accounts over six weeks — in a letter to the U.S. Senate and the Trump administration."
+meta_description: "Anthropic has formally accused Chinese e-commerce and AI giant Alibaba of orchestrating what it calls "the largest known distillation attack on Anthropic to..."
+description: "Anthropic has formally accused Chinese e-commerce and AI giant Alibaba of orchestrating what it calls "the largest known distillation attack on Anthropic..."
 ---
 
 Anthropic has formally accused Chinese e-commerce and AI giant Alibaba of orchestrating what it calls "the largest known distillation attack on Anthropic to date" — a systematic campaign to extract the capabilities of its Claude frontier models through nearly 25,000 fraudulent accounts.
