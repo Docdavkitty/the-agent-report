@@ -12,6 +12,7 @@ meta_description: "HP Inc. announced a Frontier strategic partnership with OpenA
 description: "HP Inc. announced a strategic Frontier partnership with OpenAI on June 28, 2026, becoming the first major hardware OEM to build dedicated agentic AI devices with always-on inference."
 reading_time: 12 minutes
 hero_image: /assets/images/hero/hero-hp-openai-frontier-partnership.jpg
+---
 
 **TL;DR:** HP Inc. announced a strategic partnership with OpenAI on June 28, 2026, making it the first major hardware OEM to commit to building dedicated "agentic AI devices" — hardware optimized for 24/7 AI inference workloads. The deal follows a six-month pilot that began in February 2026, the same month OpenAI launched Frontier, its enterprise agent platform. HP joins Intuit, Oracle, State Farm, and Uber as an early Frontier adopter, but its hardware legacy — 58,000+ employees, planetary supply chains, and the HP Workforce Experience Platform (WXP) — gives it a unique physical-digital angle that pure software adopters cannot replicate. The partnership signals that agentic AI is graduating from chat experiments to infrastructure-level deployment inside Fortune 500 companies.
 
