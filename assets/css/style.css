@@ -491,6 +491,7 @@ img { max-width: 100%; height: auto; border-radius: var(--radius-sm); }
   border-radius: var(--radius-xs);
   flex-shrink: 0;
   background: var(--bg-hover);
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
