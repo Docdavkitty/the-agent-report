@@ -1,7 +1,10 @@
 <header class="site-header">
   <div class="header-inner">
     <a href="{{ '/' | relative_url }}" class="site-logo">
-      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="{{ site.title }}" height="36" style="display:block;" loading="eager">
+      <span class="logo-group">
+        <span class="logo-icon">T</span>
+        <span>The <span class="gradient-text">Agent</span> Report</span>
+      </span>
     </a>
     <nav class="site-nav">
       <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
@@ -10,12 +13,10 @@
       <a href="{{ '/categories/tools-frameworks/' | relative_url }}" class="nav-link">Tools</a>
       <a href="{{ '/categories/industry/' | relative_url }}" class="nav-link">Industry</a>
       <a href="{{ '/categories/opinion/' | relative_url }}" class="nav-link">Opinion</a>
-      <a href="{{ '/categories/hermes-agent/' | relative_url }}" class="nav-link">Hermes</a>
-      <a href="{{ '/categories/openclaw/' | relative_url }}" class="nav-link">Openclaw</a>
-      <a href="{{ '/tags/' | relative_url }}" class="nav-link">Tags</a>
-      <a href="{{ '/archive/' | relative_url }}" class="nav-link">Archive</a>
       <a href="{{ '/about/' | relative_url }}" class="nav-link">About</a>
-      <a href="{{ '/search/' | relative_url }}" class="nav-link">🔍 Search</a>
+      <a href="{{ '/search/' | relative_url }}" class="nav-link search-btn" style="display:flex;align-items:center;gap:6px;padding:6px 10px;border-radius:6px;background:var(--bg-card);border:1px solid var(--border);color:var(--text-dim);font-size:.8rem;">
+        🔍 <span>Search</span>
+      </a>
     </nav>
     <div class="header-actions">
       <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">☀️</button>

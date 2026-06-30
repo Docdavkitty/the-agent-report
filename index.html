@@ -2,266 +2,326 @@
 layout: default
 ---
 
-<h1 class="homepage-title">{{ site.title }} — AI Agent News &amp; Magazine</h1>
-<style>.homepage-title{font-size:1.8rem;text-align:center;margin:32px 0 8px;font-weight:800;letter-spacing:-.5px;color:var(--text)}@media(max-width:600px){.homepage-title{font-size:1.4rem}}</style>
+{% assign en_posts = site.posts | where_exp: "post", "post.lang != 'fr'" %}
+{% assign hero_post = en_posts[0] %}
+{% assign side_posts = en_posts | slice: 1, 4 %}
 
-{% assign hero_post = site.posts[0] %}
-{% assign side_posts = site.posts | slice: 1, 3 %}
-
-<!-- ─── Newsletter Hero CTA ─── -->
-<section class="newsletter-hero">
-  <div class="newsletter-hero-content">
-    <h2>🏆 Join 1,000+ AI builders</h2>
-    <p>Get the <strong>top 3 AI Agent stories</strong> delivered every week — free, no spam, unsubscribe anytime.</p>
-    <form
-      action="https://buttondown.com/api/emails/embed-subscribe/theagentreport"
-      method="post"
-      target="_blank"
-      class="embeddable-buttondown-form newsletter-hero-form"
-    >
-      <input type="email" name="email" id="bd-email" placeholder="your@email.com" required class="newsletter-input hero-input">
-      <input type="submit" value="Subscribe Free →" class="hero-btn">
-    </form>
-    <p class="newsletter-hero-footnote">📬 Weekly digest · No spam · Built with Buttondown</p>
-  </div>
-</section>
-
-<!-- ─── Hero Section ─── -->
-<section class="hero-section">
-  <div class="hero-featured">
-    <a href="{{ hero_post.url | relative_url }}">
-      {% if hero_post.hero_image %}
-        {% include picture.html src=hero_post.hero_image alt=hero_post.title class="hero-featured-image" loading="eager" %}
-      {% else %}
-        <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="{{ hero_post.title }}" class="hero-featured-image" loading="eager">
-      {% endif %}
-    </a>
-    <div class="hero-featured-body">
-      {% for cat in hero_post.categories limit:1 %}
-        <a href="{{ '/categories/' | append: cat | slugify | relative_url }}" class="category-badge {{ cat | slugify }}">{{ cat | replace: '-', ' ' | capitalize }}</a>
-      {% endfor %}
-      <h2><a href="{{ hero_post.url | relative_url }}">{{ hero_post.title }}</a></h2>
-      <p>{{ hero_post.excerpt | strip_html | truncatewords: 30 }}</p>
-      <div class="post-meta" style="margin-top:12px;">
-        <time datetime="{{ hero_post.date | date_to_xmlschema }}">{{ hero_post.date | date: "%B %d, %Y" }}</time>
+<!-- ═══ HERO ═══ -->
+<section class="hero">
+  <div class="container" style="max-width:var(--max-width);margin:0 auto;padding:0 24px;">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="hero-badge">
+          <span class="pulse"></span>
+          🏆 Join 1,200+ AI builders
+        </div>
+        <h1 class="hero-title">
+          The <span class="gradient-text">Agent</span> Report<br>
+          AI Agent News &amp; Magazine
+        </h1>
+        <p class="hero-subtitle">
+          Get the <strong>top 3 AI Agent stories</strong> delivered every week — curated analysis on
+          agentic frameworks, tool use, autonomous systems, and the future of work.
+        </p>
+        <div class="hero-actions">
+          <form
+            action="https://buttondown.com/api/emails/embed-subscribe/theagentreport"
+            method="post"
+            target="_blank"
+            class="embeddable-buttondown-form hero-email-form"
+          >
+            <input type="email" name="email" id="bd-email" placeholder="your@email.com" required>
+            <button type="submit">Subscribe Free →</button>
+          </form>
+          <div class="hero-stat">
+            <strong>📬 Weekly digest</strong><br>
+            No spam · Built with Buttondown
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-card-mock">
+          <div class="hero-card-header">
+            <div class="hero-card-dots">
+              <span class="hero-card-dot r"></span>
+              <span class="hero-card-dot y"></span>
+              <span class="hero-card-dot g"></span>
+            </div>
+            <span class="hero-card-label">tar ~/latest</span>
+          </div>
+          <div class="hero-card-content">
+            {% for post in en_posts limit:4 %}
+            <div class="hero-card-item">
+              {% assign first_cat = post.categories | first | default: 'ai' %}
+              <span class="tag {{ first_cat | slugify }}">{{ first_cat | replace: '-', ' ' | capitalize }}</span>
+              <span class="title">{{ post.title | truncate: 45 }}</span>
+              <span class="time">{{ post.date | date: "%b %d" }}</span>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="hero-sidebar">
-    {% for post in side_posts %}
-      <a href="{{ post.url | relative_url }}" class="hero-side-article">
-        {% if post.hero_image %}
-          {% include picture.html src=post.hero_image alt=post.title class="hero-side-article-image" loading="lazy" %}
-        {% else %}
-          <img src="{{ '/assets/images/placeholder.svg' | relative_url }}" alt="{{ post.title }}" class="hero-side-article-image" loading="lazy">
-        {% endif %}
-        <div class="hero-side-article-body">
-          <span class="category-badge" style="font-size:.65rem;padding:2px 8px;margin-bottom:6px;display:inline-block;">
-            {% for cat in post.categories limit:1 %}{{ cat | replace: '-', ' ' | capitalize }}{% endfor %}
-          </span>
-          <h3>{{ post.title }}</h3>
-          <span class="article-date">{{ post.date | date: "%b %d, %Y" }}</span>
-        </div>
-      </a>
-    {% endfor %}
-  </div>
 </section>
 
-<!-- ─── Latest Section ─── -->
-<section class="category-section">
+<main class="main-content">
+
+  <!-- ═══ FEATURED STORIES ═══ -->
+  <div class="featured-section">
+    <article class="featured-main">
+      <a href="{{ hero_post.url | relative_url }}">
+        {% if hero_post.hero_image %}
+          {% include picture.html src=hero_post.hero_image alt=hero_post.title class="featured-main-image" loading="eager" %}
+        {% else %}
+          <div class="featured-main-image">
+            <div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:4rem;color:var(--text-dim);">🧠</div>
+          </div>
+        {% endif %}
+      </a>
+      <div class="featured-main-body">
+        {% for cat in hero_post.categories limit:1 %}
+          <a href="{{ '/categories/' | append: cat | slugify | relative_url }}" class="category-badge {{ cat | slugify }}"><span class="dot"></span>{{ cat | replace: '-', ' ' | capitalize }}</a>
+        {% endfor %}
+        <h2><a href="{{ hero_post.url | relative_url }}">{{ hero_post.title }}</a></h2>
+        <p>{{ hero_post.excerpt | strip_html | truncatewords: 30 }}</p>
+        <div class="featured-main-meta">
+          <div class="author">
+            <div class="author-avatar">T</div>
+            <span class="author-name">The Agent Report</span>
+          </div>
+          {% if hero_post.reading_time %}<span class="reading-time">📖 {{ hero_post.reading_time }} min read</span>{% endif %}
+          <span class="reading-time">{{ hero_post.date | date: "%b %d, %Y" }}</span>
+        </div>
+      </div>
+    </article>
+
+    <div class="featured-sidebar">
+      {% for post in side_posts %}
+        <a href="{{ post.url | relative_url }}" class="featured-side-item">
+          <div class="featured-side-thumb">
+            {% assign cat_emojis = "research:🔬|tools-frameworks:🛠️|industry:🏢|opinion:💭|hermes-agent:🤖|openclaw:🦀" | split: "|" %}
+            {% assign first_cat = post.categories | first | default: 'ai' %}
+            {% assign emoji = '📄' %}
+            {% for pair in cat_emojis %}
+              {% assign parts = pair | split: ':' %}
+              {% if parts[0] == first_cat %}{% assign emoji = parts[1] %}{% endif %}
+            {% endfor %}
+            {{ emoji }}
+          </div>
+          <div class="featured-side-body">
+            {% for cat in post.categories limit:1 %}
+              <div class="item-cat">{{ cat | replace: '-', ' ' | capitalize }}</div>
+            {% endfor %}
+            <h3>{{ post.title }}</h3>
+            <div class="item-time">{{ post.date | date: "%b %d, %Y" }}{% if post.reading_time %} · {{ post.reading_time }} min read{% endif %}</div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- ═══ LATEST IN AI AGENTS ═══ -->
   <div class="section-header">
     <h2>⚡ Latest in AI Agents</h2>
     <a href="{{ '/latest/' | relative_url }}" class="section-link">View all →</a>
   </div>
-  <div class="post-grid">
-    {% for post in site.posts offset:4 limit:6 %}
-      <article class="post-card">
-        {% if post.hero_image %}
-          {% include picture.html src=post.hero_image alt=post.title class="post-card-image" loading="lazy" %}
-        {% endif %}
-        <div class="post-card-body">
-          <div class="post-card-meta">
-            {% for cat in post.categories limit:1 %}
-              <span class="category-badge {{ cat | slugify }}" style="font-size:.65rem;padding:2px 8px;">{{ cat | replace: '-', ' ' | capitalize }}</span>
+
+  <div class="bento-grid">
+    {% assign latest_posts = en_posts | slice: 0, 7 %}
+    {% for post in latest_posts %}
+      {% if forloop.first %}
+        <article class="bento-card featured-card">
+          {% if post.hero_image %}
+            {% include picture.html src=post.hero_image alt=post.title class="bento-card-image" loading="lazy" %}
+          {% else %}
+            <div class="bento-card-image" style="display:flex;align-items:center;justify-content:center;font-size:3rem;color:var(--text-dim);">🧠</div>
+          {% endif %}
+          <div class="bento-card-body">
+            <div class="bento-card-meta">
+              {% for cat in post.categories limit:1 %}
+                <span class="category-badge {{ cat | slugify }}"><span class="dot"></span>{{ cat | replace: '-', ' ' | capitalize }}</span>
+              {% endfor %}
+              <span>{{ post.date | date: "%b %d" }}</span>
+            </div>
+            <h3 class="bento-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="bento-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 22 }}</p>
+            <div class="bento-card-footer">
+              {% if post.reading_time %}<span class="read-time">{{ post.reading_time }} min read</span>{% endif %}
+              <a href="{{ post.url | relative_url }}" class="read-link">Read more →</a>
+            </div>
+          </div>
+        </article>
+      {% else %}
+        <article class="bento-card">
+          {% if post.hero_image %}
+            {% include picture.html src=post.hero_image alt=post.title class="bento-card-image" loading="lazy" %}
+          {% else %}
+            {% assign cat_icons = "research:🔬|tools-frameworks:🛠️|industry:🏢|opinion:💭|hermes-agent:🤖|openclaw:🦀" | split: "|" %}
+            {% assign first_cat = post.categories | first | default: 'ai' %}
+            {% assign icon = '📄' %}
+            {% for pair in cat_icons %}
+              {% assign parts = pair | split: ':' %}
+              {% if parts[0] == first_cat %}{% assign icon = parts[1] %}{% endif %}
             {% endfor %}
-            <span style="margin-left:8px;">{{ post.date | date: "%b %d, %Y" }}</span>
+            <div class="bento-card-image" style="display:flex;align-items:center;justify-content:center;font-size:2.5rem;color:var(--text-dim);">{{ icon }}</div>
+          {% endif %}
+          <div class="bento-card-body">
+            <div class="bento-card-meta">
+              {% for cat in post.categories limit:1 %}
+                <span class="category-badge {{ cat | slugify }}"><span class="dot"></span>{{ cat | replace: '-', ' ' | capitalize }}</span>
+              {% endfor %}
+              <span>{{ post.date | date: "%b %d" }}</span>
+            </div>
+            <h3 class="bento-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="bento-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
+            <div class="bento-card-footer">
+              {% if post.reading_time %}<span class="read-time">{{ post.reading_time }} min read</span>{% endif %}
+              <a href="{{ post.url | relative_url }}" class="read-link">Read more →</a>
+            </div>
           </div>
-          <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <div class="read-more-row">
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
-          </div>
-        </div>
-      </article>
+        </article>
+      {% endif %}
     {% endfor %}
   </div>
-</section>
 
-<!-- ─── Research Section ─── -->
-{% assign research_posts = site.categories.research %}
-{% if research_posts.size > 0 %}
-<section class="category-section">
-  <div class="section-header">
-    <h2>🔬 Research</h2>
-    <a href="{{ '/categories/research/' | relative_url }}" class="section-link">All research →</a>
-  </div>
-  <div class="post-grid">
-    {% for post in research_posts limit:3 %}
-      <article class="post-card">
-        <div class="post-card-body">
-          <div class="post-card-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-          </div>
-          <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <div class="read-more-row">
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
-          </div>
+  <!-- ═══ CATEGORY SECTIONS ═══ -->
+  {% assign cat_research = site.categories.research | where_exp: "item", "item.lang != 'fr'" %}{% if cat_research.size > 0 %}
+  <section class="category-section" style="margin-bottom:48px;padding-top:8px;">
+    <div class="section-header">
+      <h2>🔬 Research</h2>
+      <a href="{{ '/categories/research/' | relative_url }}" class="section-link">All research →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+      {% for post in cat_research limit:3 %}
+      <article style="padding:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);transition:all .2s;">
+        <div style="margin-bottom:8px;font-size:.75rem;color:var(--text-dim);"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></div>
+        <h3 style="font-size:.95rem;font-weight:600;line-height:1.35;margin-bottom:8px;"><a href="{{ post.url | relative_url }}" style="color:var(--text);">{{ post.title }}</a></h3>
+        <p style="font-size:.82rem;color:var(--text-muted);line-height:1.5;">{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
+        <div style="margin-top:12px;display:flex;align-items:center;justify-content:space-between;">
+          <a href="{{ post.url | relative_url }}" style="font-size:.82rem;font-weight:600;color:var(--accent-violet);">Read more →</a>
+          {% if post.reading_time %}<span style="font-size:.72rem;color:var(--text-dim);">{{ post.reading_time }} min read</span>{% endif %}
         </div>
       </article>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
-<!-- ─── Tools & Frameworks Section ─── -->
-{% assign tools_posts = site.categories['tools-frameworks'] %}
-{% if tools_posts.size > 0 %}
-<section class="category-section">
-  <div class="section-header">
-    <h2>🛠️ Tools & Frameworks</h2>
-    <a href="{{ '/categories/tools-frameworks/' | relative_url }}" class="section-link">All tools →</a>
-  </div>
-  <div class="post-grid">
-    {% for post in tools_posts limit:3 %}
-      <article class="post-card">
-        <div class="post-card-body">
-          <div class="post-card-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-          </div>
-          <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <div class="read-more-row">
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
-          </div>
+  {% assign cat_tools = site.categories['tools-frameworks'] | where_exp: "item", "item.lang != 'fr'" %}{% if cat_tools.size > 0 %}
+  <section class="category-section" style="margin-bottom:48px;padding-top:8px;">
+    <div class="section-header">
+      <h2>🛠️ Tools &amp; Frameworks</h2>
+      <a href="{{ '/categories/tools-frameworks/' | relative_url }}" class="section-link">All tools →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+      {% for post in cat_tools limit:3 %}<article style="padding:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);transition:all .2s;">
+        <div style="margin-bottom:8px;font-size:.75rem;color:var(--text-dim);"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></div>
+        <h3 style="font-size:.95rem;font-weight:600;line-height:1.35;margin-bottom:8px;"><a href="{{ post.url | relative_url }}" style="color:var(--text);">{{ post.title }}</a></h3>
+        <p style="font-size:.82rem;color:var(--text-muted);line-height:1.5;">{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
+        <div style="margin-top:12px;display:flex;align-items:center;justify-content:space-between;">
+          <a href="{{ post.url | relative_url }}" style="font-size:.82rem;font-weight:600;color:var(--accent-violet);">Read more →</a>
+          {% if post.reading_time %}<span style="font-size:.72rem;color:var(--text-dim);">{{ post.reading_time }} min read</span>{% endif %}
         </div>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
+      </article>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
-<!-- ─── Industry Section ─── -->
-{% assign industry_posts = site.categories.industry %}
-{% if industry_posts.size > 0 %}
-<section class="category-section">
-  <div class="section-header">
-    <h2>🏢 Industry</h2>
-    <a href="{{ '/categories/industry/' | relative_url }}" class="section-link">All industry →</a>
-  </div>
-  <div class="post-grid">
-    {% for post in industry_posts limit:3 %}
-      <article class="post-card">
-        <div class="post-card-body">
-          <div class="post-card-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-          </div>
-          <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <div class="read-more-row">
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
-          </div>
+  {% assign cat_industry = site.categories.industry | where_exp: "item", "item.lang != 'fr'" %}{% if cat_industry.size > 0 %}
+  <section class="category-section" style="margin-bottom:48px;padding-top:8px;">
+    <div class="section-header">
+      <h2>🏢 Industry</h2>
+      <a href="{{ '/categories/industry/' | relative_url }}" class="section-link">All industry →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+      {% for post in cat_industry limit:3 %}<article style="padding:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);transition:all .2s;">
+        <div style="margin-bottom:8px;font-size:.75rem;color:var(--text-dim);"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></div>
+        <h3 style="font-size:.95rem;font-weight:600;line-height:1.35;margin-bottom:8px;"><a href="{{ post.url | relative_url }}" style="color:var(--text);">{{ post.title }}</a></h3>
+        <p style="font-size:.82rem;color:var(--text-muted);line-height:1.5;">{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
+        <div style="margin-top:12px;display:flex;align-items:center;justify-content:space-between;">
+          <a href="{{ post.url | relative_url }}" style="font-size:.82rem;font-weight:600;color:var(--accent-violet);">Read more →</a>
+          {% if post.reading_time %}<span style="font-size:.72rem;color:var(--text-dim);">{{ post.reading_time }} min read</span>{% endif %}
         </div>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
+      </article>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
-<!-- ─── Hermes Agent Section ─── -->
-{% assign hermes_posts = site.categories['hermes-agent'] %}
-{% if hermes_posts.size > 0 %}
-<section class="category-section">
-  <div class="section-header">
-    <h2>🤖 Hermes Agent</h2>
-    <a href="{{ '/categories/hermes-agent/' | relative_url }}" class="section-link">All Hermes →</a>
-  </div>
-  <div class="post-grid">
-    {% for post in hermes_posts limit:3 %}
-      <article class="post-card">
-        <div class="post-card-body">
-          <div class="post-card-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-          </div>
-          <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <div class="read-more-row">
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
-          </div>
+  {% assign cat_hermes = site.categories['hermes-agent'] | where_exp: "item", "item.lang != 'fr'" %}{% if cat_hermes.size > 0 %}
+  <section class="category-section" style="margin-bottom:48px;padding-top:8px;">
+    <div class="section-header">
+      <h2>🤖 Hermes Agent</h2>
+      <a href="{{ '/categories/hermes-agent/' | relative_url }}" class="section-link">All Hermes →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+      {% for post in cat_hermes limit:3 %}<article style="padding:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);transition:all .2s;">
+        <div style="margin-bottom:8px;font-size:.75rem;color:var(--text-dim);"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></div>
+        <h3 style="font-size:.95rem;font-weight:600;line-height:1.35;margin-bottom:8px;"><a href="{{ post.url | relative_url }}" style="color:var(--text);">{{ post.title }}</a></h3>
+        <p style="font-size:.82rem;color:var(--text-muted);line-height:1.5;">{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
+        <div style="margin-top:12px;display:flex;align-items:center;justify-content:space-between;">
+          <a href="{{ post.url | relative_url }}" style="font-size:.82rem;font-weight:600;color:var(--accent-violet);">Read more →</a>
+          {% if post.reading_time %}<span style="font-size:.72rem;color:var(--text-dim);">{{ post.reading_time }} min read</span>{% endif %}
         </div>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
+      </article>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
-<!-- ─── Openclaw Section ─── -->
-{% assign openclaw_posts = site.categories.openclaw %}
-{% if openclaw_posts.size > 0 %}
-<section class="category-section">
-  <div class="section-header">
-    <h2>🦀 Openclaw</h2>
-    <a href="{{ '/categories/openclaw/' | relative_url }}" class="section-link">All Openclaw →</a>
-  </div>
-  <div class="post-grid">
-    {% for post in openclaw_posts limit:3 %}
-      <article class="post-card">
-        <div class="post-card-body">
-          <div class="post-card-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-          </div>
-          <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <div class="read-more-row">
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
-          </div>
+  {% assign cat_openclaw = site.categories.openclaw | where_exp: "item", "item.lang != 'fr'" %}{% if cat_openclaw.size > 0 %}
+  <section class="category-section" style="margin-bottom:48px;padding-top:8px;">
+    <div class="section-header">
+      <h2>🦀 Openclaw</h2>
+      <a href="{{ '/categories/openclaw/' | relative_url }}" class="section-link">All Openclaw →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+      {% for post in cat_openclaw limit:3 %}<article style="padding:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);transition:all .2s;">
+        <div style="margin-bottom:8px;font-size:.75rem;color:var(--text-dim);"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></div>
+        <h3 style="font-size:.95rem;font-weight:600;line-height:1.35;margin-bottom:8px;"><a href="{{ post.url | relative_url }}" style="color:var(--text);">{{ post.title }}</a></h3>
+        <p style="font-size:.82rem;color:var(--text-muted);line-height:1.5;">{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
+        <div style="margin-top:12px;display:flex;align-items:center;justify-content:space-between;">
+          <a href="{{ post.url | relative_url }}" style="font-size:.82rem;font-weight:600;color:var(--accent-violet);">Read more →</a>
+          {% if post.reading_time %}<span style="font-size:.72rem;color:var(--text-dim);">{{ post.reading_time }} min read</span>{% endif %}
         </div>
-      </article>
-    {% endfor %}
-  </div>
-</section>
-{% endif %}
+      </article>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
 
-<!-- ─── Opinion Section ─── -->
-{% assign opinion_posts = site.categories.opinion %}
-{% if opinion_posts.size > 0 %}
-<section class="category-section">
-  <div class="section-header">
-    <h2>💭 Opinion</h2>
-    <a href="{{ '/categories/opinion/' | relative_url }}" class="section-link">All opinion →</a>
-  </div>
-  <div class="post-grid">
-    {% for post in opinion_posts limit:3 %}
-      <article class="post-card">
-        <div class="post-card-body">
-          <div class="post-card-meta">
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time>
-          </div>
-          <h2 class="post-card-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-          <p class="post-card-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
-          <div class="read-more-row">
-            <a href="{{ post.url | relative_url }}" class="read-more">Read more →</a>
-            {% if post.reading_time %}<span class="card-reading-time">{{ post.reading_time }} min read</span>{% endif %}
-          </div>
+  {% assign cat_opinion = site.categories.opinion | where_exp: "item", "item.lang != 'fr'" %}{% if cat_opinion.size > 0 %}
+  <section class="category-section" style="margin-bottom:48px;padding-top:8px;">
+    <div class="section-header">
+      <h2>💭 Opinion</h2>
+      <a href="{{ '/categories/opinion/' | relative_url }}" class="section-link">All opinion →</a>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px;">
+      {% for post in cat_opinion limit:3 %}<article style="padding:16px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-sm);transition:all .2s;">
+        <div style="margin-bottom:8px;font-size:.75rem;color:var(--text-dim);"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %d, %Y" }}</time></div>
+        <h3 style="font-size:.95rem;font-weight:600;line-height:1.35;margin-bottom:8px;"><a href="{{ post.url | relative_url }}" style="color:var(--text);">{{ post.title }}</a></h3>
+        <p style="font-size:.82rem;color:var(--text-muted);line-height:1.5;">{{ post.excerpt | strip_html | truncatewords: 18 }}</p>
+        <div style="margin-top:12px;display:flex;align-items:center;justify-content:space-between;">
+          <a href="{{ post.url | relative_url }}" style="font-size:.82rem;font-weight:600;color:var(--accent-violet);">Read more →</a>
+          {% if post.reading_time %}<span style="font-size:.72rem;color:var(--text-dim);">{{ post.reading_time }} min read</span>{% endif %}
         </div>
-      </article>
-    {% endfor %}
+      </article>{% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- ═══ NEWSLETTER CTA ═══ -->
+  <div class="newsletter-cta">
+    <h2>🏆 Join <span class="gradient-text">1,200+</span> AI Builders</h2>
+    <p>Get the top 3 AI Agent stories delivered every week — free, no spam, unsubscribe anytime.</p>
+    <form
+      action="https://buttondown.com/api/emails/embed-subscribe/theagentreport"
+      method="post"
+      target="_blank"
+      class="embeddable-buttondown-form hero-email-form"
+    >
+      <input type="email" name="email" id="bd-footer-email" placeholder="your@email.com" required>
+      <button type="submit">Subscribe Free →</button>
+    </form>
+    <p class="footnote">📬 Weekly digest · No spam · Built with Buttondown</p>
   </div>
-</section>
-{% endif %}
+
+</main>

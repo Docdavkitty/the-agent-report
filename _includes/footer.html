@@ -1,47 +1,70 @@
 <footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="{{ site.title }}" height="40" style="display:block;margin-bottom:8px;" loading="lazy">
-      <p class="footer-tagline">{{ site.tagline }}</p>
-    </div>
-    <div class="footer-links">
+  <div class="container" style="max-width:var(--max-width);margin:0 auto;padding:0 24px;">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo-group" style="display:flex;align-items:center;gap:10px;margin-bottom:12px;">
+          <span class="logo-icon" style="width:32px;height:32px;border-radius:8px;background:var(--accent-gradient);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:800;color:#fff;">T</span>
+          <span style="font-size:1.1rem;font-weight:700;color:var(--text);">The <span style="background:var(--accent-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Agent</span> Report</span>
+        </div>
+        <p class="footer-desc">
+          Your daily digest on AI Agents, tools, and autonomous systems. Curated analysis for builders, researchers, and decision-makers.
+        </p>
+        <div class="footer-social">
+          <a href="https://x.com/TheAgentReport" target="_blank" rel="noopener" title="Twitter">𝕏</a>
+          <a href="https://www.linkedin.com/company/the-agent-report" target="_blank" rel="noopener" title="LinkedIn">in</a>
+          <a href="https://reddit.com/r/AI_Agents" target="_blank" rel="noopener" title="Reddit">R</a>
+          <a href="{{ '/feed.xml' | relative_url }}" target="_blank" rel="noopener" title="RSS Feed">📡</a>
+        </div>
+      </div>
       <div class="footer-col">
         <h4>Sections</h4>
         <a href="{{ '/categories/research/' | relative_url }}">Research</a>
-        <a href="{{ '/categories/tools-frameworks/' | relative_url }}">Tools & Frameworks</a>
+        <a href="{{ '/categories/tools-frameworks/' | relative_url }}">Tools &amp; Frameworks</a>
         <a href="{{ '/categories/industry/' | relative_url }}">Industry</a>
         <a href="{{ '/categories/opinion/' | relative_url }}">Opinion</a>
+        <a href="{{ '/archive/' | relative_url }}">Archive</a>
       </div>
       <div class="footer-col">
         <h4>Community</h4>
         <a href="{{ '/categories/hermes-agent/' | relative_url }}">Hermes Agent</a>
         <a href="{{ '/categories/openclaw/' | relative_url }}">Openclaw</a>
+      </div>
+      <div class="footer-col">
         <h4>About</h4>
-        <a href="{{ '/about/' | relative_url }}">About The Agent Report</a>
-        <a href="{{ '/latest/' | relative_url }}">All Articles</a>
-        <a href="{{ '/tags/' | relative_url }}">Tags</a>
-        <a href="{{ '/archive/' | relative_url }}">Archive</a>
+        <a href="{{ '/about/' | relative_url }}">About TAR</a>
         <a href="mailto:davidpariente+agentiareport@gmail.com">Contact</a>
+        <a href="{{ '/tags/' | relative_url }}">Tags</a>
         <a href="{{ '/feed.xml' | relative_url }}" target="_blank" rel="noopener">📡 RSS Feed</a>
       </div>
-      <div class="footer-col newsletter-col">
+      <div class="footer-col footer-newsletter">
         <h4>📬 Newsletter</h4>
-        <p style="color:var(--text-muted);font-size:.82rem;margin-bottom:12px;line-height:1.5;">
-          Get the latest AI Agent news delivered to your inbox.
-        </p>
+        <p class="footer-desc" style="margin-bottom:12px;">Get the latest AI Agent news delivered to your inbox.</p>
         <form
           action="https://buttondown.com/api/emails/embed-subscribe/theagentreport"
           method="post"
           target="_blank"
-          class="embeddable-buttondown-form"
+          class="embeddable-buttondown-form newsletter-mini"
         >
-          <input type="email" name="email" id="bd-email" placeholder="your@email.com" required class="newsletter-input" aria-label="Email for newsletter">
-          <input type="submit" value="Subscribe" class="newsletter-btn">
+          <input type="email" name="email" id="bd-email" placeholder="your@email.com" required aria-label="Email for newsletter">
+          <button type="submit">→</button>
         </form>
+        <div class="tag-cloud">
+          <span class="tag-item">#AI</span>
+          <span class="tag-item">#LLM</span>
+          <span class="tag-item">#Agents</span>
+          <span class="tag-item">#Frameworks</span>
+          <span class="tag-item">#Tools</span>
+          <span class="tag-item">#Autonomous</span>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="footer-bottom">
-    <p>&copy; {{ site.time | date: '%Y' }} The Agent Report. Published with Jekyll on GitHub Pages.</p>
+    <div class="footer-bottom">
+      <p>&copy; {{ site.time | date: '%Y' }} The Agent Report. Published with Jekyll on GitHub Pages.</p>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+      </div>
+    </div>
   </div>
 </footer>
