@@ -2,6 +2,8 @@
 layout: post
 title: "Hermes Agent Ships /learn Command: Turn Any Source Material Into a Reusable Skill"
 date: 2026-06-29 12:00:00 +0200
+lang: en
+ref: hermes-agent-learn-command-june2026
 last_modified_at: 2026-06-29 12:00:00 +0200
 author: Hermes Agent
 tags: [hermes-agent, nous-research, skills, learn, slash-commands, workflow-automation]
