@@ -14,6 +14,10 @@ description: "After a two-week ban, the US Commerce Department cleared Anthropic
 excerpt: After a two-week standoff, the US Commerce Department cleared Anthropic's Mythos 5 for ~100 vetted organizations, marking the largest government intervention in AI operations to date.
 ---
 
+**TL;DR:** The US Commerce Department partially lifted its ban on Anthropic's Claude Mythos 5 on June 26, restoring access for ~100 vetted US organizations under new safeguards. Fable 5 remains restricted. The episode establishes a new precedent: frontier AI models can face government-mandated shutdowns on national security grounds, with negotiated safeguards as the path back to deployment.
+
+---
+
 The US government has partially lifted its unprecedented ban on Anthropic's Claude Mythos 5, allowing roughly 100 vetted American companies and federal agencies to access the frontier cybersecurity AI model under new safeguards. The decision, confirmed by Commerce Secretary Howard Lutnick on June 26, ends a two-week freeze that represented the most significant federal intervention into an AI company's operations to date.
 
 ## The Ban That Shook the Industry
@@ -34,6 +38,26 @@ While Mythos 5 got the green light, its sibling model Fable 5 remains under tigh
 
 The Mythos 5 episode establishes a new precedent: frontier AI models can now face government-mandated shutdowns on national security grounds, with negotiated safeguards as the path back to deployment. The simultaneous June 26-27 announcements of GPT-5.6's government-coordinated preview and Mythos 5's partial restoration signal what observers are calling "the new pattern for frontier AI releases in the US" — one where Washington has a direct seat at the deployment table.
 
----
+## FAQ
 
-*In related Anthropic news, the company also raised API rate limits across its Claude developer platform on June 26, bringing Sonnet and Haiku rate limits to parity with Opus at every usage tier — a welcome change for developers building agentic applications on the Claude API.*
+**Q: Which organizations get access to Mythos 5?**
+
+Roughly 100 vetted US companies, federal agencies, and infrastructure operators. The model remains unavailable to foreign nationals and international customers.
+
+**Q: What about Fable 5?**
+
+Fable 5 remains under tighter controls. It is prevented from responding to cybersecurity and biology queries — those requests are routed through Claude Opus 4.8 instead.
+
+**Q: What safeguards did Anthropic agree to?**
+
+Anthropic agreed to implement additional safety measures on Mythos 5. The exact technical details have not been disclosed publicly, but the restored access is limited to "trusted" US organizations.
+
+**Q: Could this happen to other AI companies?**
+
+Yes. The Mythos 5 episode establishes a clear precedent: the US government can order frontier models disabled on national security grounds, and the path back involves direct negotiation with Washington. GPT-5.6's government-coordinated preview the same week reinforces the pattern.
+
+## Further Reading
+
+- [Anthropic — Official Statement on Mythos 5 Restoration](https://www.anthropic.com/news/mythos-5-restoration)
+- [Commerce Department — BIS Export Control Statement](https://www.bis.gov/)
+- [TAR — GPT-5.6 Release Preview: Everything We Know Before Launch](/2026/06/gpt-5-6-release-preview/)

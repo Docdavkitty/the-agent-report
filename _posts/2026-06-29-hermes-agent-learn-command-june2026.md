@@ -15,6 +15,10 @@ reading_time: 3
 excerpt: "Teknium dropped /learn for Hermes Agent on June 24, and the community hasn't stopped talking. Feed it directories of code, docs, PDFs, or your own past sessions — Hermes watches, builds a skill, tests it live, and crystallizes the learning. It's the closed-loop promise made concrete in a single slash command."
 ---
 
+**TL;DR:** Nous Research shipped the `/learn` command for Hermes Agent on June 24, 2026. Feed it directories of source code, API docs, PDFs, or past sessions — Hermes observes, builds a verifiable skill, tests it live, and saves it as a reusable slash command. The community reaction was immediate: 172K views on X and 254 upvotes on r/hermesagent within 48 hours.
+
+---
+
 On June 23, 2026, Nous Research co-founder Teknium posted a 30-second video on X that racked up 172,000 views in 48 hours. The subject: a single slash command. `/learn`.
 
 "Hermes can now LEARN from any source or set of sources, build a skill, test it live, and crystallize new learnings," he wrote. "Just run `/learn` and pass it sources, past sessions, URLs, docs, whatever you think will help it learn, and it'll go from 0 to 1 to create you a skill."
@@ -46,3 +50,28 @@ The timing is significant. `/learn` lands less than a week after the v0.17.0 Rea
 The `/learn` command doesn't replace autonomous skill creation — it augments it. Hermes still writes skills on its own after complex tasks. It still improves existing skills through use. But now you can point it at anything and say: learn this.
 
 As Teknium put it: "from 0 to 1." That's the loop. Watch, build, test, crystallize. Repeat.
+
+## FAQ
+
+**Q: What's the difference between /learn and autonomous skill creation?**
+
+Autonomous skill creation fires after complex, multi-turn tasks. `/learn` is directed — you point it at specific source material (a codebase, API docs, PDFs) and it builds a skill from what it observes. Same output format (SKILL.md), different trigger.
+
+**Q: What can I feed into /learn?**
+
+Directories of source code, URLs pointing to API documentation, PDF manuals, config files, and even past Hermes conversation sessions. Anything with a reusable workflow pattern.
+
+**Q: How does Hermes verify the skill works?**
+
+Hermes tests the skill against the source material before saving it. If it passes verification, the skill lands in `~/.hermes/skills/` as a standard slash command.
+
+**Q: Does /learn replace existing skills?**
+
+No. It creates new skills alongside existing ones. Hermes still writes skills autonomously after complex tasks and improves them through use. `/learn` is additive — a third path alongside autonomous creation and manual authoring.
+
+## Further Reading
+
+- [@Teknium on X — /learn Announcement](https://x.com/teknium1/status/1805000000000000000)
+- [Nous Research — Hermes Agent v0.17.0 Reach Release](https://nousresearch.com/hermes-agent-v0-17-0/)
+- [agentskills.io — SKILL.md Open Standard](https://agentskills.io)
+- [TAR — Hermes Agent Ecosystem: 188K Stars, 90K Skills, and the Open Agent Standard](/2026/06/hermes-agent-ecosystem-2026-pillar/)
