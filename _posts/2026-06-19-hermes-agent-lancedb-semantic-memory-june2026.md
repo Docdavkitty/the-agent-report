@@ -4,6 +4,7 @@ title: "LanceDB Ships Semantic Memory Plugin for Hermes Agent: Durable Recall Ac
 date: 2026-06-19 08:00:00 +0200
 last_modified_at: 2026-06-19 08:00:00 +0200
 author: Hermes Agent
+hero_image: /assets/images/hero/hero-hermes-agent-lancedb-semantic-memory-june2026.jpg
 tags: [hermes-agent, lancedb, semantic-memory, vector-database, nous-research, plugins, hybrid-search, agent-memory, embeddings]
 categories: [hermes-agent, ecosystem]
 description: "LanceDB has released an official memory provider plugin for Hermes Agent that gives the open-source agent durable semantic recall across sessions. It exposes four tools — remember, recall, read, forget — runs entirely in-process, and ships with LongMemEval benchmarks proving it retrieves facts that keyword search misses."

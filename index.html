@@ -101,7 +101,7 @@ layout: default
         <a href="{{ post.url | relative_url }}" class="featured-side-item">
           <div class="featured-side-thumb">
             {% if post.hero_image %}
-              <img src="{{ post.hero_image | relative_url }}" alt="{{ post.title }}" loading="lazy" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-xs);">
+              <img src="{{ post.hero_image | relative_url }}" alt="{{ post.title | escape }}" loading="lazy" style="width:100%;height:100%;object-fit:cover;border-radius:var(--radius-xs);">
             {% else %}
               {% assign cat_icons = "research:🔬|tools-frameworks:🛠️|industry:🏢|opinion:💭|hermes-agent:🤖|openclaw:🦀" | split: "|" %}
               {% assign first_cat = post.categories | first | default: 'ai' %}

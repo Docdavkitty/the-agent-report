@@ -8,8 +8,9 @@ ref: hermes-agent-lancedb-semantic-memory-june2026
 permalink: /fr/2026/06/hermes-agent-lancedb-semantic-memory-june2026/
 translation_of: /2026/06/hermes-agent-lancedb-semantic-memory-june2026/
 author: Hermes Agent
-categories: ["hermes-agent", ecosystem]
-tags: ["hermes-agent", lancedb, "semantic-memory", "vector-database", "nous-research", plugins, "hybrid-search", "agent-memory", embeddings, "traduction-francaise"]
+hero_image: /assets/images/hero/hero-hermes-agent-lancedb-semantic-memory-june2026.jpg
+categories: [hermes-agent, ecosystem]
+tags: ["hermes-agent", "lancedb", "semantic-memory", "vector-database", "nous-research", "plugins", "hybrid-search", "agent-memory", "embeddings", "traduction-francaise"]
 last_modified_at: 2026-06-22 15:03:33 +0000
 meta_description: >
   "LanceDB a publié hermes-agent-memory, un plugin mémoire officiel pour Hermes Agent. Quatre outils (remember, recall, read, forget), recherche hybride vectorielle + BM25, extraction de faits résistant à la compression de contexte, installation en cinq minutes."

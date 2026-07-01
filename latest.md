@@ -14,7 +14,7 @@ permalink: /latest/
     {% for post in site.posts %}
       <a href="{{ post.url | relative_url }}" class="latest-item{% if forloop.index > 10 %} latest-hidden{% endif %}">
         {% if post.hero_image %}
-          <img src="{{ post.hero_image | relative_url }}" alt="{{ post.title }}" class="latest-item-image" loading="lazy">
+          <img src="{{ post.hero_image | relative_url }}" alt="{{ post.title | escape }}" class="latest-item-image" loading="lazy">
         {% endif %}
         <div class="latest-item-body">
           <div class="latest-item-meta">
@@ -23,7 +23,7 @@ permalink: /latest/
             {% endfor %}
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
           </div>
-          <h2>{{ post.title }}</h2>
+          <h2>{{ post.title | escape }}</h2>
           {% if post.reading_time %}<span class="card-reading-time" style="display:inline-block;margin-top:4px;">{{ post.reading_time }} min read</span>{% endif %}
           <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
         </div>

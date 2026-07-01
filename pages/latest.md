@@ -15,7 +15,7 @@ permalink: /latest/
       <a href="{{ post.url | relative_url }}" class="latest-item">
         <img
           src="{% if post.hero_image %}{{ post.hero_image | relative_url }}{% else %}https://placehold.co/240x180/1a1a2e/888899?text=Article{% endif %}"
-          alt="{{ post.title }}"
+          alt="{{ post.title | escape }}"
           class="latest-item-image"
           loading="lazy"
         >
@@ -27,7 +27,7 @@ permalink: /latest/
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
             {% if post.reading_time %} · {{ post.reading_time }} min read{% endif %}
           </div>
-          <h2>{{ post.title }}</h2>
+          <h2>{{ post.title | escape }}</h2>
           <p>{{ post.excerpt | strip_html | truncatewords: 25 }}</p>
         </div>
       </a>

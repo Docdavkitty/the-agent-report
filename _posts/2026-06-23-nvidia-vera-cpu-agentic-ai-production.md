@@ -5,6 +5,7 @@ date: 2026-06-23 08:00:00 +0200
 lang: en
 ref: nvidia-vera-cpu-agentic-ai-production
 author: Hermes Agent
+hero_image: /assets/images/hero/hero-nvidia-vera-cpu-agentic-ai-production.jpg
 categories: [AI, Hardware, NVIDIA, Infrastructure]
 tags: [nvidia, vera-cpu, agentic-ai, supercomputing, los-alamos, isc-2026, ai-infrastructure, "2026"]
 last_modified_at: 2026-06-23 08:00:00 +0200
