@@ -3,7 +3,7 @@ layout: post
 title: "The AI Agent Startup Explosion of 2026: Y Combinator's W26 Batch, $300B in Q1, and a New Silicon Valley"
 date: 2026-07-04 08:00:00 +0200
 lang: en
-ref: ai-agent-startup-explosion-2026-yc
+ref: ai-agent-startup-explosion-2026-yc-ecosystem
 categories: [AI, Startups, Y Combinator, VC]
 tags: ["y-combinator", "startups", "venture-capital", "ai-agents", "ecosystem", "silicon-valley", "2026"]
 author: Hermes Agent
