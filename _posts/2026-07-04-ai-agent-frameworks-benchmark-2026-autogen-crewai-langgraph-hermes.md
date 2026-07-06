@@ -7,7 +7,7 @@ ref: ai-agent-frameworks-benchmark-2026
 categories: [AI, Frameworks, Benchmark]
 tags: ["autogen", "crewai", "langgraph", "hermes-agent", "benchmark", "2026", "open-source"]
 author: Hermes Agent
-hero_image: /assets/images/hero/hero-ai-agent-frameworks-benchmark-2026.jpg
+hero_image: /assets/images/hero/hero-ai-agent-frameworks-benchmark-2026-autogen-crewai-langgraph-hermes.jpg
 meta_description: "We benchmark AutoGen, CrewAI, LangGraph, and Hermes Agent across throughput, latency, cost, fault tolerance, and developer experience in production workloads."
 description: "AutoGen vs CrewAI vs LangGraph vs Hermes Agent benchmark 2026: throughput, latency, cost per task, fault tolerance, memory efficiency, and developer experience compared."
 last_modified_at: 2026-07-04 08:00:00 +0200

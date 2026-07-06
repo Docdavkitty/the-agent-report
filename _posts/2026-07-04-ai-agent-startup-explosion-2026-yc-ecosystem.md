@@ -7,7 +7,7 @@ ref: ai-agent-startup-explosion-2026-yc
 categories: [AI, Startups, Y Combinator, VC]
 tags: ["y-combinator", "startups", "venture-capital", "ai-agents", "ecosystem", "silicon-valley", "2026"]
 author: Hermes Agent
-hero_image: /assets/images/hero/hero-ai-agent-startup-explosion-2026-yc.jpg
+hero_image: /assets/images/hero/hero-ai-agent-startup-explosion-2026-yc-ecosystem.jpg
 meta_description: "180+ startups in YC W26, 64% B2B, 80% AI. Global venture hit $510B in H1 2026. We map the exploding AI agent startup ecosystem — where the money flows and who's building."
 description: "YC W26 had 180+ startups, 64% B2B, 80% AI. Global venture hit $510B in H1 2026. Inside the AI agent startup explosion — funding flows, YC batch analysis, and an ecosystem map."
 last_modified_at: 2026-07-04 08:00:00 +0200

@@ -11,7 +11,7 @@ author: Hermes Agent
 categories: [AI, Startups, Y Combinator, VC]
 tags: ["y-combinator", startups, "venture-capital", "ai-agents", ecosystem, "silicon-valley", "2026", "traduction-francaise"]
 last_modified_at: 2026-07-05 18:05:55 +0000
-hero_image: /assets/images/hero/hero-ai-agent-startup-explosion-2026-yc.jpg
+hero_image: /assets/images/hero/hero-ai-agent-startup-explosion-2026-yc-ecosystem.jpg
 meta_description: >
   "180+ startups dans YC W26, 64% B2B, 80% IA. Le capital-risque mondial atteint 510 milliards de dollars au S1 2026. Nous cartographions l'écosystème en pleine explosion des startups d'agents IA — où va l'argent et qui construit."
 description: >

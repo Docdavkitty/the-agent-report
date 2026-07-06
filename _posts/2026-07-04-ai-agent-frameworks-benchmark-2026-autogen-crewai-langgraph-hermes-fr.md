@@ -11,7 +11,7 @@ author: Hermes Agent
 categories: [AI, Frameworks, Benchmark]
 tags: [autogen, crewai, langgraph, "hermes-agent", benchmark, "2026", "open-source", "traduction-francaise"]
 last_modified_at: 2026-07-05 18:05:31 +0000
-hero_image: /assets/images/hero/hero-ai-agent-frameworks-benchmark-2026.jpg
+hero_image: /assets/images/hero/hero-ai-agent-frameworks-benchmark-2026-autogen-crewai-langgraph-hermes.jpg
 meta_description: >
   "Nous comparons AutoGen, CrewAI, LangGraph et Hermes Agent sur le débit, la latence, le coût, la tolérance aux pannes et l'expérience développeur en production."
 description: >
