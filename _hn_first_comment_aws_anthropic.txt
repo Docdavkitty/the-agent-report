@@ -1,0 +1,33 @@
+═══════════════════════════════════════════════════════════════
+HN FIRST COMMENT — Thursday July 9, 2026 — 16h Paris (10h ET)
+═══════════════════════════════════════════════════════════════
+
+Article: https://the-agent-report.com/2026/07/aws-anthropic-ai-agent-marketplace-preview-july-2026/
+Title: "AWS × Anthropic AI Agent Marketplace: What We Know Before the July 15 Launch"
+
+═══════════════════════════════════════════════════════════════
+HN COMMENT (paste as first comment immediately after posting)
+═══════════════════════════════════════════════════════════════
+
+Context that's not in the article:
+
+The AWS marketplace is interesting not just because of the AWS×Anthropic relationship (AWS invested $4B, Trainium partnership), but because it signals a structural shift in how enterprise AI agents will be distributed.
+
+Three data points that frame this:
+
+1. OKX launched an AI agent marketplace last week with 150M users at $25B valuation — the first proof that agent marketplaces have real demand, not just hype
+2. Workday Agent Passport (June 4) and Coinbase MCP Stack are both building the same category: "app store for agents" — but on different platforms (HR, crypto, cloud)
+3. AWS is uniquely positioned because they already have the billing relationships with every enterprise. No new signup, no new auth flow — just "buy this agent through your existing AWS account"
+
+The article covers the July 15 launch details and compares all four marketplaces. TL;DR for HN: if AWS makes this work, cloud becomes the distribution layer for agents the way iOS became the distribution layer for apps, and Anthropic gets a pre-IPO distribution channel that competes directly with OpenAI's GPT Store.
+
+─────────── END OF HN COMMENT ───────────
+
+POSTING INSTRUCTIONS:
+- Navigate to https://news.ycombinator.com/submit
+- Title: AWS × Anthropic AI Agent Marketplace: What We Know Before the July 15 Launch
+- URL: https://the-agent-report.com/2026/07/aws-anthropic-ai-agent-marketplace-preview-july-2026/
+- AFTER submitting, navigate to the new post page
+- Post the comment above as the first comment
+
+Timing: Submit Thursday July 9 at 16:00 Paris (10:00 ET)

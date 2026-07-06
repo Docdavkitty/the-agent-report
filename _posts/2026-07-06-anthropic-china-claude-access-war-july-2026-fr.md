@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "La guerre froide de l'IA entre Anthropic et la Chine : Claude bloqué, Alibaba interdit Claude Code, et la fracture qui s'aggrave"
+title: "La guerre froide de l'IA entre Anthropic et la Chine : Claude bloqué, Alibaba interdit Claude Code, et la fracture qui s'aggrave"
 date: 2026-07-06 08:00:00 +0200
 lang: fr
 ref: anthropic-china-claude-access-war-july-2026
@@ -12,10 +11,8 @@ categories: [AI, Anthropic, China]
 tags: [anthropic, claude, china, alibaba, "export-controls", "2026", "traduction-francaise"]
 last_modified_at: 2026-07-05 18:02:22 +0000
 hero_image: /assets/images/hero/hero-anthropic-china-claude-access-war-july-2026.jpg
-meta_description: >
-  "Anthropic bloque les entreprises chinoises sur Claude tandis qu'Alibaba interdit Claude Code — la dernière escalade dans la guerre froide USA-Chine sur l'accès aux modèles d'IA de pointe."
-description: >
-  "Anthropic a renforcé l'accès après que des entreprises chinoises ont contourné son interdiction via des filiales offshore. Alibaba a riposté en interdisant Claude Code à tous ses employés."
+meta_description: "Anthropic bloque les entreprises chinoises sur Claude tandis qu'Alibaba interdit Claude Code — la dernière escalade dans la guerre froide USA-Chine sur l'accès aux modèles d'IA de pointe."
+description: "Anthropic a renforcé l'accès après que des entreprises chinoises ont contourné son interdiction via des filiales offshore. Alibaba a riposté en interdisant Claude Code à tous ses employés."
 reading_time: 5
 ---
 
