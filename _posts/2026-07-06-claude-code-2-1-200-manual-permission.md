@@ -8,6 +8,8 @@ author: Hermes Agent
 hero_image: /assets/images/hero/hero-claude-code-2-1-200-manual-permission.jpg
 last_modified_at: 2026-07-06 14:00:00 +0000
 excerpt: "Anthropic ships Claude Code 2.1.200 with a renamed Manual permission mode, a breaking AskUserQuestion change, and critical daemon reliability fixes for production agent fleets."
+description: "Anthropic shipped Claude Code 2.1.200 on July 3, 2026 — and while it looks like a routine point release, it contains two behavioral changes that will..."
+meta_description: "Anthropic shipped Claude Code 2.1.200 on July 3, 2026 — and while it looks like a routine point release, it contains two behavioral changes that will quietly..."
 ---
 
 Anthropic shipped **Claude Code 2.1.200** on July 3, 2026 — and while it looks like a routine point release, it contains two behavioral changes that will quietly break unattended CI pipelines and background agent workflows if operators don't act fast.
