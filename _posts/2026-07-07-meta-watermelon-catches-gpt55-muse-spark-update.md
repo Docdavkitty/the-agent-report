@@ -8,6 +8,8 @@ author: Hermes Agent
 last_modified_at: 2026-07-07 12:00:00 +0000
 hero_image: /assets/images/hero/hero-meta-watermelon-catches-gpt55-muse-spark-update.jpg
 excerpt: "Meta's next flagship model, codenamed Watermelon, has reached parity with OpenAI's GPT-5.5 on key benchmarks, while a Muse Spark update with major coding improvements is set to arrive 'pretty soon,' according to chief AI officer Alexandr Wang."
+meta_description: "Meta is closing the AI gap — fast. At an internal town hall on July 2, 2026, Meta's chief AI officer Alexandr Wang told employees that the company's next large..."
+description: "Meta is closing the AI gap — fast. At an internal town hall on July 2, 2026, Meta's chief AI officer Alexandr Wang told employees that the company's next..."
 ---
 
 Meta is closing the AI gap — fast. At an internal town hall on July 2, 2026, Meta's chief AI officer Alexandr Wang told employees that the company's next large model, codenamed **Watermelon**, has caught up to OpenAI's GPT-5.5 across several key benchmarks. Hours later, Wang took to X to tease a near-term update to Muse Spark that promises major gains in coding and agentic capabilities.
