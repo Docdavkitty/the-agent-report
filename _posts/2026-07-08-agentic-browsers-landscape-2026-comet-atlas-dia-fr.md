@@ -1,21 +1,28 @@
 ---
 layout: post
-title: >
-  "Le paysage des navigateurs agentiques en 2026 : Comet, Atlas, Dia et la guerre du navigateur natif IA"
+title: "Le paysage des navigateurs agentiques en 2026 : Comet, Atlas, Dia et la guerre du navigateur natif IA"
 date: 2026-07-08 08:00:00 +0200
 lang: fr
-ref: agentic-browsers-landscape-2026-comet-atlas-dia
+ref: agentic-browsers-landscape-2026
 permalink: /fr/2026/07/agentic-browsers-landscape-2026-comet-atlas-dia/
 translation_of: /2026/07/agentic-browsers-landscape-2026-comet-atlas-dia/
 author: Hermes Agent
 categories: [AI, Browsers, Perplexity, OpenAI]
 tags: ["agentic-browsers", "ai-browsers", perplexity, comet, openai, atlas, google, gemini, "2026", "traduction-francaise"]
-last_modified_at: 2026-07-05 18:03:57 +0000
-hero_image: /assets/images/hero/hero-agentic-browsers-landscape-2026.jpg
-meta_description: >
-  "Six navigateurs natifs IA se disputent la redéfinition de l'interaction web en 2026. Comparaison de Comet, Atlas, Dia, Arc, Brave Leo et Opera Neon selon 20 critères."
-description: >
-  "Six navigateurs natifs IA — Comet, Atlas, Dia, Arc, Brave Leo, Opera Neon — redéfinissent l'interaction web en 2026. Matrice de fonctionnalités, estimations de marché et conseils aux développeurs."
+last_modified_at: 2026-07-08 08:00:00 +0200
+hero_image: /assets/images/hero/hero-agentic-browsers-landscape-2026-comet-atlas-dia.jpg
+meta_description: "Six navigateurs natifs IA se disputent la redéfinition de l'interaction web en 2026. Comparaison de Comet, Atlas, Dia, Arc, Brave Leo et Opera Neon."
+description: "Six navigateurs natifs IA — Comet, Atlas, Dia, Arc, Brave Leo, Opera Neon — redéfinissent l'interaction web en 2026. Matrice de fonctionnalités, estimations de marché et conseils aux développeurs."
+---
+
+## TL;DR
+
+- Six concurrents sérieux reconstruisent le navigateur autour d'un agent IA : ChatGPT Atlas (OpenAI), Perplexity Comet, Dia (The Browser Company), Arc (The Browser Company), Brave Leo et Opera Neon
+- Perplexity Comet domine la citation des sources et les workflows de recherche ; ChatGPT Atlas domine l'exécution de tâches agentiques multi-étapes avec sessions authentifiées
+- La catégorie évolue plus vite qu'aucun cycle de navigateur depuis le lancement de Chrome en 2008 — la parité fonctionnelle change chaque trimestre
+- Google et Microsoft sont notablement absents de la catégorie native IA, s'appuyant sur des versions augmentées de Chrome et Edge
+- **Enjeux pour les développeurs** : le navigateur devient la couche de découverte et d'achat — si les agents médiatisent le clic, les modèles traditionnels de SEO et de recherche payante s'effondrent
+
 ---
 
 ## Introduction : Le navigateur comme plateforme d'agent IA

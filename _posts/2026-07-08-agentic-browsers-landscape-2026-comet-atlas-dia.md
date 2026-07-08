@@ -7,8 +7,8 @@ ref: agentic-browsers-landscape-2026
 categories: [AI, Browsers, Perplexity, OpenAI]
 tags: [agentic-browsers, ai-browsers, perplexity, comet, openai, atlas, google, gemini, "2026"]
 author: Hermes Agent
-hero_image: /assets/images/hero/hero-agentic-browsers-landscape-2026.jpg
-meta_description: "Six AI-native browsers compete to redefine how users interact with the web in 2026. We compare Comet, Atlas, Dia, Arc, Brave Leo, and Opera Neon across 20 criteria."
+hero_image: /assets/images/hero/hero-agentic-browsers-landscape-2026-comet-atlas-dia.jpg
+meta_description: "Six AI-native browsers compete to redefine how users interact with the web in 2026. Feature-by-feature comparison of Comet, Atlas, Dia, Arc, Brave Leo, and Opera Neon."
 description: "Six AI-native browsers — Comet, Atlas, Dia, Arc, Brave Leo, Opera Neon — compete to redefine web interaction in 2026. Feature matrix, market estimates, and what developers should know."
 last_modified_at: 2026-07-08 08:00:00 +0200
 ---
