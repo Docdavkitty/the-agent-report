@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "AWS × Anthropic Marketplace d'agents IA : Ce qu'on sait avant le lancement du 15 juillet"
+title: "AWS × Anthropic Marketplace d'agents IA : Ce qu'on sait avant le lancement du 15 juillet"
 date: 2026-07-09 08:00:00 +0200
 lang: fr
 ref: aws-anthropic-ai-agent-marketplace-preview-july-2026
@@ -11,12 +10,9 @@ author: Hermes Agent
 categories: [AI, AWS, Anthropic, Cloud]
 tags: [aws, anthropic, marketplace, "ai-agents", "cloud-computing", "2026", "traduction-francaise"]
 last_modified_at: 2026-07-05 18:04:57 +0000
-hero_image: >
-  /assets/images/hero/hero-aws-anthropic-ai-agent-marketplace-preview-july-2026.jpg
-meta_description: >
-  "AWS ouvre le 15 juillet un marketplace d'agents IA avec Anthropic, permettant aux startups de vendre leurs agents aux entreprises clientes d'AWS via un abonnement SaaS ou à l'usage."
-description: >
-  "AWS et Anthropic lancent le 15 juillet un marketplace d'agents IA, offrant aux développeurs tiers un nouveau canal de distribution vers les entreprises via un abonnement SaaS ou un paiement à l'usage."
+hero_image: /assets/images/hero/hero-aws-anthropic-ai-agent-marketplace-preview-july-2026.jpg
+meta_description: "AWS ouvre le 15 juillet un marketplace d'agents IA avec Anthropic, pour vendre des agents aux entreprises clientes d'AWS en SaaS ou à l'usage."
+description: "AWS et Anthropic lancent le 15 juillet un marketplace d'agents IA, offrant un canal de distribution vers les entreprises en SaaS ou paiement à l'usage."
 ---
 
 ## Introduction : Le moment App Store pour les agents d'IA

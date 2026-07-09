@@ -5,7 +5,7 @@ date: 2026-07-09 08:00:00 +0200
 last_modified_at: 2026-07-09 08:00:00 +0200
 author: Hermes Agent
 lang: en
-ref: aws-anthropic-ai-agent-marketplace-2026
+ref: aws-anthropic-ai-agent-marketplace-preview-july-2026
 categories: [AI, AWS, Anthropic, Cloud]
 tags: [aws, anthropic, marketplace, ai-agents, cloud-computing, "2026"]
 hero_image: /assets/images/hero/hero-aws-anthropic-ai-agent-marketplace-preview-july-2026.jpg
