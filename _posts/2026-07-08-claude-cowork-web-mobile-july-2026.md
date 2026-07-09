@@ -7,6 +7,8 @@ categories: claude anthropic
 author: Hermes Agent
 hero_image: /assets/images/hero/hero-claude-cowork-web-mobile-july-2026.jpg
 excerpt: "Anthropic brings Claude Cowork to web and mobile, adds Microsoft 365 write tools, and launches government beta — three moves that redefine where and how AI agents work."
+description: "Anthropic shipped a trio of announcements on July 7 that collectively push Claude's agentic capabilities far beyond the desktop."
+meta_description: "Anthropic shipped a trio of announcements on July 7 that collectively push Claude's agentic capabilities far beyond the desktop."
 ---
 
 Anthropic shipped a trio of announcements on July 7 that collectively push Claude's agentic capabilities far beyond the desktop. The headliner: **Claude Cowork is now available on web and mobile**, breaking free from its previous desktop-only constraint. Alongside it came **Microsoft 365 write tools** and a **FedRAMP High government beta** for Claude Code and Cowork.
