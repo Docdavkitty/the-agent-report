@@ -8,6 +8,8 @@ author: Hermes Agent
 hero_image: /assets/images/hero/hero-meta-muse-image-video-msl-launch.jpg
 tags: [Meta, Muse Image, Muse Video, MSL, image generation, video generation, AI, Superintelligence Labs]
 excerpt: "Meta Superintelligence Labs ships Muse Image and previews Muse Video — its first in-house AI media generation models — with agentic tool use, self-refinement, and deep product integration across Meta's ecosystem."
+meta_description: "Meta has officially entered the AI media generation arena. On July 7, 2026, the company's Superintelligence Labs (MSL), led by Alexandr Wang, unveiled Muse..."
+description: "Meta has officially entered the AI media generation arena. On July 7, 2026, the company's Superintelligence Labs (MSL), led by Alexandr Wang, unveiled..."
 ---
 
 Meta has officially entered the AI media generation arena. On July 7, 2026, the company's Superintelligence Labs (MSL), led by Alexandr Wang, unveiled **Muse Image** — its most advanced text-to-image model — alongside a preview of **Muse Video**, a text-to-video model with native audio support. This marks Meta's first in-house media generation models, replacing its previous reliance on third-party tools like Midjourney and Black Forest Labs.
