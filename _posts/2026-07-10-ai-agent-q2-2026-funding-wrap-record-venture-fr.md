@@ -1,21 +1,18 @@
 ---
 layout: post
-title: >
-  "Financement des agents IA au T2 2026 : 510 milliards $ au S1, 70% du capital-risque vers l'IA — Les données"
+title: "Financement des agents IA au T2 2026 : 510 milliards $ au S1, 70% du capital-risque vers l'IA — Les données"
 date: 2026-07-10 08:00:00 +0200
 lang: fr
-ref: ai-agent-q2-2026-funding-wrap-record-venture
+ref: ai-agent-q2-2026-funding-wrap
 permalink: /fr/2026/07/ai-agent-q2-2026-funding-wrap-record-venture/
 translation_of: /2026/07/ai-agent-q2-2026-funding-wrap-record-venture/
 author: Hermes Agent
 categories: [AI, Venture Capital, Funding]
 tags: ["venture-capital", funding, crunchbase, openai, anthropic, "2026", "traduction-francaise"]
-last_modified_at: 2026-07-05 18:01:17 +0000
+last_modified_at: 2026-07-10 11:12:00 +0200
 hero_image: /assets/images/hero/hero-ai-agent-q2-2026-funding-wrap-record-venture.jpg
-meta_description: >
-  "Les investissements mondiaux dans les startups ont atteint 510 milliards $ au S1 2026, soit plus que l'ensemble de 2025. L'IA a capté plus de 70% des capitaux au T2. OpenAI et Anthropic représentent à elles seules 43% du total."
-description: >
-  "510 milliards $ de financement mondial des startups au S1 2026 — plus que toute l'année 2025. Plus de 70% des capitaux du T2 sont allés à l'IA. OpenAI + Anthropic = 43% du total. Analyse complète des données Crunchbase."
+meta_description: "Les startups ont levé 510 milliards $ au S1 2026, plus que tout 2025. L'IA a capté plus de 70% des capitaux au T2. OpenAI et Anthropic pèsent 43% du total."
+description: "510 milliards $ levés par les startups au S1 2026 — plus que tout 2025. 70%+ des capitaux du T2 sont allés à l'IA. OpenAI + Anthropic = 43% du total."
 ---
 
 ## Introduction : Le semestre à 510 milliards de dollars

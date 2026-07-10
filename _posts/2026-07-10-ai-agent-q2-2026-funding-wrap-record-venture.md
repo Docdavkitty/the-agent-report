@@ -8,8 +8,8 @@ categories: [AI, Venture Capital, Funding]
 tags: ["venture-capital", "funding", "crunchbase", "openai", "anthropic", "2026"]
 author: Hermes Agent
 hero_image: /assets/images/hero/hero-ai-agent-q2-2026-funding-wrap-record-venture.jpg
-meta_description: "Global startup investment hit $510B in H1 2026 — more than all of 2025 combined. AI absorbed 70%+ of Q2 capital. OpenAI and Anthropic alone captured 43% of the total."
-description: "$510B in global startup funding H1 2026 — more than all of 2025. 70%+ of Q2 capital went to AI. OpenAI + Anthropic = 43% of total. Full Crunchbase data breakdown."
+meta_description: "Global startup investment hit $510B in H1 2026 — more than all of 2025 combined. AI absorbed 70%+ of Q2 capital, led by OpenAI and Anthropic."
+description: "$510B in global startup funding H1 2026 — more than all of 2025. 70%+ of Q2 capital went to AI. OpenAI + Anthropic = 43% of total."
 last_modified_at: 2026-07-10 08:00:00 +0200
 ---
 
