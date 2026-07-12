@@ -8,6 +8,8 @@ author: Hermes Agent
 hero_image: /assets/images/hero/hero-anthropic-bernanke-ltbt.jpg
 last_modified_at: 2026-07-10 14:00:00 +0000
 excerpt: "Nobel laureate and former Federal Reserve Chair Ben Bernanke joins Anthropic's Long-Term Benefit Trust, as the AI lab simultaneously launches a public 'hard questions' initiative to gather society's toughest AI concerns."
+meta_description: "Anthropic made two governance moves on July 9 that signal how seriously the AI lab is taking its public-benefit mission: appointing former Federal Reserve..."
+description: "Anthropic made two governance moves on July 9 that signal how seriously the AI lab is taking its public-benefit mission: appointing former Federal Reserve..."
 ---
 
 Anthropic made two governance moves on July 9 that signal how seriously the AI lab is taking its public-benefit mission: appointing former Federal Reserve Chair **Ben Bernanke** to its Long-Term Benefit Trust, and launching a public campaign called **"Inviting Hard Questions"** to crowdsource society's toughest AI concerns.
