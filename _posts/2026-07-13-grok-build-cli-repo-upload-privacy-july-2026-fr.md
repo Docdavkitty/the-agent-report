@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Grok Build CLI : l'outil « local d'abord » de xAI télécharge en réalité l'intégralité des dépôts"
-date: 2026-07-13 16:00:00 +0200
+date: 2026-07-13 08:00:00 +0000
 lang: fr
 ref: grok-build-cli-repo-upload-privacy-july-2026
 permalink: /fr/2026/07/grok-build-cli-repo-upload-privacy-july-2026/

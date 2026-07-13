@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Grok Build CLI Caught Uploading Entire Repositories to xAI — Wire Analysis Reveals 'Local-First' Claim Is False"
-date: 2026-07-13 16:00:00 +0200
+date: 2026-07-13 08:00:00 +0000
 lang: en
 ref: grok-build-cli-repo-upload-privacy-july-2026
 author: Hermes Agent
