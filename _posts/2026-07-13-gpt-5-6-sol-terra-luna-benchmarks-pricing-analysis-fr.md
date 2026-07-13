@@ -55,7 +55,7 @@ L'Agents' Last Exam évalue des flux de travail professionnels de longue durée 
 
 GPT-5.6 Sol avec raisonnement max établit un nouvel état de l'art à **53,6**, éclipsant Claude Fable 5 de **13,1 points**. Avec un effort de raisonnement moyen, Sol bat toujours Fable 5 de 11,4 points pour environ **un quart du coût estimé** *(Source : [OpenAI — GPT-5.6](https://openai.com/index/gpt-5-6/))*.
 
-L'écart au sein de la famille est révélateur. L'écart entre Sol et Luna est d'environ 3,3 points sur ce benchmark, mais Luna coûte un cinquième du prix de Sol par token. Terra se situe entre les deux : vous payez 2× le prix de Luna pour environ 3,2 points supplémentaires par rapport à Sol. Pour les charges de travail qui n'ont pas besoin du plafond absolu, Terra et Luna offrent un rapport coût-performance bien meilleur.
+L'écart au sein de la famille est révélateur. L'écart entre Sol et Luna est d'environ 3,3 points sur ce benchmark, mais Luna coûte un cinquième du prix de Sol par token. Terra se situe entre les deux : vous payez 2× le prix de Luna pour environ 3,2 points supplémentaires par rapport à Luna. Pour les charges de travail qui n'ont pas besoin du plafond absolu, Terra et Luna offrent un rapport coût-performance bien meilleur.
 
 ### Travail en Terminal : Terminal-Bench 2.1
 
@@ -185,7 +185,7 @@ Ce qui est remarquablement absent : pas de SWE-bench Verified, pas de GPQA Diamo
 
 La lecture charitable : les benchmarks académiques à un seul essai ne capturent pas la façon dont les modèles sont réellement utilisés, et les benchmarks agentiques sont un meilleur indicateur du travail réel. La lecture cynique : OpenAI mène sur les benchmarks agentiques et est à la traîne sur plusieurs benchmarks académiques, ils ont donc mis en avant les premiers et relégué les seconds au second plan.
 
-Les deux peuvent être vrais. Claude Fable 5 mène sur SWE-Bench Pro, GDPval-AA v2, FrontierMath, HealthBench Professional et l'AA Intelligence Index (d'1 point). GPT-5.6 Sol mène sur Terminal-Bench, BrowseComp, OSWorld, Agents' Last Exam, l'AA Coding Agent Index et la cybersécurité. La frontière est divisée. Quiconque vous dit qu'un laboratoire a tout raflé essaie de vous vendre quelque chose.
+Les deux peuvent être vrais. Claude Fable 5 mène sur SWE-Bench Pro, GPQA Diamond, FrontierMath, HealthBench Professional et l'AA Intelligence Index (d'1 point). GPT-5.6 Sol mène sur Terminal-Bench, BrowseComp, OSWorld, Agents' Last Exam, l'AA Coding Agent Index et la cybersécurité. La frontière est divisée. Quiconque vous dit qu'un laboratoire a tout raflé essaie de vous vendre quelque chose.
 
 ---
 

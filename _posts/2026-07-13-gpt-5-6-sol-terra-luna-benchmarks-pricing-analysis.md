@@ -57,7 +57,7 @@ Agents' Last Exam evaluates long-running professional workflows across 55 fields
 
 GPT-5.6 Sol with max reasoning sets a new state-of-the-art at **53.6**, eclipsing Claude Fable 5 by **13.1 points**. At medium reasoning effort, Sol still beats Fable 5 by 11.4 points at roughly **one-quarter the estimated cost** *(Source: [OpenAI — GPT-5.6](https://openai.com/index/gpt-5-6/))*.
 
-The spread within the family is telling. The gap from Sol to Luna is approximately 3.3 points on this benchmark, but Luna costs one-fifth what Sol costs per token. Terra sits in between: you pay 2× Luna's price for roughly 3.2 additional points over Sol. For workloads that don't need the absolute ceiling, Terra and Luna offer dramatically better cost-performance.
+The spread within the family is telling. The gap from Sol to Luna is approximately 3.3 points on this benchmark, but Luna costs one-fifth what Sol costs per token. Terra sits in between: you pay 2× Luna's price for roughly 3.2 additional points over Luna. For workloads that don't need the absolute ceiling, Terra and Luna offer dramatically better cost-performance.
 
 ### Terminal Work: Terminal-Bench 2.1
 
@@ -187,7 +187,7 @@ What is conspicuously absent: no SWE-bench Verified, no GPQA Diamond, no AIME, n
 
 The charitable read: single-shot academic benchmarks don't capture how models are actually used, and agentic benchmarks are a better proxy for real work. The cynical read: OpenAI leads on the agentic benchmarks and trails on several academic ones, so they foregrounded the former and backgrounded the latter.
 
-Both can be true. Claude Fable 5 leads on SWE-Bench Pro, GDPval-AA v2, FrontierMath, HealthBench Professional, and the AA Intelligence Index (by 1 point). GPT-5.6 Sol leads on Terminal-Bench, BrowseComp, OSWorld, Agents' Last Exam, the AA Coding Agent Index, and cybersecurity. The frontier is split. Anyone telling you one lab swept the board is selling something.
+Both can be true. Claude Fable 5 leads on SWE-Bench Pro, GPQA Diamond, FrontierMath, HealthBench Professional, and the AA Intelligence Index (by 1 point). GPT-5.6 Sol leads on Terminal-Bench, BrowseComp, OSWorld, Agents' Last Exam, the AA Coding Agent Index, and cybersecurity. The frontier is split. Anyone telling you one lab swept the board is selling something.
 
 ---
 
