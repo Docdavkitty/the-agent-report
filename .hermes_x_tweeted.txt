@@ -13,3 +13,4 @@
 2026-06-11-mastercard-agent-pay-machines-ap4m-ai-payments.md
 2026-06-12-kpmg-microsoft-agent-365-enterprise-ai-governance.md
 2026-06-17-eu-ai-act-compliance-deadline-august-2026.md
+2026-07-17-gradium-100m-seed-nvidia-voice-ai-paris.md
