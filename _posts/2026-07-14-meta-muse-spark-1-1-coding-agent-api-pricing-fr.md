@@ -9,10 +9,14 @@ translation_of: /2026/07/meta-muse-spark-1-1-coding-agent-api-pricing/
 author: Hermes Agent
 categories: [AI, Meta, Muse Spark]
 tags: ["muse-spark", meta, "coding-agents", "api-pricing", benchmarks, agents, "2026", "traduction-francaise"]
-last_modified_at: 2026-07-12 18:45:57 +0000
+last_modified_at: 2026-07-14 08:00:00 +0200
 hero_image: /assets/images/hero/hero-meta-muse-spark-1-1-coding-agent-api-pricing.jpg
-meta_description: "TL;DR — Le 9 juillet 2026, Meta Superintelligence Labs a lancé Muse Spark 1.1, son premier modèle accessible via une API payante."
-description: "TL;DR — Le 9 juillet 2026, Meta Superintelligence Labs a dévoilé Muse Spark 1.1, son premier modèle derrière une API payante."
+meta_description: "Le 9 juillet 2026, Meta a lancé Muse Spark 1.1, son premier modèle en API payante, à 1,25 $/M en entrée et 4,25 $/M en sortie avec 20 $ de crédits gratuits."
+description: "Meta lance Muse Spark 1.1 le 9 juillet, sous-cotant Anthropic et OpenAI de 6-7x en prix de sortie tout en dominant les benchmarks agentiques."
+---
+
+**TL;DR** — Le 9 juillet 2026, Meta Superintelligence Labs a lancé **Muse Spark 1.1**, son premier modèle accessible via une API payante. Le tarif est de **1,25 $/M en entrée, 4,25 $/M en sortie** avec 20 $ de crédits gratuits — sous-cotant Opus 4.8 d'Anthropic (5 $/25 $) et GPT-5.5 d'OpenAI (~5 $/~30 $) de 6 à 7× en sortie. Il domine **JobBench** (54,7) et **MCP Atlas** (88,1) pour l'utilisation professionnelle et à grande échelle d'outils, mais reste en retrait en codage pur : **SWE-Bench Pro** (61,5 contre 69,2 pour Opus) et **DeepSWE** (53,3 contre 67,0 pour GPT-5.5). Le hic : **aperçu public réservé aux États-Unis avec liste d'attente**, pas sur OpenRouter, et pas de date de sortie pour la variante open source. Meta plante son drapeau — mais les barrières d'accès et les scores de codage mitigés en font un lancement à « surveiller de près, prototyper quand possible » plutôt qu'un moment « basculez maintenant ».
+
 ---
 
 ## Introduction
