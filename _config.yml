@@ -12,7 +12,7 @@ baseurl: ""
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:title/
+permalink: /:year/:month/:day/:title/
 
 # Collections for magazine sections
 collections:
