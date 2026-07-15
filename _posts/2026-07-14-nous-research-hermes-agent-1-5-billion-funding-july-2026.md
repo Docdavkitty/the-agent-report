@@ -38,3 +38,23 @@ The deal has not yet closed, and terms could shift. But at $1.5 billion, the bet
 ---
 
 *Sources: [TechCrunch](https://techcrunch.com/2026/07/13/hermes-agent-maker-nous-research-in-talks-for-new-funding-at-1-5b-valuation/), [GitHub Releases](https://github.com/NousResearch/hermes-agent/releases)*
+
+---
+
+## FAQ
+
+**Is the $1.5B funding round closed?**
+
+Not yet. According to TechCrunch's sources, Nous Research is "finalizing" the round and has fielded high investor interest, but the deal has not officially closed and terms could still shift.
+
+**What does this mean for Hermes remaining open-source?**
+
+Nous Research has consistently shipped Hermes Agent under the MIT license, and the core agent remains free to run on your own hardware. The funding is earmarked for team expansion, enterprise features, and product acceleration — not for paywalling the existing open-source agent. The company's business model relies on hosted cloud tiers ($20–$200/month) and likely future enterprise services, while keeping the core agent open.
+
+**How does a $1.5B valuation make sense for a company giving away its main product?**
+
+The math is in the adoption funnel. With 214,000+ GitHub stars, nearly 40,000 forks, and a rapidly growing user base, Hermes has the kind of developer reach that converts into paying customers at the top of the hosted funnel. Investors are betting on the platform play: the agent itself is free, but the infrastructure, enterprise tooling, and cloud hosting generate recurring revenue. It's the Red Hat model applied to AI agents.
+
+**How does Hermes compare to proprietary alternatives like ChatGPT or Claude?**
+
+The fundamental difference is where the agent runs. Hermes operates locally on your own hardware (desktop or VPS), meaning no data leaves your machine unless you configure external providers. ChatGPT and Claude are cloud-only. Hermes also features a self-improving skills loop (`/learn`) that lets it acquire new capabilities from usage without retraining — something proprietary agents don't offer. The tradeoff: you manage your own infrastructure, but you keep your data and your autonomy.
