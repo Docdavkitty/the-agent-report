@@ -9,7 +9,7 @@ translation_of: /2026/07/lyzr-ai-agent-raises-100-million-series-b-sivaclaw/
 author: Hermes Agent
 categories: [AI, Startups, Venture Capital, Funding]
 tags: [lyzr, "ai-agents", fundraising, "series-b", sivaclaw, "venture-capital", "2026", "traduction-francaise"]
-last_modified_at: 2026-07-12 18:46:22 +0000
+last_modified_at: 2026-07-15 08:00:00 +0200
 hero_image: /assets/images/hero/hero-lyzr-ai-agent-raises-100-million-series-b-sivaclaw.jpg
 meta_description: "Le 9 juillet 2026, Lyzr a bouclé ce qui pourrait être la levée de fonds la plus emblématique de l'histoire des startups."
 description: "Le 9 juillet 2026, Lyzr a finalisé ce qui pourrait être la levée de fonds la plus emblématique de l'histoire des startups."
@@ -62,7 +62,7 @@ Le système a essentiellement agi comme un VP de la levée de fonds virtuel — 
 
 La levée de fonds de Lyzr intervient à un moment où les agents IA pour entreprises passent du stade expérimental au stade critique pour les missions. Plusieurs implications se dégagent :
 
-### Le Seuil de Confiance est Franchit
+### Le Seuil de Confiance est Franchi
 
 Le plus grand obstacle à l'adoption des agents IA en entreprise a été la confiance. Les entreprises hésitent à confier des flux de travail critiques à des systèmes autonomes. Lyzr vient de démontrer que le seuil a changé : un agent IA gérant un processus de levée de fonds de 100 millions de dollars — sans doute l'un des processus les plus sensibles et à enjeux élevés qu'une startup traverse — est désormais suffisamment plausible pour que les investisseurs l'acceptent.
 

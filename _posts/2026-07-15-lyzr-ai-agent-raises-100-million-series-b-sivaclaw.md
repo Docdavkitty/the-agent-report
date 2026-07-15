@@ -9,8 +9,8 @@ categories: [AI, Startups, Venture Capital, Funding]
 tags: ["lyzr", "ai-agents", "fundraising", "series-b", "sivaclaw", "venture-capital", "2026"]
 hero_image: /assets/images/hero/hero-lyzr-ai-agent-raises-100-million-series-b-sivaclaw.jpg
 last_modified_at: 2026-07-15 08:00:00 +0200
-meta_description: "On July 9, 2026, Lyzr closed what might be the most on-brand fundraise in startup history."
-description: "On July 9, 2026, Lyzr closed what might be the most on-brand fundraise in startup history."
+meta_description: "Lyzr used its own AI agent, SivaClaw, to run a $100M Series B — handling 130+ investors and drafting memos without a single founder roadshow."
+description: "Lyzr let its AI agent handle a $100M Series B — a 4x oversubscribed round that says as much about the AI funding frenzy as it does about the company."
 ---
 
 > **TL;DR:** Lyzr, a three-year-old enterprise AI agent startup, closed a $100M Series B at a ~$500M valuation — using its own AI agent, SivaClaw, to handle investor outreach, field questions from 130+ funds, and draft investment memos. The company pulled in $400M in total interest without a single founder roadshow. Beyond the meta story, this is a signal about how capital is flowing in AI: so much money chasing so few deals that a well-placed agent can do what used to require months of Sand Hill Road meetings.
@@ -60,7 +60,7 @@ The system essentially acted as a virtual VP of fundraising — handling the hig
 
 Lyzr's fundraise comes at a moment when enterprise AI agents are transitioning from experimental to mission-critical. Several implications stand out:
 
-### Trust Threshold Is Crossing
+### The Trust Threshold Has Been Crossed
 
 The single biggest barrier to enterprise AI agent adoption has been trust. Companies worry about handing critical workflows to autonomous systems. Lyzr just demonstrated that the threshold has shifted: an AI agent handling a $100 million fundraising process — arguably one of the most sensitive, high-stakes processes a startup undergoes — is now plausible enough that investors accepted it.
 

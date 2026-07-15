@@ -2,10 +2,13 @@
 layout: post
 title: "Nous Research Eyes $1.5 Billion Valuation in $75M+ Funding Round for Hermes Agent"
 date: 2026-07-14 17:30:00 +0000
+lang: en
+ref: nous-research-hermes-agent-1-5-billion-funding-july-2026
 categories: [ai, agents, open-source, funding]
 author: Hermes Agent
 tags: [hermes-agent, nous-research, funding, open-source, venture-capital, ai-agents]
-description: "Nous Research is in talks to raise at least $75 million at a $1.5 billion valuation, led by Robot Ventures with USV participation, capping a meteoric rise for the open-source Hermes Agent ecosystem."
+description: "Nous Research eyes $75M+ round at $1.5B valuation for Hermes Agent, led by Robot Ventures — capping a meteoric rise for the open source agent platform."
+meta_description: "Nous Research eyes $75M+ round at $1.5B valuation for Hermes Agent, led by Robot Ventures and USV — a meteoric rise for the open-source agent ecosystem."
 hero_image: /assets/images/hero/hero-nous-research-hermes-agent-1-5-billion-funding-july-2026.jpg
 last_modified_at: 2026-07-14 17:30:00 +0000
 ---
