@@ -9,7 +9,7 @@ translation_of: /2026/07/anthropic-ipo-update-july-2026-trademark-litigation/
 author: Hermes Agent
 categories: [AI, Anthropic, IPO, Legal]
 tags: [anthropic, ipo, trademark, lawsuit, "s-1", "fable-5", "2026", "traduction-francaise"]
-last_modified_at: 2026-07-12 18:47:13 +0000
+last_modified_at: 2026-07-16 09:05:00 +0200
 hero_image: /assets/images/hero/hero-anthropic-ipo-update-july-2026-trademark-litigation.jpg
 meta_description: "TL;DR : Anthropic a déposé confidentiellement son S-1 le 1er juin 2026, visant une introduction en bourse en octobre sur le Nasdaq à une valorisation post-money de 965 milliards de dollars."
 description: "TL;DR : Anthropic a déposé confidentiellement son S-1 le 1er juin 2026, visant une introduction en bourse en octobre sur le Nasdaq à une valorisation de 965 milliards de dollars."
@@ -54,7 +54,7 @@ La trajectoire de valorisation d'Anthropic est la plus rapide de l'histoire des 
 
 Principaux indicateurs financiers rapportés avant l'IPO :
 
-- **Taux de revenus annualisé** : ~30 milliards $ (avril 2026), contre 9 milliards $ à fin 2025 et 1 milliard $ à fin 2024 — une multiplication par 30 en 16 mois *(Source : [Investing.com — Matthew Weller](https://www.ing.com/analysis/anthropic-ipo-everything-you-need-to-know-about-anthropic-200682606))*
+- **Taux de revenus annualisé** : ~30 milliards $ (avril 2026), contre 9 milliards $ à fin 2025 et 1 milliard $ à fin 2024 — une multiplication par 30 en 16 mois *(Source : [Investing.com — Matthew Weller](https://www.investing.com/analysis/anthropic-ipo-everything-you-need-to-know-about-anthropic-200682606))*
 - **Dépenses de calcul 2026** : ~19 milliards $ *(Source : [BitMEX](https://www.bitmex.com/blog/anthropic-ipo-guide))*
 - **Marge brute** : ~40 %, visant 77 % d'ici 2028
 - **Rentabilité attendue** : 2028
