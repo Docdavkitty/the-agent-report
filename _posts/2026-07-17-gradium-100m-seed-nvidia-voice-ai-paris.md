@@ -83,7 +83,7 @@ Europe is producing world-class AI research but has historically struggled to re
 ## FAQ
 
 **Q: How does Gradium's tech differ from ElevenLabs?**
-A: ElevenLabs uses a text-to-speech pipeline (text → speech model). Gradium builds audio-native models that process and generate speech directly, cutting latency and preserving natural prosody.
+A: ElevenLabs uses a text-to-speech pipeline (text → speech). Gradium builds audio-native models that process and generate speech directly, cutting latency and preserving natural prosody.
 
 **Q: Why does NVIDIA care about voice AI?**
 A: Voice AI inference runs on GPUs. If Gradium becomes the default voice layer for AI agents, it drives significant GPU demand. NVIDIA's investment is both financial and strategic — optimizing Gradium's models for NVIDIA hardware creates a moat against competitors running on AMD or custom silicon.
