@@ -7,6 +7,7 @@ tags: [Claude, Anthropic, LLM, AI personality, multilingual, language bias, Clau
 lang: en
 author: The Agent Report
 last_modified_at: 2026-07-17T14:00:00+02:00
+hero_image: /assets/images/hero/hero-claude-multilingual-personalities-hero-2026-07-17.jpg
 image: /assets/images/hero/hero-claude-multilingual-personalities-hero-2026-07-17.webp
 image_prompt: |
   A stylized split-composition depicting one AI assistant speaking with different emotional tones depending on the language. The left half glows with warm orange-gold colors showing a friendly, encouraging AI with heart and smile symbols, representing Hindi and Arabic interactions. The right half is cool blue-grey tones showing an analytical, rigorous AI with charts and evidence symbols, representing English and Russian interactions. Central figure of an abstract AI face made of interconnected nodes, split down the middle. Clean modern design, tech illustration style, no text. Dark background with soft light transitions.
