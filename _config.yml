@@ -48,6 +48,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-redirect-from
 
 # SEO — Organization + Social
 logo: /assets/images/logo.svg
