@@ -17,6 +17,7 @@ source_urls:
   - https://gigazine.net/gsc_news/en/20260714-anthropic-claude-value/
   - https://releasebot.io/updates/anthropic/claude-developer-platform
   - https://docs.claude.com/en/release-notes/overview.md
+meta_description: "Ask Claude the same question in Hindi or English, and you won't get quite the same assistant."
 ---
 
 Ask Claude the same question in Hindi or English, and you won't get quite the same assistant. That's the striking conclusion of Anthropic's latest study, published on July 13, 2026, which analyzed over **309,000 anonymized conversations** across three models and 20 languages. The result: Claude changes "personality" depending on the language you use.
