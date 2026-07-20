@@ -116,5 +116,5 @@ A: Moonshot promises to release the full model weights, along with a technical r
 - [Artificial Analysis — Kimi K3](https://artificialanalysis.ai/models/kimi-k3/)
 - [Arena WebDev Leaderboard](https://arena.ai/leaderboard/code)
 - [BuildFastWithAI — AI News Today July 17 2026](https://www.buildfastwithai.com/blogs/ai-news-today-july-17-2026)
-- [The Agent Report — GPT-5.6 Family: Luna, Terra, Sol](/2026/07/gpt-5-6-release-preview-everything-we-know/)
-- [The Agent Report — Claude Fable 5: Anthropic's Frontier Coding Model](/2026/06/anthropic-claude-fable-5-opus-4-8-launch/)
+- [The Agent Report — GPT-5.6 Family: Luna, Terra, Sol](/2026/06/gpt-5-6-release-preview/)
+- [The Agent Report — Claude Fable 5: Anthropic's Frontier Coding Model](/2026/06/anthropic-claude-fable-5-mythos-5-launch/)
