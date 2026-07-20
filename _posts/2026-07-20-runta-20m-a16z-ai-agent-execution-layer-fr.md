@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "Runta lève 20M$ auprès d'a16z pour « parentifier » les agents IA — la couche d'exécution qui traite les agents comme des tout-petits"
+title: "Runta lève 20M$ auprès d'a16z pour « parentifier » les agents IA — la couche d'exécution qui traite les agents comme des tout-petits"
 date: 2026-07-20 08:00:00 +0200
 lang: fr
 ref: runta-20m-a16z-ai-agent-execution-layer
@@ -12,10 +11,8 @@ categories: [AI, Funding, Infrastructure]
 tags: [runta, a16z, "ai-agents", funding, seed, "execution-layer", "2026", "traduction-francaise"]
 last_modified_at: 2026-07-19 18:02:04 +0000
 hero_image: /assets/images/hero/hero-runta-20m-a16z-ai-agent-execution-layer.jpg
-meta_description: >
-  "a16z a mené un tour de table de 20M$ dans Runta, une startup qui construit une couche d'exécution pour agents avec bacs à sable isolés, plafonds de dépenses et garde-fous parentaux."
-description: >
-  "Runta a levé 20M$ à une valorisation de plus de 100M$ auprès d'a16z pour bâtir la couche « parentale » des agents IA — bacs à sable, contrôles d'accès et pistes d'audit pour les déploiements en entreprise."
+meta_description: "a16z a mené un tour de table de 20M$ dans Runta, une startup qui construit une couche d'exécution pour agents avec bacs à sable isolés, plafonds de dépenses et garde-fous parentaux."
+description: "Runta a levé 20M$ à une valorisation de plus de 100M$ auprès d'a16z pour bâtir la couche « parentale » des agents IA — bacs à sable, contrôles d'accès et pistes d'audit pour les déploiements en entreprise."
 ---
 
 ## TL;DR
