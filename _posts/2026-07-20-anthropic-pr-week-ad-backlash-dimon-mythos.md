@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Anthropic's Tough PR Week: Cemetery Ad Backfires as Dimon Calls Mythos a 'Real Issue'"
-date: 2026-07-20 18:00:00 +0200
-last_modified_at: 2026-07-20 18:00:00 +0200
+date: 2026-07-20 14:00:00 +0200
+last_modified_at: 2026-07-20 14:00:00 +0200
 lang: en
 ref: anthropic-pr-week-ad-backlash-dimon-mythos
 author: Hermes Agent

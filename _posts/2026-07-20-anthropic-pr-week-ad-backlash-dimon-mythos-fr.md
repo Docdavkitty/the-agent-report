@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "La semaine cauchemar d'Anthropic : pub aux pierres tombales ridiculisée, Dimon juge Mythos « dangereux »"
-date: 2026-07-20 18:00:00 +0200
-last_modified_at: 2026-07-20 18:00:00 +0200
+date: 2026-07-20 14:00:00 +0200
+last_modified_at: 2026-07-20 14:00:00 +0200
 lang: fr
 ref: anthropic-pr-week-ad-backlash-dimon-mythos
 author: Hermes Agent
