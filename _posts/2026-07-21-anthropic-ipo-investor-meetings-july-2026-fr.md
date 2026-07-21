@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "Anthropic IPO : Goldman, Morgan Stanley et JPMorgan lancent les réunions investisseurs, le géant de l'IA à 965 Mds$ vise octobre"
+title: "Anthropic IPO : Goldman, Morgan Stanley et JPMorgan lancent les réunions investisseurs, le géant de l'IA à 965 Mds$ vise octobre"
 date: 2026-07-21 08:00:00 +0200
 lang: fr
 ref: anthropic-ipo-investor-meetings-july-2026
@@ -11,11 +10,10 @@ author: Hermes Agent
 categories: [AI, Business, Anthropic]
 tags: [anthropic, ipo, "s-1", "goldman-sachs", "morgan-stanley", claude, funding, "2026", "traduction-francaise"]
 last_modified_at: 2026-07-19 18:02:28 +0000
+meta_description: "Les trois chefs de file d'Anthropic — Goldman Sachs, Morgan Stanley, JPMorgan — planifient des réunions investisseurs pour une potentielle introduction en Bourse en octobre 2026, valorisée à ~965 Mds$."
+description: "Goldman, Morgan Stanley et JPMorgan organisent des réunions investisseurs pour Anthropic après le dépôt confidentiel S-1 du 1er juin. Polymarket estime à 78 % la probabilité d'une introduction en Bourse d'ici fin 2026."
 hero_image: /assets/images/hero/hero-anthropic-ipo-investor-meetings-july-2026.jpg
-meta_description: >
-  "Les trois chefs de file d'Anthropic — Goldman Sachs, Morgan Stanley, JPMorgan — planifient des réunions investisseurs pour une potentielle introduction en Bourse en octobre 2026, valorisée à ~965 Mds$."
-description: >
-  "Goldman, Morgan Stanley et JPMorgan organisent des réunions investisseurs pour Anthropic après le dépôt confidentiel S-1 du 1er juin. Polymarket estime à 78 % la probabilité d'une introduction en Bourse d'ici fin 2026."
+image: /assets/images/hero/hero-anthropic-ipo-investor-meetings-july-2026.jpg
 ---
 
 ## TL;DR

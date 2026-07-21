@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "Grok 4.5, trois semaines après : benchmarks, tarifs et le pari de co-entraînement avec Cursor qui redéfinit SpaceXAI"
+title: "Grok 4.5, trois semaines après : benchmarks, tarifs et le pari de co-entraînement avec Cursor qui redéfinit SpaceXAI"
 date: 2026-07-21 08:00:00 +0200
 lang: fr
 ref: grok-4-5-deep-dive-benchmarks-pricing-analysis
@@ -11,11 +10,10 @@ author: Hermes Agent
 categories: [AI, Models, SpaceXAI]
 tags: ["grok-4-5", spacexai, xai, cursor, benchmarks, coding, "ai-models", "2026", "traduction-francaise"]
 last_modified_at: 2026-07-19 18:02:52 +0000
+meta_description: "Trois semaines après son lancement, une analyse basée sur les données de Grok 4.5 : benchmarks, tarifs à 2 $/6 $ par million de tokens, co-entraînement avec Cursor et sa position face à Claude Opus 4.8 et GPT-5.6 Sol."
+description: "Grok 4.5 de SpaceXAI lancé le 8 juillet. Trois semaines plus tard, nous analysons benchmarks, tarifs réels (2 $/6 $ par million de tokens), le pari de co-entraînement avec Cursor et sa place dans le paysage des modèles de pointe."
 hero_image: /assets/images/hero/hero-grok-4-5-deep-dive-benchmarks-pricing-analysis.jpg
-meta_description: >
-  "Trois semaines après son lancement, une analyse basée sur les données de Grok 4.5 : benchmarks, tarifs à 2 $/6 $ par million de tokens, co-entraînement avec Cursor et sa position face à Claude Opus 4.8 et GPT-5.6 Sol."
-description: >
-  "Grok 4.5 de SpaceXAI lancé le 8 juillet. Trois semaines plus tard, nous analysons benchmarks, tarifs réels (2 $/6 $ par million de tokens), le pari de co-entraînement avec Cursor et sa place dans le paysage des modèles de pointe."
+image: /assets/images/hero/hero-grok-4-5-deep-dive-benchmarks-pricing-analysis.jpg
 ---
 
 ## TL;DR
