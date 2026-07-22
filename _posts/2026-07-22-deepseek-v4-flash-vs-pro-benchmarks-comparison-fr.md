@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "DeepSeek V4 Flash vs Pro : Le Guide de Comparaison Définitif (22 Tests, Tarifs et Cadre Décisionnel)"
+title: "DeepSeek V4 Flash vs Pro : Le Guide de Comparaison Définitif (22 Tests, Tarifs et Cadre Décisionnel)"
 date: 2026-07-22 08:00:00 +0200
 lang: fr
 ref: deepseek-v4-flash-vs-pro-benchmarks-comparison
@@ -12,10 +11,9 @@ categories: [AI, Models, DeepSeek]
 tags: [deepseek, "v4-flash", "v4-pro", benchmarks, comparison, pricing, "open-source", "2026", "traduction-francaise"]
 last_modified_at: 2026-07-19 18:04:25 +0000
 hero_image: /assets/images/hero/hero-deepseek-v4-flash-vs-pro-benchmarks-comparison.jpg
-meta_description: >
-  "DeepSeek V4 Flash contre V4 Pro sur 22 benchmarks : spécifications, tarifs (0,09 $ vs 0,43 $ par million de tokens en entrée), codage, raisonnement et cadre décisionnel pour choisir la bonne variante."
-description: >
-  "DeepSeek V4 Flash (0,09 $/M tokens en entrée) contre Pro (0,43 $/M tokens) comparés sur 22 benchmarks : différences d'architecture, vitesse, profondeur de raisonnement et cas d'usage en production."
+image: /assets/images/hero/hero-deepseek-v4-flash-vs-pro-benchmarks-comparison.jpg
+meta_description: "DeepSeek V4 Flash contre V4 Pro sur 22 benchmarks : spécifications, tarifs (0,09 $ vs 0,43 $ par million de tokens en entrée), codage, raisonnement et cadre décisionnel pour choisir la bonne variante."
+description: "DeepSeek V4 Flash (0,09 $/M tokens en entrée) contre Pro (0,43 $/M tokens) comparés sur 22 benchmarks : différences d'architecture, vitesse, profondeur de raisonnement et cas d'usage en production."
 ---
 
 ## TL;DR

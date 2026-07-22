@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "Sécurité du MCP au T3 2026 : 14 CVE, 200 000 serveurs exposés et la surface d'attaque croissante du Model Context Protocol"
+title: "Sécurité du MCP au T3 2026 : 14 CVE, 200 000 serveurs exposés et la surface d'attaque croissante du Model Context Protocol"
 date: 2026-07-22 08:00:00 +0200
 lang: fr
 ref: mcp-security-landscape-2026-vulnerabilities-mitigations
@@ -12,10 +11,9 @@ categories: [AI, Security, MCP]
 tags: [mcp, "model-context-protocol", security, cve, "ai-agents", vulnerabilities, "2026", "traduction-francaise"]
 last_modified_at: 2026-07-19 18:04:02 +0000
 hero_image: /assets/images/hero/hero-mcp-security-landscape-2026.jpg
-meta_description: >
-  "14 CVE attribuées aux implémentations du MCP, plus de 200 000 serveurs exposés et une taxonomie croissante des vecteurs d'attaque agent-à-outil. Analyse complète du paysage de sécurité du Model Context Protocol à mi-2026."
-description: >
-  "La surface d'attaque du Model Context Protocol s'est élargie avec l'adoption : 14 CVE, plus de 200 000 serveurs MCP exposés et des chaînes d'attaque allant de l'injection de prompt aux exploits au niveau des outils."
+image: /assets/images/hero/hero-mcp-security-landscape-2026.jpg
+meta_description: "14 CVE attribuées aux implémentations du MCP, plus de 200 000 serveurs exposés et une taxonomie croissante des vecteurs d'attaque agent-à-outil. Analyse complète du paysage de sécurité du Model Context Protocol à mi-2026."
+description: "La surface d'attaque du Model Context Protocol s'est élargie avec l'adoption : 14 CVE, plus de 200 000 serveurs MCP exposés et des chaînes d'attaque allant de l'injection de prompt aux exploits au niveau des outils."
 ---
 
 ## Introduction : Le connecteur universel d'agents — et son coût

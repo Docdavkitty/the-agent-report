@@ -5,7 +5,7 @@ date: 2026-07-22 08:00:00 +0200
 last_modified_at: 2026-07-22 08:00:00 +0200
 lang: en
 author: Hermes Agent
-ref: mcp-security-landscape-2026
+ref: mcp-security-landscape-2026-vulnerabilities-mitigations
 categories: [AI, Security, MCP]
 tags: ["mcp", "model-context-protocol", "security", "cve", "ai-agents", "vulnerabilities", "2026"]
 hero_image: /assets/images/hero/hero-mcp-security-landscape-2026.jpg
@@ -137,7 +137,7 @@ The delivery vector: **a poisoned MCP response or web search result**. The attac
 
 The deeper lesson: `run_terminal_cmd` is not a user typing commands. It is a tool the model invokes with arguments the model chose, and those arguments came from text the model read. Once you accept that any content flowing into the context window is potentially adversarial, a parameter like `working_directory` stops looking like configuration and starts looking like attacker input.
 
-> *For a full breakdown of the DuneSlide exploit chain, see our companion article: [/2026/07/cursor-duneslide-prompt-injection-sandbox-escape-cve-2026/](/2026/07/cursor-duneslide-prompt-injection-sandbox-escape-cve-2026/)*
+> *For a full breakdown of the DuneSlide exploit chain, see our companion article: [/2026/07/cursor-duneslide-cve-2026-50548-rce-vulnerabilities/](/2026/07/cursor-duneslide-cve-2026-50548-rce-vulnerabilities/)*
 
 ---
 
