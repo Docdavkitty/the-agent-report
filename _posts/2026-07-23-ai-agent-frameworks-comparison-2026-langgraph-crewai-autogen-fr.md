@@ -11,6 +11,7 @@ categories: [AI, Agents, Frameworks]
 tags: ["ai-agents", frameworks, langgraph, crewai, autogen, "openai-agents-sdk", comparison, "2026", "traduction-francaise"]
 last_modified_at: 2026-07-19 17:54:58 +0000
 hero_image: /assets/images/hero/hero-ai-agent-frameworks-comparison-2026-langgraph-crewai-autogen.jpg
+image: /assets/images/hero/hero-ai-agent-frameworks-comparison-2026-langgraph-crewai-autogen.jpg
 meta_description: "Comparaison de 10+ frameworks agents IA en 2026 : LangGraph, SDK OpenAI, CrewAI, AutoGen, Google ADK, Mastra. Benchmarks, adoption, guide de décision."
 description: "Dix frameworks d'agents IA open source comparés en 2026 : architectures, chiffres d'adoption, métriques GitHub et cadre de décision pour choisir le bon."
 ---

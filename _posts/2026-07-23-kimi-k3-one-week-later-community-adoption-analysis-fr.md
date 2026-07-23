@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "Kimi K3 une semaine après : adoption par la communauté, benchmarks indépendants et ce que change réellement le modèle ouvert 2,8T de Moonshot"
+title: "Kimi K3 une semaine après : adoption par la communauté, benchmarks indépendants et ce que change réellement le modèle ouvert 2,8T de Moonshot"
 date: 2026-07-23 08:00:00 +0200
 lang: fr
 ref: kimi-k3-one-week-later-community-adoption-analysis
@@ -12,10 +11,9 @@ categories: [AI, Models, "Open-Source"]
 tags: ["kimi-k3", "moonshot-ai", "open-source", benchmarks, adoption, "ai-models", "2026", "traduction-francaise"]
 last_modified_at: 2026-07-19 18:05:49 +0000
 hero_image: /assets/images/hero/hero-kimi-k3-one-week-later-community-adoption-analysis.jpg
-meta_description: >
-  "Une semaine après le lancement de Kimi K3 par Moonshot AI, nous analysons les benchmarks indépendants, les signaux d'adoption communautaire, les prix (3$/15$ par million de tokens) et l'impact sur le paysage de l'IA open-weight."
-description: >
-  "Kimi K3, lancé le 16 juillet, est le plus grand modèle open-source jamais créé (2,8T paramètres). Une semaine après : benchmarks indépendants, réactions de la communauté, métriques d'adoption et implications stratégiques."
+image: /assets/images/hero/hero-kimi-k3-one-week-later-community-adoption-analysis.jpg
+meta_description: "Une semaine après le lancement de Kimi K3 par Moonshot AI, nous analysons les benchmarks indépendants, les signaux d'adoption communautaire, les prix (3$/15$ par million de tokens) et l'impact sur le paysage de l'IA open-weight."
+description: "Kimi K3, lancé le 16 juillet, est le plus grand modèle open-source jamais créé (2,8T paramètres). Une semaine après : benchmarks indépendants, réactions de la communauté, métriques d'adoption et implications stratégiques."
 ---
 
 ## TL;DR
