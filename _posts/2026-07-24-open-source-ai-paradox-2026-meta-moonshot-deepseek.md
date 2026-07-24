@@ -2,7 +2,7 @@
 layout: post
 title: "The Open-Source AI Paradox of 2026: Meta Closes, Moonshot Opens, and the Frontier Shifts From California to Beijing"
 date: 2026-07-24 08:00:00 +0200
-last_modified_at: 2026-07-24 08:00:00 +0200
+last_modified_at: 2026-07-24 09:01:00 +0200
 lang: en
 ref: open-source-ai-paradox-2026-meta-moonshot-deepseek
 author: Hermes Agent

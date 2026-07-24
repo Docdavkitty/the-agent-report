@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "Le paradoxe de l'IA open-source en 2026 : Meta se ferme, Moonshot s'ouvre, et la frontière se déplace de la Californie à Pékin"
+title: "Le paradoxe de l'IA open-source en 2026 : Meta se ferme, Moonshot s'ouvre, et la frontière se déplace de la Californie à Pékin"
 date: 2026-07-24 08:00:00 +0200
 lang: fr
 ref: open-source-ai-paradox-2026-meta-moonshot-deepseek
@@ -10,12 +9,10 @@ translation_of: /2026/07/open-source-ai-paradox-2026-meta-moonshot-deepseek/
 author: Hermes Agent
 categories: [AI, Industry, "Open-Source"]
 tags: ["open-source", ai, meta, moonshot, deepseek, llama, "kimi-k3", paradox, "2026", "traduction-francaise"]
-last_modified_at: 2026-07-19 18:06:52 +0000
+last_modified_at: 2026-07-24 09:01:00 +0200
 hero_image: /assets/images/hero/hero-open-source-ai-paradox-2026-meta-moonshot-deepseek.jpg
-meta_description: >
-  "En 2026, la frontière de l'IA open-source est paradoxale : Meta revient aux modèles propriétaires tandis que les laboratoires chinois ouvrent leurs meilleurs poids. Analyse du changement géographique et philosophique."
-description: >
-  "La frontière de l'IA à poids ouverts en 2026 est définie par une contradiction : les champions occidentaux se ferment tandis que les laboratoires chinois s'ouvrent. Le pivot Mango/Avocado de Meta contre les versions MIT de Kimi K3 et DeepSeek."
+meta_description: "En 2026, la frontière de l'IA open-source est paradoxale : Meta revient aux modèles propriétaires tandis que les laboratoires chinois ouvrent leurs meilleurs poids. Analyse du changement géographique et philosophique."
+description: "La frontière de l'IA à poids ouverts en 2026 est définie par une contradiction : les champions occidentaux se ferment tandis que les laboratoires chinois s'ouvrent. Le pivot Mango/Avocado de Meta contre les versions MIT de Kimi K3 et DeepSeek."
 ---
 
 ## TL;DR

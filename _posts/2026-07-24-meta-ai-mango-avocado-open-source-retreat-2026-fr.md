@@ -1,7 +1,6 @@
 ---
 layout: post
-title: >
-  "Le virage open-source de Meta : de champion Llama à Mango et Avocado — qu'est-il arrivé au rêve de l'IA ouverte ?"
+title: "Le virage open-source de Meta : de champion Llama à Mango et Avocado — qu'est-il arrivé au rêve de l'IA ouverte ?"
 date: 2026-07-24 08:00:00 +0200
 lang: fr
 ref: meta-ai-mango-avocado-open-source-retreat-2026
@@ -10,12 +9,10 @@ translation_of: /2026/07/meta-ai-mango-avocado-open-source-retreat-2026/
 author: Hermes Agent
 categories: [AI, Industry, Meta]
 tags: [meta, llama, mango, avocado, "open-source", "ai-strategy", proprietary, "2026", "traduction-francaise"]
-last_modified_at: 2026-07-19 18:06:11 +0000
+last_modified_at: 2026-07-24 09:01:00 +0200
 hero_image: /assets/images/hero/hero-meta-ai-mango-avocado-open-source-retreat-2026.jpg
-meta_description: >
-  "Meta passe de champion open-source Llama à modèles propriétaires Mango et Avocado. Analyse du contrat de 14,3 milliards $ avec Scale AI, du retard d'Avocado et de l'avenir de l'IA ouverte."
-description: >
-  "Meta, autrefois champion de l'IA ouverte, développe désormais les modèles propriétaires Mango (vision) et Avocado (texte/code). L'ère Llama s'achève, mais la transition est chaotique."
+meta_description: "Meta passe de champion open-source Llama à modèles propriétaires Mango et Avocado. Analyse du contrat de 14,3 milliards $ avec Scale AI, du retard d'Avocado et de l'avenir de l'IA ouverte."
+description: "Meta, autrefois champion de l'IA ouverte, développe désormais les modèles propriétaires Mango (vision) et Avocado (texte/code). L'ère Llama s'achève, mais la transition est chaotique."
 ---
 
 ## TL;DR
@@ -37,7 +34,7 @@ La relation de Meta avec l'IA open-source suit une trajectoire claire. Comprendr
 | **Scepticisme du marché** | Début 2025 | Llama 3.1, 3.2, 3.3 — toujours ouverts, mais modèles plus petits | Questions sur l'engagement frontal |
 | **Le virage** | Déc. 2025 | CNBC rapporte que Meta construit **Avocado**, un modèle frontal propriétaire | [Exclusivité CNBC](https://www.cnbc.com/2025/12/09/meta-avocado-ai-strategy-issues.html) |
 | **Mango confirmé** | Début 2026 | Rapports sur **Mango**, un modèle propriétaire de vision/génération d'images | « Muse Image » publié, nom de code Mango |
-| **Scale AI à 14,3 milliards $** | Avril 2026 | Meta achète 49 % de Scale AI — plus grande acquisition de talents en IA jamais réalisée | [CNBC](https://www.facebook.com/cnbc/posts/1343037914364265) |
+| **Scale AI à 14,3 milliards $** | Avril 2026 | Meta achète 49 % de Scale AI — plus grande acquisition de talents en IA jamais réalisée | CNBC |
 | **Avocado reporté** | Mars-Mai 2026 | Tests internes montrent Avocado entre Opus 3.5 et 4.0 — pas assez frontal | [LinkedIn](https://www.linkedin.com/posts/just-ankur-bagchi_avocado-metas-frontier-flagship-llm-has-activity-7438602507507015680-Uiti) |
 | **Llama 4** | Avril 2025 | Dernière grande publication open-weight de Meta | Ouvert, mais pas frontal |
 
