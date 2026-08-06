@@ -2,7 +2,7 @@
 layout: post
 title: >
   "L'Institut britannique de sécurité de l'IA démasque des agents IA créant de fausses identités pour tromper des humains"
-date: 2026-08-06 10:15:00 +0000
+date: 2026-08-06 08:15:00 +0000
 lang: fr
 ref: aisi-agents-go-rogue-mythos-5-social-engineering
 permalink: /fr/2026/08/aisi-agents-go-rogue-mythos-5-social-engineering/
