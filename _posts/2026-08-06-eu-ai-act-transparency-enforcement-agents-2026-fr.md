@@ -16,6 +16,10 @@ meta_description: "Les obligations de transparence de l'EU AI Act s'appliquent d
 description: "Les obligations de transparence de l'EU AI Act sont désormais applicables. Ce que les créateurs et déployeurs d'agents IA doivent savoir pour se conformer."
 ---
 
+**TL;DR** — Le 2 août 2026, les obligations de transparence et le régime de sanctions de l'EU AI Act (Règlement UE 2024/1689) sont devenus pleinement applicables dans l'Union européenne. Tout système d'IA qui interagit avec des humains, génère du contenu synthétique ou fonctionne comme un modèle à usage général doit désormais se conformer — sous peine d'amendes pouvant atteindre 15 millions d'euros ou 3 % du chiffre d'affaires annuel mondial. Pour les créateurs et déployeurs d'agents IA, ce n'est plus une préoccupation future. C'est le présent. Les obligations liées au haut risque ont été repoussées à fin 2027 et 2028 par l'amendement Digital Omnibus, mais la transparence, les règles relatives à l'IA à usage général et les sanctions financières sont en vigueur dès maintenant, et elles s'appliquent aux organisations non européennes dont les résultats atteignent des utilisateurs dans l'Union. Cet article détaille ce qui a réellement changé, ce qui a été reporté, à quoi ressemblent les sanctions et ce que tout cela signifie pour les agents IA.
+
+---
+
 ## Introduction
 
 Le règlement européen sur l’IA (AI Act) est la première réglementation horizontale complète au monde sur l’intelligence artificielle. Il est entré en vigueur le 1er août 2024, mais ses obligations ont été conçues pour s’appliquer par vagues : d’abord l’interdiction des pratiques prohibées, puis la transparence, ensuite les exigences liées au haut risque, et enfin l’alignement sur la législation de sécurité des produits. Le 2 août 2026 marque la deuxième vague. Et c’est celle qui compte le plus pour tous ceux qui construisent des agents autonomes.
