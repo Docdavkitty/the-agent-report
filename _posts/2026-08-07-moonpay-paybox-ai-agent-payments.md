@@ -28,9 +28,9 @@ The workflow is deliberately simple. A user types a plain-language instruction: 
 
 The core design principle is that existing products force a tradeoff between convenience and control: to let an agent transact autonomously, the user typically has to authorize it to take custody of funds outright. PayBox is built so no party — including MoonPay and the AI itself — can unilaterally access the user's funds or credentials. *(Source : [MoonPay — MoonPay Launches PayBox, a Payment Vault for Claude and ChatGPT](https://www.moonpay.com/newsroom/moonpay-paybox))*
 
-Three fraud vectors are closed specifically:
+Three specific fraud vectors are addressed:
 
-**1. No single credential to steal.** Wallet keys are split via threshold cryptography (MPC) across hardware-isolated secure enclaves (TEEs). A compromised phone doesn't hand an attacker the ability to move funds — the missing key pieces simply aren't there to take.
+**1. No single credential to steal.** Wallet keys are split via threshold cryptography (MPC) across hardware-isolated secure enclaves (TEEs). A compromised phone doesn't hand an attacker the ability to move funds — the missing key shards are never present on the device.
 
 **2. No reusable card numbers.** Card payments route through Visa's agentic commerce protocol, generating single-use virtual card numbers scoped to specific merchants and amounts. The raw card number is never stored or visible to the agent. *(Source : [Solana Compass — MoonPay Launches PayBox](https://solanacompass.com/news/moonpay-launches-paybox-letting-claude-and-chatgpt-users-trade-on-solana-through-conversation))*
 
