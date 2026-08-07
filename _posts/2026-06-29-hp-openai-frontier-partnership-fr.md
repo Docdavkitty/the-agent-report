@@ -16,7 +16,7 @@ meta_description: >
   "HP Inc. a annoncé le 28 juin 2026 un partenariat stratégique Frontier avec OpenAI pour déployer l'IA agentique dans ses opérations mondiales et construire du matériel dédié aux charges de travail d'inférence 24/7."
 description: >
   "HP Inc. a annoncé le 28 juin 2026 un partenariat stratégique Frontier avec OpenAI, devenant le premier grand OEM à construire des appareils IA agentiques dédiés avec inférence toujours active."
-reading_time: 12 minutes
+reading_time: 12
 ---
 
 **TL;DR :** HP Inc. a annoncé le 28 juin 2026 un partenariat stratégique avec OpenAI, devenant ainsi le premier grand fabricant OEM à s'engager dans la construction de « appareils IA agentiques » dédiés — du matériel optimisé pour les charges de travail d'inférence IA 24h/24 et 7j/7. L'accord fait suite à un pilote de six mois commencé en février 2026, le mois même où OpenAI a lancé Frontier, sa plateforme d'agents d'entreprise. HP rejoint Intuit, Oracle, State Farm et Uber parmi les premiers adoptants de Frontier, mais son héritage matériel — plus de 58 000 employés, des chaînes d'approvisionnement planétaires et la HP Workforce Experience Platform (WXP) — lui confère un angle physique-numérique unique que les adoptants purement logiciels ne peuvent pas reproduire. Ce partenariat signale que l'IA agentique passe des expérimentations de chat à un déploiement de niveau infrastructure au sein des entreprises du Fortune 500.

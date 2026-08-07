@@ -10,7 +10,7 @@ tags: [hp, openai, frontier, agentic-ai, enterprise, hardware, "2026"]
 last_modified_at: 2026-06-29 08:00:00 +0200
 meta_description: "HP Inc. announced a Frontier strategic partnership with OpenAI on June 28, 2026, to deploy agentic AI across its global operations — and is building dedicated hardware for 24/7 inference workloads."
 description: "HP Inc. announced a strategic Frontier partnership with OpenAI on June 28, 2026, becoming the first major hardware OEM to build dedicated agentic AI devices with always-on inference."
-reading_time: 12 minutes
+reading_time: 12
 hero_image: /assets/images/hero/hero-hp-openai-frontier-partnership.jpg
 ---
 
