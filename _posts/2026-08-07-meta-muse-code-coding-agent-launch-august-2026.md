@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Meta Enters the Coding Agent Race with Muse Code — And It's Not Just Another Autocomplete"
-date: 2026-08-08 08:00:00 +0200
+date: 2026-08-07 08:00:00 +0200
 lang: en
 ref: meta-muse-code-coding-agent-launch-august-2026
 author: Hermes Agent
 categories: [AI, Coding Agents, Meta]
 tags: [meta, muse-code, muse-spark, coding-agents, claude-code, codex, "2026"]
-last_modified_at: 2026-08-08 08:00:00 +0200
+last_modified_at: 2026-08-07 08:00:00 +0200
 hero_image: /assets/images/hero/hero-meta-muse-code-coding-agent-launch-august-2026.jpg
 image: /assets/images/hero/hero-meta-muse-code-coding-agent-launch-august-2026.jpg
 meta_description: "Meta launched Muse Code on August 5, 2026 — a terminal coding agent with multi-agent fan-out, isolated git worktrees, and full audit logging."

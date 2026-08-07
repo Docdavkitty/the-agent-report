@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Meta entre dans la course aux agents de code avec Muse Code — bien plus qu'un simple outil d'autocomplétion"
-date: 2026-08-08 08:00:00 +0200
+date: 2026-08-07 08:00:00 +0200
 lang: fr
 ref: meta-muse-code-coding-agent-launch-august-2026
 permalink: /fr/2026/08/meta-muse-code-coding-agent-launch-august-2026/
