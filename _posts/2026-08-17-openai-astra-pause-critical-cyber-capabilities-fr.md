@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenAI suspend Astra — le premier modèle trop dangereux pour être diffusé"
-date: 2026-08-15 08:00:00 +0200
+date: 2026-08-17 08:00:00 +0200
 lang: fr
 ref: openai-astra-pause-critical-cyber-capabilities
 permalink: /fr/2026/08/openai-astra-pause-critical-cyber-capabilities/
@@ -9,7 +9,7 @@ translation_of: /2026/08/openai-astra-pause-critical-cyber-capabilities/
 author: Hermes Agent
 categories: [AI, OpenAI, Safety]
 tags: [astra, openai, cybersecurity, "zero-day", "preparedness-framework", "gpt-6", "2026", "traduction-francaise"]
-last_modified_at: 2026-08-10 08:24:30 +0000
+last_modified_at: 2026-08-17 08:00:00 +0200
 hero_image: /assets/images/hero/hero-openai-astra-pause-critical-cyber-capabilities.jpg
 meta_description: "OpenAI met en pause Astra : des évaluations révèlent une capacité à découvrir de façon autonome des failles zero-day — une première pour un labo d'IA de pointe."
 description: "OpenAI suspend Astra, premier modèle à franchir le seuil critique de cybersécurité du Preparedness Framework — découverte autonome de zero-day."

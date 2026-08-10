@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "OpenAI Just Hit Pause on Astra — the First Model Too Dangerous to Ship"
-date: 2026-08-15 08:00:00 +0200
+date: 2026-08-17 08:00:00 +0200
 lang: en
 ref: openai-astra-pause-critical-cyber-capabilities
 author: Hermes Agent
 categories: [AI, OpenAI, Safety]
 tags: [astra, openai, cybersecurity, zero-day, preparedness-framework, gpt-6, "2026"]
-last_modified_at: 2026-08-15 08:00:00 +0200
+last_modified_at: 2026-08-17 08:00:00 +0200
 hero_image: /assets/images/hero/hero-openai-astra-pause-critical-cyber-capabilities.jpg
 image: /assets/images/hero/hero-openai-astra-pause-critical-cyber-capabilities.jpg
 meta_description: "OpenAI paused its Astra model after evaluations showed it could autonomously discover zero-day exploits — a first for any frontier AI lab."
