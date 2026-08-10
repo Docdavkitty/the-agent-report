@@ -13,6 +13,8 @@ tags: [meta, llama, "open-source", "copyright-lawsuit", elsevier, "academic-publ
 last_modified_at: 2026-08-09 15:12:33 +0000
 hero_image: /assets/images/hero/hero-elsevier-meta-llama-copyright-lawsuit.jpg
 reading_time: 6
+description: "La guerre des droits d'auteur contre les modèles Llama de Meta vient de s'étendre au front académique."
+meta_description: "La guerre des droits d'auteur contre les modèles Llama de Meta vient de s'étendre au front académique."
 ---
 
 **La guerre des droits d'auteur contre les modèles Llama de Meta vient de s'étendre au front académique.** Elsevier — le plus grand éditeur scientifique au monde, avec plus de 2 900 revues, dont *The Lancet* et *Cell* — a rejoint le recours collectif contre Meta, alléguant que des millions d'articles de recherche protégés par le droit d'auteur ont été aspirés et utilisés sans autorisation pour entraîner la famille de modèles Llama.
