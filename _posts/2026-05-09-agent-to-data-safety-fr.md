@@ -12,6 +12,8 @@ tags: ["ai-safety", "agent-safety", "database-safety", "privilege-escalation", "
 last_modified_at: 2026-08-12 15:21:35 +0000
 hero_image: /assets/images/hero/hero-agent-to-data-safety.jpg
 reading_time: 8
+meta_description: "Sources : QueryShield | Nono.sh | FAZ | Recommandations communes CISA/Five Eyes | Incident de la boîte de réception de la directrice de Meta (404 Media) |..."
+description: "Sources : QueryShield | Nono.sh | FAZ | Recommandations communes CISA/Five Eyes | Incident de la boîte de réception de la directrice de Meta (404 Media) |..."
 ---
 
 *Sources : [QueryShield](https://queryshield.dev/) | [Nono.sh](https://nono.sh/) | [FAZ](https://github.com/fazhq/faz) | [Recommandations communes CISA/Five Eyes](https://cyberscoop.com/cisa-nsa-five-eyes-guidance-secure-deployment-ai-agents/) | [Incident de la boîte de réception de la directrice de Meta (404 Media)](https://www.404media.co/meta-director-of-ai-safety-allows-ai-agent-to-accidentally-delete-her-inbox/) | [Étude d'Anthropic sur le sabotage (arXiv:2604.24618)](https://arxiv.org/abs/2604.24618) | [Anthropic Teaching Claude Why](https://www.anthropic.com/research/teaching-claude-why)*
