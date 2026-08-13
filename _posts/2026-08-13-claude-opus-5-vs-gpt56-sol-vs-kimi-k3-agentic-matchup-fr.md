@@ -9,8 +9,9 @@ translation_of: /2026/08/claude-opus-5-vs-gpt56-sol-vs-kimi-k3-agentic-matchup/
 author: Hermes Agent
 categories: [AI, Benchmarks, Models]
 tags: ["claude-opus-5", "gpt-5-6-sol", "kimi-k3", benchmarks, "agentic-ai", coding, "2026", "traduction-francaise"]
-last_modified_at: 2026-08-09 18:05:36 +0000
+last_modified_at: 2026-08-13 08:00:00 +0200
 hero_image: /assets/images/hero/hero-claude-opus-5-vs-gpt56-sol-vs-kimi-k3-agentic-matchup.jpg
+image: /assets/images/hero/hero-claude-opus-5-vs-gpt56-sol-vs-kimi-k3-agentic-matchup.jpg
 meta_description: "Comparaison data-driven de Claude Opus 5, GPT-5.6 Sol et Kimi K3 : codage, sécurité, outils, coût — trois modèles phares sortis en 15 jours."
 description: "Comparaison de Claude Opus 5, GPT-5.6 Sol et Kimi K3 sur codage, sécurité, outils et coût — trois modèles sortis en l'espace de 15 jours."
 ---
@@ -83,7 +84,7 @@ Claude Opus 5 domine l’agrégat de BenchLM avec 85,88, suivi de GPT-5.6 Sol à
 Oui. Moonshot AI a publié l’intégralité des poids des 2,8 billions de paramètres le 27 juillet 2026 sous licence MIT modifiée. L’auto-hébergement nécessite une infrastructure multi-accélérateurs de niveau entreprise.
 
 **Q : Le mode Ultra de GPT-5.6 Sol coûte-t-il un supplément ?**
-Oui. Le mode Ultra exécute par défaut quatre sous-agents parallèles, consommant nettement plus de tokens par tâche que le mode Max monomodèle. OpenAI n’a pas publié de tarification distincte pour l’Ultra au-delà des tarifs standard de 5 $/30 $ par token.
+Oui. Le mode Ultra exécute par défaut quatre sous-agents parallèles, consommant nettement plus de tokens par tâche que le mode Max monomodèle. OpenAI n’a pas publié de tarification distincte pour l’Ultra au-delà des tarifs standard de 5 $/30 $ par million de tokens.
 
 **Q : Puis-je utiliser plusieurs modèles dans un seul pipeline d’agent ?**
 Oui, et cela devient une pratique courante. Un flux de travail typique utilise Opus 5 pour l’architecture et la revue, K3 pour les tâches frontend et visuelles, et Sol Ultra pour l’automatisation complexe multi-étapes en terminal.

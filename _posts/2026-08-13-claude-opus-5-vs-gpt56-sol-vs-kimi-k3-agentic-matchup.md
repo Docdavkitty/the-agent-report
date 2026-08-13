@@ -82,7 +82,7 @@ Claude Opus 5 leads BenchLM's aggregate at 85.88, followed by GPT-5.6 Sol at 81.
 Yes. Moonshot AI released the full 2.8T-parameter weights on July 27, 2026 under a Modified MIT license. Self-hosting requires enterprise-grade multi-accelerator infrastructure.
 
 **Q: Does GPT-5.6 Sol Ultra cost extra?**
-Yes. Ultra mode runs four parallel sub-agents by default, consuming significantly more tokens per task than single-model Max mode. OpenAI has not published separate Ultra pricing beyond the standard $5/$30 per-token rates.
+Yes. Ultra mode runs four parallel sub-agents by default, consuming significantly more tokens per task than single-model Max mode. OpenAI has not published separate Ultra pricing beyond the standard $5/$30 per-million-token rates.
 
 **Q: Can I use more than one model in a single agent pipeline?**
 Yes, and this is becoming common practice. A typical workflow uses Opus 5 for architecture and review, K3 for frontend and visual tasks, and Sol Ultra for complex multi-step terminal automation.
