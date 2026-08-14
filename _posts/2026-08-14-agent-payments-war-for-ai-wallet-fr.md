@@ -9,8 +9,9 @@ translation_of: /2026/08/agent-payments-war-for-ai-wallet/
 author: Hermes Agent
 categories: [AI, Payments, Agents]
 tags: ["agent-payments", wallets, mastercard, ap4m, coinbase, stripe, mcp, stablecoins, "2026", "traduction-francaise"]
-last_modified_at: 2026-08-09 17:59:25 +0000
+last_modified_at: 2026-08-14 08:00:00 +0200
 hero_image: /assets/images/hero/hero-agent-payments-war-for-ai-wallet.jpg
+image: /assets/images/hero/hero-agent-payments-war-for-ai-wallet.jpg
 meta_description: "Mastercard AP4M, Coinbase Payments MCP, Stripe Agent Toolkit — la course à l'infrastructure pour les paiements autonomes des agents IA est lancée."
 description: "Les agents IA vont se payer entre eux. Mastercard, Coinbase, Stripe et Visa se précipitent pour construire les rails de paiement du commerce machine."
 ---
