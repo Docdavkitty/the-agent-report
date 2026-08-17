@@ -11,6 +11,7 @@ categories: [AI, OpenAI, Safety]
 tags: [astra, openai, cybersecurity, "zero-day", "preparedness-framework", "gpt-6", "2026", "traduction-francaise"]
 last_modified_at: 2026-08-17 08:00:00 +0200
 hero_image: /assets/images/hero/hero-openai-astra-pause-critical-cyber-capabilities.jpg
+image: /assets/images/hero/hero-openai-astra-pause-critical-cyber-capabilities.jpg
 meta_description: "OpenAI met en pause Astra : des évaluations révèlent une capacité à découvrir de façon autonome des failles zero-day — une première pour un labo d'IA de pointe."
 description: "OpenAI suspend Astra, premier modèle à franchir le seuil critique de cybersécurité du Preparedness Framework — découverte autonome de zero-day."
 ---
