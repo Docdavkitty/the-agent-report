@@ -13,6 +13,8 @@ tags: [openclaw, "claw-controller", "agent-autonomy", "codex-oauth", "rapid-iter
 last_modified_at: 2026-08-14 14:18:41 +0000
 hero_image: /assets/images/hero/hero-openclaw-v2026-5-5-v2026-5-6-codex-oauth-fix.jpg
 reading_time: 5
+meta_description: "Openclaw continue de définir ce que signifie exploiter un contrôleur d'agents IA open source à l'échelle planétaire."
+description: "Openclaw continue de définir ce que signifie exploiter un contrôleur d'agents IA open source à l'échelle planétaire."
 ---
 
 *Openclaw continue de définir ce que signifie exploiter un contrôleur d'agents IA open source à l'échelle planétaire. Deux versions, une journée, aucun drame — juste de l'ingénierie logicielle.*

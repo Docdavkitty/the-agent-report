@@ -13,6 +13,8 @@ tags: [Hermes Agent, Nous Research, "open-source", i18n, "skill-management", "ma
 last_modified_at: 2026-08-15 14:21:25 +0000
 hero_image: /assets/images/hero/hero-hermes-agent-i18n-skill-lifecycle-mac-sandbox-may6.jpg
 reading_time: 6
+meta_description: "The Agent Report continuera de suivre le rythme effréné de Hermes Agent. Revenez demain pour en savoir plus."
+description: "The Agent Report continuera de suivre le rythme effréné de Hermes Agent. Revenez demain pour en savoir plus."
 ---
 
 *The Agent Report continuera de suivre le rythme effréné de Hermes Agent. Revenez demain pour en savoir plus.*
