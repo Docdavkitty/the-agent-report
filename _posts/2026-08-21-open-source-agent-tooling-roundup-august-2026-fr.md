@@ -11,6 +11,7 @@ categories: [AI, Open Source, Developer Tools]
 tags: [mcp, "open-source", agents, "developer-tools", infrastructure, gateway, "traduction-francaise"]
 last_modified_at: 2026-08-17 13:54:36 +0000
 hero_image: /assets/images/hero/hero-open-source-agent-tooling-roundup-august-2026.jpg
+image: /assets/images/hero/hero-open-source-agent-tooling-roundup-august-2026.jpg
 meta_description: "MCP dépasse 97 millions de téléchargements mensuels et la stack open-source d'agents se consolide autour de passerelles, registres et serveurs spécialisés."
 description: "Passerelles MCP (Bifrost), serveurs de production, registres et navigateur d'agents Cloudflare — où en est la stack open-source d'outillage en août 2026."
 reading_time: 8

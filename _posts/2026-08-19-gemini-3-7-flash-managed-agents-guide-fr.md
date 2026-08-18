@@ -11,6 +11,7 @@ categories: [AI, Google, Developer Tools]
 tags: [gemini, google, agents, "managed-agents", mcp, "developer-tools", "traduction-francaise"]
 last_modified_at: 2026-08-17 13:47:44 +0000
 hero_image: /assets/images/hero/hero-gemini-3-7-flash-managed-agents-guide.jpg
+image: /assets/images/hero/hero-gemini-3-7-flash-managed-agents-guide.jpg
 meta_description: "Gemini 3.7 Flash sort à moitié prix avec hooks, plafonds de budget et offre gratuite pour Managed Agents — plan de contrôle de Google pour agents en production."
 description: "Google lance Gemini 3.7 Flash à 0,75 $/M avec hooks, budgets et déclencheurs cron pour Managed Agents — couche de gouvernance pour agents en production."
 reading_time: 8

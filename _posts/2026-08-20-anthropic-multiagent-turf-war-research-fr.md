@@ -11,6 +11,7 @@ categories: [AI, Anthropic, Safety, Research]
 tags: [anthropic, multiagent, safety, "frontier-red-team", agents, research, "traduction-francaise"]
 last_modified_at: 2026-08-17 13:51:49 +0000
 hero_image: /assets/images/hero/hero-anthropic-multiagent-turf-war-research.jpg
+image: /assets/images/hero/hero-anthropic-multiagent-turf-war-research.jpg
 meta_description: "La Frontier Red Team d'Anthropic a vu des agents Claude se saboter avec un malware auto-répliquant lors d'une guerre de 4 h — la coordination ne naît pas seule."
 description: "D'après l'étude multi-agents d'Anthropic, trois agents Claude se sont affrontés 4 h, désactivant des comptes et déployant un malware auto-répliquant."
 reading_time: 8

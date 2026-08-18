@@ -11,6 +11,7 @@ categories: [AI, Startups, Funding]
 tags: ["ai-agents", funding, startups, enterprise, "venture-capital", "traduction-francaise"]
 last_modified_at: 2026-08-17 13:44:50 +0000
 hero_image: /assets/images/hero/hero-ai-agent-funding-surge-august-2026.jpg
+image: /assets/images/hero/hero-ai-agent-funding-surge-august-2026.jpg
 meta_description: "HappyRobot lève 150 M$ en série C, Zenity 125 M$, Cognition vise 1 Md$ — les startups d'agents IA d'entreprise battent des records en août 2026."
 description: "Les startups d'agents IA d'entreprise ont levé des tours record en août 2026 — HappyRobot 150 M$ à 1,2 Md$, Zenity 125 M$, Cognition vise 40 Md$+."
 reading_time: 7
