@@ -19,7 +19,7 @@ description: "Google launched Gemini 3.7 Flash at $0.75/M input with hooks, budg
 
 ## Introduction
 
-On 13 August 2026 Google shipped Gemini 3.7 Flash; two weeks earlier, on 28 July, it expanded Managed Agents with hooks, budgets and schedules. Read together, they answer the question every builder asks: how do you take an autonomous agent from demo to production without hand-rolling the safety rails?
+On 13 August 2026 Google shipped Gemini 3.7 Flash; just over two weeks earlier, on 28 July, it expanded Managed Agents with hooks, budgets and schedules. Read together, they answer the question every builder asks: how do you take an autonomous agent from demo to production without hand-rolling the safety rails?
 
 ## Pricing that resets the summer math
 
@@ -35,7 +35,7 @@ Google credits three capabilities: higher first-pass code accuracy, stronger mul
 
 The model is exposed through Google Antigravity 2.0, the Gemini API, AI Studio and Google Cloud, under the model ID `gemini-3.7-flash` *(Source : [Google Antigravity blog](https://antigravity.google/blog/gemini-3-7-flash-in-google-antigravity))*.
 
-But third-party docs flag a nuance: the public Gemini API surface — changelog, pricing and rate limits — has not fully converged on 3.7 yet, and availability is uneven across the Gemini API, AI Studio, Vertex and the Agent Platform *(Source : [AgentPedia Developer Guide](https://agentpedia.codes/blog/gemini-3-7-flash-developer-guide))*. The practical recommendation: evaluate 3.7 in shadow traffic or behind a feature flag, and keep 3.6 Flash pinned as rollback until the docs and your own telemetry agree.
+But third-party docs flag a nuance: the public Gemini API surface — changelog, pricing and rate limits — has not fully converged on 3.7 yet, and availability is uneven across the Gemini API, AI Studio, Vertex and the Agent Platform *(Source : [AgentPedia Developer Guide](https://agentpedia.codes/blog/gemini-3-7-flash-developer-guide))*. The practical recommendation: evaluate 3.7 in shadow traffic or behind a feature flag, and keep 3.6 Flash pinned as a rollback until the docs and your own telemetry agree.
 
 ## Managed Agents: the control plane update
 

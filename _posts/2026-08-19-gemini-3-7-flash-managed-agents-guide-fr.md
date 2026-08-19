@@ -21,7 +21,7 @@ reading_time: 8
 
 ## Introduction
 
-Le 13 août 2026, Google a livré Gemini 3.7 Flash ; deux semaines plus tôt, le 28 juillet, il a étendu Managed Agents avec des hooks, des budgets et des planifications. Lus ensemble, ils répondent à la question que tout développeur se pose : comment faire passer un agent autonome de la démo à la production sans construire soi-même les garde-fous ?
+Le 13 août 2026, Google a livré Gemini 3.7 Flash ; un peu plus de deux semaines plus tôt, le 28 juillet, il a étendu Managed Agents avec des hooks, des budgets et des planifications. Lus ensemble, ils répondent à la question que tout développeur se pose : comment faire passer un agent autonome de la démo à la production sans construire soi-même les garde-fous ?
 
 ## Une tarification qui rebat les cartes de l'été
 
@@ -31,7 +31,7 @@ Gemini 3.7 Flash fait ses débuts à 0,75 $ par million de jetons d'entrée et 3
 
 Les gains se situent exactement là où les développeurs ressentent la douleur — le codage sur de longues durées et l'utilisation d'outils. Sur DeepSWE v1.1, Gemini 3.7 Flash obtient un score de 65,3 % contre 49,0 % pour 3.6 Flash ; sur FrontierCode 1.1 (Main), il affiche 43,6 % contre 34,4 % ; et il atteint 1588 Elo sur la WebDev Arena *(Source : [Google Antigravity blog](https://antigravity.google/blog/gemini-3-7-flash-in-google-antigravity))*.
 
-Google attribue cela à trois capacités : une meilleure précision du code dès la première passe, une planification multi-étapes plus solide et des appels d'outils plus fiables *(Source : [Google Antigravity blog](https://antigravity.google/blog/gemini-3-7-flash-in-google-antigravity))*. Ce dernier point est la véritable nouvelle discrète : appeler la bonne fonction avec le bon schéma du premier coup évite que les erreurs ne s'accumulent au cours d'une exécution de 20 étapes.
+Google attribue cela à trois capacités : une meilleure précision du code dès la première passe, une planification multi-étapes plus solide et des appels d'outils plus fiables *(Source : [Google Antigravity blog](https://antigravity.google/blog/gemini-3-7-flash-in-google-antigravity))*. Ce dernier point est la vraie nouvelle, discrète : appeler la bonne fonction avec le bon schéma du premier coup évite que les erreurs ne s'accumulent au cours d'une exécution de 20 étapes.
 
 ## Disponibilité : le déploiement est inégal — traitez 3.7 comme un canari
 
@@ -55,7 +55,7 @@ La moitié stratégique est arrivée le 28 juillet 2026, dans la mise à jour `a
 
 Les hooks, les budgets et les planifications constituent la couche de gouvernance qui rend les agents autonomes déployables en production. Un hook qui oppose son veto à une commande shell, un plafond de jetons qui borne le coût dans le pire des cas, et un état reprenable en cas d'épuisement du budget sont les premières choses qu'une équipe sérieuse construit lorsqu'un agent sort du bac à sable — et Google les livre désormais comme fonctionnalités d'API.
 
-Combinez cela avec un modèle à moitié prix, et l'économie change doublement : le coût marginal d'une exécution d'agent baisse pour le reste de 2026, et la barrière d'entrée diminue pour tous les autres grâce à l'offre gratuite. Le déploiement inégal montre que le plan de contrôle et le modèle évoluent selon des calendriers différents — mais c'est la direction qui compte.
+Combinez cela avec un modèle à moitié prix, et l'économie évolue sur deux plans : le coût marginal d'une exécution d'agent baisse pour le reste de 2026, et la barrière d'entrée diminue pour tous les autres grâce à l'offre gratuite. Le déploiement inégal montre que le plan de contrôle et le modèle évoluent selon des calendriers différents — mais c'est la direction qui compte.
 
 ## FAQ
 
