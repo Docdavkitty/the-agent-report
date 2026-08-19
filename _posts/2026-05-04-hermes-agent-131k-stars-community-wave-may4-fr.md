@@ -13,6 +13,8 @@ tags: [Hermes Agent, Nous Research, community, "open-source", "hermes-send", "co
 last_modified_at: 2026-08-18 14:27:06 +0000
 hero_image: /assets/images/hero/hero-05-04-hermes-agent-131k-stars-community-wave-may4.jpg
 reading_time: 5
+description: "Couverture basée sur l’activité GitHub sur NousResearch/hermes-agent au 4 mai 2026. Nombre d’étoiles issu de l’API GitHub."
+meta_description: "Couverture basée sur l’activité GitHub sur NousResearch/hermes-agent au 4 mai 2026. Nombre d’étoiles issu de l’API GitHub."
 ---
 
 *Couverture basée sur l’activité GitHub sur [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) au 4 mai 2026. Nombre d’étoiles issu de l’API GitHub.*
