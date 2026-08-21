@@ -17,6 +17,10 @@ description: "Passerelles MCP (Bifrost), serveurs de production, registres et na
 reading_time: 8
 ---
 
+**TL;DR :** Le Model Context Protocol a dépassé les 97 millions de téléchargements mensuels : ce n'est plus un simple confort de développeur, c'est une infrastructure de production. La pile open source qui l'entoure se consolide en trois couches — passerelles (authentification, audit et politiques centralisés pour toute votre flotte d'agents), registres (le « moment npm » des agents) et serveurs spécialisés (commerce, recherche, bases de données, outils d'équipe). Le nouveau navigateur orienté agents de Cloudflare et une nouvelle vague d'outils de gouvernance signalent que la phase « c'est un outil de dev » est officiellement terminée.
+
+---
+
 ## La pile MCP n’est plus un simple confort de développeur
 
 Lorsqu’Anthropic a publié le Model Context Protocol en tant qu’artefact de recherche, l’argument était simple : arrêter d’écrire des connecteurs personnalisés pour chaque outil et donner aux modèles un moyen standardisé d’accéder à des données en temps réel. Deux ans plus tard, les chiffres racontent une autre histoire. MCP a dépassé les **97 millions de téléchargements mensuels**, tous les grands fournisseurs d’IA proposent la prise en charge de MCP, et lors de la RSA Conference 2026, Cisco a annoncé des outils de sécurité dédiés à MCP — un signal fort que le protocole est sorti du bac à sable des outils de développement pour entrer dans le périmètre de la sécurité. *(Source : [Maxim AI — Meilleures passerelles MCP open source en 2026](https://www.getmaxim.ai/articles/best-open-source-mcp-gateways-in-2026/))*
