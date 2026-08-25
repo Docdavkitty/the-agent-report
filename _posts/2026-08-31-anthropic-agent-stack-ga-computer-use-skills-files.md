@@ -41,7 +41,7 @@ Treat both as vendor-supplied data points, not independent benchmarks. The usefu
 
 ## What It Means for the Open Stack
 
-The release is best read against the open-source counterpoint TAR covered this week: [DeepSeek's Harness runtime, where everything is a plugin](/2026/08/deepseek-harness-dsh-open-source-agent-runtime/). DeepSeek's bet is that the agent stack should be unbundled and open — models, tools, sandboxes and memory as swappable plugins under an MIT license. Anthropic's counter-bet is the opposite: a tightly integrated, managed stack where the four components ship as one supported surface.
+The release is best read against the open-source counterpoint TAR covered recently: [DeepSeek's Harness runtime, where everything is a plugin](/2026/08/deepseek-harness-dsh-open-source-agent-runtime/). DeepSeek's bet is that the agent stack should be unbundled and open — models, tools, sandboxes and memory as swappable plugins under an MIT license. Anthropic's counter-bet is the opposite: a tightly integrated, managed stack where the four components ship as one supported surface.
 
 Both can be right for different buyers. A small studio that wants to charge a client for a repeatable deliverable now gets that without standing up a server, a headless-browser fleet or an artifact store — the "skills as a product" unlock flagged in the [open-source agent tooling roundup](/2026/08/open-source-agent-tooling-roundup-august-2026/). But the honest caveat is that screen-driving agents remain the least reliable part of any stack. Browser use reduces brittleness by reading structure instead of pixels; it does not eliminate the need for a human check on anything consequential.
 
