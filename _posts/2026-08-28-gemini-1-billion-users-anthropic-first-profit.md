@@ -31,7 +31,7 @@ The 1 billion figure ends a compounding curve, not a single spike. Gemini's mont
 
 The lever is distribution, applied through every surface Google owns. AI Overviews — Gemini in Search — reach roughly 2.5 billion monthly users, while AI Mode counts more than 1 billion MAU and 75 million daily actives *(Source : [getpanto.ai — Google Gemini Statistics 2026](https://www.getpanto.ai/blog/google-gemini-statistics))*. The enterprise layer compounds just as fast: 8 million paid seats across more than 2,800 companies, up 40% quarter-over-quarter, and 13 million developers on its generative models.
 
-The consumer chatbot shift is measurable. Gemini's web share of GenAI chatbots rose from 5.4% in January 2025 to 27.4% in June 2026 — a 407% gain — even as ChatGPT held the lead at 64.5% *(Source : [omnibound.ai — Google Gemini Statistics](https://www.omnibound.ai/blog/google-gemini-statistics))*. Serving costs fell 78% in 2025 — what makes pushing the product to a billion users survivable rather than a cash incinerator *(Source : [getpanto.ai — Google Gemini Statistics 2026](https://www.getpanto.ai/blog/google-gemini-statistics))*.
+The consumer chatbot shift is measurable. Gemini's web share of GenAI chatbots rose from 5.4% in January 2025 to 27.4% in June 2026 — a 407% gain *(Source : [omnibound.ai — Google Gemini Statistics](https://www.omnibound.ai/blog/google-gemini-statistics))*. ChatGPT still led, holding 64.5% of GenAI chatbot traffic as of January 2026, and Google cut serving costs 78% in 2025 — which makes pushing the product to a billion users survivable rather than a cash incinerator *(Source : [getpanto.ai — Google Gemini Statistics 2026](https://www.getpanto.ai/blog/google-gemini-statistics))*.
 
 ## What Anthropic's first profit actually means
 
@@ -47,7 +47,7 @@ The distinction changes what "winning" means. A distribution play measures succe
 
 ## What a billion users doesn't tell you
 
-The number to be skeptical of is 1 billion. It says nothing about revenue per user, and Google does not break Gemini revenue out of its results. Consumer subscription revenue is still a secondary stream — roughly $1.2 billion across 2025 — a rounding error next to the search-and-enterprise machinery around it, and a fraction of the enterprise engine driving Anthropic's profit *(Source : [getpanto.ai — Google Gemini Statistics 2026](https://www.getpanto.ai/blog/google-gemini-statistics))*. A platform can have a billion users and still be a cost center; profitability is the only number that proves otherwise.
+The number to be skeptical of is 1 billion. It says nothing about revenue per user, and Google does not break Gemini revenue out of its results. Consumer subscription revenue is still a secondary stream — roughly $1.2 billion across 2025 — a rounding error next to the search-and-enterprise machinery around it, and a fraction of the enterprise engine driving Anthropic's profit *(Source : [omnibound.ai — Google Gemini Statistics](https://www.omnibound.ai/blog/google-gemini-statistics))*. A platform can have a billion users and still be a cost center; profitability is the only number that proves otherwise.
 
 That is the real convergence: Gemini's distribution and Anthropic's economics arrive at the same conclusion from opposite directions. The market is no longer asking how many users a model can accumulate, but how much money each can be made to leave behind.
 
