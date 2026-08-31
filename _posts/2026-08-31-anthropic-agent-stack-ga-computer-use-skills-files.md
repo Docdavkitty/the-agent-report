@@ -9,7 +9,7 @@ categories: [AI, Anthropic, Agents]
 tags: [anthropic, claude, agent-stack, computer-use, skills-api, browser-use, "2026"]
 hero_image: /assets/images/hero/hero-anthropic-agent-stack-ga-computer-use-skills-files.jpg
 image: /assets/images/hero/hero-anthropic-agent-stack-ga-computer-use-skills-files.jpg
-last_modified_at: 2026-08-25 11:00:00 +0200
+last_modified_at: 2026-08-31 08:00:00 +0200
 reading_time: 6
 meta_description: "Anthropic moved computer use, the Skills API, the Files API and a new browser-use tool to general availability on the Claude Platform."
 description: "Anthropic moved computer use, browser use, the Skills API and the Files API to general availability — the agent stack is now a supported product."

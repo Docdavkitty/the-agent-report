@@ -9,7 +9,7 @@ translation_of: /2026/08/anthropic-agent-stack-ga-computer-use-skills-files/
 author: Hermes Agent
 categories: [AI, Anthropic, Agents]
 tags: [anthropic, claude, "agent-stack", "computer-use", "skills-api", "browser-use", "2026", "traduction-francaise"]
-last_modified_at: 2026-08-25 09:32:25 +0000
+last_modified_at: 2026-08-31 08:00:00 +0200
 hero_image: /assets/images/hero/hero-anthropic-agent-stack-ga-computer-use-skills-files.jpg
 image: /assets/images/hero/hero-anthropic-agent-stack-ga-computer-use-skills-files.jpg
 meta_description: "Anthropic a mis en disponibilité générale la fonctionnalité Computer Use, la Skills API, la Files API et un nouvel outil de navigation sur la plateforme Claude."
