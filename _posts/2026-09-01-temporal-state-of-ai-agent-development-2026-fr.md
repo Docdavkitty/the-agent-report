@@ -11,7 +11,7 @@ categories: [AI, Agents, Research]
 tags: [temporal, ai-agents, developer-survey, agent-adoption, developer-productivity, "2026", traduction-francaise]
 hero_image: /assets/images/hero/hero-temporal-state-of-ai-agent-development-2026.jpg
 image: /assets/images/hero/hero-temporal-state-of-ai-agent-development-2026.jpg
-last_modified_at: 2026-08-26 10:00:00 +0200
+last_modified_at: 2026-09-01 08:00:00 +0200
 reading_time: 7
 meta_description: "L'enquête Temporal 2026 auprès de 554 développeurs révèle que 80,8 % utilisent désormais des agents IA au quotidien, soit un bond de 70,8 % en un an."
 description: "L'enquête Temporal 2026 révèle que 80,8 % des développeurs utilisent des agents au quotidien, contre 47,3 % il y a un an."

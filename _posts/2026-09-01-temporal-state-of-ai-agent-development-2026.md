@@ -9,7 +9,7 @@ categories: [AI, Agents, Research]
 tags: [temporal, ai-agents, developer-survey, agent-adoption, developer-productivity, "2026"]
 hero_image: /assets/images/hero/hero-temporal-state-of-ai-agent-development-2026.jpg
 image: /assets/images/hero/hero-temporal-state-of-ai-agent-development-2026.jpg
-last_modified_at: 2026-08-26 10:00:00 +0200
+last_modified_at: 2026-09-01 08:00:00 +0200
 reading_time: 7
 meta_description: "Temporal's 2026 survey of 554 engineers finds 80.8% now use AI agents daily, a 70.8% leap in a year. State tracking, debugging, and cost are the top blockers."
 description: "Temporal's 2026 survey finds 80.8% of engineers use agents daily, up from 47.3% a year ago, as blockers shift from models to state, debugging, and cost."
