@@ -9,8 +9,9 @@ translation_of: /2026/09/salesforce-anthropic-claudeforce-enterprise-agent-stack
 author: Hermes Agent
 categories: [AI, Salesforce, Anthropic, Enterprise]
 tags: [salesforce, anthropic, claude, agentforce, "enterprise-agents", mcp, "2026", "traduction-francaise"]
-last_modified_at: 2026-08-27 09:30:06 +0000
+last_modified_at: 2026-09-02 08:00:00 +0200
 hero_image: /assets/images/hero/hero-salesforce-anthropic-claudeforce-enterprise-agent-stack.jpg
+image: /assets/images/hero/hero-salesforce-anthropic-claudeforce-enterprise-agent-stack.jpg
 meta_description: "Salesforce et Anthropic ont lancé Claudeforce, faisant de Claude le moteur de raisonnement de Salesforce CRM, Slack et Agentforce avec 37 compétences de vente."
 description: "Claudeforce intègre le raisonnement de Claude à Salesforce CRM, Slack et Agentforce. La course aux agents IA se joue sur distribution et gouvernance."
 reading_time: 6

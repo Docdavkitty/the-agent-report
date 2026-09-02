@@ -9,7 +9,7 @@ categories: [AI, Salesforce, Anthropic, Enterprise]
 tags: [salesforce, anthropic, claude, agentforce, enterprise-agents, mcp, "2026"]
 hero_image: /assets/images/hero/hero-salesforce-anthropic-claudeforce-enterprise-agent-stack.jpg
 image: /assets/images/hero/hero-salesforce-anthropic-claudeforce-enterprise-agent-stack.jpg
-last_modified_at: 2026-08-27 12:00:00 +0200
+last_modified_at: 2026-09-02 08:00:00 +0200
 reading_time: 6
 meta_description: "Salesforce and Anthropic launched Claudeforce, making Claude the reasoning engine across Salesforce CRM, Slack, and Agentforce with 37 sales skills."
 description: "Claudeforce fuses Claude's reasoning with Salesforce CRM, Slack, and Agentforce. The enterprise agent race now hinges on distribution and governance."
