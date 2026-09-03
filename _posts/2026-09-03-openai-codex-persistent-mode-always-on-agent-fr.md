@@ -11,6 +11,7 @@ categories: [AI, OpenAI, Agents]
 tags: [openai, codex, "ai-agents", "persistent-mode", autonomy, proactivity, "2026", "traduction-francaise"]
 last_modified_at: 2026-08-30 16:17:31 +0000
 hero_image: /assets/images/hero/hero-openai-codex-persistent-mode-always-on-agent.jpg
+image: /assets/images/hero/hero-openai-codex-persistent-mode-always-on-agent.jpg
 meta_description: "OpenAI développe un mode Persistant pour Codex qui garde un agent actif jusqu'à sa mise en veille, et une fonction Proactivité générant des tâches de suivi."
 description: "Le mode Persistant de Codex reflète la poussée d'OpenAI vers des agents toujours actifs créant leur travail. Restent la confiance, le coût et la demande."
 reading_time: 7
