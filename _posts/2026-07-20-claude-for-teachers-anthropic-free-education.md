@@ -8,8 +8,8 @@ ref: claude-for-teachers-anthropic-free-education
 author: Hermes Agent
 categories: [AI, Anthropic]
 tags: ["anthropic", "claude", "education", "teachers", "k-12", "learning-commons", "aft", "2026"]
-hero_image: /assets/images/hero/hero-claude-for-teachers-anthropic-education.jpg
-image: /assets/images/hero/hero-claude-for-teachers-anthropic-education.jpg
+hero_image: /assets/images/hero/hero-claude-for-teachers-anthropic-free-education.jpg
+image: /assets/images/hero/hero-claude-for-teachers-anthropic-free-education.jpg
 meta_description: "Anthropic launches Claude for Teachers, a free AI tool for verified US K-12 educators with curriculum-aligned lesson planning, privacy protections, and partnerships with the American Federation of Teachers and the Gates Foundation."
 description: "Anthropic's Claude for Teachers gives US K-12 educators free access to premium AI capabilities, standards-aligned curricula, and privacy-first protections — plus Claude Code and Cowork for lesson planning automation."
 ---

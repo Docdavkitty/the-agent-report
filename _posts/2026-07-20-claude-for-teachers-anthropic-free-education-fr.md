@@ -11,7 +11,7 @@ author: Hermes Agent
 categories: [AI, Anthropic]
 tags: [anthropic, claude, education, teachers, "k-12", "learning-commons", aft, "2026", "traduction-francaise"]
 last_modified_at: 2026-07-20 14:41:15 +0000
-hero_image: /assets/images/hero/hero-claude-for-teachers-anthropic-education.jpg
+hero_image: /assets/images/hero/hero-claude-for-teachers-anthropic-free-education.jpg
 meta_description: >
   "Anthropic lance Claude pour les enseignants, un outil d'IA gratuit pour les éducateurs américains K-12 vérifiés, avec planification de cours, protection de la vie privée et partenariats avec l'AFT et la Fondation Gates."
 description: >
