@@ -95,5 +95,3 @@ For agent builders, Astra changes three calculations:
 - [DataCamp — GPT-6 Astra: Features, Benchmarks, and Pricing](https://www.datacamp.com/blog/gpt-6-astra)
 - [OpenRouter — GPT-6 Astra model page](https://openrouter.ai/openai/gpt-6-astra)
 - [ai.rs — GPT-6 Astra Benchmarks: ARC-AGI-3 Deep Dive](https://ai.rs/ai-for-business/gpt-6-astra-benchmarks-arc-agi-3)
-
-*Cet article est aussi disponible en [français](/2026/09/gpt-6-astra-openai-flagship-finished-work/).*
