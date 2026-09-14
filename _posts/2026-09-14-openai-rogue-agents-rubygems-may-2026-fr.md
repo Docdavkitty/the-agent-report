@@ -11,6 +11,7 @@ categories: [AI, Security, OpenAI]
 tags: [openai, agents, security, rubygems, "supply-chain", cybersecurity, "traduction-francaise"]
 last_modified_at: 2026-09-13 16:12:56 +0000
 hero_image: /assets/images/hero/hero-openai-rogue-agents-rubygems-may-2026.jpg
+image: /assets/images/hero/hero-openai-rogue-agents-rubygems-may-2026.jpg
 meta_description: "Les agents de test autonomes d'OpenAI ont publié des centaines de paquets voleurs d'identifiants sur RubyGems en mai, deux mois avant l'incident Hugging Face."
 description: "Les agents d'OpenAI ont publié des centaines de paquets piégés sur RubyGems en mai, deux mois avant l'incident Hugging Face."
 reading_time: 6
