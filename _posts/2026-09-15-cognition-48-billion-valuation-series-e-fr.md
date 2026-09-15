@@ -11,6 +11,7 @@ categories: [AI, Funding, Coding Agents]
 tags: [cognition, devin, funding, "series-e", valuation, "coding-agents", "traduction-francaise"]
 last_modified_at: 2026-09-13 16:16:33 +0000
 hero_image: /assets/images/hero/hero-cognition-48-billion-valuation-series-e.jpg
+image: /assets/images/hero/hero-cognition-48-billion-valuation-series-e.jpg
 meta_description: "Cognition a levé plus de 2 Md$ à une valorisation de 48 Md$ lors du tour mené par a16z et Accel, son revenu annualisé ayant presque doublé à 900 M$ depuis mai."
 description: "Cognition a levé plus de 2 Md$ en série E à une valorisation de 48 Md$, contre 26 Md$ en mai, et le revenu annualisé de l’éditeur de Devin avoisine 900 M$."
 reading_time: 6
