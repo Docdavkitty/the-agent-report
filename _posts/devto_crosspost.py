@@ -81,7 +81,7 @@ def parse(content):
 def prepare_tags(tags):
     result = []
     for tag in tags[:4]:
-        t = tag.lower().replace("-", "").replace(" ", "")
+        t = re.sub(r"[^a-z0-9]", "", tag.lower())
         if len(t) > 12:
             t = t[:12]
         result.append(t)
