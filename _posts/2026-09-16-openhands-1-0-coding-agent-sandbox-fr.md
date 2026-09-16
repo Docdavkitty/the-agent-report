@@ -11,6 +11,7 @@ categories: [AI, Open Source, Coding Agents]
 tags: [openhands, "open-source", "coding-agents", "swe-bench", sandbox, agents, "traduction-francaise"]
 last_modified_at: 2026-09-13 16:20:40 +0000
 hero_image: /assets/images/hero/hero-openhands-1-0-coding-agent-sandbox.jpg
+image: /assets/images/hero/hero-openhands-1-0-coding-agent-sandbox.jpg
 meta_description: "OpenHands 1.0 résout 68 % des tâches SWE-bench Verified avec Qwen3-Coder-480B et ajoute un sandboxing Docker de production pour agents de codage auto-hébergés."
 description: "All Hands AI lance OpenHands 1.0, un agent de codage open source atteignant 68 % sur SWE-bench Verified avec sandboxing Docker."
 reading_time: 6
