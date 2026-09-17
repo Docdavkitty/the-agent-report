@@ -11,6 +11,7 @@ categories: [AI, Anthropic, Enterprise]
 tags: [anthropic, claude, "managed-agents", enterprise, "smart-reports", agents, "traduction-francaise"]
 last_modified_at: 2026-09-13 16:24:05 +0000
 hero_image: /assets/images/hero/hero-claude-managed-agents-smart-reports-enterprise.jpg
+image: /assets/images/hero/hero-claude-managed-agents-smart-reports-enterprise.jpg
 meta_description: "Les agents gérés Claude d'Anthropic abstraient l'infrastructure à 0,08 $/h, et Smart Reports montre désormais les coûts et livraisons des agents d'entreprise."
 description: "Les agents gérés Claude gèrent le sandboxing, l'authentification et la reprise en production, et Smart Reports montre aux entreprises coûts et livraisons."
 reading_time: 6
