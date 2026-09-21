@@ -11,6 +11,7 @@ categories: [AI, Funding, Enterprise]
 tags: [sierra, "bret-taylor", "enterprise-ai", "ai-agents", funding, "series-e", "traduction-francaise"]
 last_modified_at: 2026-09-20 16:18:26 +0000
 hero_image: /assets/images/hero/hero-sierra-950m-series-e-enterprise-ai-agents.jpg
+image: /assets/images/hero/hero-sierra-950m-series-e-enterprise-ai-agents.jpg
 meta_description: "Sierra lève 950 M$ en série E, valorisée 15,8 Md$, avec Tiger Global et GV en tête, confirmant les agents IA d'entreprise comme infrastructure essentielle."
 description: "La série E de 950 M$ de Sierra (15,8 Md$), avec 150 M$ d'ARR et >40 % du Fortune 50, signale une consolidation autour de quelques plateformes d'agents."
 reading_time: 6
@@ -63,4 +64,6 @@ Elle confirme que les agents IA d’entreprise sont passés de l’expérimentat
 
 - [TechCrunch — Sierra lève 950 M$ alors que la course pour dominer l’IA d’entreprise s’intensifie](https://techcrunch.com/2026/05/04/sierra-raises-950m-as-the-race-to-own-enterprise-ai-gets-serious/)
 - [Sierra — De meilleures expériences client construites sur Sierra](https://sierra.ai/blog/better-customer-experiences-built-on-sierra)
-- [The Agent Times — Sierra obtient 950 M$ en série E](https://theagenttimes.com/articles/sierra-secures-950m-series
+- [The Agent Times — Sierra obtient 950 M$ en série E](https://theagenttimes.com/articles/sierra-secures-950m-series-e-signaling-enterprise-appetite-f-f88da730)
+
+— The Agent Report
