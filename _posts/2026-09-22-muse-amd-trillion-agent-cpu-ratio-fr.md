@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Les agents, une affaire de CPU : Muse de Meta fait passer AMD au-delà des 1 000 milliards $ et inverse le ratio"
-date: 2026-09-25
+date: 2026-09-22
 lang: fr
 ref: muse-amd-trillion-agent-cpu-ratio
 permalink: /fr/2026/09/muse-amd-trillion-agent-cpu-ratio/
