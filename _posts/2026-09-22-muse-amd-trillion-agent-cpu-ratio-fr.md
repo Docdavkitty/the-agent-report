@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Les agents, une affaire de CPU : Muse de Meta fait passer AMD au-delà des 1 000 milliards $ et inverse le ratio"
+title: "Les agents, une affaire de CPU : Muse de Meta fait passer AMD au-delà des 1 000 milliards $ et inverse le ratio CPU/GPU"
 date: 2026-09-22
 lang: fr
 ref: muse-amd-trillion-agent-cpu-ratio
@@ -21,7 +21,7 @@ reading_time: 8
 
 - AMD a clôturé en hausse de 9.95% à 615.52 $ lundi, franchissant pour la première fois le cap des 1 000 milliards de dollars de capitalisation boursière — le quatrième fabricant américain de puces à atteindre ce niveau après Nvidia, Broadcom et Micron.
 - Le déclencheur n'était ni un lancement de modèle ni un carnet de commandes de GPU : c'était les premières données d'utilisation de l'agent grand public de Meta, Muse, et la prise de conscience que les agents persistants sont facturés en vCPU, RAM et disque, pas seulement en heures de GPU.
-- Les estimations du secteur situent les ratios CPU/GPU pour les charges de travail des agents entre 4:1 et 40:1 — l'inverse de l'hypothèse de l'ère de l'entraînement. Appliquez les spécifications de VM par utilisateur publiées de Muse à 100 millions d'utilisateurs et vous approchez de 1.6 million de sockets à 126 cœurs, 800 PB de RAM et 10 exaoctets de stockage selon des hypothèses de pleine allocation.
+- Les estimations du secteur situent les ratios CPU/GPU pour les charges de travail des agents entre 4:1 et 40:1 — l'inverse de l'hypothèse de l'ère de l'entraînement. Appliquez les spécifications de VM par utilisateur publiées de Muse à 100 millions d'utilisateurs et vous approchez de 1,6 million de sockets à 126 cœurs, 800 PB de RAM et 10 exaoctets de stockage selon des hypothèses de pleine allocation.
 - La contrainte limitante passe déjà du silicium aux permissions : Amazon a bloqué l'accès de Muse à son site de vente au détail la même semaine.
 
 ---
@@ -46,9 +46,9 @@ Cette architecture est ce qui a changé la conversation sur les puces. Une appli
 
 La configuration de VM publiée par Meta est de 2 vCPU, 8 Go de RAM et 100 Go de SSD par utilisateur. Extrapolez-la honnêtement à 100 millions d'utilisateurs :
 
-- **CPU :** 200 millions de vCPU ÷ 126 cœurs par socket de classe EPYC ≈ **1.59 million de sockets** si chaque VM est épinglée en permanence. À 10 % de concurrence de pointe, le chiffre tombe à environ 159,000 ; à 25 %, environ 397,000.
-- **Mémoire :** 100M × 8 GB = **800 PB** de RAM si tout est résident.
-- **Stockage :** 100M × 100 GB = **10 EB** de disque persistant.
+- **CPU :** 200 millions de vCPU ÷ 126 cœurs par socket de classe EPYC ≈ **1,59 million de sockets** si chaque VM est épinglée en permanence. À 10 % de concurrence de pointe, le chiffre tombe à environ 159 000 ; à 25 %, environ 397 000.
+- **Mémoire :** 100M × 8 Go = **800 PB** de RAM si tout est résident.
+- **Stockage :** 100M × 100 Go = **10 EB** de disque persistant.
 
 Le piège est intégré au modèle. La sursouscription — les ratios de 4:1 à 8:1 entre vCPU et cœurs sur lesquels repose chaque cloud public — est précisément ce qui réduit la facture matérielle. Que Meta vende un forfait mensuel à 20 $ face à une machine dédiée 24/7 ne fonctionne que si la plupart des VM restent inactives la plupart du temps, et cette même inactivité qui sauve l'économie unitaire dégonfle le TAM du silicium que le marché a valorisé lundi. Les deux moitiés de cette phrase sont vraies en même temps.
 
@@ -62,7 +62,7 @@ Meta se prépare à cela depuis des mois : la société a ajouté des dizaines d
 
 Trois risques méritent plus d'attention qu'on ne leur en accorde.
 
-**Économie unitaire.** Une instance dédiée de 2 vCPU / 8 Go / 100 Go fonctionnant en continu coûte bien plus de 20 $ par mois aux tarifs catalogue du cloud, et Muse inclut jusqu'à 100 millions de jetons gratuits par semaine. Meta peut absorber cela à 2,8 million d'installations. Cela devient une autre entreprise à 100 millions.
+**Économie unitaire.** Une instance dédiée de 2 vCPU / 8 Go / 100 Go fonctionnant en continu coûte bien plus de 20 $ par mois aux tarifs catalogue du cloud, et Muse inclut jusqu'à 100 millions de jetons gratuits par semaine. Meta peut absorber cela à 2,8 millions d'installations. Cela devient une autre entreprise à 100 millions.
 
 **Autorisations des plateformes.** Amazon a commencé à bloquer Muse sur son site de vente au détail dimanche soir, après que Meta a refusé de retirer Amazon de l'expérience, en affichant aux acheteurs des pop-ups indiquant que l'usage agentique viole les conditions d'Amazon — Amazon a poursuivi Perplexity pour le même principe l'année dernière. Le porte-parole d'Amazon a présenté les applications d'achat agentiques comme nécessitant un opt-in. Mark Zuckerberg a répondu lundi soir en annonçant un partenariat de paiement avec Shopify. Si les plus grands marchands barricadent l'accès aux agents tiers, le volume de workflows qui justifie la flotte de VM a un plafond *(Source : [Bloomberg — Amazon blocks Meta's Muse AI agent from its retail site](https://www.bloomberg.com/news/articles/2026-09-21/amazon-blocks-meta-s-muse-ai-agent-from-its-retail-site))*.
 
