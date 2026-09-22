@@ -17,6 +17,13 @@ description: "La série E de 950 M$ de Sierra (15,8 Md$), avec 150 M$ d'ARR et >
 reading_time: 6
 ---
 
+**TL;DR**
+
+- Sierra a levé **950 M$ en série E**, menée par Tiger Global et GV, sur une **valorisation post-money de 15,8 Md$**, contre 10 Md$ en septembre 2025.
+- L’entreprise déclare **150 M$ d’ARR** et sert **plus de 40 % du Fortune 50**, ses agents traitant des « milliards d’interactions client ».
+- Ce tour est le signal le plus net que les agents IA d’entreprise sont passés du pilote à l’infrastructure, et que la catégorie se consolide autour d’un petit nombre de plateformes éprouvées en production.
+
+---
 En mai 2026, Sierra — la société d’agents d’entreprise cofondée par Bret Taylor, président d’OpenAI, et Clay Bavor, ancien vice-président de Google — a bouclé une levée de fonds de 950 millions de dollars en série E menée par Tiger Global et GV, avec la participation de Benchmark, Sequoia et Greenoaks. La valorisation post-money de 15,8 milliards de dollars en fait l’une des sociétés privées d’agents IA les plus valorisées au monde, et représente un bond d’environ 50 % par rapport au seuil de 10 milliards de dollars atteint huit mois plus tôt seulement *(Source : [The Agent Times — Sierra obtient 950 M$ en série E](https://theagenttimes.com/articles/sierra-secures-950m-series-e-signaling-enterprise-appetite-f-f88da730))*.
 
 Le chiffre en lui-même importe moins que ce qu’il révèle de la trajectoire de l’ensemble de la catégorie. Les agents de Sierra traitent désormais des flux de travail complexes et à plusieurs étapes dans les domaines des sinistres d’assurance (Prudential, Cigna), de l’octroi de prêts hypothécaires (Rocket Mortgage) et de la gestion de comptes dans une banque sur trois parmi les plus grandes banques mondiales *(Source : [Diverge — Sierra lève 950 M$ pour une valorisation de 15,8 Md$](https://www.diverge.ae/en/insights/sierra-ai-950m-enterprise-agents-valuation-2026))*.

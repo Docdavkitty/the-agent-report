@@ -16,6 +16,13 @@ description: "La nouvelle infrastructure d’agents de monday.com permet aux age
 reading_time: 6
 ---
 
+**TL;DR**
+
+- monday.com a ouvert sa plateforme aux agents IA comme **utilisateurs de plein droit**, et non comme de simples intégrations d’arrière-plan.
+- Les agents disposent d’une inscription dédiée, d’un accès API et MCP, et peuvent opérer directement sur les boards, une couche de données structurée adossée à GraphQL et à des webhooks en temps réel.
+- Ce mouvement annonce la phase suivante de l’« agentification » : passer des assistants conversationnels greffés aux outils à des agents qui travaillent à l’intérieur des systèmes d’enregistrement, là où le travail se fait réellement.
+
+---
 monday.com fait un pari délibéré : l’avenir de la gestion du travail n’est pas un meilleur chatbot, mais une plateforme qui traite les agents IA comme des utilisateurs. En mars 2026, l’entreprise a annoncé une infrastructure dédiée permettant à des agents IA externes de s’inscrire, de s’authentifier et d’opérer directement au sein de sa plateforme, en exécutant des tâches aux côtés des humains qui gèrent leur organisation sur cette plateforme *(Source : [monday.com — Welcomes AI Agents to Its Platform](https://monday.com/p/press-release/monday-com-welcomes-ai-agents-to-its-platform-marking-a-shift-in-how-work-gets-done/))*.
 
 Le cadrage du co-PDG Roy Mann est explicite : « À mesure que les agents IA commencent à prendre en charge davantage de tâches opérationnelles, les plateformes doivent se préparer à accueillir tous les agents. Au lieu de traiter les agents comme des intégrations d’arrière-plan, nous construisons l’infrastructure qui permet aux humains et aux agents IA de collaborer directement » *(Source : [monday.com — Welcomes AI Agents to Its Platform](https://monday.com/p/press-release/monday-com-welcomes-ai-agents-to-its-platform-marking-a-shift-in-how-work-gets-done/))*.
