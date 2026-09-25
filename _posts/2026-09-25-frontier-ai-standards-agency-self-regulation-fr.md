@@ -17,6 +17,15 @@ description: "Trois laboratoires créent la Frontier AI Standards Agency : éval
 reading_time: 7
 ---
 
+**TL;DR**
+
+- Google, OpenAI et Anthropic avancent vers un organisme volontaire de normalisation de l'IA de pointe — provisoirement la Frontier AI Standards Agency — avec un lancement visé fin 2026 ou début 2027, et sans supervision gouvernementale.
+- Les trois laboratoires ont approché Sriram Krishnan, conseiller principal en politique de l'IA de la Maison-Blanche jusqu'en juin 2026, pour le diriger. Sa position affichée lorsqu'il était en poste : il n'y aura pas de FDA pour l'IA.
+- L'architecture s'inspire du modèle FINRA mais retire les deux mécanismes qui donnent des crocs à FINRA : la supervision de la SEC, et le pouvoir d'infliger des amendes, de suspendre ou d'exclure des membres.
+- Le PDG de Cohere, Aidan Gomez, y voit « un cartel sous un autre nom ». Le Frontier Model Forum, le prédécesseur de 2023 avec à peu près les mêmes membres et un fonds de 10 M$, n'a jamais bloqué une seule publication.
+
+---
+
 ## Introduction
 
 Les trois entreprises qui construisent les modèles les plus performants au monde ont passé 2026 à défendre publiquement l'idée que la sécurité de l'IA nécessite des normes communes. Le 24 septembre, le tableau de ce à quoi ces normes ressembleront réellement s'est précisé : un organisme dirigé par les entreprises elles-mêmes, privé de l'élément qui lui aurait conféré force juridique.
