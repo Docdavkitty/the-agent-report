@@ -9,22 +9,22 @@ categories: [AI, Enterprise, Governance]
 tags: [enterprise-ai, ai-agents, governance, observability, "2026"]
 hero_image: /assets/images/hero/hero-enterprise-agent-governance-market-2026.jpg
 image: /assets/images/hero/hero-enterprise-agent-governance-market-2026.jpg
-last_modified_at: 2026-09-27 12:00:00 +0200
+last_modified_at: 2026-09-29 13:25:00 +0200
 reading_time: 6
-meta_description: "Dataiku, Broadcom, Okta and IBM shipped agent-governance tools within 14 days, while 51% of large enterprises already run agents in production."
+meta_description: "Dataiku, Broadcom, Okta and IBM shipped agent-governance tools within a month, while 51% of large enterprises already run agents in production."
 description: "Agent governance became a product category in September 2026. The inventory layer arrived before the control layer did."
 ---
 
 **TL;DR**
 
 - Dataiku unveiled a standalone **Agent Management** product on 24 September, generally available in October 2026, that inventories, scores and audits agents across six enterprise platforms plus its own stack, with OpenTelemetry covering everything else.
-- It landed inside a 14-day window that also produced Broadcom's AgentMinder, Okta's Agent SSO and IBM's watsonx Orchestrate AgentOps agent — four vendors, four different infrastructure layers, no shared standard.
+- It landed at the end of a one-month window that also produced Okta's Agent SSO (24 August), Broadcom's AgentMinder (31 August) and IBM's watsonx Orchestrate AgentOps agent — four vendors, four different infrastructure layers, no shared standard.
 - The commercial trigger is measurable: an independent Omdia study for Cisco found 51% of large enterprises already run agentic AI acting in production network operations, while 95% say non-agentic AIOps tooling falls short.
-- The category currently sells **inventory**. What enterprises still lack is pre-authorisation and a certification trail — an inventory is not a control plane.
+- The category currently sells **inventory**. What enterprises still lack is pre-authorization and a certification trail — an inventory is not a control plane.
 
-Something changed in enterprise software last month, and it was not a model release. It was the sudden commercial viability of the least glamorous question in the agent stack: *how many of these things are running inside my company, and who authorised them?*
+Something changed in enterprise software last month, and it was not a model release. It was the sudden commercial viability of the least glamorous question in the agent stack: *how many of these things are running inside my company, and who authorized them?*
 
-## The 14-day window that created a category
+## The one-month window that created a category
 
 Dataiku unveiled a standalone product called **Agent Management** at its annual conference on 24 September 2026, with general availability set for October. The pitch is deliberately unsexy: discover and monitor every AI agent across platforms in one place, track quality and cost per agent, and control risk from a single console. *(Source : [Dataiku — Agent Management](https://www.dataiku.com/product/agent-management))*
 
@@ -32,13 +32,13 @@ The connective tissue matters more than the feature list. Agent Management conne
 
 It was not alone. Broadcom unveiled **AgentMinder** at VMware Explore on 31 August, positioning it as a way for enterprises to use AI agents while ensuring they follow company rules and security standards — Broadcom says it uses the product internally to scale its own agentic estate. *(Source : [Broadcom — Broadcom Unveils AgentMinder](https://investors.broadcom.com/news-releases/news-release-details/broadcom-unveils-agentminder-enterprise-solution-ai-agent))*
 
-The clustering is the story. Between 24 August and early September, four vendors shipped standalone agent-governance products from four different layers of the stack: Okta with Agent SSO (identity), IBM with watsonx Orchestrate's AgentOps agent (orchestration), Broadcom with AgentMinder (security) and Dataiku (observability). Each looked at the same buyer problem and assumed their own layer was the natural place to solve it. *(Source : [Yahoo Tech — Dataiku Ships Standalone Agent Governance](https://tech.yahoo.com/ai/copilot/articles/dataiku-ships-standalone-agent-governance-215619007.html))*
+The clustering is the story. Between 24 August and 24 September, four vendors shipped standalone agent-governance products from four different layers of the stack: Okta with Agent SSO on 24 August (identity), Broadcom with AgentMinder on 31 August (security), IBM with watsonx Orchestrate's AgentOps agent (orchestration) and Dataiku on 24 September (observability). Each looked at the same buyer problem and assumed their own layer was the natural place to solve it. *(Source : [Yahoo Tech — Dataiku Ships Standalone Agent Governance](https://tech.yahoo.com/ai/copilot/articles/dataiku-ships-standalone-agent-governance-215619007.html))*
 
 ## The numbers that made vendors move
 
-Enterprise AI governance has been discussed for two years. What changed is the denominator. An independent study conducted by Omdia for Cisco, published on 23 September 2026, surveyed 1,000 IT and network operations leaders at organisations with 500 or more employees. The headline finding is not a projection: **51% already run agentic AI that acts in production network operations**, in a model the study calls AgenticOps, where humans set direction and guardrails while agents sense, reason and act across domains. *(Source : [Cisco Newsroom — AgenticOps Scaling Quickly in the Enterprise](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m09/cisco-ai-research-agenticops-scaling-quickly-in-the-enterprise.html))*
+Enterprise AI governance has been discussed for two years. What changed is the denominator. An independent study conducted by Omdia for Cisco, published on 23 September 2026, surveyed 1,000 IT and network operations leaders at organizations with 500 or more employees. The headline finding is not a projection: **51% already run agentic AI that acts in production network operations**, in a model the study calls AgenticOps, where humans set direction and guardrails while agents sense, reason and act across domains. *(Source : [Cisco Newsroom — AgenticOps Scaling Quickly in the Enterprise](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m09/cisco-ai-research-agenticops-scaling-quickly-in-the-enterprise.html))*
 
-Two supporting figures explain the urgency. **84%** of respondents expect to reach an AI-led operating model within 12 months, and **95%** say their existing, non-agentic AIOps tools fall short of what that requires. The study also quantified the noise floor: organisations generate roughly **4,100 monitoring alerts per day** on average, which is precisely the volume that makes human triage structurally impossible and rule-based automation insufficient. *(Source : [StockTitan — Cisco AI Study: 51% Run Agentic AI in Production](https://www.stocktitan.net/news/CSCO/cisco-ai-research-agentic-ops-scaling-quickly-in-the-umj6ehq24adb.html))*
+Two supporting figures explain the urgency. **84%** of respondents expect to reach an AI-led operating model within 12 months, and **95%** say their existing, non-agentic AIOps tools fall short of what that requires. The study also quantified the noise floor: organizations generate roughly **4,100 monitoring alerts per day** on average, which is precisely the volume that makes human triage structurally impossible and rule-based automation insufficient. *(Source : [StockTitan — Cisco AI Study: 51% Run Agentic AI in Production](https://www.stocktitan.net/news/CSCO/cisco-ai-research-agentic-ops-scaling-quickly-in-the-umj6ehq24adb.html))*
 
 Read against each other, the Cisco figure and the Dataiku launch describe the same gap from opposite ends. Half of large enterprises have already delegated production actions to software that reasons, and the tooling that was supposed to supervise that delegation was designed for systems that do not. That is a category opportunity with a hard deadline.
 
@@ -56,17 +56,17 @@ Broadcom's approach is instructive on this front. Its deny-by-default agent runt
 
 Three capabilities are absent from every product shipped in the September window.
 
-**Pre-authorisation.** Inventory tells you an agent exists. It does not tell you whether this agent, at this hour, is permitted to call this external endpoint with this budget. That requires a policy decision point in the request path, which is a latency-sensitive place to put governance and therefore the hardest part of the problem.
+**Pre-authorization.** Inventory tells you an agent exists. It does not tell you whether this agent, at this hour, is permitted to call this external endpoint with this budget. That requires a policy decision point in the request path, which is a latency-sensitive place to put governance and therefore the hardest part of the problem.
 
 **Certification.** An agent registry is only as useful as its ability to distinguish a tested agent from a prototype someone forgot to turn off. Nothing shipped this month issues a scoped, expiring declaration of what an agent has been validated to do — which is why the runtime posture (deny by default) is currently doing the work that certification should.
 
 **An audit trail that a regulator accepts.** Cost per agent and quality scores are operational metrics. An incident review needs permission scope, egress path, model version, and the human who approved the deployment. That record exists in fragments across four vendors and is nobody's deliverable.
 
-The demand signal is unambiguous: 51% of large enterprises are already past the point where agent governance is hypothetical work. The supply side has responded with inventory, which is the correct first product and the wrong last one. The vendor that converts an agent census into an enforceable permission model owns the next layer of enterprise AI — and given how many well-funded companies just entered the same 14-day race, it will not be obvious for a while who that is. Agent platforms are also rushing to make agents buildable by non-engineers, which will make the census harder to keep accurate: work management vendors now ship drag-and-drop agent builders to the same business units that will show up in the next audit. *(Source : [The Agent Report — monday.com AI Agent Builder](/2026/09/monday-com-ai-agent-builder-work-management/))*
+The demand signal is unambiguous: 51% of large enterprises are already past the point where agent governance is hypothetical work. The supply side has responded with inventory, which is the correct first product and the wrong last one. The vendor that converts an agent census into an enforceable permission model owns the next layer of enterprise AI — and given how many well-funded companies just entered the same land grab, it will not be obvious for a while who that is. Agent platforms are also rushing to make agents buildable by non-engineers, which will make the census harder to keep accurate: work management vendors now ship drag-and-drop agent builders to the same business units that will show up in the next audit. *(Source : [The Agent Report — monday.com AI Agent Builder](/2026/09/monday-com-ai-agent-builder-work-management/))*
 
 ## FAQ
 
-### Why did agent governance products all launch in the same fortnight?
+### Why did agent governance products all launch in the same month?
 
 Three reasons converged in September 2026. Enterprises crossed a measurable threshold (51% of large firms running agentic AI in production, according to Omdia's study for Cisco), identity and observability vendors had finished shipping the primitives needed to attach a registry to real telemetry, and the natural enterprise budget cycle for a new control-plane category starts in Q4.
 
@@ -80,7 +80,7 @@ No. An inventory answers what exists. Compliance questions usually ask what an a
 
 ### How do these products differ from existing AIOps tooling?
 
-Existing AIOps tooling was built to correlate alerts from infrastructure that does not reason about its own goals. The Omdia/Cisco data makes the distinction blunt: 95% of respondents say their non-agentic AIOps tools fall short for agent-driven operations, and organisations average about 4,100 monitoring alerts daily, which is beyond manual triage.
+Existing AIOps tooling was built to correlate alerts from infrastructure that does not reason about its own goals. The Omdia/Cisco data makes the distinction blunt: 95% of respondents say their non-agentic AIOps tools fall short for agent-driven operations, and organizations average about 4,100 monitoring alerts daily, which is beyond manual triage.
 
 ### What should an enterprise do before buying?
 
