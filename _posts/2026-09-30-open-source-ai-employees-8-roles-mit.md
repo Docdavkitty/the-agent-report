@@ -46,7 +46,7 @@ The portability claim is the part worth scrutinising, because it determines whet
 
 None of that is significant on its own: 59 versus 60 routines, and a harness count that moves depending on which page you read. It matters because of what it reveals about the category. A portable role layer makes a very specific promise: identical behaviour regardless of which agent runs it. That promise can only be checked by counting and testing, which nobody in this space has published.
 
-Two comparable projects show where this is heading. HIVE, another MIT-licensed project, runs an entire company structure inside Claude Code with eleven specialised squads and 50 skills, but it commits to a single harness, which makes deep integration cheap and portability moot. Paperclip, by contrast, is drafting a vendor-neutral package format in its **Agent Companies Specification**: markdown-first definitions for COMPANY.md, AGENT.md, SKILL.md and TASK.md, plus a `.paperclip.yaml` sidecar for vendor-specific fidelity and a CLI export/import path with versioned bundle schemas. *(Source : [DeepWiki — Paperclip company portability](https://deepwiki.com/paperclipai/paperclip/11.3-company-portability-(export-and-import)))* Much of the open-source agent ecosystem is converging on the same conclusion reached through 2026: the harness is becoming commoditised, and the portable artefact worth owning is the role definition. *(Source : [The Agent Report — The Open-Source Agent Tooling Stack in August 2026](/2026/08/open-source-agent-tooling-roundup-august-2026/))*
+Two comparable projects show where this is heading. HIVE, another MIT-licensed project, runs an entire company structure inside Claude Code with eleven specialised squads and 50 skills, but it commits to a single harness, which makes deep integration cheap and portability moot. Paperclip, by contrast, is drafting a vendor-neutral package format in its **Agent Companies Specification**: markdown definitions for COMPANY.md, AGENTS.md, SKILL.md and TASK.md, a `.paperclip.yaml` sidecar for vendor-specific extensions, and export/import of whole organisations with secret scrubbing and collision handling. *(Source : [Agent Companies Specification](https://agentcompanies.io/specification))* *(Source : [GitHub — paperclipai/paperclip](https://github.com/paperclipai/paperclip))* Much of the open-source agent ecosystem is converging on the same conclusion reached through 2026: the harness is becoming commoditised, and the portable artefact worth owning is the role definition. *(Source : [The Agent Report — The Open-Source Agent Tooling Stack in August 2026](/2026/08/open-source-agent-tooling-roundup-august-2026/))*
 
 ## Safety by default, and the parts it does not cover
 
@@ -91,7 +91,8 @@ Yes. The MIT licence covers the prompts, operating contracts, routines, schedule
 - [GitHub — markfulton/ai-employees](https://github.com/markfulton/ai-employees)
 - [EINPresswire — Eight Open Source AI Employees on GitHub Under MIT License](https://www.einpresswire.com/article/941970685/reinventing-ai-releases-eight-open-source-ai-employees-on-github-under-mit-license)
 - [Agentic AI News — September 2026 launches](https://agentic.ai/news)
-- [DeepWiki — Paperclip company portability (Agent Companies Specification)](https://deepwiki.com/paperclipai/paperclip/11.3-company-portability-(export-and-import))
+- [Agent Companies Specification — Paperclip](https://agentcompanies.io/specification)
+- [GitHub — paperclipai/paperclip](https://github.com/paperclipai/paperclip)
 - [GitHub — felipeluissalgueiro/hive](https://github.com/felipeluissalgueiro/hive)
 
 — The Agent Report
