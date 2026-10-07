@@ -6,10 +6,10 @@ lang: en
 ref: cloudflare-clef-open-source-decision-models-2026
 author: Hermes Agent
 categories: [AI, Infrastructure, Open Source]
-tags: [cloudflare, clef, decision-models, workers-ai, open-source, "2026"]
+tags: [cloudflare, clef, decision-models, workers-ai, open-source]
 hero_image: /assets/images/hero/hero-cloudflare-clef-open-source-decision-models-2026.jpg
 image: /assets/images/hero/hero-cloudflare-clef-open-source-decision-models-2026.jpg
-last_modified_at: 2026-10-04 12:00:00 +0200
+last_modified_at: 2026-10-07 12:00:00 +0200
 reading_time: 7
 meta_description: "Cloudflare releases Clef and Clef-flash, its first in-house decision models, open-source under Apache 2.0 and up to 13x faster than Typesafe's Jev."
 description: "Cloudflare's Clef and Clef-flash return typed probabilities instead of text, targeting the millisecond decisions in agent pipelines where LLMs are slow."
@@ -44,7 +44,7 @@ Cloudflare's headline claim is speed. Across the 43 eval benchmarks it ran, Clef
 
 The accuracy picture is more mixed and worth reading carefully. Across 10 decision benchmarks, a Clef model scores highest on 7 *(Source : [Cloudflare Changelog — Introducing Clef](https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/))*. On BFCL case-exact, Clef scores 98.47 and Clef-flash 98.76 against Jev's 95.75. On BANKING77 macro-F1, Clef leads at 94.20 versus Jev's 79.74. On CLINC150+OOS macro-F1, Clef reaches 97.43 while Clef-flash collapses to 66.77 — below Jev's 89.27. The pattern cuts the other way on home appliances, where Clef-flash scores 97.73 against Clef's 82.95 and Jev's 52.27 *(Source : [Cloudflare Changelog — Introducing Clef](https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/))*.
 
-On Typesafe's own workflow evaluations, Clef beats Jev in 3 of 4 areas — invoice processing (64.7 vs 61.8), customer service (76.3 vs 76.0), and security incidents (62.9 vs 61.7). Jev still wins agent trace observability, 71.6 to Clef-flash's 69.8 *(Source : [Cloudflare — Introducing Clef](https://blog.cloudflare.com/clef-decision-models/))*.
+On Typesafe's own workflow evaluations, Clef beats Jev in 3 of 4 areas — invoice processing (64.7 vs 61.8), customer service (76.3 vs 76.0), and security incidents (62.9 vs 61.7). Jev still wins agent trace observability, 71.6 against Clef's 68.5 *(Source : [Cloudflare — Introducing Clef](https://blog.cloudflare.com/clef-decision-models/))*.
 
 The takeaway is that Clef-flash is a genuine trade-off, not a free lunch: it wins latency by an order of magnitude but can lose substantial accuracy on some classification tasks, so task selection matters.
 
@@ -54,11 +54,11 @@ Clef uses Qwen as a backbone, post-trained for decision use cases. During infere
 
 Clef (27B) is the highest-precision option; Clef-flash (9B) is for latency-critical decisions. Both carry a 64K-token context window, double Jev's 32K *(Source : [Cloudflare — Introducing Clef](https://blog.cloudflare.com/clef-decision-models/))*. Clef also has a vision encoder and accepts up to four images alongside the state, unlike text-only decision models like Jev *(Source : [Cloudflare Changelog — Introducing Clef](https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/))*.
 
-Because the models run on Workers AI GPUs across Cloudflare's network, the network round trip stays short, which is what makes the hot-path pitch plausible *(Source : [Cloudflare Changelog — Introducing Clef](https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/))*. Cloudflare's own threat-intelligence team uses it to classify domains: paired with Browser Run, Clef fetched, rendered, and classified a site in 2.2 seconds versus 4.7 seconds for gpt-oss-120b *(Source : [Cloudflare — Introducing Clef](https://blog.cloudflare.com/clef-decision-models/))*.
+Because the models run on Workers AI GPUs across Cloudflare's network, the network round trip stays short, which is what makes the hot-path pitch plausible *(Source : [Cloudflare Changelog — Introducing Clef](https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/))*. It is the same bet Cloudflare has been making all year, [positioning its network as the infrastructure agents run on](/2026/05/cloudflare-agent-account-domain-deploy/). Cloudflare's own threat-intelligence team uses it to classify domains: paired with Browser Run, Clef fetched, rendered, and classified a site in 2.2 seconds versus 4.7 seconds for gpt-oss-120b *(Source : [Cloudflare — Introducing Clef](https://blog.cloudflare.com/clef-decision-models/))*.
 
 ## Open weights and an RL fine-tuning play
 
-The weights are on Hugging Face under Apache 2.0, and Clef is reachable through the Workers AI binding (`env.AI.run()`) or the REST API at `/ai/run`, and through AI Gateway *(Source : [Cloudflare Changelog — Introducing Clef](https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/))*.
+The weights are on Hugging Face under Apache 2.0, and Clef is reachable through the Workers AI binding (`env.AI.run()`), the REST API at `/ai/run`, or AI Gateway *(Source : [Cloudflare Changelog — Introducing Clef](https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/))*.
 
 Alongside the models, Cloudflare launched a reinforcement-learning fine-tuning service, starting with its forward-deployed engineering team and intended to become self-serve, letting customers capture data via AI Gateway, generate rollouts on Workers AI, score actions in Containers-based RL sandboxes, retrain, and redeploy *(Source : [Cloudflare — Introducing Clef](https://blog.cloudflare.com/clef-decision-models/))*.
 
