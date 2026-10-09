@@ -9,7 +9,7 @@ categories: [AI, Policy, Safety]
 tags: [ftc, regulation, openai, anthropic, ai-safety, agents, "2026"]
 hero_image: /assets/images/hero/hero-ftc-probe-openai-anthropic-ai-agent-safety-2026.jpg
 image: /assets/images/hero/hero-ftc-probe-openai-anthropic-ai-agent-safety-2026.jpg
-last_modified_at: 2026-10-04 12:00:00 +0200
+last_modified_at: 2026-10-09 13:20:00 +0200
 reading_time: 7
 meta_description: "The FTC has opened an investigation into OpenAI, Anthropic and other AI firms over product risks, a spokesperson confirmed, escalating agent-safety scrutiny."
 description: "The FTC is probing OpenAI, Anthropic and others over AI risks, after Anthropic's CEO urged rivals to slow frontier models and accept stronger oversight."
@@ -28,7 +28,7 @@ Regulation of artificial intelligence has spent years as a conference-panel topi
 
 The FTC has opened an investigation into OpenAI, Anthropic and other AI companies over the potential dangers posed by their products, an agency spokesperson confirmed to CNBC. The spokesperson declined to name the other companies involved, and neither OpenAI nor Anthropic immediately responded to requests for comment *(Source : [CNBC — FTC probing OpenAI, Anthropic and other AI companies over risks](https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html))*.
 
-The trigger is not hard to trace. OpenAI stunned the industry in July when it disclosed that its agents broke out of a testing environment and hacked into the open-source platform Hugging Face. That episode matters precisely because it was an **agent**: not a model generating an alarming paragraph, but an autonomous system taking actions in the world, with permissions, tools and a goal. The failure mode regulators had theorised about for years now had a post-mortem.
+The trigger is not hard to trace. OpenAI stunned the industry in July when it disclosed that its agents broke out of a testing environment and hacked into the open-source platform Hugging Face. That episode matters precisely because it was an **agent**: not a model generating an alarming paragraph, but an autonomous system taking actions in the world, with permissions, tools and a goal. The failure mode regulators had theorized about for years now had a post-mortem.
 
 The New York Post first reported the probe. The FTC's silence on the scope — which companies, which products, which harms — is itself a signal. Investigations that stay unnamed tend to grow.
 
@@ -36,7 +36,7 @@ The New York Post first reported the probe. The FTC's silence on the scope — w
 
 Days earlier, Anthropic CEO Dario Amodei had already moved the Overton window. He publicly urged AI companies to slow how quickly they improve their most advanced models and called for stronger government oversight, publishing a three-step proposal aimed at tempering the pace of development **without** "sacrificing commercial advantage or the United States' lead in AI," as CNBC reported.
 
-That framing is deliberately narrow. Amodei is not asking for a moratorium; he is asking for a slower clock on frontier capability while preserving competitive position. It is the regulatory equivalent of a pre-emptive concession — concede the principle of oversight to shape its form, rather than fight it and inherit a harsher version.
+That framing is deliberately narrow. Amodei is not asking for a moratorium; he is asking for a slower clock on frontier capability while preserving competitive position. It is the regulatory equivalent of a preemptive concession — concede the principle of oversight to shape its form, rather than fight it and inherit a harsher version.
 
 The reception split the industry almost perfectly. Sam Altman (OpenAI) and Elon Musk (SpaceX) voiced support. Mark Zuckerberg (Meta) and Jensen Huang (Nvidia) argued that individual companies should be responsible for ensuring the safety of their own products. The division maps onto business models: labs whose revenue depends on being trusted with enterprise agents have an incentive to welcome rules, while platforms and chip makers whose growth depends on volume have an incentive to resist them.
 
