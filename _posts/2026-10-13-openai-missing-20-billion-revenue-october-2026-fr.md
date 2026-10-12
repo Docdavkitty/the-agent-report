@@ -11,6 +11,7 @@ categories: [AI, OpenAI, Business]
 tags: [openai, revenue, ipo, nvidia, compute, "2026", "traduction-francaise"]
 last_modified_at: 2026-10-11 16:13:23 +0000
 hero_image: /assets/images/hero/hero-openai-missing-20-billion-revenue-october-2026.jpg
+image: /assets/images/hero/hero-openai-missing-20-billion-revenue-october-2026.jpg
 meta_description: "OpenAI a annoncé un chiffre d'affaires annualisé proche de 50 Md$, loin des 70 Md$ espérés. Ce que mesure vraiment un run rate, et pourquoi l'écart compte."
 description: "Le chiffre d'affaires annualisé d'OpenAI tourne autour de 50 Md$, pas 70. Comment l'écart est apparu et ce qu'il implique pour Nvidia et Oracle."
 reading_time: 7

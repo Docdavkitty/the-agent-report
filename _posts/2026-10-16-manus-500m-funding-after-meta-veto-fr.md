@@ -11,6 +11,7 @@ categories: [AI, Startups, Geopolitics]
 tags: [manus, "butterfly-effect", funding, meta, china, "2026", "traduction-francaise"]
 last_modified_at: 2026-10-11 16:14:00 +0000
 hero_image: /assets/images/hero/hero-manus-500m-funding-after-meta-veto.jpg
+image: /assets/images/hero/hero-manus-500m-funding-after-meta-veto.jpg
 meta_description: "Butterfly Effect lève plus de 500 M$ pour Manus, son premier tour depuis que Pékin a fait annuler le rachat par Meta, sur une base de 4 Md$."
 description: "L'annulation forcée de l'accord Meta-Manus devait être un revers. Huit mois plus tard, les investisseurs du rachat ont doublé leur mise."
 reading_time: 7

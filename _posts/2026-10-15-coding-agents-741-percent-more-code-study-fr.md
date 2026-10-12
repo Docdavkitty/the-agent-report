@@ -11,12 +11,13 @@ categories: [AI, Engineering, Research]
 tags: ["coding-agents", "developer-productivity", "code-review", research, "2026", "traduction-francaise"]
 last_modified_at: 2026-10-11 16:13:48 +0000
 hero_image: /assets/images/hero/hero-coding-agents-741-percent-more-code-study.jpg
+image: /assets/images/hero/hero-coding-agents-741-percent-more-code-study.jpg
 meta_description: "Les agents de codage multiplient le volume de code par 7,4, mais les logiciels livrés ne progressent que de 20 %. La revue humaine bloque la suite."
 description: "Deux études de 2026 mesurent le même mur : plus de code produit, presque autant de logiciels livrés. La revue humaine est la contrainte."
 reading_time: 7
 ---
 
-## En bref
+## TL;DR
 
 - La présentation virale — 741 % de code en plus pour environ 20 % de logiciels livrés en plus, sur « plus de 700 entreprises » — **fusionne deux études distinctes de 2026** : le couple 741 %/20 % provient d'un article du NBER sur les développeurs ; les données sur les 700 entreprises et le goulot d'étranglement de la revue de code proviennent d'un article distinct de Harvard.
 - Le chiffre de 741 % repose sur les **lignes de code**, l'indicateur de productivité le plus faible disponible ; l'étude de Harvard au niveau des entreprises mesurait un gain bien plus modeste de +30 % et ne trouvait toujours **aucun gain statistiquement significatif** en termes de travail achevé.

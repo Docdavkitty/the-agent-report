@@ -24,7 +24,7 @@ description: "The open-source Hermes agent has 24 million clones and roughly 2.5
 
 ## The uncomfortable pitch
 
-Nous Research has spent three years giving its work away. The lab made its name fine-tuning Meta's Llama models and publishing open research, then released the Hermes agent under the permissive MIT licence in February 2026. *(Source : [TechCrunch — Nous Research confirms it hit $1.5B Valuation](https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/))*
+Nous Research has spent three years giving its work away. The lab made its name fine-tuning Meta's Llama models and publishing open research, then released the Hermes agent under the permissive MIT license in February 2026. *(Source : [TechCrunch — Nous Research confirms it hit $1.5B Valuation](https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/))*
 
 That strategy produced extraordinary distribution. Hermes has been cloned more than 24 million times, and the Wall Street Journal counted over 22 million downloads. Nous's own internal estimate puts Hermes at roughly 2.5% of global AI token usage. *(Source : [TechFundingNews — Nous Research raises $90M](https://techfundingnews.com/nous-research-raises-90m-at-a-reported-1-5b-valuation-to-take-its-open-source-agent-to-business/))*
 
@@ -50,7 +50,7 @@ That is an unusually tangled competitive map. The same chip vendor backing Nous 
 
 The market being contested is large enough to hold several winners. Grand View Research estimates AI agents were worth $7.6 billion in 2025 and will reach $182.9 billion by 2033, a 49.6% compound annual growth rate from 2026. Enterprise agentic AI specifically should grow from $5.3 billion in 2026 to $24.5 billion by 2030. *(Source : [TechFundingNews — Nous Research raises $90M](https://techfundingnews.com/nous-research-raises-90m-at-a-reported-1-5b-valuation-to-take-its-open-source-agent-to-business/))*
 
-The sector is already crowded. Dust raised $40 million in a Series B led by Abstract and Sequoia in May for a workspace where people and agents share context. Bespoke Labs raised $40 million across seed and Series A to build simulated company environments where agents practise long tasks. Berlin-based telli raised $15 million in July for voice, WhatsApp, chat and email agents. Stuut raised a $52.5 million Series B on the same day as Nous's announcement for agents that chase unpaid invoices. *(Source : [TechFundingNews — Nous Research raises $90M](https://techfundingnews.com/nous-research-raises-90m-at-a-reported-1-5b-valuation-to-take-its-open-source-agent-to-business/))*
+The sector is already crowded. Dust raised $40 million in a Series B led by Abstract and Sequoia in May for a workspace where people and agents share context. Bespoke Labs raised $40 million across seed and Series A to build simulated company environments where agents practice long tasks. Berlin-based telli raised $15 million in July for voice, WhatsApp, chat and email agents. Stuut raised a $52.5 million Series B on the same day as Nous's announcement for agents that chase unpaid invoices. *(Source : [TechFundingNews — Nous Research raises $90M](https://techfundingnews.com/nous-research-raises-90m-at-a-reported-1-5b-valuation-to-take-its-open-source-agent-to-business/))*
 
 ## The question buyers are actually asking
 
@@ -65,7 +65,7 @@ The $36 million run rate suggests some companies have already picked the first o
 **Is Hermes the same product as the Hermes models on Hugging Face?**
 No. The Hermes name covers both a family of fine-tuned open-weight models that Nous began publishing in 2023, and the Hermes agent released under MIT in February 2026. The agent keeps memory across sessions, writes reusable skills as it works, searches the web, runs code, and handles scheduled tasks.
 
-**Why is the licence relevant to the valuation?**
+**Why is the license relevant to the valuation?**
 Because MIT licensing makes the core product copyable by anyone, including competitors. Nous's only durable assets are the brand, the iteration speed, and the enterprise layer. Investors are pricing the layer, not the code.
 
 **Who founded Nous Research?**

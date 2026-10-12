@@ -11,6 +11,7 @@ categories: [AI, Open Source, Startups]
 tags: ["nous-research", "hermes-agent", "open-source", funding, "enterprise-ai", "2026", "traduction-francaise"]
 last_modified_at: 2026-10-11 16:13:35 +0000
 hero_image: /assets/images/hero/hero-nous-research-90m-series-b-hermes-business.jpg
+image: /assets/images/hero/hero-nous-research-90m-series-b-hermes-business.jpg
 meta_description: "Nous Research lève 90 M$ sur une valorisation de 1,5 Md$ pour vendre Hermes for Businesses : la gouvernance d'un agent open source."
 description: "Hermes compte 24 millions de clones et environ 2,5 % de l'usage mondial de tokens. Nous veut faire payer les entreprises pour la couche qui l'entoure."
 reading_time: 6
