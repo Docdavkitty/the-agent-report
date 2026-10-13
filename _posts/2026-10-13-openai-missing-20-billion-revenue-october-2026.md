@@ -9,7 +9,7 @@ categories: [AI, OpenAI, Business]
 tags: [openai, revenue, ipo, nvidia, compute, "2026"]
 hero_image: /assets/images/hero/hero-openai-missing-20-billion-revenue-october-2026.jpg
 image: /assets/images/hero/hero-openai-missing-20-billion-revenue-october-2026.jpg
-last_modified_at: 2026-10-11 12:00:00 +0200
+last_modified_at: 2026-10-13 09:00:00 +0200
 reading_time: 7
 meta_description: "OpenAI told investors its annualized revenue was about $50bn, not $70bn. What a run rate really measures, and why the $20bn gap shook AI stocks."
 description: "OpenAI's annualized revenue was about $50bn, not $70bn. What a run rate includes, how the $20bn gap arose, and what it means for Nvidia and Oracle."
@@ -17,7 +17,7 @@ description: "OpenAI's annualized revenue was about $50bn, not $70bn. What a run
 
 ## TL;DR
 
-- OpenAI told investors its annualized revenue was approaching $50bn at the end of September 2026 — roughly $20bn below the $68–70bn figure that circulated in late September *(Source : [Financial Times — OpenAI annualised revenues $20bn less than previously signalled](https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a))*.
+- OpenAI told investors its annualized revenue was approaching $50bn at the end of September 2026 — roughly $20bn below the $68–70bn figure reported a week earlier *(Source : [Financial Times — OpenAI annualised revenues $20bn less than previously signalled](https://www.ft.com/content/b66a9858-f8fb-46cb-b506-44bfe26fca2a))*.
 - The gap is largely a measurement artifact, not lost sales: the higher number grossed up partner sales the way rival Anthropic does, while OpenAI reports its own net share *(Source : [CNBC — Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report](https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html))*.
 - The correction triggered a selloff in the companies whose order books are written against OpenAI's projected spend — Nvidia fell about 3%, Oracle nearly 6% and CoreWeave nearly 8% *(Source : [CNN — Tech stocks drop after report that OpenAI's revenue is lower than expected](https://www.cnn.com/2026/10/08/investing/openai-nasdaq-stocks))*.
 - OpenAI reportedly still expects to reach or exceed $70bn in annualized revenue by end-2026, while its IPO is now off until at least 2027 *(Source : [Bloomberg via Yahoo Finance — OpenAI projects $70 billion annualized revenue by end of 2026](https://finance.yahoo.com/technology/ai/articles/openai-projects-70-billion-annualized-113114847.html))*.
@@ -36,7 +36,7 @@ Second, a run rate flatters lumpy businesses: enterprise contracts are often ann
 
 ## Why the gap is an accounting artifact, not a demand collapse
 
-The $18bn–$20bn gap traces to a comparability exercise. Investors wanted to measure OpenAI against Anthropic, whose annualized revenue reached $65bn at the end of July *(Source : [CNBC — Anthropic says annualized revenue climbed to $65 billion in July](https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html))*. Anthropic counts the gross value of sales made through its cloud partners, such as AWS and Google Cloud; OpenAI counts only its own net share and leaves partner sales out *(Source : [TechCrunch — OpenAI's revenue is reportedly $20 billion less than previously projected](https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/))*. To compare like with like, OpenAI's numbers were grossed up to match Anthropic's method, then a growth rate applied on top — consistent with the 77% total and 107% enterprise run-rate growth OpenAI reported for the third quarter *(Source : [CNBC — Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report](https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html))*. One source told CNN the $70bn figure did not come from OpenAI at all *(Source : [CNN — Tech stocks drop after report that OpenAI's revenue is lower than expected](https://www.cnn.com/2026/10/08/investing/openai-nasdaq-stocks))*. The $20bn "hole" is thus the distance between two definitions stacked on top of each other, not a shortfall in orders.
+The $18bn–$20bn gap traces to a comparability exercise. Investors wanted to measure OpenAI against Anthropic, which raised $65bn at a $965bn valuation in May ([the Series H round](/2026/05/anthropic-65b-series-h-965b-valuation-may-2026/)) and whose annualized revenue reached $65bn at the end of July *(Source : [CNBC — Anthropic says annualized revenue climbed to $65 billion in July](https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html))*. Anthropic counts the gross value of sales made through its cloud partners, such as AWS and Google Cloud; OpenAI counts only its own net share and leaves partner sales out *(Source : [TechCrunch — OpenAI's revenue is reportedly $20 billion less than previously projected](https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/))*. To compare like with like, OpenAI's numbers were grossed up to match Anthropic's method, then a growth rate applied on top — consistent with the 77% total and 107% enterprise run-rate growth OpenAI reported for the third quarter *(Source : [CNBC — Nvidia, Oracle, CoreWeave and other AI stocks sink on OpenAI revenue report](https://www.cnbc.com/2026/10/08/open-ai-revenue-nvidia-oracle-coreweave.html))*. One source told CNN the $70bn figure did not come from OpenAI at all *(Source : [CNN — Tech stocks drop after report that OpenAI's revenue is lower than expected](https://www.cnn.com/2026/10/08/investing/openai-nasdaq-stocks))*. The $20bn "hole" is thus the distance between two definitions stacked on top of each other, not a shortfall in orders.
 
 ## The knock-on effect: compute is booked against the projection
 
@@ -58,7 +58,7 @@ No. Every major account — the FT, CNBC, CNN and TechCrunch — attributes the 
 Not necessarily, and not on the numbers as reported. Anthropic's $65bn (end-July) includes gross cloud-partner sales; OpenAI's $50bn (end-September) does not. Ranking one against the other compares two definitions.
 
 **What should actually be watched?**
-Two things: the $70bn end-2026 target Bloomberg reported — a forecast of a year-end pace, not full-year revenue — and the eventual prospectus, where an auditor rather than an investor spreadsheet sets a single, defined basis.
+Two things: the $70bn end-2026 target Bloomberg reported — a forecast of a year-end pace, not full-year revenue — and the eventual prospectus, where an auditor rather than an investor spreadsheet sets a single, defined basis. OpenAI confidentially filed its draft S-1 in June ([what the filing revealed](/2026/06/openai-ipo-confidential-filing-s1-2026/)).
 
 ## Further Reading
 
