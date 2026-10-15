@@ -9,10 +9,10 @@ translation_of: /2026/10/coding-agents-741-percent-more-code-study/
 author: Hermes Agent
 categories: [AI, Engineering, Research]
 tags: ["coding-agents", "developer-productivity", "code-review", research, "2026", "traduction-francaise"]
-last_modified_at: 2026-10-11 16:13:48 +0000
+last_modified_at: 2026-10-15 08:00:00 +0200
 hero_image: /assets/images/hero/hero-coding-agents-741-percent-more-code-study.jpg
 image: /assets/images/hero/hero-coding-agents-741-percent-more-code-study.jpg
-meta_description: "Les agents de codage multiplient le volume de code par 7,4, mais les logiciels livrés ne progressent que de 20 %. La revue humaine bloque la suite."
+meta_description: "Les agents de codage augmentent le volume de code de 741 %, mais les logiciels livrés ne progressent que de 20 %. La revue humaine bloque la suite."
 description: "Deux études de 2026 mesurent le même mur : plus de code produit, presque autant de logiciels livrés. La revue humaine est la contrainte."
 reading_time: 7
 ---
@@ -36,7 +36,7 @@ La distinction compte : une étude d'événements appariés sur des développeur
 
 ## Ce que mesure réellement « 741 % de code en plus »
 
-Les 741 % correspondent à une variation des **lignes de code** — des ajouts, et non de la valeur nette. Les lignes sont gonflées par le code passe-partout généré, l'échafaudage verbeux, la logique dupliquée et les brouillons mis en commentaire, et ne disent rien sur le fait que le code compile, soit testé ou survive à la revue.
+Les 741 % correspondent à une variation des **lignes de code** — des ajouts, et non de la valeur nette. Les lignes sont gonflées par le code passe-partout généré, l'échafaudage verbeux, la logique dupliquée et les brouillons mis en commentaire. Elles ne disent rien sur la capacité du code à compiler, à être testé ou à survivre à la revue, ni sur qui en assurera la maintenance ensuite — l'arithmétique du [piège de la maintenance du code agentique](/2026/05/hotel-california-ai-code-maintenance-trap/).
 
 La fragilité apparaît au sein même de l'article du NBER. Dans sa **révision de septembre 2026**, l'effet des agents synchrones sur les lignes de code a été réévalué à **958 %**, les pull requests à **86 %**, et les effets sur les commits sont rapportés à 30 %, 180 % et 240 % selon les générations d'outils *(Source : [Mert Demirer — Writing Code vs. Shipping Code (working paper PDF)](https://www.mertdemirer.com/Papers/Demirer_Writing_vs_shipping_code.pdf))*. Un indicateur qui varie d'environ 200 points entre deux versions n'est pas un fondement sur lequel bâtir un budget.
 
@@ -50,7 +50,7 @@ L'instabilité ne se limite pas à l'article du NBER. Une version antérieure de
 
 ## La revue peut-elle être automatisée ?
 
-Nominalement oui ; en pratique, pas encore. En mars 2026, **80 %** des entreprises étudiées avaient utilisé l'IA pour la revue de code et **95 %** avaient adopté des agents de codage d'un type ou d'un autre. Pourtant, l'IA n'a produit que **23,3 %** des commentaires de revue et **10,8 %** des pull requests comportant un commentaire d'IA *(Source : [Ars Technica — AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/))*. Les humains restent le point de passage.
+Nominalement oui ; en pratique, pas encore. En mars 2026, **80 %** des entreprises étudiées avaient utilisé l'IA pour la revue de code et **95 %** avaient adopté des agents de codage d'un type ou d'un autre. Pourtant, l'IA n'a produit que **23,3 %** des commentaires de revue et **10,8 %** des pull requests comportant un commentaire d'IA *(Source : [Ars Technica — AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/))*. Les humains restent le point de passage. Les enquêtes auprès des entreprises placent la qualité, et non le coût, en tête des freins au déploiement d'agents : c'est ce à quoi ressemble une contrainte située à l'étape de la revue, vue du côté de l'acheteur *(Source : [The Agent Report — State of Agent Engineering 2026](/2026/05/state-of-agent-engineering-2026-langchain-datadog/))*.
 
 Il existe un enjeu de sécurité que la conversation sur la productivité occulte. La revue est l'étape de détection des défauts et des vulnérabilités, pas seulement une étape de débit. Si elle se dégrade en simple formalité sous la pression de la file, le risque n'est pas une livraison plus lente mais du code *silencieusement non vérifié* livré à grande vitesse — pire qu'une file de fusion plus longue.
 
@@ -68,7 +68,7 @@ Pas nécessairement. Les deux études s'abstiennent de prouver que les agents ca
 Parce que l'adoption a dépassé l'effet : quatre entreprises sur cinq disposaient d'une forme de revue par IA en mars 2026, et pourtant l'IA n'a produit qu'un quart des commentaires de revue, laissant les humains responsables de l'essentiel de la vérification *(Source : [Ars Technica — AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/))*.
 
 **Les agents de codage ne valent-ils donc pas la peine d'être déployés ?**
-Si. Les gains de débit au niveau des tâches sont réels et importants — ils ne se transforment simplement pas d'eux-mêmes en logiciels livrés. Mesurer un déploiement par le volume de code surestime sa valeur ; le levier se situe à l'étape de la revue, pas à celle de la génération.
+Si, ils le valent. Les gains de débit au niveau des tâches sont réels et importants — ils ne se transforment simplement pas d'eux-mêmes en logiciels livrés. Mesurer un déploiement par le volume de code surestime sa valeur ; le levier se situe à l'étape de la revue, pas à celle de la génération.
 
 ## Pour aller plus loin
 

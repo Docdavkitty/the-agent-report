@@ -9,7 +9,7 @@ categories: [AI, Engineering, Research]
 tags: [coding-agents, developer-productivity, code-review, research, "2026"]
 hero_image: /assets/images/hero/hero-coding-agents-741-percent-more-code-study.jpg
 image: /assets/images/hero/hero-coding-agents-741-percent-more-code-study.jpg
-last_modified_at: 2026-10-11 12:00:00 +0200
+last_modified_at: 2026-10-15 08:00:00 +0200
 reading_time: 7
 meta_description: "AI coding agents can lift code volume 741% while shipped software rises only 20%. Two 2026 studies both point to human code review as the bottleneck."
 description: "Coding agents sharply raise code volume, but shipped software barely moves. Two 2026 studies identify human code review as the binding constraint."
@@ -17,14 +17,14 @@ description: "Coding agents sharply raise code volume, but shipped software bare
 
 ## TL;DR
 
-- The viral framing — 741% more code against ~20% more shipped software, across '700-plus enterprises' — **blends two different 2026 studies**: the 741%/20% pair is from an NBER paper on developers; the 700-firm, review-bottleneck evidence is a separate Harvard paper.
+- The viral framing — 741% more code against ~20% more shipped software, across "700-plus enterprises" — **blends two different 2026 studies**: the 741%/20% pair is from an NBER paper on developers; the 700-firm, review-bottleneck evidence is a separate Harvard paper.
 - The 741% rests on **lines of code**, the weakest productivity proxy available; the firm-level Harvard study measured a far smaller +30% and still found **no statistically significant** gain in completed work.
 - Both papers converge on one mechanism: gains are **"absorbed" by human code review**, which lengthens the merge queue by ~49% once agents arrive.
 - Review automation has barely helped: 80% of firms used AI review tools by March 2026, yet humans authored about **77% of review comments**.
 
 Software teams have spent two years buying AI coding tools on one premise: more code, written faster, becomes more software. Two of the largest observational studies yet published suggest that premise is wrong — and always was mis-specified. Writing code was never the binding constraint.
 
-The finding arrived in two waves. A May 2026 working paper from MIT, Wharton, and Boston University reported that in-IDE "sync" coding agents raised lines of code by **741%** while actual software releases rose only **20%** *(Source : [Quartz — AI is making software developers faster — just not at actually shipping software](https://qz.com/ai-coding-tools-code-volume-releases-gap-nber-study-061126))*. A separate Harvard working paper covering 300 million engineering "work events" at **718 firms** found that AI agents raised lines of code per worker about **30%** and pull requests **23%** — but no statistically significant rise in resolved Jira issues or epics *(Source : [Ars Technica — AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/))*.
+The finding arrived in two waves. A May 2026 working paper from MIT, Wharton, and Boston University reported that in-IDE "sync" coding agents raised lines of code by **741%** while actual software releases rose only **20%** *(Source : [Quartz — AI is making software developers faster — just not at actually shipping software](https://qz.com/ai-coding-tools-code-volume-releases-gap-nber-study-061126))*. A separate Harvard working paper covering 300 million engineering "work events" at **718 firms** found that AI agents raised lines of code per worker by about **30%** and pull requests by **23%** — but no statistically significant rise in resolved Jira issues or epics *(Source : [Ars Technica — AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/))*.
 
 ## Two studies, one confounded headline
 
@@ -34,7 +34,7 @@ The distinction matters: a matched event study of individual developers and a fi
 
 ## What "741% more code" actually measures
 
-The 741% is a change in **lines of code** — additions, not net value. Lines are inflated by generated boilerplate, verbose scaffolding, duplicated logic, and commented-out drafts, and say nothing about whether code compiles, is tested, or survives review.
+The 741% is a change in **lines of code** — additions, not net value. Lines are inflated by generated boilerplate, verbose scaffolding, duplicated logic, and commented-out drafts. They say nothing about whether code compiles, is tested, or survives review, and nothing about who maintains it afterwards — the arithmetic behind [the maintenance trap of agentic coding](/2026/05/hotel-california-ai-code-maintenance-trap/).
 
 The fragility shows inside the NBER paper itself. In its **September 2026 revision**, the sync-agent line-of-code effect was restated at **958%**, pull requests at **86%**, and the commit effects are reported as 30%, 180%, and 240% across tool generations *(Source : [Mert Demirer — Writing Code vs. Shipping Code (working paper PDF)](https://www.mertdemirer.com/Papers/Demirer_Writing_vs_shipping_code.pdf))*. A proxy that shifts ~200 points between drafts is not one to build a budget on.
 
@@ -48,7 +48,7 @@ The instability is not confined to the NBER paper. An earlier January 2026 draft
 
 ## Can review be automated?
 
-Nominally yes; practically, not yet. By March 2026, **80%** of the firms studied had used AI in code review and **95%** had adopted coding agents of some kind. Yet AI produced only **23.3%** of review comments and **10.8%** of pull requests with any AI comment *(Source : [Ars Technica — AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/))*. Humans remain the gate.
+Nominally yes; practically, not yet. By March 2026, **80%** of the firms studied had used AI in code review and **95%** had adopted coding agents of some kind. Yet AI produced only **23.3%** of review comments and **10.8%** of pull requests with any AI comment *(Source : [Ars Technica — AI coding agents generate more code, but not more software](https://arstechnica.com/ai/2026/10/ai-coding-agents-generate-more-code-but-not-more-software/))*. Humans remain the gate. Enterprise surveys put quality, not cost, at the top of the barrier list for agent deployment, which is what a review-stage constraint looks like from the buyer's side *(Source : [The Agent Report — State of Agent Engineering 2026](/2026/05/state-of-agent-engineering-2026-langchain-datadog/))*.
 
 There is a security edge the productivity conversation skips. Review is the defect- and vulnerability-detection stage, not merely a throughput one. If it degrades into a formality under queue pressure, the risk is not slower delivery but *silently unverified* code shipped at speed — worse than a longer merge queue.
 
