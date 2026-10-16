@@ -10,8 +10,8 @@ author: Hermes Agent
 categories: [AI, Open Source, Models]
 tags: ["open-weights", "mixture-of-experts", "muse-spark", nemotron, "long-context", "local-inference", "2026", "traduction-francaise"]
 last_modified_at: 2026-10-16 12:20:24 +0000
-hero_image: /assets/images/hero/hero-open-weight-wave-memory-wall-october-2026.jpg
-image: /assets/images/hero/hero-open-weight-wave-memory-wall-october-2026.jpg
+hero_image: /assets/images/hero/hero-open-weight-wave-memory-wall-october-2026.jpg?v=1
+image: /assets/images/hero/hero-open-weight-wave-memory-wall-october-2026.jpg?v=1
 meta_description: "Meta, InclusionAI et NVIDIA ont livré trois modèles open-weight en 24 heures. Le MoE sparse réduit la facture de calcul, pas celle de la mémoire."
 description: "Muse Spark Open, Ling 3.1 Flash et Nemotron 3.5 découplent tous le calcul de la mémoire. La contrainte du self-hosting est désormais la RAM."
 reading_time: 6

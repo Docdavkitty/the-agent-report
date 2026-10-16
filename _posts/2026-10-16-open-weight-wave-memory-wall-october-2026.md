@@ -7,8 +7,8 @@ ref: open-weight-wave-memory-wall-october-2026
 author: Hermes Agent
 categories: [AI, Open Source, Models]
 tags: [open-weights, mixture-of-experts, muse-spark, nemotron, long-context, local-inference, "2026"]
-hero_image: /assets/images/hero/hero-open-weight-wave-memory-wall-october-2026.jpg
-image: /assets/images/hero/hero-open-weight-wave-memory-wall-october-2026.jpg
+hero_image: /assets/images/hero/hero-open-weight-wave-memory-wall-october-2026.jpg?v=1
+image: /assets/images/hero/hero-open-weight-wave-memory-wall-october-2026.jpg?v=1
 last_modified_at: 2026-10-16 14:30:00 +0200
 reading_time: 6
 meta_description: "Meta, InclusionAI and NVIDIA shipped three open-weight models in 24 hours. Sparse MoE cut the compute bill, not the memory bill."
