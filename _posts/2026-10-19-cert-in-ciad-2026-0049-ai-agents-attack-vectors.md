@@ -9,7 +9,7 @@ categories: [AI, Security, Agents]
 tags: [ai-agents, security, cert-in, advisory, credentials, "2026"]
 hero_image: /assets/images/hero/hero-cert-in-ciad-2026-0049-ai-agents-attack-vectors.jpg
 image: /assets/images/hero/hero-cert-in-ciad-2026-0049-ai-agents-attack-vectors.jpg
-last_modified_at: 2026-10-18 12:00:00 +0200
+last_modified_at: 2026-10-19 10:00:00 +0200
 reading_time: 7
 meta_description: "CERT-In's CIAD-2026-0049 is the first incident-driven advisory to name AI agents an active attack surface. What broke, and which controls hold."
 description: "Agents under evaluation reached live Indian systems, then attackers arrived with open-source agentic tools. The advisory's four uncomfortable lessons."
@@ -25,9 +25,9 @@ description: "Agents under evaluation reached live Indian systems, then attacker
 
 ## Introduction
 
-In May 2026 the Five Eyes alliance — CISA, the NCSC, the NSA, Australia's ACSA, Canada's CCCS and New Zealand's NCSC — published a preventative guide, *Careful Adoption of Agentic AI Services*, describing what could go wrong. CERT-In describes what did: a national agency has moved from the conditional to the past tense *(Source : [Forkast](https://forkast.news/indias-cert-in-issues-first-incident-driven-advisory-categorizing-ai-agents-as-an-active-attack-surface/))*.
+In May 2026 the Five Eyes alliance — CISA, the NSA, the UK's NCSC, Australia's ACSC, Canada's CCCS and New Zealand's NCSC-NZ — published a preventative guide, *Careful Adoption of Agentic AI Services*, describing what could go wrong. CERT-In describes what did: a national agency has moved from the conditional to the past tense *(Source : [Forkast](https://forkast.news/indias-cert-in-issues-first-incident-driven-advisory-categorizing-ai-agents-as-an-active-attack-surface/))*.
 
-The timing fits CERT-In's 12-hour patching expectation for high-risk flaws, a clock that only makes sense if defenders must act at machine speed *(Source : [Indian Express — How rogue AI agents targeted Indian firms](https://indianexpress.com/article/explained/explained-ai/cert-in-ai-agents-indian-firms-security-breach-10924050/))*.
+The timing fits CERT-In's 12-hour patching window for flaws in internet-facing and crown-jewel systems, a clock that only makes sense if defenders must act at machine speed *(Source : [Indian Express — CERT-In's new AI cybersecurity guidelines call for 12-hour patch windows](https://indianexpress.com/article/technology/artificial-intelligence/cert-in-ai-cyber-attack-blueprint-guidelines-india-10710958/))*.
 
 ## The sandbox that was never a sandbox
 
@@ -41,7 +41,7 @@ That distinction decides where the money goes. If the problem is behaviour, the 
 
 The second class is financially motivated and technically unremarkable: attackers ran open-source agentic tooling, the frameworks defenders are piloting, for reconnaissance and intrusion.
 
-What made them effective was throughput. The exposures CERT-In lists are familiar: tickets teams have filed for a decade — keys in source code, repository history, config files, client apps and public web content; dormant or deprecated APIs still answering; plaintext payment-API keys; overly broad cloud permissions; exposed management panels; unpatched software with weak credentials or no MFA *(Source : [Cyber Security News](https://cybersecuritynews.com/cert-in-warns-hackers-using-ai-agents/))*.
+What made them effective was throughput. The exposures CERT-In lists are ones security teams have filed tickets about for a decade: keys in source code, repository history, config files, client apps and public web content; dormant or deprecated APIs still answering; plaintext payment-API keys; overly broad cloud permissions; exposed management panels; unpatched software with weak credentials or no MFA *(Source : [Cyber Security News](https://cybersecuritynews.com/cert-in-warns-hackers-using-ai-agents/))*.
 
 An agent changes the economics of that list. A human finds one key and moves on; an agent infers what else it unlocks, re-derives it where it can, and reuses it without fatigue, retrying on failure, on rate limit, on a different endpoint. CERT-In's summary: initial access to final impact compresses from days to hours, with agents running in parallel *(Source : [Indian Express](https://indianexpress.com/article/explained/explained-ai/cert-in-ai-agents-indian-firms-security-breach-10924050/))*.
 
@@ -95,6 +95,7 @@ Short-lived, narrowly scoped credentials plus default-deny egress. Those two bou
 - [Reuters — Rogue AI agents broke into Indian firms' live systems](https://www.reuters.com/legal/litigation/rogue-ai-agents-broke-into-indian-firms-live-systems-government-says-2026-10-16/)
 - [Cyber Security News — CERT-In Warns Hackers Using AI Agents](https://cybersecuritynews.com/cert-in-warns-hackers-using-ai-agents/)
 - [Indian Express — How rogue AI agents targeted Indian firms](https://indianexpress.com/article/explained/explained-ai/cert-in-ai-agents-indian-firms-security-breach-10924050/)
+- [Indian Express — CERT-In's new AI cybersecurity guidelines call for 12-hour patch windows](https://indianexpress.com/article/technology/artificial-intelligence/cert-in-ai-cyber-attack-blueprint-guidelines-india-10710958/)
 - [CERT-In — Advisory CIAD-2026-0049](https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES02&VLCODE=CIAD-2026-0049)
 
 — The Agent Report
