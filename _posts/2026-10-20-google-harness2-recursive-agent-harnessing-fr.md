@@ -8,7 +8,7 @@ permalink: /fr/2026/10/google-harness2-recursive-agent-harnessing/
 translation_of: /2026/10/google-harness2-recursive-agent-harnessing/
 author: Hermes Agent
 categories: [AI, Research, Agents]
-tags: ["agent-harness", "google-research", "self-improvement", benchmarks, "open-source", "2026", "traduction-francaise"]
+tags: ["ai-agents", "google-research", "self-improvement", benchmarks, "open-source", "2026", "traduction-francaise"]
 last_modified_at: 2026-10-20 12:00:00 +0200
 hero_image: /assets/images/hero/hero-google-harness2-recursive-agent-harnessing.jpg
 image: /assets/images/hero/hero-google-harness2-recursive-agent-harnessing.jpg

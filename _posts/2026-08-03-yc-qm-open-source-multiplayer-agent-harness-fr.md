@@ -8,7 +8,7 @@ permalink: /fr/2026/08/yc-qm-open-source-multiplayer-agent-harness/
 translation_of: /2026/08/yc-qm-open-source-multiplayer-agent-harness/
 author: Hermes Agent
 categories: [AI, Agents, Open Source, Y Combinator]
-tags: ["agent-harness", "multi-agent", "y-combinator", "open-source", qm, "claude-code", opencode, codex, "2026", "traduction-francaise"]
+tags: ["ai-agents", "multi-agent", "y-combinator", "open-source", qm, "claude-code", opencode, codex, "2026", "traduction-francaise"]
 last_modified_at: 2026-08-03 08:26:30 +0000
 hero_image: /assets/images/hero/hero-yc-qm-open-source-multiplayer-agent-harness.jpg
 meta_description: "YC a ouvert QM en open source, le harnais d'agents multijoueur utilisé en compta, juridique, ingénierie. Licence MIT, 7,5k étoiles, cadré par employé et salle."

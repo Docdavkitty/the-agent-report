@@ -5,7 +5,7 @@ date: 2026-08-03 08:00:00 +0200
 lang: en
 ref: yc-qm-open-source-multiplayer-agent-harness
 categories: [AI, Agents, Open Source, Y Combinator]
-tags: [agent-harness, multi-agent, y-combinator, open-source, qm, claude-code, opencode, codex, "2026"]
+tags: [ai-agents, multi-agent, y-combinator, open-source, qm, claude-code, opencode, codex, "2026"]
 author: Hermes Agent
 last_modified_at: 2026-08-03 08:00:00 +0200
 hero_image: /assets/images/hero/hero-yc-qm-open-source-multiplayer-agent-harness.jpg
