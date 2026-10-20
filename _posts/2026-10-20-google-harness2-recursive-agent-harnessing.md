@@ -9,7 +9,7 @@ categories: [AI, Research, Agents]
 tags: [agent-harness, google-research, self-improvement, benchmarks, open-source, "2026"]
 hero_image: /assets/images/hero/hero-google-harness2-recursive-agent-harnessing.jpg
 image: /assets/images/hero/hero-google-harness2-recursive-agent-harnessing.jpg
-last_modified_at: 2026-10-18 12:00:00 +0200
+last_modified_at: 2026-10-20 12:00:00 +0200
 reading_time: 7
 meta_description: "Harness² keeps model weights frozen and optimises prompts, tools, memory and skills instead — up to 11.8 points on a legal benchmark with no labels."
 description: "Google Research automates harness engineering: frozen weights, contrastive Propose–Probe–Compose refinement, gains up to 11.5 points on professional work."
@@ -46,11 +46,11 @@ Harness² substitutes behavioural contrast for the rubric. The signal is not "di
 
 ## What the numbers show, and what they do not
 
-The results are consistent. Across three professional benchmarks and four model–harness pairings, one Harness² step improved GLM-5 and Gemini 3.5 Flash over their base harnesses: up to 11.5 points on WorkBuddy-Bench, 4.5 on JobBench, 11.8 percentage points on LAB's partial pass rate. A larger task-level recursion budget brings further gains. The test set is unglamorous by design: JobBench (professional work), LAB (legal; needs Pandoc and Poppler) and WorkBuddy-Bench (office, web and code; needs Docker). *(Source : [Data Studios — Google Research open-sources Harness²](https://www.datastudios.org/post/google-research-harness2-recursive-ai-agent-improvement-open-source))*
+The results are consistent. Across three professional benchmarks and four model–harness pairings, one Harness² step improved GLM-5 and Gemini 3.5 Flash over their base harnesses: up to 11.5 points on WorkBuddy-Bench, 4.5 on JobBench, 11.8 percentage points on LAB's partial pass rate. A larger task-level recursion budget brings further gains. *(Source : [arXiv — Harness²: Recursive Agent Harnessing for an Open World](https://arxiv.org/abs/2610.14224))* The test set is unglamorous by design: JobBench (professional work), LAB (legal; needs Pandoc and Poppler) and WorkBuddy-Bench (office, web and code; needs Docker). *(Source : [Data Studios — Google Research open-sources Harness²](https://www.datastudios.org/post/google-research-harness2-recursive-ai-agent-improvement-open-source))*
 
 **Parallel recursion** probes *k* general and *k* domain-specific candidates, then composes *k* harnesses from shared evidence — wider exploration. **Sequential recursion** carries the refined harness and evidence through *k* successive steps — deeper refinement. The CLI takes `--k`, `--mode parallel|sequential` and `--substrate cx` (Codex instead of the default OpenCode executor). *(Source : [Harness² project site](https://harness2.github.io))*
 
-*Analysis:* the release reports points, not price. Every probe is a real execution, so *k* multiplies compute and wall-clock; the honest metric is gain per probe. Transfer is asserted structurally but never quantified: nothing published says how much a legal-task harness survives into office work.
+*Analysis:* the release reports accuracy gains, not compute costs. Every probe is a real execution, so *k* multiplies compute and wall-clock; the honest metric is gain per probe. Transfer is asserted structurally but never quantified: nothing published says how much a legal-task harness survives into office work.
 
 ## The contamination trap is written into the README
 
@@ -60,7 +60,7 @@ The repository's security note matters more than release notes usually admit. Ex
 
 ## What changes for builders
 
-- **Skills, memory and guardrails become versioned artefacts.** Eight components means eight changelog surfaces; without git and an eval, a harness change is an unreviewable diff.
+- **Skills, memory and guardrails become versioned artefacts.** Eight components mean eight changelog surfaces; without git and an eval, a harness change is an unreviewable diff.
 - **Budgets become hyperparameters.** `--k` and `--mode` decide whether you explore wide or refine deep, and the modes are not interchangeable at equal cost.
 - **The demo is the on-ramp.** `harness2-demo` runs both recursion modes on deterministic editors with real Python executions — Linux, Python 3.12, uv, no credentials; model-backed runs need Vertex AI credentials, Node.js 20+ and the gcloud CLI.
 - **Lock the network before you evaluate**, at the executor level where the sandbox lives — not inside the harness.

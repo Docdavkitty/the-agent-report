@@ -9,7 +9,7 @@ translation_of: /2026/10/google-harness2-recursive-agent-harnessing/
 author: Hermes Agent
 categories: [AI, Research, Agents]
 tags: ["agent-harness", "google-research", "self-improvement", benchmarks, "open-source", "2026", "traduction-francaise"]
-last_modified_at: 2026-10-18 16:14:19 +0000
+last_modified_at: 2026-10-20 12:00:00 +0200
 hero_image: /assets/images/hero/hero-google-harness2-recursive-agent-harnessing.jpg
 image: /assets/images/hero/hero-google-harness2-recursive-agent-harnessing.jpg
 meta_description: "Harness² garde les poids figés et optimise plutôt prompts, outils, mémoire et compétences : jusqu'à 11,8 points gagnés sans aucun label."
@@ -48,11 +48,11 @@ Harness² substitue le contraste comportemental à la rubrique. Le signal n'est 
 
 ## Ce que montrent les chiffres, et ce qu'ils ne montrent pas
 
-Les résultats sont cohérents. Sur trois benchmarks professionnels et quatre appariements modèle–harness, une seule étape Harness² a amélioré GLM-5 et Gemini 3.5 Flash par rapport à leurs harnesses de base : jusqu'à 11,5 points sur WorkBuddy-Bench, 4,5 sur JobBench, 11,8 points de pourcentage sur le taux de réussite partiel de LAB. Un budget de récursion au niveau de la tâche plus important apporte des gains supplémentaires. L'ensemble de test est volontairement peu glamour : JobBench (travail professionnel), LAB (juridique ; nécessite Pandoc et Poppler) et WorkBuddy-Bench (bureau, web et code ; nécessite Docker). *(Source : [Data Studios — Google Research open-sources Harness²](https://www.datastudios.org/post/google-research-harness2-recursive-ai-agent-improvement-open-source))*
+Les résultats sont cohérents. Sur trois benchmarks professionnels et quatre appariements modèle–harness, une seule étape Harness² a amélioré GLM-5 et Gemini 3.5 Flash par rapport à leurs harnesses de base : jusqu'à 11,5 points sur WorkBuddy-Bench, 4,5 sur JobBench, 11,8 points de pourcentage sur le taux de réussite partiel de LAB. Un budget de récursion au niveau de la tâche plus important apporte des gains supplémentaires. *(Source : [arXiv — Harness²: Recursive Agent Harnessing for an Open World](https://arxiv.org/abs/2610.14224))* L'ensemble de test est volontairement peu glamour : JobBench (travail professionnel), LAB (juridique ; nécessite Pandoc et Poppler) et WorkBuddy-Bench (bureau, web et code ; nécessite Docker). *(Source : [Data Studios — Google Research open-sources Harness²](https://www.datastudios.org/post/google-research-harness2-recursive-ai-agent-improvement-open-source))*
 
 **La récursion parallèle** sonde *k* candidats généraux et *k* candidats spécifiques au domaine, puis compose *k* harnesses à partir des preuves partagées — exploration plus large. **La récursion séquentielle** transporte le harness affiné et les preuves à travers *k* étapes successives — affinage plus profond. La CLI accepte `--k`, `--mode parallel|sequential` et `--substrate cx` (Codex au lieu de l'exécuteur OpenCode par défaut). *(Source : [Harness² project site](https://harness2.github.io))*
 
-*Analyse :* la publication rapporte des points, pas un prix. Chaque sonde est une exécution réelle, donc *k* multiplie le calcul et le temps réel ; la métrique honnête est le gain par sonde. Le transfert est affirmé structurellement mais jamais quantifié : rien de publié ne dit dans quelle mesure un harness de tâche juridique survit au travail de bureau.
+*Analyse :* la publication rapporte des gains d'exactitude, pas des coûts de calcul. Chaque sonde est une exécution réelle, donc *k* multiplie le calcul et le temps réel ; la métrique honnête est le gain par sonde. Le transfert est affirmé structurellement mais jamais quantifié : rien de publié ne dit dans quelle mesure un harness de tâche juridique survit au travail de bureau.
 
 ## Le piège de la contamination est écrit dans le README
 
@@ -62,7 +62,7 @@ La note de sécurité du dépôt compte plus que ne l'admettent habituellement l
 
 ## Ce qui change pour les développeurs
 
-- **Les compétences, la mémoire et les garde-fous deviennent des artefacts versionnés.** Huit composants signifie huit surfaces de changelog ; sans git et sans évaluation, une modification de harness est un diff non relisible.
+- **Les compétences, la mémoire et les garde-fous deviennent des artefacts versionnés.** Huit composants impliquent huit surfaces de changelog ; sans git et sans évaluation, une modification de harness est un diff non relisible.
 - **Les budgets deviennent des hyperparamètres.** `--k` et `--mode` décident si vous explorez largement ou affinez en profondeur, et les modes ne sont pas interchangeables à coût égal.
 - **La démo est la porte d'entrée.** `harness2-demo` exécute les deux modes de récursion sur des éditeurs déterministes avec de vraies exécutions Python — Linux, Python 3.12, uv, sans identifiants ; les exécutions adossées à un modèle nécessitent des identifiants Vertex AI, Node.js 20+ et la CLI gcloud.
 - **Verrouillez le réseau avant d'évaluer**, au niveau de l'exécuteur, là où se trouve le sandbox — pas à l'intérieur du harness.
