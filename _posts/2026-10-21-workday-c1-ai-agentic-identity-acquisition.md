@@ -9,7 +9,7 @@ categories: [AI, Enterprise, Agents]
 tags: [workday, c1-ai, identity-governance, enterprise-agents, m-and-a, "2026"]
 hero_image: /assets/images/hero/hero-workday-c1-ai-agentic-identity-acquisition.jpg
 image: /assets/images/hero/hero-workday-c1-ai-agentic-identity-acquisition.jpg
-last_modified_at: 2026-10-18 12:00:00 +0200
+last_modified_at: 2026-10-21 09:15:00 +0200
 reading_time: 7
 meta_description: "Workday agreed to buy C1.ai, an agentic identity platform. No price was disclosed, the deal has not closed, and the bet is that access control is governance."
 description: "Workday can already register an agent. C1.ai is meant to decide what that agent can reach, and to cut it off when the work is done."
@@ -41,11 +41,11 @@ Alex Bovee, C1.ai's chief executive and co-founder, makes the case against the t
 
 ## Registration is not authorisation
 
-The Agent System of Record already lets customers see and manage their agents: a register of what exists, who owns it, what it is for. That solves enumeration. It does not establish what an agent can reach, under whose authority, for how long, or what happens when the task ends.
+The Agent System of Record already lets customers see and manage their agents: a register of what exists, who owns it, what it is for. That solves enumeration. It does not establish what an agent can reach, under whose authority, for how long, or what happens when the task ends. Workday's [Agent Passport](/2026/06/workday-agent-passport-devcon-2026/), launched in June, tests whether an agent is safe before it ships. Neither answers the access question.
 
 C1.ai extends provisioning-to-deprovisioning control across Workday and other systems. Two cases in the release show where the model strains. An agent acting for an employee should reach only part of what that employee can — a subset, not a copy. An autonomous agent with wider access needs oversight of a different kind, because it inherits limits from no one.
 
-The third case decides whether any of it works: a retired agent should not still be able to get in. Decommissioned agents leave credentials behind — tokens in a repository, an OAuth grant nobody revoked. Killing the agent is easy. Killing its access is not, which is why buyers should test for it first.
+The third case decides whether any of it works: a retired agent should not still be able to get in. Decommissioned agents leave credentials behind — tokens in a repository, an OAuth grant nobody revoked. The agents in [India's CERT-In advisory this month](/2026/10/cert-in-ciad-2026-0049-ai-agents-attack-vectors/) got into live systems exactly that way, reusing secrets left in application configurations and public repositories. Killing the agent is easy. Killing its access is not, which is why buyers should test for it first.
 
 Gerrit Kazmaier, Workday's president for product and technology, on the goal: "Today's companies run on a combined workforce of people and AI agents. With C1.ai, we'll help secure that workforce by managing and enforcing exactly who – and what – has access to connected apps and systems, giving each person and agent the right access at the right moment to make work easier, safer, and more compliant." *(Source : [Workday — Workday to Acquire C1.ai](https://investor.workday.com/news-and-events/press-releases/news-details/2026/Workday-to-Acquire-C1-ai-a-Leading-Agentic-Identity-Platform-for-People-and-Agents/default.aspx))*
 
@@ -61,7 +61,7 @@ Identity vendors, cloud IAM teams and agent platforms are all converging on this
 - Human approval for privilege escalation, so an agent cannot widen its scope alone.
 - A kill switch that revokes access rather than flipping a status flag, tested before it is needed.
 
-A merger is when that list gets deferred: integration absorbs the engineering capacity revocation semantics require. The logic is legible: agents need identities, identities need an owner, and HR is the only system that already knows when someone's relationship with the company changes. Whether C1.ai's enforcement engine arrives intact inside Workday is a question the announcement cannot answer.
+Mergers are where that list usually slips, because integration work eats the engineering hours that revocation semantics need. The underlying logic is easy enough to follow: agents need identities, identities need an owner, and HR is the only system that already knows when someone's relationship with the company changes. Whether C1.ai's enforcement engine arrives intact inside Workday is a question the announcement cannot answer.
 
 ## FAQ
 
