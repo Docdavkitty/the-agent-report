@@ -9,7 +9,7 @@ categories: [AI, Developer Tools, Agents]
 tags: [google, spec-driven-development, coding-agents, antigravity, open-source, "2026"]
 hero_image: /assets/images/hero/hero-google-elephant-goldfish-spec-driven-development.jpg
 image: /assets/images/hero/hero-google-elephant-goldfish-spec-driven-development.jpg
-last_modified_at: 2026-10-25 18:00:00 +0200
+last_modified_at: 2026-10-27 12:30:00 +0100
 reading_time: 7
 meta_description: "Google open-sourced a plugin that forces coding agents to write a spec first, then defends it against zero-context critics before any code."
 description: "Elephant grows the design in one long session; goldfish destroy it from zero context. The spec becomes the only artifact worth reviewing."
@@ -19,14 +19,14 @@ description: "Elephant grows the design in one long session; goldfish destroy it
 
 - Google open-sourced the **Elephant-Goldfish Model plugin** on October 22 under Apache 2.0, a workflow "thousands of Googlers" already run daily to ship production code.
 - Two agent roles, deliberately asymmetric: an **Elephant** holds one long-horizon session and writes no code, while stateless **Goldfish** sessions inherit nothing and are sent to attack the design.
-- Review is three staged gates — **comprehension, antagonistic review, implementation readiness** — each a go/no-go rather than a comment thread.
+- Review runs through three staged gates (**comprehension, antagonistic review, implementation readiness**), each a go/no-go rather than a comment thread.
 - The claim worth testing is that context quality, not model quality, is where coding agents fail. If that is true, the cheapest review target is the spec, not the diff.
 
 ## The velocity problem Google is admitting to
 
-The announcement does not lead with capability. It leads with a failure mode. AI-enabled teams "have silently introduced a potential reliability crisis by also increasing the velocity of slop, bugs, and session context collapse," the team writes, adding that "pure speed without structured guardrails means we are often auto-scaling our mistakes rather than simply writing code faster." *(Source : [Google Open Source Blog — Introducing the Elephant-Goldfish Model plugin](https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html))*
+The announcement does not lead with capability. It leads with a failure mode. AI-powered velocity, the team concedes, "has silently introduced a potential reliability crisis by also increasing the velocity of slop, bugs, and session context collapse," and "pure speed without structured guardrails means we are often auto-scaling our mistakes rather than simply writing code faster." *(Source : [Google Open Source Blog — Introducing the Elephant-Goldfish Model plugin](https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html))*
 
-That sentence is the whole argument for the plugin, and it is unusually candid for a vendor announcement. The team — Brian Suchy, Jim Quinn, Elise Ewing and Dave Rensin — built the workflow internally before releasing it. Rensin's framing is the load-bearing part: **"Design is the new code."** If design is the artifact, then design is what has to be reviewed, versioned and defended.
+That sentence is the whole argument for the plugin, and it is unusually candid for a vendor announcement. The team (Brian Suchy, Jim Quinn, Elise Ewing, Oliver Newth and Dave Rensin) built the workflow internally before releasing it. Rensin's framing is the load-bearing part: **"Design is the new code."** If design is the artifact, then design is what has to be reviewed, versioned and defended.
 
 ## Two animals, two failure modes
 
@@ -38,23 +38,23 @@ The Goldfish is the opposite: a stateless, zero-context session. It has no stake
 
 ## The Goldfish Protocol, in three gates
 
-The plugin automates three validation steps, and they escalate in strictness.
+The plugin automates three validation steps under the `egm-review` phase command, and they escalate in strictness.
 
-**Comprehension check.** A fresh Goldfish reads the entire design document and must explain the architecture and intent back to the Elephant. If it cannot summarise the plan accurately, the document is ambiguous and goes back for another drafting round. This is the cleverest gate, because it converts a subjective question — is this spec any good? — into a testable one: can an informed stranger reconstruct it? That is a legibility test, not a quality test.
+**Comprehension check.** A fresh Goldfish reads the entire design document and must explain the architecture and intent back to the Elephant. If it cannot summarise the plan accurately, the document is ambiguous and goes back for another drafting round. This is the cleverest gate, because it converts a subjective question (is this spec any good?) into a testable one: can an informed stranger reconstruct it? That is a legibility test, not a quality test.
 
 **Antagonistic review.** Multiple Goldfish take the role of sceptical technical reviewers hunting edge cases, hidden dependencies and logical gaps. Their critique funnels back to the Elephant session for resolution. This is where a spec earns or loses its claims about failure handling, and it is the step most teams skip when they review generated code directly.
 
-**Implementation readiness.** A final Goldfish performs a strict go/no-go: are the file paths, data structures and function signatures all present and unambiguous? Anything missing blocks the handoff. The point is not correctness but sufficiency — whether an agent could transcribe the plan without inventing details.
+**Implementation readiness.** A final Goldfish performs a strict go/no-go: are the file paths, data structures and function signatures all present and unambiguous? Anything missing blocks the handoff. The point is sufficiency, not correctness: whether an agent could transcribe the plan without inventing details.
 
 Then, and only then, code gets written. *(Source : [Google Open Source Blog — Introducing the Elephant-Goldfish Model plugin](https://opensource.googleblog.com/2026/10/introducing-elephant-goldfish-model-plugin.html))*
 
 ## Why review-the-spec is cheaper than review-the-diff
 
-Run the economics. A 40-line diff is cheap to read and expensive to reason about, because reasoning requires reconstructing intent from an artefact that shows only the outcome. A two-page spec is expensive to write and cheap to re-read — by ten different critics, in parallel, at near-zero marginal human cost.
+Run the economics. A 40-line diff is cheap to read and expensive to reason about, because reasoning requires reconstructing intent from an artifact that shows only the outcome. A two-page spec is expensive to write and cheap to re-read, by ten different critics, in parallel, at near-zero marginal human cost.
 
 That asymmetry is what the plugin exploits. Stateless reviewers can be multiplied because forking a zero-context session costs nothing but tokens. Self-review cannot be multiplied the same way: three copies of an agent that already believes the plan is right will agree with each other for the same reason.
 
-The other shift is where errors get caught. A missing error path caught in the spec costs a paragraph. The same gap caught in review costs a rewrite. Caught in production it costs an incident — the economics that now dominate agent operations, as the [DigitalOcean feedback-loop stack](/2026/10/digitalocean-agent-learning-data-services/) makes explicit by selling simulation replay as a product line.
+The other shift is where errors get caught. A missing error path caught in the spec costs a paragraph. The same gap caught in review costs a rewrite. Caught in production it costs an incident. That is the economics now dominating agent operations, as the [DigitalOcean feedback-loop stack](/2026/10/digitalocean-agent-learning-data-services/) makes explicit by selling simulation replay as a product line.
 
 ## What the release does not settle
 
@@ -66,14 +66,14 @@ There is also a fidelity gap nobody has closed. A perfect spec still depends on 
 
 Finally, the "no code" rule is discipline enforced by a persona prompt, not by a compiler. The plugin can refuse to let an Elephant write code; it cannot stop a developer from opening a second terminal and skipping all three phases. Process tools that depend on restraint are always adopted unevenly.
 
-## The real bet
+## Where the cost moves
 
-Read the release as a statement about where cost moves. If agents generate code faster than humans can read it, review becomes the bottleneck, and reviewing more code is not a solvable answer. Moving the review upstream to a document that is small, legible and adversarial-tested is the only version that scales — even if it means the most important artefact in the repository is no longer executable.
+If agents generate code faster than humans can read it, review becomes the bottleneck, and reviewing more code is not a solvable answer. Moving the review upstream to a document that is small, legible and adversarial-tested is the only version that scales, even if it means the most important artifact in the repository is no longer executable.
 
 ## FAQ
 
 **Is this a Google product?**
-No. It is an Apache 2.0 open-source plugin, originally internal, released with no support commitment. The repository is `google/elephant-goldfish-model` and the documentation lives at egm.dev.
+No. It is an Apache 2.0 open-source plugin, originally internal, released without a stated support commitment. The repository is `google/elephant-goldfish-model` and the documentation lives at egm.dev.
 
 **Does it replace code review?**
 It front-loads it. The three Goldfish gates review the design; normal code review still applies to the diff the implementation agent produces.
