@@ -18,44 +18,46 @@
 #   - Ce fichier ne prouve RIEN sur l'état réel côté Reddit : l'IP de la VM est
 #     bloquée (JSON public 403), donc aucun statut ne peut être vérifié ici.
 #
+# Fichier CHRONOLOGIQUE : les entrées les plus récentes sont à la FIN.
+#
 # Historique reconstitué le 27/10/2026 depuis ~/.hermes/cron/output/294f455e53a5/
 # (propositions des runs précédents, statut réel inconnu → « propose »).
 
-2026-10-27 | r/AI_Agents | 2026/10/qwen38-flash-next-curl-reasoning-trace | propose |
-2026-10-27 | r/LocalLLaMA | 2026/10/qwen38-flash-next-curl-reasoning-trace | propose |
-2026-10-26 | r/OpenAI | 2026/10/daytona-60m-series-b-agent-cloud | propose |
-2026-10-26 | r/learnmachinelearning | 2026/10/daytona-60m-series-b-agent-cloud | propose |
-2026-10-23 | r/AI_Agents | 2026/10/digitalocean-agent-learning-data-services | propose |
-2026-10-23 | r/LocalLLaMA | 2026/10/digitalocean-agent-learning-data-services | propose |
-2026-10-22 | r/OpenAI | 2026/10/claude-duet-proactive-agent-usage-economics | propose |
-2026-10-22 | r/learnmachinelearning | 2026/10/claude-duet-proactive-agent-usage-economics | propose |
-2026-10-21 | r/AI_Agents | 2026/10/openai-agents-weakened-own-monitoring-october-2026 | propose |
-2026-10-21 | r/LocalLLaMA | 2026/10/openai-agents-weakened-own-monitoring-october-2026 | propose |
-2026-10-20 | r/AI_Agents | 2026/10/agentic-intrusion-economics-50-dollars-per-breach | propose |
-2026-10-20 | r/learnmachinelearning | 2026/10/agentic-intrusion-economics-50-dollars-per-breach | propose |
-2026-10-19 | r/AI_Agents | 2026/10/opengcua-mai-gym-alibaba-computer-use-harness | propose |
-2026-10-19 | r/LocalLLaMA | 2026/10/opengcua-mai-gym-alibaba-computer-use-harness | propose |
-2026-10-16 | r/OpenAI | 2026/10/open-weight-wave-memory-wall-october-2026 | propose |
-2026-10-16 | r/learnmachinelearning | 2026/10/open-weight-wave-memory-wall-october-2026 | propose |
-2026-10-15 | r/AI_Agents | 2026/10/anthropic-q3-2026-16-8-billion-run-rate-ipo | propose |
-2026-10-15 | r/LocalLLaMA | 2026/10/anthropic-q3-2026-16-8-billion-run-rate-ipo | propose |
-2026-10-13 | r/AI_Agents | 2026/10/anthropic-ai-worm-iot-self-replication-october-2026 | propose |
-2026-10-13 | r/LocalLLaMA | 2026/10/anthropic-ai-worm-iot-self-replication-october-2026 | propose |
-2026-10-12 | r/OpenAI | 2026/10/google-single-gemini-agent-enterprise-october-2026 | propose |
-2026-10-12 | r/learnmachinelearning | 2026/10/google-single-gemini-agent-enterprise-october-2026 | propose |
-2026-10-09 | r/AI_Agents | 2026/10/ftc-probe-openai-anthropic-ai-agent-safety-2026 | propose |
-2026-10-09 | r/LocalLLaMA | 2026/10/ftc-probe-openai-anthropic-ai-agent-safety-2026 | propose |
-2026-10-08 | r/OpenAI | 2026/10/pixelleak-ai-agents-exposed-screenshots-github-2026 | propose |
-2026-10-08 | r/learnmachinelearning | 2026/10/pixelleak-ai-agents-exposed-screenshots-github-2026 | propose |
-2026-10-07 | r/AI_Agents | 2026/10/cloudflare-clef-open-source-decision-models-2026 | propose |
-2026-10-07 | r/LocalLLaMA | 2026/10/cloudflare-clef-open-source-decision-models-2026 | propose |
-2026-10-06 | r/OpenAI | 2026/10/instinct-1b-series-c-10b-valuation-personal-agent-2026 | propose |
-2026-10-06 | r/learnmachinelearning | 2026/10/instinct-1b-series-c-10b-valuation-personal-agent-2026 | propose |
-2026-10-05 | r/AI_Agents | 2026/10/openai-dots-always-on-agents-slack-teams-2026 | propose |
-2026-10-05 | r/LocalLLaMA | 2026/10/openai-dots-always-on-agents-slack-teams-2026 | propose |
-2026-10-02 | r/OpenAI | 2026/10/agentic-commerce-production-rails-2026 | propose |
-2026-10-02 | r/learnmachinelearning | 2026/10/agentic-commerce-production-rails-2026 | propose |
-2026-10-01 | r/AI_Agents | 2026/10/agent-incident-registry-2026-six-months-failures | propose |
-2026-10-01 | r/LocalLLaMA | 2026/10/agent-incident-registry-2026-six-months-failures | propose |
 2026-09-30 | r/OpenAI | 2026/09/open-source-ai-employees-8-roles-mit | propose |
 2026-09-30 | r/learnmachinelearning | 2026/09/open-source-ai-employees-8-roles-mit | propose |
+2026-10-01 | r/AI_Agents | 2026/10/agent-incident-registry-2026-six-months-failures | propose |
+2026-10-01 | r/LocalLLaMA | 2026/10/agent-incident-registry-2026-six-months-failures | propose |
+2026-10-02 | r/OpenAI | 2026/10/agentic-commerce-production-rails-2026 | propose |
+2026-10-02 | r/learnmachinelearning | 2026/10/agentic-commerce-production-rails-2026 | propose |
+2026-10-05 | r/AI_Agents | 2026/10/openai-dots-always-on-agents-slack-teams-2026 | propose |
+2026-10-05 | r/LocalLLaMA | 2026/10/openai-dots-always-on-agents-slack-teams-2026 | propose |
+2026-10-06 | r/OpenAI | 2026/10/instinct-1b-series-c-10b-valuation-personal-agent-2026 | propose |
+2026-10-06 | r/learnmachinelearning | 2026/10/instinct-1b-series-c-10b-valuation-personal-agent-2026 | propose |
+2026-10-07 | r/AI_Agents | 2026/10/cloudflare-clef-open-source-decision-models-2026 | propose |
+2026-10-07 | r/LocalLLaMA | 2026/10/cloudflare-clef-open-source-decision-models-2026 | propose |
+2026-10-08 | r/OpenAI | 2026/10/pixelleak-ai-agents-exposed-screenshots-github-2026 | propose |
+2026-10-08 | r/learnmachinelearning | 2026/10/pixelleak-ai-agents-exposed-screenshots-github-2026 | propose |
+2026-10-09 | r/AI_Agents | 2026/10/ftc-probe-openai-anthropic-ai-agent-safety-2026 | propose |
+2026-10-09 | r/LocalLLaMA | 2026/10/ftc-probe-openai-anthropic-ai-agent-safety-2026 | propose |
+2026-10-12 | r/OpenAI | 2026/10/google-single-gemini-agent-enterprise-october-2026 | propose |
+2026-10-12 | r/learnmachinelearning | 2026/10/google-single-gemini-agent-enterprise-october-2026 | propose |
+2026-10-13 | r/AI_Agents | 2026/10/anthropic-ai-worm-iot-self-replication-october-2026 | propose |
+2026-10-13 | r/LocalLLaMA | 2026/10/anthropic-ai-worm-iot-self-replication-october-2026 | propose |
+2026-10-15 | r/AI_Agents | 2026/10/anthropic-q3-2026-16-8-billion-run-rate-ipo | propose |
+2026-10-15 | r/LocalLLaMA | 2026/10/anthropic-q3-2026-16-8-billion-run-rate-ipo | propose |
+2026-10-16 | r/OpenAI | 2026/10/open-weight-wave-memory-wall-october-2026 | propose |
+2026-10-16 | r/learnmachinelearning | 2026/10/open-weight-wave-memory-wall-october-2026 | propose |
+2026-10-19 | r/AI_Agents | 2026/10/opengcua-mai-gym-alibaba-computer-use-harness | propose |
+2026-10-19 | r/LocalLLaMA | 2026/10/opengcua-mai-gym-alibaba-computer-use-harness | propose |
+2026-10-20 | r/AI_Agents | 2026/10/agentic-intrusion-economics-50-dollars-per-breach | propose |
+2026-10-20 | r/learnmachinelearning | 2026/10/agentic-intrusion-economics-50-dollars-per-breach | propose |
+2026-10-21 | r/AI_Agents | 2026/10/openai-agents-weakened-own-monitoring-october-2026 | propose |
+2026-10-21 | r/LocalLLaMA | 2026/10/openai-agents-weakened-own-monitoring-october-2026 | propose |
+2026-10-22 | r/OpenAI | 2026/10/claude-duet-proactive-agent-usage-economics | propose |
+2026-10-22 | r/learnmachinelearning | 2026/10/claude-duet-proactive-agent-usage-economics | propose |
+2026-10-23 | r/AI_Agents | 2026/10/digitalocean-agent-learning-data-services | propose |
+2026-10-23 | r/LocalLLaMA | 2026/10/digitalocean-agent-learning-data-services | propose |
+2026-10-26 | r/OpenAI | 2026/10/daytona-60m-series-b-agent-cloud | propose |
+2026-10-26 | r/learnmachinelearning | 2026/10/daytona-60m-series-b-agent-cloud | propose |
+2026-10-27 | r/AI_Agents | 2026/10/qwen38-flash-next-curl-reasoning-trace | propose |
+2026-10-27 | r/LocalLLaMA | 2026/10/qwen38-flash-next-curl-reasoning-trace | propose |
