@@ -63,3 +63,5 @@
 2026-10-27 | r/LocalLLaMA | 2026/10/qwen38-flash-next-curl-reasoning-trace | propose |
 2026-10-28 | r/OpenAI | 2026/10/axiom-cfsg-agent-swarm | poste | posté (confirmé 28/10)
 2026-10-28 | r/learnmachinelearning | 2026/10/axiom-cfsg-agent-swarm | poste | posté (confirmé 28/10)
+2026-10-29 | r/AI_Agents | 2026/10/gemini-4-carbon-intelligence-index-no-price-patch-board | propose |
+2026-10-29 | r/LocalLLaMA | 2026/10/gemini-4-carbon-intelligence-index-no-price-patch-board | propose |
