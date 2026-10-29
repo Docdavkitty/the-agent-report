@@ -20,12 +20,12 @@ reading_time: 8
 ## En bref
 
 - Infinity, le runtime Rust open source d'AWS et de l'UC Berkeley, sauvegarde la conversation d'un agent et la suspend au moment des appels d'outils plutôt que de bloquer un worker. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
-- L'estimation d'AWS de 75 000 agents inactifs par 8 Go est reproductible—mais s'applique à des historiques courts. Chaque tour ajoute de l'état, ce qui réduit la capacité. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/); [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
+- L'estimation d'AWS de 75 000 agents inactifs par 8 Go est reproductible, mais elle ne vaut que pour des historiques courts. Chaque tour ajoute de l'état, ce qui réduit la capacité. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/); [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
 - Sur le plan économique, l'attente coûte de l'état conservé, et non un processus actif multiplié par la latence des outils. Infinity est une recherche précoce, pas un service de production. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
 
 ## Introduction
 
-Une attente de webhook de six heures implique normalement de maintenir un worker en vie ou de faire des points de contrôle. Infinity exécute une tranche bornée, sauvegarde la conversation et s'arrête jusqu'à ce qu'un événement la reprenne. Le chiffre phare : 75 000 agents inactifs dans 8 Go. La question est de savoir comment les coûts évoluent à mesure que les historiques grandissent. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
+Une attente de webhook de six heures implique normalement de maintenir un worker en vie ou de poser des checkpoints. Infinity exécute une tranche bornée, sauvegarde la conversation et s'arrête jusqu'à ce qu'un événement la reprenne. Le chiffre phare : 75 000 agents inactifs dans 8 Go. La question est de savoir comment les coûts évoluent à mesure que les historiques grandissent. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
 
 ## Un appel d'outil devient un point de suspension
 
@@ -35,13 +35,13 @@ Chaque tranche bornée charge une conversation depuis un store enfichable, exéc
 
 Chaque conversation dispose de sa propre file et de son `thread_id`, ce qui préserve l'ordre tandis que d'autres threads s'exécutent en parallèle. `spawn_thread` et `report_to_parent` gèrent le travail d'agent à agent ; Infinity inclut également des appels d'outils synthétiques, RAP et l'agent de codage Infinity Code. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
 
-## Ce que 75 000 prouve—et ne prouve pas
+## Ce que 75 000 prouve — et ne prouve pas
 
-AWS a exécuté 80 000 agents sur 20 tours—3,2 millions de complétions—sur un seul thread AMD EPYC 9R14 avec des stores en mémoire. À environ 100 Ko par agent inactif, l'estimation atteint 75 000 par 8 Go. Chaque tour effectuait un appel d'outil d'environ 1,2 Ko et une seconde complétion après le résultat mis en file. Le Raspberry Pi 5 est une extrapolation, pas la machine de test. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
+AWS a exécuté 80 000 agents sur 20 tours (3,2 millions de complétions) sur un seul thread AMD EPYC 9R14 avec des stores en mémoire. À environ 100 Ko par agent inactif, l'estimation atteint 75 000 par 8 Go. Chaque tour comptait deux complétions de modèle, la seconde après le retour du résultat d'outil. Le Raspberry Pi 5 est une extrapolation, pas la machine de test. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
 
-La réexécution : 10 000 agents × 20 tours, 400 000 complétions en 32,3 secondes, 1 056 Mo soit 105,6 Ko par agent—environ 75 700 par 8 Go. Chaque tour ajoute ~5 Ko ; à 160 tours, la capacité estimée est de 10 100 et le débit chute d'environ 18 200 à environ 2 500 complétions par seconde. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
+La réexécution : 10 000 agents × 20 tours, 400 000 complétions en 32,3 secondes, 1 056 Mo au total, soit 105,6 Ko par agent, donc environ 75 700 agents par 8 Go. Chaque tour scripté transportait environ 2,8 Ko de texte (deux complétions d'environ 1 130 caractères, un appel d'outil, un résultat de 340 caractères) et ajoutait ~5 Ko de mémoire résidente. À 160 tours, la capacité estimée tombe à 10 100 et le débit chute d'environ 18 200 à environ 2 500 complétions par seconde. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
 
-La réexécution utilisait un modèle scripté, des stores en mémoire, un seul thread, la compaction désactivée et des résultats d'outils de 340 caractères—pas d'inférence réelle ni de sorties volumineuses. Ainsi, 75 000 s'applique à un état inactif compact, pas à toutes les charges de travail de longue durée. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
+La réexécution utilisait un modèle scripté, des stores en mémoire, un seul thread, la compaction désactivée et des résultats d'outils de 340 caractères, sans inférence réelle ni sorties volumineuses. Ainsi, 75 000 s'applique à un état inactif compact, pas à toutes les charges de travail de longue durée. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
 
 ## L'unité de coût change
 
@@ -51,9 +51,9 @@ Un agent bloquant occupe un processus pendant toute une attente externe : emprei
 
 ## Le serverless correspond au modèle par tranches
 
-Une tranche peut déclencher du travail et laisser son Lambda se terminer ; un événement de file démarre ensuite la tranche suivante. Le temps de fonction suit alors le travail, et non l'attente de l'outil. La pile de référence d'AWS utilise SQS FIFO, Lambda, Aurora DSQL et DynamoDB. Les appels au modèle, à la file et au stockage coûtent toujours de l'argent, mais aucun worker ne reste inactif pendant des heures ou des jours. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
+Une tranche peut déclencher du travail et laisser son Lambda se terminer ; un événement de file démarre ensuite la tranche suivante. Le temps de fonction suit alors le travail, et non l'attente de l'outil. La pile de référence d'AWS utilise SQS FIFO, Lambda, Aurora DSQL et DynamoDB, la même architecture événementielle que le groupe a mise en avant à [AWS Summit NYC 2026](/2026/06/aws-summit-nyc-2026-agentic-ai/). Les appels au modèle, à la file et au stockage coûtent toujours de l'argent, mais aucun worker ne reste inactif pendant des heures ou des jours. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
 
-À 500 tours, surtout avec des sorties d'outils volumineuses, la transcription comme état devient coûteuse. Infinity déplace la pression vers le stockage et la compaction ; la réexécution désactivait la compaction et ne testait pas la summarisation. L'inférence de modèle coûte généralement plus que la mémoire, donc Infinity s'attaque à l'attente plutôt qu'à la réflexion. Au moment du rapport, le dépôt comptait 24 étoiles et 54 issues ouvertes : de la recherche, pas un verdict de production. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/); [Infinity repository](https://github.com/hydro-project/infinity))*
+À 500 tours, surtout avec des sorties d'outils volumineuses, la transcription comme état devient coûteuse. Infinity déplace la pression vers le stockage. La réexécution avait la compaction désactivée et n'a jamais testé le résumé automatique. L'inférence de modèle coûte généralement plus que la mémoire, donc Infinity s'attaque à l'attente plutôt qu'à la réflexion. Au 29 octobre, le dépôt comptait 338 étoiles et 57 issues ouvertes, avec un dernier push le 27 octobre : de la recherche qui avance vite, pas un verdict de production. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/); [Infinity repository](https://github.com/hydro-project/infinity))*
 
 ## FAQ
 
@@ -79,5 +79,7 @@ Des historiques plus longs, des sorties réalistes, la compaction, des stores du
 - [Infinity — GitHub repository](https://github.com/hydro-project/infinity)
 - [AgentOps Guide — Independent benchmark rerun](https://agentopsguide.com/aws-infinity-agent-runtime/)
 - [Hydro Project](https://github.com/hydro-project)
+- [The Agent Report — AWS Summit NYC 2026 : la poussée agentique](/2026/06/aws-summit-nyc-2026-agentic-ai/)
+- [The Agent Report — Comparatif des frameworks d'agents : LangGraph, CrewAI, AutoGen](/2026/07/ai-agent-frameworks-comparison-2026-langgraph-crewai-autogen/)
 
 — The Agent Report

@@ -18,7 +18,7 @@ description: "Infinity makes waiting agents cheap by suspending them between too
 ## TL;DR
 
 - Infinity, AWS and UC Berkeley's open-source Rust runtime, saves an agent's conversation and suspends it at tool calls rather than blocking a worker. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
-- AWS's 75,000-idle-agents-per-8-GB estimate is reproducible—but applies to short histories. Each turn adds state, reducing capacity. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/); [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
+- AWS's 75,000-idle-agents-per-8-GB estimate is reproducible, but it applies only to short histories. Each turn adds state, reducing capacity. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/); [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
 - Economically, waiting costs retained state, not a live process multiplied by tool latency. Infinity is early research, not a production service. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
 
 ## Introduction
@@ -35,23 +35,23 @@ Each conversation has its own queue and `thread_id`, preserving order while othe
 
 ## What 75,000 proves—and doesn't
 
-AWS ran 80,000 agents for 20 turns—3.2 million completions—on one AMD EPYC 9R14 thread with in-memory stores. At about 100 KB per idle agent, the estimate scales to 75,000 per 8 GB. Each turn made a ~1.2 KB tool call and a second completion after the queued result. Raspberry Pi 5 is an extrapolation, not the test machine. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
+AWS ran 80,000 agents for 20 turns—3.2 million completions—on one AMD EPYC 9R14 thread with in-memory stores. At about 100 KB per idle agent, the estimate scales to 75,000 per 8 GB. Each turn took two model completions, the second after the tool result came back. Raspberry Pi 5 is an extrapolation, not the test machine. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
 
-The rerun: 10,000 agents × 20 turns, 400,000 completions in 32.3 seconds, 1,056 MB or 105.6 KB per agent—about 75,700 per 8 GB. Each turn adds ~5 KB; at 160 turns, estimated capacity is 10,100 and throughput drops from ~18,200 to ~2,500 completions per second. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
+The rerun: 10,000 agents × 20 turns, 400,000 completions in 32.3 seconds, 1,056 MB for the fleet, or 105.6 KB per agent, which scales to about 75,700 per 8 GB. Each scripted turn carried roughly 2.8 KB of text (two completions of about 1,130 characters, a tool call, a 340-character result) and added ~5 KB of resident memory. At 160 turns, estimated capacity falls to 10,100 and throughput drops from ~18,200 to ~2,500 completions per second. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
 
 The rerun used a scripted model, in-memory stores, one thread, compaction disabled, and 340-character tool results—not real inference or large outputs. So 75,000 applies to compact idle state, not every long-running workload. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
 
 ## The cost unit changes
 
-A blocking agent occupies a process throughout an external wait: process footprint multiplied by wait duration. With suspension, no agent code runs; its history and resume metadata remain. The cost model shifts from “process time × latency” to “state size × retention.” Infinity does not make state free; it separates it from an executing worker. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/); [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
+A blocking agent occupies a process throughout an external wait: process footprint multiplied by wait duration. With suspension, no agent code runs; its history and resume metadata remain. The cost model shifts from "process time × latency" to "state size × retention". Infinity does not make state free; it separates it from an executing worker. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/); [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
 
 At 105.6 KB per agent, six hours of retention is ~634 KB-hours; three days is ~7.6 MB-hours, twelve times more. This is not a cloud-bill estimate: the rerun used memory stores, while a deployment may pay for durable storage and I/O. A three-day approval need not hold a worker for three days, but its history still occupies capacity somewhere. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/))*
 
 ## Serverless fits the slice model
 
-A slice can dispatch work and let its Lambda terminate; a queue event later starts the next slice. Function time then tracks work, not the tool wait. AWS's reference stack uses SQS FIFO, Lambda, Aurora DSQL, and DynamoDB. Model, queue, and storage calls still cost money, but no worker idles for hours or days. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
+A slice can dispatch work and let its Lambda terminate; a queue event later starts the next slice. Function time then tracks work, not the tool wait. AWS's reference stack uses SQS FIFO, Lambda, Aurora DSQL, and DynamoDB, the same event-driven shape the company pushed at [AWS Summit NYC 2026](/2026/06/aws-summit-nyc-2026-agentic-ai/). Model, queue, and storage calls still cost money, but no worker idles for hours or days. *(Source : [AWS Open Source — Introducing Infinity: A Runtime for Extreme Agent Concurrency](https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/))*
 
-At 500 turns, especially with large tool outputs, transcript-as-state gets costly. Infinity shifts pressure to storage and compaction; the rerun disabled compaction and did not test summarization. Model inference usually costs more than memory, so Infinity attacks waiting rather than thinking. At the reported snapshot the repo had 24 stars and 54 open issues: research, not a production verdict. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/); [Infinity repository](https://github.com/hydro-project/infinity))*
+At 500 turns, especially with large tool outputs, transcript-as-state gets costly. Infinity shifts the pressure onto storage. The rerun had compaction turned off and never tested summarization. Model inference usually costs more than memory, so Infinity attacks waiting rather than thinking. As of October 29 the repo had 338 stars and 57 open issues, with its last push on October 27: research moving fast, not a production verdict. *(Source : [AgentOps Guide — AWS Infinity Agent Runtime](https://agentopsguide.com/aws-infinity-agent-runtime/); [Infinity repository](https://github.com/hydro-project/infinity))*
 
 ## FAQ
 
@@ -77,5 +77,7 @@ Test longer histories, realistic outputs, compaction, durable stores, and real m
 - [Infinity — GitHub repository](https://github.com/hydro-project/infinity)
 - [AgentOps Guide — Independent benchmark rerun](https://agentopsguide.com/aws-infinity-agent-runtime/)
 - [Hydro Project](https://github.com/hydro-project)
+- [The Agent Report — AWS Summit NYC 2026: the agentic push](/2026/06/aws-summit-nyc-2026-agentic-ai/)
+- [The Agent Report — AI agent frameworks compared: LangGraph, CrewAI, AutoGen](/2026/07/ai-agent-frameworks-comparison-2026-langgraph-crewai-autogen/)
 
 — The Agent Report
