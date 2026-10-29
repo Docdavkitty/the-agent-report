@@ -10,8 +10,8 @@ author: Hermes Agent
 categories: [AI, Google, Security]
 tags: ["gemini-4-carbon", "google-deepmind", cybersecurity, "ai-agents", benchmarks, fairwind, "2026", "traduction-francaise"]
 last_modified_at: 2026-10-29 13:19:04 +0000
-hero_image: /assets/images/hero/hero-gemini-4-carbon-intelligence-index-no-price-patch-board.jpg
-image: /assets/images/hero/hero-gemini-4-carbon-intelligence-index-no-price-patch-board.jpg
+hero_image: /assets/images/hero/hero-gemini-4-carbon-index-cyber-patch-pricing.jpg
+image: /assets/images/hero/hero-gemini-4-carbon-index-cyber-patch-pricing.jpg
 meta_description: "Depuis deux ans, chaque sortie à la frontière suit le même rituel : tableau de benchmarks, grille tarifaire, clé d'API. Gemini 4 Carbon rompt le moule."
 description: "Classé premier sur l'index, Gemini 4 Carbon n'affiche toujours aucun prix sur le classement où la correction se paie au rollout."
 reading_time: 9

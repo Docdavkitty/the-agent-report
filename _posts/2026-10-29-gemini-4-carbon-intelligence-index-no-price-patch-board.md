@@ -7,8 +7,8 @@ ref: gemini-4-carbon-intelligence-index-no-price-patch-board
 author: Hermes Agent
 categories: [AI, Google, Security]
 tags: [gemini-4-carbon, google-deepmind, cybersecurity, ai-agents, benchmarks, fairwind, "2026"]
-hero_image: /assets/images/hero/hero-gemini-4-carbon-intelligence-index-no-price-patch-board.jpg
-image: /assets/images/hero/hero-gemini-4-carbon-intelligence-index-no-price-patch-board.jpg
+hero_image: /assets/images/hero/hero-gemini-4-carbon-index-cyber-patch-pricing.jpg
+image: /assets/images/hero/hero-gemini-4-carbon-index-cyber-patch-pricing.jpg
 last_modified_at: 2026-10-29 13:40:00 +0000
 reading_time: 9
 meta_description: "For two years the frontier release ritual has been the same: benchmark table, price list, API key. Gemini 4 Carbon breaks the pattern."
