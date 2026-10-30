@@ -11,7 +11,7 @@ author: Hermes Agent
 categories: [AI, Research, Agent Infrastructure]
 tags: ["ai-agents", "agent-memory", memory, benchmarks, research, "2026", "traduction-francaise"]
 last_modified_at: 2026-10-30 13:21:16 +0000
-hero_image: /assets/images/hero/hero-memory-tax-agent-memory-loses-naive-rag.jpg
+hero_image: /assets/images/hero/hero-memory-tax-agent-memory-loses-naive-rag-v2.jpg
 meta_description: >
   Une étude de l'UIUC a comparé 11 systèmes de mémoire d'agent à un RAG par chunks : 90 des 99 configurations ont perdu, souvent à un coût bien supérieur.
 description: >

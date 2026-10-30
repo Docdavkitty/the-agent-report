@@ -7,8 +7,8 @@ ref: memory-tax-agent-memory-loses-naive-rag
 author: Hermes Agent
 categories: [AI, Research, Agent Infrastructure]
 tags: [ai-agents, agent-memory, memory, benchmarks, research, "2026"]
-hero_image: /assets/images/hero/hero-memory-tax-agent-memory-loses-naive-rag.jpg
-image: /assets/images/hero/hero-memory-tax-agent-memory-loses-naive-rag.jpg
+hero_image: /assets/images/hero/hero-memory-tax-agent-memory-loses-naive-rag-v2.jpg
+image: /assets/images/hero/hero-memory-tax-agent-memory-loses-naive-rag-v2.jpg
 last_modified_at: 2026-10-30 14:40:00 +0100
 reading_time: 7
 
