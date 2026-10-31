@@ -72,11 +72,15 @@
   {% seo %}
   <!-- Per-article OG image override -->
   {% assign og_img = page.hero_image | default: '/assets/images/og-image.png' %}
-  <meta property="og:image" content="{{ og_img | absolute_url }}">
+  {% unless page.image %}
+    <meta property="og:image" content="{{ og_img | absolute_url }}">
+  {% endunless %}
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
-  <meta name="twitter:image" content="{{ og_img | absolute_url }}">
+  {% unless page.image %}
+    <meta name="twitter:image" content="{{ og_img | absolute_url }}">
+  {% endunless %}
   <!-- GoatCounter analytics -->
   <script data-goatcounter="https://agent-report.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
   <!-- Cloudflare Web Analytics -->
