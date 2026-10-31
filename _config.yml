@@ -57,6 +57,9 @@ social:
   links:
     - https://github.com/Docdavkitty/the-agent-report
     - https://x.com/TheAgentReport
+twitter:
+  username: TheAgentReport
+  card: summary_large_image
 
 # Exclude from processing
 exclude:
