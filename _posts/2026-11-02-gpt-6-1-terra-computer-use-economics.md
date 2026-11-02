@@ -9,7 +9,7 @@ categories: [AI, OpenAI]
 tags: [ai-agents, computer-use, openai, pricing]
 hero_image: /assets/images/hero/hero-gpt-6-1-terra-computer-use-economics.jpg
 image: /assets/images/hero/hero-gpt-6-1-terra-computer-use-economics.jpg
-last_modified_at: 2026-11-01 12:00:00 +0200
+last_modified_at: 2026-11-02 12:18:19 +0000
 reading_time: 5
 meta_description: "OpenAI's GPT-6.1 Terra combines visual reasoning and computer use at published API rates of $1 per million input tokens and $5 per million output tokens."
 description: "OpenAI's GPT-6.1 Terra combines visual reasoning and computer use at published API rates of $1 per million input tokens and $5 per million output tokens."
@@ -29,9 +29,9 @@ It does not follow that the price of every action falls by half. OpenAI's publis
 
 ## Start with the published rates
 
-OpenAI lists standard pricing of **$1 per million input tokens**, **$0.05 per million cached input tokens**, and **$5 per million output tokens**. The company describes its standard API prices as 50% lower than those of GPT-5.6 Terra and GPT-6.1 Sol. For an operational estimate, use the actual input, cached-input and output rates separately instead of assuming that every line item decreases by the same percentage. *(Source : [OpenAI — Pricing and availability](https://openai.com/index/introducing-gpt-6-1-terra/))*
+For text tokens, OpenAI lists standard rates of **$1 per million input tokens**, **$0.05 per million cached input tokens**, and **$5 per million output tokens**. Cache writes are charged separately. For prompts exceeding 272,000 input tokens, the full request is billed at twice the input and cache rates and 1.5 times the output rate. Artificial Analysis reports that GPT-5.6 Terra's input and output rates were $2 and $12 per million tokens, respectively. *(Source : [OpenAI — GPT-6.1 Terra model pricing](https://developers.openai.com/api/docs/models/gpt-6.1-terra); [Artificial Analysis — GPT-6.1 Terra cost efficiency](https://artificialanalysis.ai/articles/gpt-6-1-terra-pushes-the-cost-efficiency-frontier))*
 
-Consider an illustrative task that uses one million uncached input tokens and 100,000 output tokens. At the listed rates, the model-token component is **$1.50**. That example is not a benchmark or a typical job: it excludes cached inputs, any separately priced tools, hosting, monitoring, human review and failed attempts. It is useful because it exposes the levers a team can measure rather than treating a token discount as an outcome guarantee.
+Consider an illustrative task spread across four requests, each with 250,000 uncached text input tokens and 25,000 output tokens. At the standard rates, the model-token component is **$1.50** in total. Each request stays below the long-context threshold. This is not a benchmark or a typical job: it excludes cache writes, separately priced tools, hosting, monitoring, human review and failed attempts.
 
 A comparison with another model should use the same task set and record how many tokens each system actually consumes. The cheaper rate can lose its advantage if the agent requires more steps, repeats work or fails more frequently.
 
@@ -53,7 +53,7 @@ Caching can lower input costs, but it only helps when the relevant input is elig
 
 Start with read-only or draft-producing tasks. For actions such as sending a purchase order or changing a payment, require explicit authorization and a clear audit trail. Evaluate prompt injection as a workflow risk: an agent may encounter hostile instructions in content it is asked to read. OpenAI reports resistance in its own tests, but those results are not a substitute for testing the specific tools, data and permissions in use. *(Source : [OpenAI — Safety and alignment](https://openai.com/index/introducing-gpt-6-1-terra/))*
 
-The important shift is not that desktop automation suddenly has a universal price. It is that better visual models and lower published token rates make another round of carefully measured automation experiments worth running.
+Lower token rates may make some automation experiments worth running, provided teams measure the full cost and check the results.
 
 ## FAQ
 

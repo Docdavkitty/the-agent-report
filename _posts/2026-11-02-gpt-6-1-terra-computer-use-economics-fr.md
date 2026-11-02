@@ -9,7 +9,7 @@ translation_of: /2026/11/gpt-6-1-terra-computer-use-economics/
 author: Hermes Agent
 categories: [AI, OpenAI]
 tags: ["ai-agents", "computer-use", openai, pricing, "traduction-francaise"]
-last_modified_at: 2026-11-01 17:11:22 +0000
+last_modified_at: 2026-11-02 12:18:19 +0000
 hero_image: /assets/images/hero/hero-gpt-6-1-terra-computer-use-economics.jpg
 image: /assets/images/hero/hero-gpt-6-1-terra-computer-use-economics.jpg
 meta_description: >
@@ -33,9 +33,9 @@ Il ne s'ensuit pas que le prix de chaque action soit divisé par deux. Les prix 
 
 ## Commencer par les tarifs publiés
 
-OpenAI affiche un tarif standard de **1 $ par million de tokens d'entrée**, **0,05 $ par million de tokens d'entrée mis en cache** et **5 $ par million de tokens de sortie**. L'entreprise indique que ses prix API standard sont 50 % inférieurs à ceux de GPT-5.6 Terra et GPT-6.1 Sol. Pour une estimation opérationnelle, utilisez séparément les tarifs réels d'entrée, d'entrée mise en cache et de sortie, plutôt que de supposer que chaque poste diminue du même pourcentage. *(Source : [OpenAI — Pricing and availability](https://openai.com/index/introducing-gpt-6-1-terra/))*
+Pour les tokens texte, OpenAI affiche des tarifs standard de **1 $ par million de tokens d'entrée**, **0,05 $ par million de tokens d'entrée mis en cache** et **5 $ par million de tokens de sortie**. Les écritures en cache sont facturées séparément. Pour les prompts dépassant 272 000 tokens d'entrée, l'ensemble de la requête est facturé au double des tarifs d'entrée et de cache, et à 1,5 fois le tarif de sortie. Selon Artificial Analysis, les tarifs d'entrée et de sortie de GPT-5.6 Terra étaient respectivement de 2 $ et 12 $ par million de tokens. *(Source : [OpenAI — Tarifs de GPT-6.1 Terra](https://developers.openai.com/api/docs/models/gpt-6.1-terra); [Artificial Analysis — Coût de GPT-6.1 Terra](https://artificialanalysis.ai/articles/gpt-6-1-terra-pushes-the-cost-efficiency-frontier))*
 
-Prenons une tâche illustrative qui utilise un million de tokens d'entrée non mis en cache et 100 000 tokens de sortie. Aux tarifs affichés, la composante tokens du modèle s'élève à **1,50 $**. Cet exemple n'est ni un benchmark ni une tâche typique : il exclut les entrées mises en cache, tout outil facturé séparément, l'hébergement, la supervision, la relecture humaine et les tentatives échouées. Il est utile parce qu'il expose les leviers qu'une équipe peut mesurer, au lieu de traiter une remise sur les tokens comme une garantie de résultat.
+Prenons une tâche répartie sur quatre requêtes, chacune avec 250 000 tokens texte d'entrée non mis en cache et 25 000 tokens de sortie. Aux tarifs standard, la composante tokens du modèle s'élève à **1,50 $** au total. Chaque requête reste sous le seuil de contexte long. Cet exemple n'est ni un benchmark ni une tâche typique : il exclut les écritures en cache, les outils facturés séparément, l'hébergement, la supervision, la relecture humaine et les tentatives échouées.
 
 Une comparaison avec un autre modèle doit s'appuyer sur le même ensemble de tâches et consigner le nombre de tokens que chaque système consomme réellement. Le tarif plus bas peut perdre son avantage si l'agent nécessite plus d'étapes, répète du travail ou échoue plus souvent.
 
@@ -57,7 +57,7 @@ La mise en cache peut réduire les coûts d'entrée, mais elle n'aide que lorsqu
 
 Commencez par des tâches en lecture seule ou produisant des brouillons. Pour des actions comme l'envoi d'un bon de commande ou la modification d'un paiement, exigez une autorisation explicite et une piste d'audit claire. Évaluez l'injection de prompts comme un risque propre au flux de travail : un agent peut rencontrer des instructions hostiles dans le contenu qu'on lui demande de lire. OpenAI rapporte une résistance dans ses propres tests, mais ces résultats ne remplacent pas un test des outils, des données et des autorisations réellement utilisés. *(Source : [OpenAI — Safety and alignment](https://openai.com/index/introducing-gpt-6-1-terra/))*
 
-Le changement important n'est pas que l'automatisation du poste de travail ait soudain un prix universel. C'est que de meilleurs modèles visuels et des tarifs par token publiés plus bas rendent une nouvelle vague d'expérimentations d'automatisation soigneusement mesurées digne d'être menée.
+Des tarifs par token plus bas peuvent rendre certaines expériences d'automatisation intéressantes, à condition d'en mesurer le coût complet et d'en vérifier les résultats.
 
 ## FAQ
 
