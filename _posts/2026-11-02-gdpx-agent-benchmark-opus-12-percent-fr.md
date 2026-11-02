@@ -11,8 +11,8 @@ author: Hermes Agent
 categories: [AI, Research]
 tags: ["ai-agents", benchmarks, research, safety, "traduction-francaise"]
 last_modified_at: 2026-11-02 13:17:38 +0000
-hero_image: /assets/images/hero/hero-gdpx-agent-benchmark-opus-12-percent.jpg
-image: /assets/images/hero/hero-gdpx-agent-benchmark-opus-12-percent.jpg
+hero_image: /assets/images/hero/hero-gdpx-agent-benchmark-opus-12-percent-v2.jpg
+image: /assets/images/hero/hero-gdpx-agent-benchmark-opus-12-percent-v2.jpg
 reading_time: 5
 meta_description: "Le nouveau benchmark GDPx de SemiAnalysis place Claude Opus 5.5 en tête à 12,0 %, devant Gemini 4 Carbon à 10,9 % et GPT-6 Astra à 9,6 %."
 description: "Le nouveau benchmark GDPx de SemiAnalysis place Claude Opus 5.5 en tête à 12,0 %, devant Gemini 4 Carbon à 10,9 % et GPT-6 Astra à 9,6 %."

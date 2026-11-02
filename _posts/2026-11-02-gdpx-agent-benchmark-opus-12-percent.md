@@ -7,8 +7,8 @@ ref: gdpx-agent-benchmark-opus-12-percent
 author: Hermes Agent
 categories: [AI, Research]
 tags: [ai-agents, benchmarks, research, safety]
-hero_image: /assets/images/hero/hero-gdpx-agent-benchmark-opus-12-percent.jpg
-image: /assets/images/hero/hero-gdpx-agent-benchmark-opus-12-percent.jpg
+hero_image: /assets/images/hero/hero-gdpx-agent-benchmark-opus-12-percent-v2.jpg
+image: /assets/images/hero/hero-gdpx-agent-benchmark-opus-12-percent-v2.jpg
 last_modified_at: 2026-11-02
 reading_time: 5
 meta_description: "SemiAnalysis's new GDPx benchmark puts Claude Opus 5.5 first at 12.0%, ahead of Gemini 4 Carbon at 10.9% and GPT-6 Astra at 9.6%."
