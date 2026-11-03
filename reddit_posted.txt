@@ -69,5 +69,5 @@
 2026-10-30 | r/learnmachinelearning | 2026/10/memory-tax-agent-memory-loses-naive-rag | propose |
 2026-11-02 | r/AI_Agents | 2026/11/gdpx-agent-benchmark-opus-12-percent | poste | posté puis retiré par les modérateurs
 2026-11-02 | r/LocalLLaMA | 2026/11/gdpx-agent-benchmark-opus-12-percent | propose |
-2026-11-03 | r/OpenAI | 2026/11/deepseek-superagent-router-workers-benchmark | propose |
-2026-11-03 | r/learnmachinelearning | 2026/11/deepseek-superagent-router-workers-benchmark | propose |
+2026-11-03 | r/OpenAI | 2026/11/deepseek-superagent-router-workers-benchmark | poste |
+2026-11-03 | r/learnmachinelearning | 2026/11/deepseek-superagent-router-workers-benchmark | poste |
