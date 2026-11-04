@@ -71,3 +71,5 @@
 2026-11-02 | r/LocalLLaMA | 2026/11/gdpx-agent-benchmark-opus-12-percent | propose |
 2026-11-03 | r/OpenAI | 2026/11/deepseek-superagent-router-workers-benchmark | poste |
 2026-11-03 | r/learnmachinelearning | 2026/11/deepseek-superagent-router-workers-benchmark | poste |
+2026-11-04 | r/AI_Agents | 2026/11/crowdstrike-fiddler-dreadnode-agent-security | propose |
+2026-11-04 | r/LocalLLaMA | 2026/11/crowdstrike-fiddler-dreadnode-agent-security | propose |
