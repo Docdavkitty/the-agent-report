@@ -12,7 +12,7 @@ image: /assets/images/hero/hero-anthropic-public-s1-agent-economics.jpg
 last_modified_at: 2026-11-01 12:00:00 +0200
 reading_time: 5
 meta_description: "Anthropic publicly filed its S-1 on October 26. Its filing reports $16.286 billion in revenue and a $693 million operating loss for the first half of 2026."
-description: "Anthropic publicly filed its S-1 on October 26. Its filing reports $16.286 billion in revenue and a $693 million operating loss for the first half of..."
+description: "Anthropic publicly filed its S-1 on October 26. Its filing reports $16.286 billion in revenue and a $693 million operating loss for the first half of 2026."
 ---
 
 ## TL;DR
@@ -35,7 +35,7 @@ The first-half comparison is more meaningful because the periods have the same l
 
 ## Operating loss versus net loss
 
-The filing reports a **$693 million operating loss** for the first half of 2026 and a **$80.748 billion net loss**. Those numbers measure different things. The same statement includes a **$72.388 billion loss from the change in fair value of convertible notes, derivative liabilities and SAFEs**. *(Source : [SEC — Anthropic S-1, consolidated statements](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm))*
+The filing reports a **$693 million operating loss** for the first half of 2026 and an **$80.748 billion net loss**. Those numbers measure different things. The same statement includes a **$72.388 billion loss from the change in fair value of convertible notes, derivative liabilities and SAFEs**. *(Source : [SEC — Anthropic S-1, consolidated statements](https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm))*
 
 That distinction is essential. Net loss is an accounting result; it is not a synonym for cash spent during the period. The large fair-value adjustment is part of the reported result, but readers should consult the cash-flow statement and the underlying notes before making a claim about cash consumption. Nor should the smaller operating loss be confused with positive cash flow or profitability.
 
