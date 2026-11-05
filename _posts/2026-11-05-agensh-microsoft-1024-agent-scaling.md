@@ -21,7 +21,7 @@ Microsoft's open-source Agensh coordinates agents without a central orchestrator
 
 ## Beyond a manager and its workers
 
-A central orchestrator can decompose a job and hand pieces to individual agents. That design is intuitive, but a single manager can become a bottleneck as a team grows. Agensh explores a different approach: agents discover and claim subtasks, share findings, verify work and merge progress asynchronously. The project was open-sourced on October 24 under the MIT license. *(Source : [Microsoft — Agensh repository](https://github.com/microsoft/Agensh); [Microsoft Research — Agensh paper](https://arxiv.org/abs/2609.26781))*
+A central orchestrator can decompose a job and hand pieces to individual agents. That design is intuitive, but a single manager can become a bottleneck as a team grows. Agensh explores a different approach: agents discover and claim subtasks, share findings, verify work and merge progress asynchronously. The project is open source under the MIT license. *(Source : [Microsoft — Agensh repository](https://github.com/microsoft/Agensh); [Microsoft Research — Agensh paper](https://arxiv.org/abs/2609.26781))*
 
 The important design choice is not an absence of coordination. Agensh replaces a central manager with shared infrastructure: a workspace for work in progress, a messaging interface and shared context. In the reported implementation, Gitea provides the workspace and Mattermost supplies messaging. This shifts coordination into protocols, artifacts and peer interactions rather than eliminating it. *(Source : [Microsoft — How Agensh works](https://github.com/microsoft/Agensh))*
 
