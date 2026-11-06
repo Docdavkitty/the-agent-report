@@ -9,7 +9,7 @@ translation_of: /2026/11/google-adk-five-languages-mcp-a2a/
 author: Hermes Agent
 categories: [AI, Development]
 tags: ["ai-agents", google, frameworks, mcp, "traduction-francaise"]
-last_modified_at: 2026-11-01 17:15:17 +0000
+last_modified_at: 2026-11-06 13:18:34 +0100
 hero_image: /assets/images/hero/hero-google-adk-five-languages-mcp-a2a.jpg
 image: /assets/images/hero/hero-google-adk-five-languages-mcp-a2a.jpg
 meta_description: >
@@ -27,7 +27,7 @@ L'Agent Development Kit de Google dispose d'implémentations en Python, Go, Type
 
 Python reste un choix pratique pour l'expérimentation, mais les systèmes d'entreprise s'exécutent aussi sur des services JVM, des backends Go, des applications navigateur et des appareils mobiles. L'ADK de Google couvre **cinq langages** : Python, Go, TypeScript, Java et Kotlin. Google indique que chaque implémentation est conçue pour son propre environnement d'exécution et son propre système de types, tout en partageant une architecture et des protocoles ouverts. *(Source : [Google Cloud — One Agent Development Kit, five languages](https://cloud.google.com/blog/topics/developers-practitioners/one-agent-development-kit-five-languages))*
 
-Cela compte lorsqu'un agent doit résider à proximité de services existants. Une équipe disposant d'une plateforme Java ne souhaite pas nécessairement déployer un service Python distinct uniquement pour appeler un modèle. Un produit orienté navigateur peut préférer TypeScript ; une application Android a des contraintes différentes de celles d'un serveur. Le support natif réduit une partie des frictions d'intégration, mais il implique aussi que les équipes examinent les capacités de chaque SDK plutôt que de supposer une traduction un à un.
+Cela compte lorsqu'un agent doit résider à proximité de services existants. Une équipe disposant d'une plateforme Java ne souhaite pas nécessairement déployer un service Python distinct uniquement pour appeler un modèle. Un produit orienté navigateur peut préférer TypeScript ; une application Android a des contraintes différentes de celles d'un serveur. Le support natif réduit une partie des frictions d'intégration, mais les équipes doivent examiner les capacités de chaque SDK plutôt que de supposer que leurs fonctionnalités sont identiques.
 
 ## MCP et A2A résolvent des problèmes différents
 
@@ -47,15 +47,15 @@ Il existe un compromis organisationnel : la diversité des langages peut réduir
 
 ## La mise en garde concernant A2A et Kotlin
 
-Le guide de démarrage rapide de l'ADK Kotlin indique que Kotlin peut **consommer un agent distant via A2A**, mais ne peut pas encore exposer son propre agent via A2A. Il précise également que le client Kotlin lit les fiches d'agent A2A 1.0 et rejette l'ancien format de fiche 0.3 qui y est décrit. *(Source : [ADK — Kotlin A2A quickstart](https://adk.dev/a2a/quickstart-consuming-kotlin/))*
+Le guide de démarrage rapide de l'ADK Kotlin indique que Kotlin peut **consommer un agent distant via A2A**, mais ne peut pas encore exposer son propre agent via A2A. Le client Kotlin lit les fiches d'agent A2A 1.0 et rejette les fiches à l'ancien format 0.3. Le guide précise que son exemple de serveur Python peut convertir une fiche au format 0.3 vers le format 1.0 au démarrage avec a2a-sdk 1.x. *(Source : [ADK — Kotlin A2A quickstart](https://adk.dev/a2a/quickstart-consuming-kotlin/))*
 
 C'est exactement le type de nuance qu'une affirmation telle que « tous les langages parlent A2A » peut occulter. Une implémentation client uniquement peut être utile, mais elle n'est pas interchangeable avec une implémentation serveur. Même deux composants qui prétendent prendre en charge le même protocole peuvent échouer à interopérer s'ils ciblent des versions incompatibles.
 
-Un test en production doit donc consigner les versions des SDK et les formats de fiches d'agent, ainsi que la capacité de chaque composant à initier une requête, exposer un point de terminaison, s'authentifier, diffuser des réponses en streaming et gérer une tâche échouée ou interrompue.
+Un test en production doit donc consigner les versions des SDK et les formats de fiches d'agent, ainsi que la capacité de chaque composant à initier une requête, exposer un point de terminaison, s'authentifier, diffuser des réponses en streaming et gérer l'échec ou l'interruption d'une tâche.
 
 ## Une checklist d'adoption pratique
 
-Commencez par un cas d'usage à faible risque et définissez un contrat pour les entrées, les sorties et les erreurs. Testez chaque langage contre le même serveur MCP, en utilisant l'authentification et les permissions d'outils réelles prévues pour le déploiement. Pour A2A, testez chaque direction séparément : un agent capable d'appeler un pair distant n'est pas nécessairement capable de servir de pair distant.
+Commencez par un cas d'usage à faible risque et définissez un contrat pour les entrées, les sorties et les erreurs. Testez chaque langage avec le même serveur MCP, en utilisant l'authentification et les permissions d'outils réelles prévues pour le déploiement. Pour A2A, testez chaque direction séparément : un agent capable d'appeler un pair distant ne peut pas nécessairement recevoir lui-même des requêtes A2A.
 
 Suivez la latence de bout en bout et le coût total de la tâche complète, y compris les sauts réseau et les nouvelles tentatives. Inspectez les traces à travers les frontières des services et assurez-vous que les identifiants de tâche survivent à la délégation. Enfin, testez la révocation : lorsqu'un outil ou un agent distant perd l'accès, le système doit échouer de manière sûre plutôt que de continuer silencieusement avec des identifiants obsolètes.
 

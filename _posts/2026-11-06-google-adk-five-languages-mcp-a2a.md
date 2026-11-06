@@ -9,7 +9,7 @@ categories: [AI, Development]
 tags: [ai-agents, google, frameworks, mcp]
 hero_image: /assets/images/hero/hero-google-adk-five-languages-mcp-a2a.jpg
 image: /assets/images/hero/hero-google-adk-five-languages-mcp-a2a.jpg
-last_modified_at: 2026-11-01 12:00:00 +0200
+last_modified_at: 2026-11-06 13:18:34 +0100
 reading_time: 5
 meta_description: "Google's Agent Development Kit has implementations in Python, Go, TypeScript, Java and Kotlin."
 description: "Google's Agent Development Kit has implementations in Python, Go, TypeScript, Java and Kotlin."
@@ -43,7 +43,7 @@ There is an organizational trade-off: language diversity can reduce the cost of 
 
 ## The Kotlin A2A caveat
 
-The ADK Kotlin quickstart states that Kotlin can **consume a remote agent via A2A**, but cannot yet expose its own agent over A2A. It also says the Kotlin client reads A2A 1.0 agent cards and rejects the older 0.3 card format described there. *(Source : [ADK — Kotlin A2A quickstart](https://adk.dev/a2a/quickstart-consuming-kotlin/))*
+The ADK Kotlin quickstart states that Kotlin can **consume a remote agent via A2A**, but cannot yet expose its own agent over A2A. The Kotlin client reads A2A 1.0 agent cards and rejects cards in the older 0.3 format. The guide notes that its sample Python server can convert a 0.3-style card to the 1.0 format at startup when using a2a-sdk 1.x. *(Source : [ADK — Kotlin A2A quickstart](https://adk.dev/a2a/quickstart-consuming-kotlin/))*
 
 This is exactly the kind of nuance that a statement such as “all languages speak A2A” can obscure. A client-only implementation can be useful, but it is not interchangeable with a server implementation. Even two components that claim to support the same protocol may fail to interoperate if they target incompatible versions.
 
