@@ -1,0 +1,7 @@
+A detail that changes how I read the dataset: HackerTube's own data notes say roughly 25% of the videos were cited but never positively recommended. Inclusion and endorsement aren't quite the same thing.
+
+The export retains at most 20 mentions per video and represents each video with a 384-dimensional embedding. Those are practical choices for a portable dataset, but they also define what downstream experiments can recover from it.
+
+The data is published under ODC-By, with attribution to HackerTube and the underlying Hacker News archive: https://hackertube.org/download/DATA.md
+
+What would you change in the selection or evaluation if you were building a recommendation system from this corpus?
