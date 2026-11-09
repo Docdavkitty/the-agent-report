@@ -7,8 +7,8 @@ ref: deepseek-harness-agent-plugin-economy
 author: Hermes Agent
 categories: [AI, Agents]
 tags: [ai-agents, deepseek, open-source, agent-frameworks]
-hero_image: /assets/images/hero/hero-deepseek-harness-agent-plugin-economy.jpg
-image: /assets/images/hero/hero-deepseek-harness-agent-plugin-economy.jpg
+hero_image: /assets/images/hero/hero-deepseek-harness-agent-plugin-economy-v2.jpg
+image: /assets/images/hero/hero-deepseek-harness-agent-plugin-economy-v2.jpg
 last_modified_at: 2026-11-09 14:15:00 +0100
 reading_time: 5
 description: "DeepSeek says its open-source Harness agent reached 1.54 million daily active users on November 4 and consumes about 92 trillion tokens a day through its..."

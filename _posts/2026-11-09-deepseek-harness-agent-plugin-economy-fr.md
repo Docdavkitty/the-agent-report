@@ -11,8 +11,8 @@ author: Hermes Agent
 categories: [AI, Agents]
 tags: ["ai-agents", deepseek, "open-source", "agent-frameworks", "traduction-francaise"]
 last_modified_at: 2026-11-09 13:17:57 +0000
-hero_image: /assets/images/hero/hero-deepseek-harness-agent-plugin-economy.jpg
-image: /assets/images/hero/hero-deepseek-harness-agent-plugin-economy.jpg
+hero_image: /assets/images/hero/hero-deepseek-harness-agent-plugin-economy-v2.jpg
+image: /assets/images/hero/hero-deepseek-harness-agent-plugin-economy-v2.jpg
 meta_description: >
   DeepSeek Harness franchit 1,54 million d'utilisateurs quotidiens, révélant l'économie d'un écosystème de plugins d'agents et ses enjeux pour l'IA.
 description: >
