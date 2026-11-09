@@ -78,3 +78,5 @@
 2026-11-05 | r/learnmachinelearning | 2026/11/ripple-65b-agentic-coding-benchmark | propose |
 2026-11-06 | r/AI_Agents | 2026/11/gpt-6-cyber-agent-scope-security | propose |
 2026-11-06 | r/machinelearningnews | 2026/11/gpt-6-cyber-agent-scope-security | propose |
+2026-11-09 | r/OpenAI | 2026/11/deepseek-harness-agent-plugin-economy | propose |
+2026-11-09 | r/learnmachinelearning | 2026/11/deepseek-harness-agent-plugin-economy | propose |
