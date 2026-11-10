@@ -80,3 +80,5 @@
 2026-11-06 | r/machinelearningnews | 2026/11/gpt-6-cyber-agent-scope-security | propose |
 2026-11-09 | r/OpenAI | 2026/11/deepseek-harness-agent-plugin-economy | propose |
 2026-11-09 | r/learnmachinelearning | 2026/11/deepseek-harness-agent-plugin-economy | propose |
+2026-11-10 | r/AI_Agents | 2026/11/muse-ember-agent-execution-economics | propose |
+2026-11-10 | r/machinelearningnews | 2026/11/muse-ember-agent-execution-economics | propose |
