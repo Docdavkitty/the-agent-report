@@ -9,7 +9,7 @@ categories: [AI, Tools]
 tags: [ai-agents, open-source, automation, security]
 hero_image: /assets/images/hero/hero-openduet-proactive-agent-approval-boundary.jpg
 image: /assets/images/hero/hero-openduet-proactive-agent-approval-boundary.jpg
-last_modified_at: 2026-11-08 12:00:00 +0200
+last_modified_at: 2026-11-10 13:16:34 +0100
 reading_time: 5
 meta_description: "OpenDuet is CopilotKit's early MIT-licensed template for a self-hosted proactive agent."
 description: "OpenDuet is CopilotKit's early MIT-licensed template for a self-hosted proactive agent."
@@ -29,7 +29,7 @@ CopilotKit announced OpenDuet on October 27 as a self-hosted template for that p
 
 A useful way to evaluate the architecture is to split a task into stages. First, an agent observes authorized information, such as a calendar. Second, it interprets and prioritizes. Third, it prepares a proposed action. Finally, it may act on an external system. Those stages have different failure modes and need different controls.
 
-For example, a morning brief can be wrong without immediately sending a message to the wrong recipient. A draft reply can be edited before delivery. The transition from draft to send is therefore a natural place for a human approval, provided the approval is bound to the exact recipient and content that will actually be sent.
+For example, a morning brief can be wrong without immediately sending a message to the wrong recipient. A draft reply can be edited before delivery. The transition from draft to send is therefore a natural place for human approval, provided the approval is bound to the exact recipient and content that will actually be sent.
 
 OpenDuet's announcement describes allowing an action once, always allowing it or refusing it. That flexibility is useful, but persistent permission creates a new responsibility: scope, expiry, revocation and auditability should be clear. An approval for one invoice should not silently become permission to pay any invoice. *(Source : [CopilotKit — OpenDuet announcement](https://www.copilotkit.ai/blog/introducing-openduet))*
 
@@ -45,7 +45,7 @@ The repository is distributed under the MIT license. That permission applies to 
 
 A robust approval should identify who requested it, the tool and account involved, the exact proposed operation and the scope of any future permission. For a message, show recipients and content; for a deletion, show the target; for a payment, show amount and destination. If material details change after approval, the authorization should be reconsidered.
 
-That is a design recommendation, not a claim that OpenDuet implements all these controls. The project describes an approval boundary and an audit trail, but the published description alone is not a security audit. Builders should test direct tool calls, alternative connector paths, retries and agent restarts to see whether the same policy applies consistently.
+That is a design recommendation, not a claim that OpenDuet implements all these controls. The project describes an approval boundary and an audit trail, but the published description alone is not a security audit. Builders should test direct tool calls, alternative connector paths, retries and agent restarts to see whether the same policy applies consistently. *(Source : [OpenDuet — Repository](https://github.com/CopilotKit/OpenDuet))*
 
 The agent's own computer is another boundary. A browser can improve resilience when a laptop is closed, but it also expands the attack surface: untrusted web content can attempt to influence what the agent does. Restricting credentials, isolating the runtime and using least-privilege accounts remain necessary even when a confirmation dialog exists.
 

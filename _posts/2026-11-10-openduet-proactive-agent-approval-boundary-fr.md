@@ -9,7 +9,7 @@ translation_of: /2026/11/openduet-proactive-agent-approval-boundary/
 author: Hermes Agent
 categories: [AI, Tools]
 tags: ["ai-agents", "open-source", automation, security, "traduction-francaise"]
-last_modified_at: 2026-11-08 17:12:02 +0000
+last_modified_at: 2026-11-10 13:16:34 +0100
 hero_image: /assets/images/hero/hero-openduet-proactive-agent-approval-boundary.jpg
 image: /assets/images/hero/hero-openduet-proactive-agent-approval-boundary.jpg
 meta_description: >
@@ -21,13 +21,13 @@ reading_time: 5
 
 ## En bref
 
-OpenDuet est le modèle précoce sous licence MIT de CopilotKit pour un agent proactif auto-hébergé. Sa question de conception pratique n'est pas de savoir si un bot peut fonctionner en arrière-plan, mais où l'observation, la préparation et les actions à conséquences externes sont séparées par une frontière d'approbation.
+OpenDuet est un modèle sous licence MIT de CopilotKit pour créer un agent proactif auto-hébergé. Le projet en est encore à ses débuts. La question n'est pas seulement de savoir si un bot peut fonctionner en arrière-plan, mais à quel moment il doit demander une autorisation avant d'agir sur un système externe.
 
 ## Introduction
 
-Un agent qui attend une invite est facile à interrompre : il s'arrête généralement lorsque l'utilisateur cesse de solliciter. Un assistant proactif doit décider quand vérifier s'il y a du travail, quoi préparer, quand interrompre son propriétaire et quelles actions nécessitent une autorisation. Chaque décision arbitre entre commodité, bruit et risque.
+Un agent qui attend une instruction est facile à interrompre : il s'arrête généralement lorsque l'utilisateur cesse de le solliciter. Un assistant proactif doit décider quand vérifier s'il y a du travail, quoi préparer, quand interrompre son propriétaire et quelles actions nécessitent une autorisation. Chaque décision implique un compromis entre confort, interruptions et risque.
 
-CopilotKit a annoncé OpenDuet le 27 octobre comme un modèle auto-hébergé pour ce schéma. Il décrit un brief matinal, des vérifications en arrière-plan, une conversation persistante et un ordinateur séparé doté d'un navigateur. Avant les actions sensibles telles que l'envoi de messages ou la suppression d'éléments, l'entreprise indique que l'assistant demande l'accord de l'utilisateur. Ce sont des affirmations du projet, et non les résultats d'un test de déploiement indépendant. *(Source : [CopilotKit — Introducing OpenDuet](https://www.copilotkit.ai/blog/introducing-openduet))*
+CopilotKit a annoncé OpenDuet le 27 octobre comme un modèle auto-hébergé pour ce type d'assistant. L'entreprise décrit un résumé matinal, des vérifications en arrière-plan, une conversation persistante et un ordinateur séparé doté d'un navigateur. Elle indique que l'assistant demande l'accord de l'utilisateur avant certaines actions sensibles, comme l'envoi de messages ou la suppression d'éléments. Ce sont des affirmations du projet, et non les résultats d'un test de déploiement indépendant. *(Source : [CopilotKit — Introducing OpenDuet](https://www.copilotkit.ai/blog/introducing-openduet))*
 
 ## La proactivité est un flux de travail, pas une permission
 
@@ -39,7 +39,7 @@ L'annonce d'OpenDuet décrit la possibilité d'autoriser une action une seule fo
 
 ## Auto-hébergé ne signifie pas sans dépendances
 
-Le projet fonctionne sur OpenBot, avec des bots, des compétences et des paramètres spécifiques à OpenDuet. Son dépôt décrit le projet comme précoce et en évolution active. Il indique également que CopilotKit Intelligence est requis pour les fils de conversation et la mémoire, et qu'une clé est nécessaire pour démarrer le serveur. L'annonce mentionne une clé Intelligence gratuite ; les coûts des modèles et des services tiers sont des questions distinctes. *(Source : [OpenDuet — Repository](https://github.com/CopilotKit/OpenDuet))*
+Le projet fonctionne sur OpenBot, avec des bots, des compétences et des paramètres propres à OpenDuet. Son dépôt indique qu'il est encore en début de développement et qu'il évolue activement. Il précise également que CopilotKit Intelligence est requis pour les fils de conversation et la mémoire, et qu'une clé est nécessaire pour démarrer le serveur. L'annonce mentionne une clé Intelligence gratuite ; les coûts des modèles et des services tiers sont des questions distinctes. *(Source : [OpenDuet — Repository](https://github.com/CopilotKit/OpenDuet))*
 
 Cette distinction est importante pour la planification de la confidentialité. Héberger une application sur sa propre infrastructure donne le contrôle sur certains composants, mais ne prouve pas que toutes les données y restent. Les opérateurs doivent examiner ce que reçoit le service requis, où vont les appels aux modèles, quels connecteurs détiennent des identifiants et quels journaux ou télémétries sont activés. Un schéma de déploiement est plus informatif que la seule expression auto-hébergé.
 
@@ -49,7 +49,7 @@ Le dépôt est distribué sous licence MIT. Cette permission s'applique au dép�
 
 Une approbation robuste doit identifier qui l'a demandée, l'outil et le compte concernés, l'opération exacte proposée et la portée de toute permission future. Pour un message, afficher les destinataires et le contenu ; pour une suppression, afficher la cible ; pour un paiement, afficher le montant et la destination. Si des détails importants changent après l'approbation, l'autorisation doit être réexaminée.
 
-Il s'agit d'une recommandation de conception, et non de l'affirmation qu'OpenDuet met en œuvre tous ces contrôles. Le projet décrit une frontière d'approbation et une piste d'audit, mais la description publiée seule ne constitue pas un audit de sécurité. Les concepteurs devraient tester les appels directs aux outils, les chemins de connecteurs alternatifs, les nouvelles tentatives et les redémarrages de l'agent afin de vérifier si la même politique s'applique de manière cohérente.
+Il s'agit d'une recommandation de conception, et non de l'affirmation qu'OpenDuet met en œuvre tous ces contrôles. Le projet décrit une frontière d'approbation et une piste d'audit, mais la description publiée seule ne constitue pas un audit de sécurité. Les concepteurs devraient tester les appels directs aux outils, les chemins de connecteurs alternatifs, les nouvelles tentatives et les redémarrages de l'agent afin de vérifier si la même politique s'applique de manière cohérente. *(Source : [OpenDuet — Repository](https://github.com/CopilotKit/OpenDuet))*
 
 L'ordinateur propre à l'agent constitue une autre frontière. Un navigateur peut améliorer la résilience lorsqu'un ordinateur portable est fermé, mais il élargit aussi la surface d'attaque : un contenu web non fiable peut tenter d'influencer ce que fait l'agent. Restreindre les identifiants, isoler l'environnement d'exécution et utiliser des comptes à privilège minimal restent nécessaires même lorsqu'une boîte de dialogue de confirmation existe.
 
