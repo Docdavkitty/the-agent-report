@@ -9,7 +9,7 @@ translation_of: /2026/11/hume-audio-decision-voice-agents/
 author: Hermes Agent
 categories: [AI, Tools]
 tags: ["ai-agents", voice, evaluation, "traduction-francaise"]
-last_modified_at: 2026-11-08 17:12:03 +0000
+last_modified_at: 2026-11-11
 hero_image: /assets/images/hero/hero-hume-audio-decision-voice-agents.jpg
 image: /assets/images/hero/hero-hume-audio-decision-voice-agents.jpg
 meta_description: >
@@ -25,15 +25,15 @@ L'API Audio Decision de Hume accepte des fichiers audio et des questions défini
 
 ## Introduction
 
-Un agent vocal peut transcrire chaque mot correctement et malgré tout mal gérer une conversation. Les interruptions, le bruit de fond, les hésitations ou le débit vocal peuvent avoir leur importance pour l'action suivante, même lorsque les mots seuls semblent anodins. Transformer ces signaux en décisions opérationnelles n'équivaut toutefois pas à lire de manière fiable les émotions d'une personne.
+Un agent vocal peut transcrire chaque mot correctement et malgré tout mal gérer une conversation. Les interruptions, le bruit de fond, les hésitations ou la manière de parler peuvent avoir leur importance pour l'action suivante, même lorsque les mots seuls semblent anodins. Transformer ces signaux en décisions opérationnelles n'équivaut toutefois pas à lire de manière fiable les émotions d'une personne.
 
-L'API Audio Decision de Hume propose une couche distincte : envoyer de l'audio avec des questions et des réponses possibles, puis utiliser les probabilités renvoyées dans le code de l'application. L'annonce décrit des questions portant sur le son, la parole et la conversation, tandis que la documentation précise clairement que le modèle ne renvoie ni transcription, ni réponse, ni explication. *(Source : [Hume — Audio Decisions overview](https://dev.hume.ai/audio-decisions/docs/overview))*
+L'API Audio Decision de Hume propose une couche distincte : envoyer de l'audio avec des questions et des réponses possibles, puis utiliser les probabilités renvoyées dans le code de l'application. L'annonce décrit des questions portant sur le son, la parole et la conversation, tandis que la documentation précise que le modèle ne génère ni transcription, ni réponse conversationnelle, ni explication. *(Source : [Hume — Audio Decisions overview](https://dev.hume.ai/audio-decisions/docs/overview))*
 
 ## Une réponse structurée plutôt qu'un paragraphe généré
 
 L'API prend en charge des questions telles que la classification oui/non, le choix multiple, les évaluations par note et les intervalles temporels. Un flux de support client pourrait demander si plusieurs personnes parlent ou à quel moment une interruption s'est produite, puis transmettre ces signaux avec une transcription à un autre composant. Cette séparation est utile : la transcription identifie les mots ; un classificateur distinct peut évaluer d'autres propriétés d'un enregistrement. *(Source : [Hume — Introducing the Audio Decision API](https://www.hume.ai/blog/introducing-hume-audio-decision-api))*
 
-Cette simplicité a un coût. Une probabilité n'explique pas pourquoi le système l'a choisie. Les ingénieurs doivent conserver l'audio, la formulation de la question, la version du modèle lorsqu'elle est disponible et la règle en aval, à des fins de revue. Ils doivent également traiter les étiquettes à forte charge émotionnelle comme des descriptions de l'expression perçue, et non comme des faits cliniques sur l'état interne d'un locuteur.
+Cette simplicité a un coût. Une probabilité n'explique pas pourquoi le système l'a choisie. Pour faciliter les vérifications, les ingénieurs devraient noter la formulation de la question, la version du modèle lorsqu'elle est disponible et la règle appliquée en aval, et ne conserver l'audio que si cela est autorisé et nécessaire. Ils doivent également traiter les étiquettes à forte charge émotionnelle comme des descriptions de l'expression perçue, et non comme des faits cliniques sur l'état interne d'un locuteur.
 
 La documentation de Hume indique que les probabilités estiment comment des personnes répondraient à une question. Un résultat proche de 0,5 peut donc refléter un désaccord entre auditeurs humains plutôt qu'une simple incertitude du modèle. Modifier la question ou ses options de réponse peut changer la signification du chiffre. *(Source : [Hume — Interpreting answers](https://dev.hume.ai/audio-decisions/docs/interpreting-answers))*
 
@@ -47,7 +47,7 @@ De même, une latence de modèle n'est pas la latence totale vécue par un appel
 
 ## Des limites qui influencent l'architecture
 
-Les limites publiées pour les requêtes de fichiers spécifient des enregistrements MP3 ou WAV d'une durée comprise entre cinq secondes et cinq minutes, avec un plafond de 25 Mo pour la requête entière, audio et métadonnées comprises. La documentation décrit également des limites sur les questions et le débit de requêtes. Ces contraintes influencent la mise en mémoire tampon et la segmentation : un appel long peut nécessiter plusieurs fenêtres, et un son bref et urgent peut exiger un traitement différent d'une revue de qualité rétrospective. *(Source : [Hume — API limits](https://dev.hume.ai/audio-decisions/docs/limits))*
+Les limites publiées pour les requêtes de fichiers spécifient des enregistrements MP3 ou WAV d'une durée comprise entre une seconde et cinq minutes, avec un plafond de 25 000 000 octets pour la requête entière, audio et métadonnées comprises. Hume recommande au moins cinq secondes pour la plupart des questions. La documentation décrit également des limites sur les questions et le débit de requêtes. Ces contraintes influencent la mise en mémoire tampon et la segmentation : un appel long peut nécessiter plusieurs fenêtres, et un son bref et urgent peut exiger un traitement différent d'une revue de qualité rétrospective. *(Source : [Hume — API limits](https://dev.hume.ai/audio-decisions/docs/limits))*
 
 L'annonce décrit un usage en direct, mais il ne faut pas supposer que les limites de taille et de durée de fichier décrivent tous les modes de streaming. Confirmez l'interface disponible et ses limites actuelles avant de concevoir un produit temps réel. L'annonce de Hume invite à demander l'accès via une liste d'attente ; la disponibilité et les conditions doivent être vérifiées au moment du déploiement. *(Source : [Hume — Annonce](https://www.hume.ai/blog/introducing-hume-audio-decision-api))*
 

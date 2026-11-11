@@ -9,7 +9,7 @@ categories: [AI, Tools]
 tags: [ai-agents, voice, evaluation]
 hero_image: /assets/images/hero/hero-hume-audio-decision-voice-agents.jpg
 image: /assets/images/hero/hero-hume-audio-decision-voice-agents.jpg
-last_modified_at: 2026-11-08 12:00:00 +0200
+last_modified_at: 2026-11-11
 reading_time: 5
 meta_description: "Hume's Audio Decision API accepts audio and developer-defined questions, returning probabilities rather than a transcript or generated explanation."
 description: "Hume's Audio Decision API accepts audio and developer-defined questions, returning probabilities rather than a transcript or generated explanation."
@@ -23,13 +23,13 @@ Hume's Audio Decision API accepts audio and developer-defined questions, returni
 
 A voice agent can transcribe every word correctly and still mishandle a conversation. Interruptions, background noise, hesitation or vocal delivery may matter to the next action even when the words alone look unremarkable. Turning those signals into operational decisions, however, is not the same as reliably reading a person's feelings.
 
-Hume's Audio Decision API proposes a separate layer: send audio with questions and possible answers, then use the returned probabilities in application code. The launch describes questions about sound, speech and conversation, while the documentation makes clear that the model does not return a transcript, response or explanation. *(Source : [Hume — Audio Decisions overview](https://dev.hume.ai/audio-decisions/docs/overview))*
+Hume's Audio Decision API proposes a separate layer: send audio with questions and possible answers, then use the returned probabilities in application code. The launch describes questions about sound, speech and conversation, while the documentation makes clear that the model does not generate a transcript, conversational response or explanation. *(Source : [Hume — Audio Decisions overview](https://dev.hume.ai/audio-decisions/docs/overview))*
 
 ## A structured answer instead of a generated paragraph
 
 The API supports questions such as yes/no classification, multiple choice, ratings and time spans. A support workflow might ask whether multiple people are speaking or where an interruption occurred, then pass those signals alongside a transcript to another component. That division is useful: transcription identifies words; a separate classifier can assess other properties of a recording. *(Source : [Hume — Introducing the Audio Decision API](https://www.hume.ai/blog/introducing-hume-audio-decision-api))*
 
-There is a cost to this simplicity. A probability does not explain why the system chose it. Engineers need to preserve the audio, question wording, model version where available and downstream rule for review. They should also treat emotionally loaded labels as descriptions of perceived expression, not as clinical facts about a speaker's internal state.
+There is a cost to this simplicity. A probability does not explain why the system chose it. For review, engineers should record the question wording, model version where available and downstream rule, and retain audio only when permitted and necessary. They should also treat emotionally loaded labels as descriptions of perceived expression, not as clinical facts about a speaker's internal state.
 
 Hume's documentation says probabilities estimate how people would answer a question. A result near one half can therefore reflect disagreement between human listeners rather than just uncertainty in the model. Changing the question or its answer options can change what the number means. *(Source : [Hume — Interpreting answers](https://dev.hume.ai/audio-decisions/docs/interpreting-answers))*
 
@@ -43,7 +43,7 @@ Likewise, a model latency number is not the full latency a caller experiences. R
 
 ## Boundaries that affect architecture
 
-The published limits for file requests specify MP3 or WAV recordings between five seconds and five minutes, with a 25 MB limit for the entire request, including audio and metadata. The documentation also describes limits on questions and request rate. Those constraints affect buffering and segmentation: a long call may require multiple windows, and a short urgent sound may need different handling from a retrospective quality review. *(Source : [Hume — API limits](https://dev.hume.ai/audio-decisions/docs/limits))*
+The published limits for file requests specify MP3 or WAV recordings between one second and five minutes, with a 25,000,000-byte limit for the entire request, including audio and metadata. Hume recommends at least five seconds for most questions. The documentation also describes limits on questions and request rate. Those constraints affect buffering and segmentation: a long call may require multiple windows, and a short urgent sound may need different handling from a retrospective quality review. *(Source : [Hume — API limits](https://dev.hume.ai/audio-decisions/docs/limits))*
 
 The launch describes live use, but file-size and duration limits should not be assumed to describe every streaming mode. Confirm the available interface and its current limits before designing a real-time product. Hume's launch post directs readers to request access through a waitlist; availability and terms should be verified at deployment time. *(Source : [Hume — Launch announcement](https://www.hume.ai/blog/introducing-hume-audio-decision-api))*
 
