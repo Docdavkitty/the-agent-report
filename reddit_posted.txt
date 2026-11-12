@@ -84,3 +84,5 @@
 2026-11-10 | r/machinelearningnews | 2026/11/muse-ember-agent-execution-economics | propose |
 2026-11-11 | r/OpenAI | 2026/11/gemini-4-carbon-swarm-agent-economics | propose |
 2026-11-11 | r/learnmachinelearning | 2026/11/gemini-4-carbon-swarm-agent-economics | propose |
+2026-11-12 | r/AI_Agents | 2026/11/gemini-decision-1-multimodal-agent-routing | propose |
+2026-11-12 | r/LocalLLaMA | 2026/11/gemini-decision-1-multimodal-agent-routing | propose |
