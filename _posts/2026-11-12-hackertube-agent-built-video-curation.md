@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "HackerTube: What an Agent-Built Video Catalog Reveals About One-Shot Projects"
+title: "HackerTube: What an Agent-Built Video Catalog Reveals About Coding Agents"
 date: 2026-11-12
 lang: en
 ref: hackertube-agent-built-video-curation
@@ -9,7 +9,7 @@ categories: [AI, Analysis]
 tags: [ai-agents, coding-agents, data]
 hero_image: /assets/images/hero/hero-hackertube-agent-built-video-curation.jpg
 image: /assets/images/hero/hero-hackertube-agent-built-video-curation.jpg
-last_modified_at: 2026-11-08 12:00:00 +0200
+last_modified_at: 2026-11-12 13:16:00 +0100
 reading_time: 5
 meta_description: "Andrej Karpathy says he used Claude to build HackerTube, a catalog of 6,454 videos informed by Hacker News comments, in roughly two hours."
 description: "Andrej Karpathy says he used Claude to build HackerTube, a catalog of 6,454 videos informed by Hacker News comments, in roughly two hours."
@@ -29,9 +29,9 @@ HackerTube provides a useful case study because its creator describes the workfl
 
 Karpathy says the pipeline downloaded Hacker News comments, filtered them and used Sonnet in a workflow to distinguish useful video references from unwanted material. His write-up describes approximately 40,000 comments and a resulting 6,454 videos across 150 topics. The project documentation gives a more precise figure of 39,834 labeled comments in its published export. *(Source : [Karpathy — HackerTube](https://karpathy.bearblog.dev/hacker-tube/))* *(Source : [HackerTube — Data documentation](https://hackertube.org/download/DATA.md))*
 
-The relevant denominator is important. A separate public account by Karpathy describes a source corpus of roughly 43 million Hacker News comments. The final catalog is a heavily filtered selection from that corpus, not 43 million recommendations or a comprehensive survey of all YouTube content. *(Source : [Karpathy — Project announcement](https://x.com/karpathy/status/2116957135661945283))*
+In a separate post, Karpathy describes a source corpus of roughly 43 million Hacker News comments. The final catalog is a heavily filtered selection from that corpus, not 43 million recommendations or a comprehensive survey of all YouTube content. *(Source : [Karpathy — Project announcement](https://x.com/karpathy/status/2116957135661945283))*
 
-The data documentation describes a recurrence rule involving at least three distinct people and three distinct months. It also distinguishes positive recommendations from references, jokes and critical mentions. Labeled mentions are therefore not interchangeable with endorsements. A video can appear in a dataset of discussion without every mention being a recommendation. *(Source : [HackerTube — Data documentation](https://hackertube.org/download/DATA.md))*
+The data documentation describes a recurrence rule involving at least three distinct people and three distinct months. It also distinguishes positive recommendations from references, jokes and critical mentions. About 25% of the videos were cited but never recommended, according to the documentation. A mention is not necessarily an endorsement. *(Source : [HackerTube — Data documentation](https://hackertube.org/download/DATA.md))*
 
 ## The product decision is the filter
 
