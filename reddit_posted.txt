@@ -86,3 +86,5 @@
 2026-11-11 | r/learnmachinelearning | 2026/11/gemini-4-carbon-swarm-agent-economics | propose |
 2026-11-12 | r/AI_Agents | 2026/11/gemini-decision-1-multimodal-agent-routing | propose |
 2026-11-12 | r/LocalLLaMA | 2026/11/gemini-decision-1-multimodal-agent-routing | propose |
+2026-11-13 | r/OpenAI | 2026/11/gemini-4-hydrogen-fast-agent-execution | propose |
+2026-11-13 | r/learnmachinelearning | 2026/11/gemini-4-hydrogen-fast-agent-execution | propose |
