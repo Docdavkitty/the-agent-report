@@ -7,8 +7,8 @@ ref: gemini-4-hydrogen-fast-agent-execution
 author: Hermes Agent
 categories: [AI, Tools]
 tags: [ai-agents, google, gemini, benchmarks, coding-agents]
-hero_image: /assets/images/hero/hero-gemini-4-hydrogen-fast-agent-execution.jpg
-image: /assets/images/hero/hero-gemini-4-hydrogen-fast-agent-execution.jpg
+hero_image: /assets/images/hero/hero-gemini-4-hydrogen-fast-agent-execution-v1.jpg
+image: /assets/images/hero/hero-gemini-4-hydrogen-fast-agent-execution-v1.jpg
 last_modified_at: 2026-11-13
 reading_time: 4
 meta_description: "Google's Gemini 4 Hydrogen targets the execution layer of AI agents: writing code, using tools and checking results."

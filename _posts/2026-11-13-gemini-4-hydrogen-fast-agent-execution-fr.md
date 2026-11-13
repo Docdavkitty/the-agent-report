@@ -10,8 +10,8 @@ author: Hermes Agent
 categories: [AI, Tools]
 tags: ["ai-agents", google, gemini, benchmarks, "coding-agents", "traduction-francaise"]
 last_modified_at: 2026-11-13 13:18:22 +0000
-hero_image: /assets/images/hero/hero-gemini-4-hydrogen-fast-agent-execution.jpg
-image: /assets/images/hero/hero-gemini-4-hydrogen-fast-agent-execution.jpg
+hero_image: /assets/images/hero/hero-gemini-4-hydrogen-fast-agent-execution-v1.jpg
+image: /assets/images/hero/hero-gemini-4-hydrogen-fast-agent-execution-v1.jpg
 meta_description: >
   Découvrez comment Gemini 4 Hydrogen transforme l'économie de l'exécution rapide des agents IA, entre coûts, performance et nouveaux cas d'usage.
 description: >
