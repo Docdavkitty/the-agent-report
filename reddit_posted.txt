@@ -90,3 +90,5 @@
 2026-11-13 | r/learnmachinelearning | 2026/11/gemini-4-hydrogen-fast-agent-execution | propose |
 2026-11-16 | r/AI_Agents | 2026/11/corma-defensive-ai-agents-series-a | propose |
 2026-11-16 | r/LocalLLaMA | 2026/11/corma-defensive-ai-agents-series-a | propose |
+2026-11-17 | r/OpenAI | 2026/11/california-openai-agent-safety-lawsuit | propose |
+2026-11-17 | r/learnmachinelearning | 2026/11/california-openai-agent-safety-lawsuit | propose |
