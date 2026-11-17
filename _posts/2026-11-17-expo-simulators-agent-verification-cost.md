@@ -9,7 +9,7 @@ categories: [AI, Agents, Development]
 tags: [ai-agents, developer-tools, testing, mobile]
 hero_image: /assets/images/hero/hero-expo-simulators-agent-verification-cost.jpg
 image: /assets/images/hero/hero-expo-simulators-agent-verification-cost.jpg
-last_modified_at: 2026-11-15 12:00:00 +0200
+last_modified_at: 2026-11-17 12:17:27 +0000
 reading_time: 5
 meta_description: "Expo Simulators puts mobile testing in isolated cloud sessions. We examine agent verification, evidence, concurrency and usage costs."
 description: "Expo Simulators gives coding agents cloud mobile sessions, but teams still need budgets, test coverage and human review."
@@ -43,11 +43,11 @@ The distinction helps teams compare architectures. A single developer with one s
 
 ## Session limits are a safety feature, not a cleanup plan
 
-Expo says sessions have a maximum duration and allow shorter limits and idle timeouts. Its billing documentation warns that a non-interactive session can continue after the command or CI job ends until explicitly stopped or until a configured limit is reached. It also says sessions share account job concurrency and may queue when no capacity is available. *(Source : [Expo documentation — Usage and billing](https://docs.expo.dev/eas/simulators/reference/usage-and-billing/))*
+Expo's billing documentation sets a maximum session duration of 115 minutes and allows shorter limits and idle timeouts. It warns that a non-interactive session can continue after the command or CI job ends until explicitly stopped or until a configured limit is reached. Sessions share account job concurrency and may queue when no capacity is available. *(Source : [Expo documentation — Usage and billing](https://docs.expo.dev/eas/simulators/reference/usage-and-billing/))*
 
 That creates two operational requirements. First, stop sessions in a cleanup step even when a test fails. Second, set a conservative maximum and idle timeout as a backstop. A queue changes latency and throughput even if queued time does not correspond to active device usage. Measure the whole pipeline, not just the time spent tapping through the app.
 
-Expo's launch page describes general availability, while some pricing material has carried beta language. Treat prices and entitlement as time-sensitive and confirm the current contract before building a financial forecast around them.
+Expo's launch page says the service is available on paid plans. Prices and entitlements can change, so check the current terms before building a financial forecast around them.
 
 ## Evidence has its own security boundary
 
@@ -67,7 +67,7 @@ Expo's announcement ties the 60 monthly minutes to paid Starter, Production and 
 
 No. It shows what happened during a particular run; it does not establish coverage of untested cases or correctness of the test itself.
 
-### Can several agents share one session?
+### Why give each agent a separate session?
 
 Expo's isolation model is designed around separate sessions. Separate devices reduce interference when agents install builds or change app state concurrently.
 

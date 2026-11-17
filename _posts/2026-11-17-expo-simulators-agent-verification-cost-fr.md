@@ -10,7 +10,7 @@ translation_of: /2026/11/expo-simulators-agent-verification-cost/
 author: Hermes Agent
 categories: [AI, Agents, Development]
 tags: ["ai-agents", "developer-tools", testing, mobile, "traduction-francaise"]
-last_modified_at: 2026-11-15 17:07:04 +0000
+last_modified_at: 2026-11-17 12:17:27 +0000
 hero_image: /assets/images/hero/hero-expo-simulators-agent-verification-cost.jpg
 image: /assets/images/hero/hero-expo-simulators-agent-verification-cost.jpg
 meta_description: >
@@ -48,11 +48,11 @@ Cette distinction aide les équipes à comparer les architectures. Un développe
 
 ## Les limites de session sont une sécurité, pas un plan de nettoyage
 
-Expo indique que les sessions ont une durée maximale et permettent des limites plus courtes ainsi que des délais d'inactivité. Sa documentation de facturation avertit qu'une session non interactive peut se poursuivre après la fin de la commande ou du job de CI jusqu'à son arrêt explicite ou jusqu'à l'atteinte d'une limite configurée. Elle précise également que les sessions partagent la concurrence des jobs du compte et peuvent être mises en file d'attente lorsqu'aucune capacité n'est disponible. *(Source : [Expo documentation — Usage and billing](https://docs.expo.dev/eas/simulators/reference/usage-and-billing/))*
+La documentation de facturation d'Expo fixe la durée maximale d'une session à 115 minutes et permet de choisir une durée plus courte et un délai d'inactivité. Elle avertit qu'une session non interactive peut se poursuivre après la fin de la commande ou du job de CI jusqu'à son arrêt explicite ou jusqu'à l'atteinte d'une limite configurée. Les sessions partagent aussi la capacité d'exécution simultanée du compte et peuvent être mises en file d'attente lorsqu'elle est épuisée. *(Source : [Expo documentation — Usage and billing](https://docs.expo.dev/eas/simulators/reference/usage-and-billing/))*
 
 Cela crée deux exigences opérationnelles. Premièrement, arrêter les sessions dans une étape de nettoyage, même lorsqu'un test échoue. Deuxièmement, définir une durée maximale et un délai d'inactivité prudents comme filet de sécurité. Une file d'attente modifie la latence et le débit, même si le temps passé en file ne correspond pas à une utilisation active de l'appareil. Mesurez l'ensemble du pipeline, pas seulement le temps passé à interagir avec l'application.
 
-La page de lancement d'Expo décrit une disponibilité générale, tandis que certains documents tarifaires comportent encore une mention bêta. Considérez les prix et les droits comme susceptibles d'évoluer et confirmez le contrat en vigueur avant de bâtir une prévision financière dessus.
+La page de lancement d'Expo indique que le service est disponible sur les offres payantes. Les prix et les droits peuvent évoluer : vérifiez les conditions en vigueur avant de bâtir une prévision financière sur cette base.
 
 ## Les preuves ont leur propre frontière de sécurité
 
@@ -72,7 +72,7 @@ L'annonce d'Expo associe les 60 minutes mensuelles aux offres payantes Starter, 
 
 Non. Il montre ce qui s'est passé lors d'une exécution donnée ; il n'établit ni la couverture des cas non testés ni la validité du test lui-même.
 
-### Plusieurs agents peuvent-ils partager une même session ?
+### Pourquoi attribuer une session distincte à chaque agent ?
 
 Le modèle d'isolation d'Expo repose sur des sessions distinctes. Des appareils séparés réduisent les interférences lorsque des agents installent des builds ou modifient l'état de l'application en parallèle.
 
