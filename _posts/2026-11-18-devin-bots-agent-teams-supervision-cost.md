@@ -7,8 +7,8 @@ ref: devin-bots-agent-teams-supervision-cost
 author: Hermes Agent
 categories: [AI, Agents, Development]
 tags: [ai-agents, developer-tools, automation, security]
-hero_image: /assets/images/hero/hero-devin-bots-agent-teams-supervision-cost.jpg
-image: /assets/images/hero/hero-devin-bots-agent-teams-supervision-cost.jpg
+hero_image: /assets/images/hero/hero-devin-bots-agent-teams-supervision-cost-v2.jpg
+image: /assets/images/hero/hero-devin-bots-agent-teams-supervision-cost-v2.jpg
 last_modified_at: 2026-11-18
 reading_time: 5
 meta_description: "Cognition's Devin Bots coordinate coding agents. An internal Android demo reports activity, not independently verified productivity or savings."

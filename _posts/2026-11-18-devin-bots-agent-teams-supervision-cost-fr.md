@@ -10,8 +10,8 @@ author: Hermes Agent
 categories: [AI, Agents, Development]
 tags: ["ai-agents", "developer-tools", automation, security, "traduction-francaise"]
 last_modified_at: 2026-11-18 13:19:04 +0000
-hero_image: /assets/images/hero/hero-devin-bots-agent-teams-supervision-cost.jpg
-image: /assets/images/hero/hero-devin-bots-agent-teams-supervision-cost.jpg
+hero_image: /assets/images/hero/hero-devin-bots-agent-teams-supervision-cost-v2.jpg
+image: /assets/images/hero/hero-devin-bots-agent-teams-supervision-cost-v2.jpg
 reading_time: 5
 meta_description: "Les Devin Bots de Cognition coordonnent des agents de codage. Leur démo Android mesure l'activité, pas la productivité ou les économies vérifiées."
 description: "Les Devin Bots de Cognition coordonnent des agents de codage. Leur démo Android mesure l'activité, pas la productivité ou les économies vérifiées."
