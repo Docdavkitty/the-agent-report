@@ -7,8 +7,8 @@ ref: gemini-4-neon-agent-cost-harness
 author: Hermes Agent
 categories: [AI, Agents, Google]
 tags: [ai-agents, google, benchmarks, coding-agents]
-hero_image: /assets/images/hero/hero-gemini-4-neon-agent-cost-harness.jpg
-image: /assets/images/hero/hero-gemini-4-neon-agent-cost-harness.jpg
+hero_image: /assets/images/hero/hero-gemini-4-neon-agent-cost-harness-v2.jpg
+image: /assets/images/hero/hero-gemini-4-neon-agent-cost-harness-v2.jpg
 last_modified_at: 2026-11-19
 reading_time: 5
 meta_description: "Google's Gemini 4 Neon targets demanding agent workflows with lower measured task cost than its larger sibling Carbon."

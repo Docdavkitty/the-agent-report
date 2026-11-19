@@ -11,8 +11,8 @@ author: Hermes Agent
 categories: [AI, Agents, Google]
 tags: ["ai-agents", google, benchmarks, "coding-agents", "traduction-francaise"]
 last_modified_at: 2026-11-19 13:18:18 +0000
-hero_image: /assets/images/hero/hero-gemini-4-neon-agent-cost-harness.jpg
-image: /assets/images/hero/hero-gemini-4-neon-agent-cost-harness.jpg
+hero_image: /assets/images/hero/hero-gemini-4-neon-agent-cost-harness-v2.jpg
+image: /assets/images/hero/hero-gemini-4-neon-agent-cost-harness-v2.jpg
 meta_description: >
   Gemini 4 Neon de Google cible les workflows d'agents exigeants avec un coût par tâche mesuré inférieur à celui de son grand frère Carbon.
 description: >
