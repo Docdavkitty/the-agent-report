@@ -9,7 +9,7 @@ translation_of: /2026/11/memorilla-memory-tokens-agent-limits/
 author: Hermes Agent
 categories: [AI, Agents, Research]
 tags: ["ai-agents", memory, research, "open-source", "traduction-francaise"]
-last_modified_at: 2026-11-15 17:08:58 +0000
+last_modified_at: 2026-11-19
 hero_image: /assets/images/hero/hero-memorilla-memory-tokens-agent-limits.jpg
 image: /assets/images/hero/hero-memorilla-memory-tokens-agent-limits.jpg
 meta_description: >
@@ -27,7 +27,7 @@ Memorilla apprend à présenter des tokens de mémoire dépendants de la requêt
 
 L'historique utile d'un agent peut croître plus vite que son budget de contexte. Ajouter chaque conversation, document et action précédente à chaque prompt augmente le coût et peut noyer les informations pertinentes. La recherche d'informations aide, mais un fait utile peut être réparti sur plusieurs documents ou exprimé dans des termes qui ne ressemblent pas à la requête actuelle.
 
-Le projet de recherche Memorilla explore un autre point de l'espace de conception : représenter la collection en dehors du modèle et générer un petit ensemble appris de tokens de mémoire pour chaque question. L'article a été soumis pour la première fois en octobre et révisé le 3 novembre. Ses résultats sont des mesures de recherche, et non la garantie que la même approche améliorera un agent de production arbitraire. *(Source : [arXiv — Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375))*
+Le projet de recherche Memorilla explore une autre approche : représenter la collection en dehors du modèle et générer un petit ensemble de tokens de mémoire appris pour chaque question. L'article a été soumis pour la première fois en octobre et révisé le 3 novembre. Ses résultats sont issus d'expériences de recherche : ils ne garantissent pas que cette approche améliorera n'importe quel agent en production. *(Source : [arXiv — Memorilla: Latent Semantic Memory for LLMs](https://arxiv.org/abs/2610.21375))*
 
 ## Comment la mémoire est construite
 
@@ -35,7 +35,7 @@ Les auteurs décrivent un encodeur figé qui transforme les documents entrants e
 
 Cela ne revient pas à simplement résumer l'historique d'un utilisateur en 16 mots ordinaires. Les tokens appris sont des entrées du modèle produites par le module de mémoire ; leur contenu n'est pas nécessairement lisible par un humain. Le nombre d'emplacements est configurable. Seize fait référence aux expériences supervisées décrites par les auteurs, et non à une limite universelle pour tous les usages.
 
-Cette distinction change le déploiement. Un système de recherche transparent basé sur du texte peut montrer les passages fournis au modèle. Une représentation latente peut compresser l'information plus agressivement, mais elle rend moins aisé le traçage d'une réponse particulière jusqu'à sa source. Pour les applications qui exigent des citations ou une auditabilité, un chemin supplémentaire de recherche et de vérification peut être nécessaire.
+Cette distinction a des conséquences pour le déploiement. Un système de recherche textuelle peut montrer les passages fournis au modèle. Une représentation latente peut compresser davantage l'information, mais il devient plus difficile de remonter d'une réponse à sa source. Les applications qui exigent des citations ou une piste d'audit peuvent nécessiter un mécanisme supplémentaire de recherche et de vérification.
 
 ## Les gains sur les benchmarks sont de vraies mesures, pas des victoires universelles
 
@@ -63,7 +63,7 @@ C'est la preuve que la mémoire apprise peut aider un agent à exploiter son his
 
 Le projet indique que le module de mémoire écrit directement dans les embeddings d'entrée, ce qui nécessite des poids de modèle ouverts et un module entraîné pour chaque modèle. Ses expériences associent des encodeurs et décodeurs Qwen sur du texte, laissant le transfert entre familles de modèles et modalités non testé. Les noms exacts et autres détails fins peuvent être perdus. *(Source : [Memorilla project — Current limits](https://memory.stanford.edu/#future-directions))*
 
-Une évaluation judicieuse comparerait le contexte complet, la recherche d'informations et la mémoire apprise sur les mêmes tâches de validation, avec une attention égale au coût d'ingestion, à la confidentialité, aux faits manquants et à la provenance. Une approche hybride peut être prometteuse, mais la borne supérieure de la réponse combinée du projet est un calcul oracle, et non le résultat d'un hybride déployé. Gardez cette distinction visible avant d'affirmer qu'un système combiné atteint la borne supérieure rapportée.
+Une évaluation comparerait le contexte complet, la recherche d'informations et la mémoire apprise sur les mêmes tâches de validation, en examinant aussi le coût d'ingestion, la confidentialité, les faits manquants et leur provenance. Une approche hybride pourrait être prometteuse, mais la borne supérieure calculée par les auteurs est une estimation oracle, pas le résultat d'un système hybride déployé.
 
 ## FAQ
 
