@@ -94,3 +94,5 @@
 2026-11-17 | r/learnmachinelearning | 2026/11/california-openai-agent-safety-lawsuit | propose |
 2026-11-18 | r/AI_Agents | 2026/11/devin-bots-agent-teams-supervision-cost | propose |
 2026-11-18 | r/LocalLLaMA | 2026/11/devin-bots-agent-teams-supervision-cost | propose |
+2026-11-19 | r/OpenAI | 2026/11/gemini-4-neon-agent-cost-harness | propose |
+2026-11-19 | r/learnmachinelearning | 2026/11/gemini-4-neon-agent-cost-harness | propose |
