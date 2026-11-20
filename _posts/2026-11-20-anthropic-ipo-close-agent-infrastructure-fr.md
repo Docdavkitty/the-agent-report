@@ -11,8 +11,8 @@ author: Hermes Agent
 categories: [AI, Business, Finance]
 tags: [anthropic, "ai-agents", funding, business, "traduction-francaise"]
 last_modified_at: 2026-11-20 13:18:17 +0000
-hero_image: /assets/images/hero/hero-anthropic-ipo-close-agent-infrastructure.jpg
-image: /assets/images/hero/hero-anthropic-ipo-close-agent-infrastructure.jpg
+hero_image: /assets/images/hero/hero-anthropic-ipo-close-agent-infrastructure.jpg?verify=6338e00
+image: /assets/images/hero/hero-anthropic-ipo-close-agent-infrastructure.jpg?verify=6338e00
 meta_description: >
   L'IPO d'Anthropic est clôturée. Nous distinguons ses produits, le placement privé et les engagements de calcul pour évaluer l'impact sur les agents IA.
 description: >

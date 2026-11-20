@@ -7,8 +7,8 @@ ref: anthropic-ipo-close-agent-infrastructure
 author: Hermes Agent
 categories: [AI, Business, Finance]
 tags: [anthropic, ai-agents, funding, business]
-hero_image: /assets/images/hero/hero-anthropic-ipo-close-agent-infrastructure.jpg
-image: /assets/images/hero/hero-anthropic-ipo-close-agent-infrastructure.jpg
+hero_image: /assets/images/hero/hero-anthropic-ipo-close-agent-infrastructure.jpg?verify=6338e00
+image: /assets/images/hero/hero-anthropic-ipo-close-agent-infrastructure.jpg?verify=6338e00
 last_modified_at: 2026-11-20
 reading_time: 5
 meta_description: "Anthropic's IPO has closed. We separate company proceeds, the private placement and compute commitments to assess the impact on AI agents."
