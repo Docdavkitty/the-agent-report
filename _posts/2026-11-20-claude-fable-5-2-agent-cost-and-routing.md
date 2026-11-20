@@ -9,7 +9,7 @@ categories: [AI, Agents, Models]
 tags: [anthropic, claude, ai-agents, pricing]
 hero_image: /assets/images/hero/hero-claude-fable-5-2-agent-cost-and-routing.jpg
 image: /assets/images/hero/hero-claude-fable-5-2-agent-cost-and-routing.jpg
-last_modified_at: 2026-11-15 12:00:00 +0200
+last_modified_at: 2026-11-20
 reading_time: 5
 meta_description: "Claude Fable 5.2 cuts standard token prices, but agent teams must account for retries, caching, routing, latency and data retention."
 description: "Fable 5.2 combines lower standard pricing with a premium fast mode. We examine the trade-offs for long-running agent workflows."
@@ -29,7 +29,7 @@ Anthropic's November 9 release of Claude Fable 5.2 and Mythos 5.2 gives teams an
 
 The official Fable 5.2 documentation lists $8 per million input tokens and $40 per million output tokens. It lists a one-million-token context window and a maximum output of 128,000 tokens. Cache reads are listed at $0.20 per million tokens, with cache writes charged separately; batch processing is listed at a 50% input and output discount. These are API rates and conditions, not a single bundled price for a completed agent task. *(Source : [Anthropic — Fable 5.2 model overview](https://platform.claude.com/docs/en/models/fable-5-2/overview))*
 
-For an illustrative uncached call containing one million input tokens and 100,000 output tokens, the listed standard token charges sum to $12: $8 for input and $4 for output. This excludes tools, repeated calls, cache creation, taxes and other charges. A long-running agent can make many calls, so one invocation is not necessarily one task.
+For an illustrative uncached call containing 800,000 input tokens and 100,000 output tokens, the listed standard token charges sum to $10.40: $6.40 for input and $4 for output. Both input and output count toward the context window, and thinking tokens count as output. This example excludes tools, repeated calls, cache creation, taxes and other charges. A long-running agent can make many calls, so one invocation is not necessarily one task. *(Source : [Anthropic — Context windows](https://platform.claude.com/docs/en/build-with-claude/context-windows))*
 
 Anthropic says the models generate outputs up to 30% faster than the preceding Fable 5.1 and Mythos 5.1. Its optional fast mode is advertised as up to 2.5 times faster and costs $16 per million input and $80 per million output tokens. Both speed claims come from the vendor and use an upper bound; real latency should be measured on the workload. *(Source : [Anthropic — Performance and efficiency](https://www.anthropic.com/claude-fable-and-mythos-5-2))*
 
@@ -57,7 +57,7 @@ A layered architecture can reserve the more capable model for hard decisions whi
 
 Data handling is another selection criterion. The model documentation says Fable 5.2 requires 30-day data retention and is not available under zero data retention unless expressly authorized. A team handling sensitive data should confirm its own contractual terms before sending production content. *(Source : [Anthropic — Fable 5.2 model overview](https://platform.claude.com/docs/en/models/fable-5-2/overview))*
 
-The real decision is not whether Fable is universally cheaper or faster. It is whether the model improves a specific workflow enough to justify its complete operating cost and its data and access constraints.
+Teams should assess whether Fable improves their workflow enough to justify the total operating cost and the constraints on data handling and access.
 
 ## FAQ
 
