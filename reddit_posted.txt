@@ -98,3 +98,5 @@
 2026-11-19 | r/learnmachinelearning | 2026/11/gemini-4-neon-agent-cost-harness | propose |
 2026-11-20 | r/AI_Agents | 2026/11/anthropic-ipo-close-agent-infrastructure | propose |
 2026-11-20 | r/LocalLLaMA | 2026/11/anthropic-ipo-close-agent-infrastructure | propose |
+2026-11-23 | r/OpenAI | 2026/11/openai-perplexity-agent-safety | propose |
+2026-11-23 | r/AI_Agents | 2026/11/openai-perplexity-agent-safety | propose |
