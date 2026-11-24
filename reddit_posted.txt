@@ -100,3 +100,5 @@
 2026-11-20 | r/LocalLLaMA | 2026/11/anthropic-ipo-close-agent-infrastructure | propose |
 2026-11-23 | r/OpenAI | 2026/11/openai-perplexity-agent-safety | propose |
 2026-11-23 | r/AI_Agents | 2026/11/openai-perplexity-agent-safety | propose |
+2026-11-24 | r/LocalLLaMA | 2026/11/claude-ship-pull-request-approval | propose |
+2026-11-24 | r/learnmachinelearning | 2026/11/claude-ship-pull-request-approval | propose |
