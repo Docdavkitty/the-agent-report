@@ -9,7 +9,7 @@ categories: [AI, Infrastructure]
 tags: [ai-agents, infrastructure, security]
 hero_image: /assets/images/hero/hero-aws-agent-registry-discovery-trust-boundary.jpg
 image: /assets/images/hero/hero-aws-agent-registry-discovery-trust-boundary.jpg
-last_modified_at: 2026-11-22 12:00:00 +0200
+last_modified_at: 2026-11-26 13:17:18 +0100
 reading_time: 5
 description: "AWS Agent Registry now supports verified domain names and public discovery by AWS-authenticated users."
 meta_description: "AWS Agent Registry now supports verified domain names and public discovery by AWS-authenticated users."
@@ -17,7 +17,7 @@ meta_description: "AWS Agent Registry now supports verified domain names and pub
 
 ## TL;DR
 
-AWS Agent Registry now supports verified domain names and public discovery by AWS-authenticated users. That makes agent records easier to find and attributes them to a domain owner; it does not certify that an agent is safe, correctly configured or appropriate for a particular task. Discovery and authorization remain separate decisions.
+AWS Agent Registry now supports verified domain names and public discovery by AWS-authenticated users. A verified domain tells you who controls the name on a registry record. It does not tell you whether the agent is safe to call or whether you have permission to use it.
 
 ## Introduction
 
@@ -25,7 +25,7 @@ Finding the right tool is becoming a practical bottleneck for multi-agent applic
 
 AWS has added public naming and discovery to its Agent Registry. Domain owners can verify ownership and associate a domain with agents or AI tools; published records can be searched by AWS-authenticated users using semantic and lexical search. AWS says the feature currently has no additional charge in regions where the registry is available. *(Source : [AWS — Agent Registry naming and public discovery](https://aws.amazon.com/about-aws/whats-new/2026/11/agent-registry-naming-public-discovery/))*
 
-The useful promise is simpler discovery. The important qualification is that domain ownership is an attribution signal, not an independent assessment of the behavior behind a record.
+For developers, the immediate gain is less manual configuration when looking for tools. The application still has to decide which ones it can call and what data it can send them.
 
 ## Identity is one layer of trust
 
@@ -33,15 +33,15 @@ A verified domain can help a developer distinguish a record associated with an o
 
 Consider a search result for an expense-processing agent. Before invoking it, the caller still needs to determine the tool's owner, expected inputs, authorization scope, endpoint and failure behavior. A domain can help establish who controls a name; policy determines whether this caller should send this particular expense record to that service.
 
-The OWASP agentic security guidance separates identity and privilege abuse from tool misuse and goal hijacking. That is a useful reminder that discovery, access and behavior are distinct controls. *(Source : [OWASP — Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/))*
+OWASP lists "Identity and Privilege Abuse" and "Tool Misuse and Exploitation" as separate risks. Even when you know who publishes a tool, you still need to limit what it can do. *(Source : [OWASP — Top 10 for Agentic Applications](https://genai.owasp.org/top-10-for-agentic-applications-2026/))*
 
 ## Search does not eliminate selection risk
 
 AWS describes both semantic and lexical search over published agent records. Semantic matching can help find a service from a description; lexical search can help when the caller already knows a name or exact term. Neither search method guarantees the result is suitable for a specific business action. *(Source : [AWS — Agent Registry naming and public discovery](https://aws.amazon.com/about-aws/whats-new/2026/11/agent-registry-naming-public-discovery/))*
 
-A sensible architecture treats discovery as candidate generation. The next stage checks a machine-readable policy: allowed publisher, approved environment, permitted data category, identity requirements and any human approval needed before an irreversible action. Where an agent selects tools dynamically, record the selected entry and the reason for allowing it so an operator can reconstruct the decision later.
+Use search to build a shortlist. Before calling a tool, check whether policy allows the publisher, the environment and the type of data involved. Check identity requirements too, and require human approval for irreversible actions when policy calls for it. If the agent picks the tool at runtime, log which record it chose and why the call was allowed.
 
-This also changes how to evaluate search quality. Top-result relevance is useful, but a production test should include ambiguous names, obsolete records, unexpected input types and requests involving restricted data. Measure the rate at which approved tools are correctly found alongside the rate at which unsuitable tools are rejected. These are proposed evaluation criteria, not performance figures released by AWS.
+Test the search and policy checks together before rollout. Include ambiguous names, stale records, unexpected input types and requests involving restricted data. Track how often search finds an approved tool and how often the policy rejects an unsuitable one. AWS did not publish these figures in its announcement.
 
 ## Public does not mean anonymous access
 
