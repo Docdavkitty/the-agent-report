@@ -106,3 +106,5 @@
 2026-11-25 | r/learnmachinelearning | 2026/11/walmart-meta-muse-agent-checkout | propose |
 2026-11-26 | r/LocalLLaMA | 2026/11/anthropic-rust-api-production-verification | propose |
 2026-11-26 | r/OpenAI | 2026/11/anthropic-rust-api-production-verification | propose |
+2026-11-27 | r/AI_Agents | 2026/11/tencent-dfly2-long-context-agent-inference | propose |
+2026-11-27 | r/learnmachinelearning | 2026/11/tencent-dfly2-long-context-agent-inference | propose |
